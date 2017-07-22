@@ -23,12 +23,13 @@ description: Lews be noodles.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  DÉPASSEMENTS: ""
+  ÉCRITURES:
+    - De la Misère en Milieu Étudiant: "dlmeme"
+    - Peuchet, Du suicide: "peuchet"
+    - Prix, salaire et profitéroles: "prixsalaireprofitéroles"
     - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  HISTOIRE: "about"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -113,10 +114,18 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
-markdown: kramdown
+markdown: Pandoc
 highlighter: rouge
 permalink: /:year-:month-:title/
 paginate: 5
+
+pandoc:
+  extensions:
+    - normalize
+    - smart
+    - mathjax
+#   - csl: _styles/apa.csl
+#   - bibliography: bibliography/references.bib
 
 kramdown:
   input: GFM
@@ -206,6 +215,7 @@ prose:
 
 gems:
   - jekyll-paginate
+  - jekyll-pandoc
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
