@@ -4,7 +4,7 @@ title: À propos
 subtitle: Comment être le meilleur dresseur
 ---
 
-![](f/about/haha.png)
+![](/f/about/haha.png)
 
 Mon nom est Le Grand Manitou. I have the following qualities:
 
