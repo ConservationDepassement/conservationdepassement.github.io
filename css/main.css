@@ -475,7 +475,7 @@ footer .theme-by {
 .intro-header .page-heading h1 {
   color: #e7e7e7;
   text-shadow: 0 0 20px black, 0 0 10px black, 0 0 8px black, 0 0 6px black, 0 0 4px black, 0 0 2px black;
-  font-family: KaushanScriptRegular;
+  font-family: KaushanScriptRegular, YoungSerifRegular, cursive;
   font-style: normal;
   font-weight: normal;
   margin-top: 0;
