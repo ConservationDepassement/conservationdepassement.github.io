@@ -1,6 +1,16 @@
 @import url("pygment_highlights.css");
-@import url("https://fontlibrary.org/face/kaushan-script");
-@import url("https://fontlibrary.org/face/youngserif");
+@font-face {
+    font-family: 'KaushanScriptRegular';
+        src: url('/css/KaushanScriptRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+@font-face {
+    font-family: 'YoungSerifRegular';
+        src: url('/css/YoungSerifRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
 @import url("https://fonts.googleapis.com/css?family=Averia+Serif+Libre");
 @import url("https://fonts.googleapis.com/css?family=Averia+Libre");
 
