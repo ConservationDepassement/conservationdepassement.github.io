@@ -37,7 +37,7 @@ avatar: "/img/icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: favicon.ico
 
 # --- Footer options --- #
 
@@ -114,7 +114,8 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
-markdown: Pandoc
+#markdown: Pandoc
+## ^ Deprecated ;_;
 highlighter: rouge
 permalink: /:year-:month-:title/
 paginate: 5

@@ -1,8 +1,18 @@
 @import url("pygment_highlights.css");
-@import url("https://fontlibrary.org/face/kaushan-script");
-@import url("https://fontlibrary.org/face/youngserif");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@font-face {
+    font-family: 'KaushanScriptRegular';
+        src: url('/css/KaushanScriptRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+@font-face {
+    font-family: 'YoungSerifRegular';
+        src: url('/css/YoungSerifRegular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
 @import url("https://fonts.googleapis.com/css?family=Averia+Serif+Libre");
-@import url("https://fonts.googleapis.com/css?family=Averia+Libre");
 
 /* --- General --- */
 
@@ -23,7 +33,7 @@ p a {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: YoungSerifRegular, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  /*font-weight: 800;*/
 }
 a {
   color: #008AFF;
@@ -466,7 +476,7 @@ footer .theme-by {
 .intro-header .page-heading h1 {
   color: #e7e7e7;
   text-shadow: 0 0 20px black, 0 0 10px black, 0 0 8px black, 0 0 6px black, 0 0 4px black, 0 0 2px black;
-  font-family: KaushanScriptRegular;
+  font-family: "Kaushan Script", YoungSerifRegular, cursive;
   font-style: normal;
   font-weight: normal;
   margin-top: 0;
