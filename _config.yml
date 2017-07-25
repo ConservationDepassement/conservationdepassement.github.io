@@ -17,16 +17,19 @@ baseurl: ""
 title: Aufhebung
 
 # Short description of your site
-description: « L'homme est la nature prenant conscience d'elle-même. »
+description: "« L'homme est la nature prenant conscience d'elle-même. »"
 
 # --- Navigation bar options --- #
 
+#TODO ::: Tue 25 Jul 2017 07:04:48 PM CEST
+#   Librairie: Organiser par auteur, avec une sous-page d'index/sommaire
 # List of links in the navigation bar
 navbar-links:
-  DÉPASSEMENTS: ""
-  ÉCRITURES:
-    - De la Misère en Milieu Étudiant: "dlmeme"
-    - Peuchet, Du suicide: "peuchet"
+  DÉPASSEMENT: ""
+  CONSERVATION:
+    - "<b><i>SOMMAIRE</i></b>": "conservation"
+    - De la Misère en Milieu Étudiant: "1966-11-dlmeme"
+    - Peuchet, Du suicide: "1845-06-peuchet"
     - Prix, salaire et profitéroles: "prixsalaireprofitéroles"
     - GitHub Pages: "https://pages.github.com/"
   HISTOIRE: "about"
@@ -44,10 +47,10 @@ avatar: "/img/icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Sylvain Saubier
+  name: "Sylvain Saubier"
   email: "mail@systemicresponse.com"
  #facebook: yourname
-  github: responsyss
+  github: "responsyss"
  #twitter: yourname   # eg. daattali
  #reddit: yourname    # eg. daattali
  #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
@@ -114,6 +117,7 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
+markdown: kramdown
 #markdown: Pandoc
 ## ^ Deprecated ;_;
 highlighter: rouge
@@ -216,7 +220,7 @@ prose:
 
 plugins:
   - jekyll-paginate
-  - jekyll-pandoc
+# - jekyll-pandoc
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

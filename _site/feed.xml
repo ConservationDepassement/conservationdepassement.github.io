@@ -2,20 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aufhebung</title>
-    <description>Lews be noodles.</description>
+    <description>« L'homme est la nature prenant conscience d'elle-même. »</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>DE LA MISÈRE EN MILIEU ÉTUDIANT</title>
-        <description>
-          Internationale Situationniste - 
-          La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
-        </description>
-        <pubDate>Thu, 26 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-02-flake-it-till-you-make-it/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-02-flake-it-till-you-make-it/</guid>
-      </item>
     
       <item>
         <title>Test markdown</title>
@@ -26,6 +15,18 @@
         <pubDate>Fri, 20 Feb 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2015-02-test-markdown/</link>
         <guid isPermaLink="true">http://localhost:4000/2015-02-test-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>Test</title>
+        <description>
+          
+          TEST
+
+        </description>
+        <pubDate>Sun, 15 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2015-02-test/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-02-test/</guid>
       </item>
     
       <item>
@@ -82,6 +83,28 @@
         <pubDate>Sun, 04 Jan 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2015-01-first-post/</link>
         <guid isPermaLink="true">http://localhost:4000/2015-01-first-post/</guid>
+      </item>
+    
+      <item>
+        <title>DE LA MISÈRE EN MILIEU ÉTUDIANT</title>
+        <description>
+          Internationale Situationniste - 
+          La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
+        </description>
+        <pubDate>Tue, 15 Nov 1966 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/1966-11-dlmeme/</link>
+        <guid isPermaLink="true">http://localhost:4000/1966-11-dlmeme/</guid>
+      </item>
+    
+      <item>
+        <title>PEUCHET: DU SUICIDE</title>
+        <description>
+          
+          La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
+        </description>
+        <pubDate>Sun, 15 Jun 1845 00:00:00 +0009</pubDate>
+        <link>http://localhost:4000/1845-06-peuchet/</link>
+        <guid isPermaLink="true">http://localhost:4000/1845-06-peuchet/</guid>
       </item>
     
   </channel>

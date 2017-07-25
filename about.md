@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: default
 title: À propos
-subtitle: Comment être le meilleur dresseur
+permalink: /about/
 ---
+
+<div class="text-center">
+  <h1>À propos</h1>
+</div>
 
 ![](/img/about/haha.png)
 
@@ -18,3 +22,5 @@ What else do you need?
 Parce qu'il aime ça.
 
 To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+
+
