@@ -29,19 +29,19 @@ p {
   margin: 30px 0;
 }
 p a {
-  /* text-decoration: underline */
-  color: #008AFF;
+  /*text-decoration: underline;*/
+  color: grey;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: YoungSerifRegular, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   /*font-weight: 800;*/
 }
 a {
-  color: #008AFF;
+  color: grey;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: black;
 }
 blockquote {
   color: #808080;
@@ -135,7 +135,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: black;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -336,7 +336,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: black;
 }
 
 .post-preview .post-title {
@@ -401,14 +401,14 @@ footer .theme-by {
 }
 
 .blog-tags a {
-  color: #008AFF;
+  color: #666;
   text-decoration: none;
   padding: 0px 5px;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #008AFF;
+  color: #666;
   background-color: #CCC;
 }
 
@@ -616,9 +616,9 @@ footer .theme-by {
 }
 .pager li a:hover,
 .pager li a:focus {
-  color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  color: black;
+  /*background: #0085a1;
+  border: 1px solid #0085a1;*/
 }
 
 .pager {
