@@ -7,6 +7,18 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>mais \o/</title>
+        <description>
+          
+          TEST du layout minimal
+
+        </description>
+        <pubDate>Mon, 24 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2017-07-test/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-07-test/</guid>
+      </item>
+    
+      <item>
         <title>Test markdown</title>
         <description>
           Each post also has a subtitle - 
@@ -15,18 +27,6 @@
         <pubDate>Fri, 20 Feb 2015 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2015-02-test-markdown/</link>
         <guid isPermaLink="true">http://localhost:4000/2015-02-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Test</title>
-        <description>
-          
-          TEST
-
-        </description>
-        <pubDate>Sun, 15 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-02-test/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-02-test/</guid>
       </item>
     
       <item>
