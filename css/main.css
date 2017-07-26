@@ -20,7 +20,7 @@ body {
   font-family: "Averia Serif Libre", 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
-  background-image: linear-gradient(to bottom, whitesmoke, #2bfed2);
+  background-image: linear-gradient(to bottom, whitesmoke, whitesmoke, #2bfed2);
   position: relative;
   /*background: #FFF;*/
 }
