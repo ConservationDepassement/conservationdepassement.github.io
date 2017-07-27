@@ -20,7 +20,7 @@ body {
   font-family: "Averia Serif Libre", 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
-  background-image: linear-gradient(to bottom, whitesmoke, whitesmoke, #2bfed2);
+  background-image: linear-gradient(to bottom, rgba(43,254,210,0.25), whitesmoke, rgba(43,254,210,0.25));
   position: relative;
   /*background: #FFF;*/
 }
@@ -30,18 +30,18 @@ p {
 }
 p a {
   /*text-decoration: underline;*/
-  color: grey;
+  color: #157f69;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: YoungSerifRegular, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   /*font-weight: 800;*/
 }
 a {
-  color: grey;
+  color: #157f69;
 }
 a:hover,
 a:focus {
-  color: black;
+  color: #08322a;
 }
 blockquote {
   color: #808080;
@@ -500,6 +500,7 @@ footer .theme-by {
   font-style: italic;
   font-weight: 300;
   margin: 10px 0 0;
+  color: #116554;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 20px;
@@ -616,7 +617,7 @@ footer .theme-by {
 }
 .pager li a:hover,
 .pager li a:focus {
-  color: black;
+  /*color: #08322a;*/
   /*background: #0085a1;
   border: 1px solid #0085a1;*/
 }
