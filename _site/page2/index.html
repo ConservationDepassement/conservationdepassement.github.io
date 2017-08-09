@@ -11,8 +11,6 @@
   <meta name="author" content="COLLECTIF" />
 
   
-  <meta name="description" content="« La conserve est le dépassement. » – Heinz">
-  
 
   <link rel="alternate" type="application/rss+xml" title="Aufhebung - « L'homme est la nature prenant conscience d'elle-même. »" href="/feed.xml" />
 
@@ -52,7 +50,7 @@
   
 
    
-  <meta property="og:description" content="« La conserve est le dépassement. » – Heinz">
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
   
 
 
@@ -78,7 +76,7 @@
   
 
   
-  <meta name="twitter:description" content="« La conserve est le dépassement. » – Heinz">
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
   
 
   
@@ -118,77 +116,8 @@
 
 
 
-<a href="/">DÉPASSEMENT</a>
+<a href="/">ARTICLES</a>
 
-          </li>
-        
-        
-        
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">CONSERVATION</a>
-            <div class="navlinks-children">
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/conservation"><b><i>SOMMAIRE</i></b></a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/1966-11-dlmeme">De la Misère en Milieu Étudiant</a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/1845-06-peuchet">Peuchet, Du suicide</a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/prixsalaireprofitéroles">Prix, salaire et profitéroles</a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="https://pages.github.com/">GitHub Pages</a>
-
-                
-              
-            </div>
           </li>
         
         
@@ -201,7 +130,21 @@
 
 
 
-<a href="/about">HISTOIRE</a>
+<a href="http://community.spirit-project.com/">DICUSSIONS</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/about">A PROPOS</a>
 
           </li>
         
@@ -230,11 +173,6 @@
         <div class="page-heading">
           <h1>Aufhebung</h1>
 		  
-		    
-            <!--<hr class="small">-->
-            <span class="page-subheading">« La conserve est le dépassement. » – Heinz</span>
-			
-		  
 		  
 		  
         </div>
@@ -254,128 +192,30 @@
       <div class="posts-list">
   
   <article class="post-preview">
-    <a href="/2015-01-pirates/">
-	  <h2 class="post-title">Pirates arrrr</h2>
-
-	  
-    </a>
-
-    <p class="post-meta">
-      2015/01/15
-      <!--Le January 15, 2015-->
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the...
-        
-        
-          <a href="/2015-01-pirates/" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-    </div>
-
-    
-    <div class="blog-tags">
-      Tags:
-      
-        pirates, random
-      
-    </div>
-    
-
-   </article>
-  
-  <article class="post-preview">
-    <a href="/2015-01-first-post/">
-	  <h2 class="post-title">First post!</h2>
-
-	  
-    </a>
-
-    <p class="post-meta">
-      2015/01/04
-      <!--Le January 4, 2015-->
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-image">
-        <a href="/2015-01-first-post/">
-          <img src="/img/hello_world.jpeg">
-        </a>
-      </div>
-      
-      <div class="post-entry">
-        This is my first post, how exciting!
-
-        
-        
-      </div>
-    </div>
-
-    
-    <div class="blog-tags">
-      Tags:
-      
-        random, exciting-stuff
-      
-    </div>
-    
-
-   </article>
-  
-  <article class="post-preview">
-    <a href="/1966-11-dlmeme/">
-	  <h2 class="post-title">DE LA MISÈRE EN MILIEU ÉTUDIANT</h2>
+    <a href="/2015-02-test-markdown/">
+	  <h2 class="post-title">Test markdown</h2>
 
 	  
 	  <h3 class="post-subtitle">
-	    Internationale Situationniste
+	    Each post also has a subtitle
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      1966/11/15
-      <!--Le November 15, 1966-->
+      2015/02/17
+      <!--Le February 17, 2015-->
     </p>
 
     <div class="post-entry-container">
       
       <div class="post-entry">
-        La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
+        You can write regular markdown here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.
+
+
         
         
-          <a href="/1966-11-dlmeme/" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-    </div>
-
-    
-
-   </article>
-  
-  <article class="post-preview">
-    <a href="/1845-06-peuchet/">
-	  <h2 class="post-title">PEUCHET: DU SUICIDE</h2>
-
-	  
-    </a>
-
-    <p class="post-meta">
-      1845/06/15
-      <!--Le June 15, 1845-->
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
-        
-        
-          <a href="/1845-06-peuchet/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
         
       </div>
     </div>
@@ -397,7 +237,6 @@
 </ul>
 
 
-	    
     </div>
   </div>
 </div>

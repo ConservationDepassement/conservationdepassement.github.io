@@ -7,15 +7,25 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>mais \o/</title>
+        <title>Le Fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)</title>
         <description>
           
-          TEST du layout minimal
-
+          La domination mondiale du capitalisme se différencie radicalement de tous les modes de production qui l’ont précédé par son essence universelle, condition de l’unification de l’histoire de l’humanité. Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont précédé dans telle ou telle zone...
         </description>
-        <pubDate>Mon, 24 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-07-test/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-07-test/</guid>
+        <pubDate>Tue, 11 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2017-07-le-fetichisme-de-la-marchandise/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-07-le-fetichisme-de-la-marchandise/</guid>
+      </item>
+    
+      <item>
+        <title>De l’aliénation des communautés primitives à l’extranéisation de la société contemporaine</title>
+        <description>
+          
+          Contrairement au puritanisme borné des scientifiques payés depuis des siècles pour nous décrire les sociétés primitives comme d’atroces monstruosités - comme sociétés bestiales, non encore humaines, à l’image du barbare traînant « sa femme » par les cheveux de « la guerre du feu » - le matérialisme historique, lui,...
+        </description>
+        <pubDate>Mon, 10 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2017-07-de-l-alienation-des-communautes-primitives/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-07-de-l-alienation-des-communautes-primitives/</guid>
       </item>
     
       <item>
@@ -30,81 +40,36 @@
       </item>
     
       <item>
-        <title>To be</title>
+        <title>Test markdown</title>
         <description>
-          ... or not to be? - 
-          To be, or not to be–that is the question: Whether ‘tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep– No more–and by a sleep to say we...
+          Each post also has a subtitle - 
+          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
         </description>
-        <pubDate>Fri, 13 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-02-hamlet-monologue/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-02-hamlet-monologue/</guid>
+        <pubDate>Thu, 19 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2015-02-test-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-02-test-markdown/</guid>
       </item>
     
       <item>
-        <title>Dear diary</title>
+        <title>Test markdown</title>
         <description>
-          
-          What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive! I’m thinking...
+          Each post also has a subtitle - 
+          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
         </description>
-        <pubDate>Tue, 27 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-01-dear-diary/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-01-dear-diary/</guid>
+        <pubDate>Wed, 18 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2015-02-test-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-02-test-markdown/</guid>
       </item>
     
       <item>
-        <title>Soccer</title>
+        <title>Test markdown</title>
         <description>
-          Best sport ever! - 
-          From Wikipedia: Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world’s most popular sport.[3][4][5][6] The game is played on a rectangular...
+          Each post also has a subtitle - 
+          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
         </description>
-        <pubDate>Mon, 19 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-01-soccer/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-01-soccer/</guid>
-      </item>
-    
-      <item>
-        <title>Pirates arrrr</title>
-        <description>
-          
-          Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the...
-        </description>
-        <pubDate>Thu, 15 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-01-pirates/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-01-pirates/</guid>
-      </item>
-    
-      <item>
-        <title>First post!</title>
-        <description>
-          
-          This is my first post, how exciting!
-
-        </description>
-        <pubDate>Sun, 04 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2015-01-first-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015-01-first-post/</guid>
-      </item>
-    
-      <item>
-        <title>DE LA MISÈRE EN MILIEU ÉTUDIANT</title>
-        <description>
-          Internationale Situationniste - 
-          La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
-        </description>
-        <pubDate>Tue, 15 Nov 1966 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/1966-11-dlmeme/</link>
-        <guid isPermaLink="true">http://localhost:4000/1966-11-dlmeme/</guid>
-      </item>
-    
-      <item>
-        <title>PEUCHET: DU SUICIDE</title>
-        <description>
-          
-          La domination consciente de l’histoire par les hommes qui la font, voilà tout le projet révolutionnaire. L’histoire moderne, comme toute l’histoire passée, est le produit de la praxis sociale, le résultat – inconscient – de toutes les activités humaines. À l’époque de sa domination totalitaire, le capitalisme a produit sa...
-        </description>
-        <pubDate>Sun, 15 Jun 1845 00:00:00 +0009</pubDate>
-        <link>http://localhost:4000/1845-06-peuchet/</link>
-        <guid isPermaLink="true">http://localhost:4000/1845-06-peuchet/</guid>
+        <pubDate>Tue, 17 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2015-02-test-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-02-test-markdown/</guid>
       </item>
     
   </channel>

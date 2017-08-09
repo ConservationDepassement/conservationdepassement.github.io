@@ -11,8 +11,6 @@
   <meta name="author" content="COLLECTIF" />
 
   
-  <meta name="description" content="« La conserve est le dépassement. » – Heinz">
-  
 
   <link rel="alternate" type="application/rss+xml" title="Aufhebung - « L'homme est la nature prenant conscience d'elle-même. »" href="/feed.xml" />
 
@@ -52,7 +50,7 @@
   
 
    
-  <meta property="og:description" content="« La conserve est le dépassement. » – Heinz">
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
   
 
 
@@ -78,7 +76,7 @@
   
 
   
-  <meta name="twitter:description" content="« La conserve est le dépassement. » – Heinz">
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
   
 
   
@@ -118,77 +116,8 @@
 
 
 
-<a href="/">DÉPASSEMENT</a>
+<a href="/">ARTICLES</a>
 
-          </li>
-        
-        
-        
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">CONSERVATION</a>
-            <div class="navlinks-children">
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/conservation"><b><i>SOMMAIRE</i></b></a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/1966-11-dlmeme">De la Misère en Milieu Étudiant</a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/1845-06-peuchet">Peuchet, Du suicide</a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="/prixsalaireprofitéroles">Prix, salaire et profitéroles</a>
-
-                
-              
-                
-                  
-            
-
-
-
-
-
-<a href="https://pages.github.com/">GitHub Pages</a>
-
-                
-              
-            </div>
           </li>
         
         
@@ -201,7 +130,21 @@
 
 
 
-<a href="/about">HISTOIRE</a>
+<a href="http://community.spirit-project.com/">DICUSSIONS</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/about">A PROPOS</a>
 
           </li>
         
@@ -230,11 +173,6 @@
         <div class="page-heading">
           <h1>Aufhebung</h1>
 		  
-		    
-            <!--<hr class="small">-->
-            <span class="page-subheading">« La conserve est le dépassement. » – Heinz</span>
-			
-		  
 		  
 		  
         </div>
@@ -254,23 +192,51 @@
       <div class="posts-list">
   
   <article class="post-preview">
-    <a href="/2017-07-test/">
-	  <h2 class="post-title">mais \o/</h2>
+    <a href="/2017-07-le-fetichisme-de-la-marchandise/">
+	  <h2 class="post-title">Le Fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)</h2>
 
 	  
     </a>
 
     <p class="post-meta">
-      2017/07/24
-      <!--Le July 24, 2017-->
+      2017/07/11
+      <!--Le July 11, 2017-->
     </p>
 
     <div class="post-entry-container">
       
       <div class="post-entry">
-        TEST du layout minimal
-
+        La domination mondiale du capitalisme se différencie radicalement de tous les modes de production qui l’ont précédé par son essence universelle, condition de l’unification de l’histoire de l’humanité. Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont précédé dans telle ou telle zone...
         
+        
+          <a href="/2017-07-le-fetichisme-de-la-marchandise/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/2017-07-de-l-alienation-des-communautes-primitives/">
+	  <h2 class="post-title">De l’aliénation des communautés primitives à l’extranéisation de la société contemporaine</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      2017/07/10
+      <!--Le July 10, 2017-->
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Contrairement au puritanisme borné des scientifiques payés depuis des siècles pour nous décrire les sociétés primitives comme d’atroces monstruosités - comme sociétés bestiales, non encore humaines, à l’image du barbare traînant « sa femme » par les cheveux de « la guerre du feu » - le matérialisme historique, lui,...
+        
+        
+          <a href="/2017-07-de-l-alienation-des-communautes-primitives/" class="post-read-more">[Read&nbsp;More]</a>
         
       </div>
     </div>
@@ -313,28 +279,30 @@
    </article>
   
   <article class="post-preview">
-    <a href="/2015-02-hamlet-monologue/">
-	  <h2 class="post-title">To be</h2>
+    <a href="/2015-02-test-markdown/">
+	  <h2 class="post-title">Test markdown</h2>
 
 	  
 	  <h3 class="post-subtitle">
-	    ... or not to be?
+	    Each post also has a subtitle
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      2015/02/13
-      <!--Le February 13, 2015-->
+      2015/02/19
+      <!--Le February 19, 2015-->
     </p>
 
     <div class="post-entry-container">
       
       <div class="post-entry">
-        To be, or not to be–that is the question: Whether ‘tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep– No more–and by a sleep to say we...
+        You can write regular markdown here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.
+
+
         
         
-          <a href="/2015-02-hamlet-monologue/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
         
       </div>
     </div>
@@ -344,64 +312,30 @@
    </article>
   
   <article class="post-preview">
-    <a href="/2015-01-dear-diary/">
-	  <h2 class="post-title">Dear diary</h2>
-
-	  
-    </a>
-
-    <p class="post-meta">
-      2015/01/27
-      <!--Le January 27, 2015-->
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive! I’m thinking...
-        
-        
-          <a href="/2015-01-dear-diary/" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-    </div>
-
-    
-    <div class="blog-tags">
-      Tags:
-      
-        random, diary, school
-      
-    </div>
-    
-
-   </article>
-  
-  <article class="post-preview">
-    <a href="/2015-01-soccer/">
-	  <h2 class="post-title">Soccer</h2>
+    <a href="/2015-02-test-markdown/">
+	  <h2 class="post-title">Test markdown</h2>
 
 	  
 	  <h3 class="post-subtitle">
-	    Best sport ever!
+	    Each post also has a subtitle
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      2015/01/19
-      <!--Le January 19, 2015-->
+      2015/02/18
+      <!--Le February 18, 2015-->
     </p>
 
     <div class="post-entry-container">
       
       <div class="post-entry">
-        From Wikipedia:
+        You can write regular markdown here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
 
         
         
-          <a href="/2015-01-soccer/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
         
       </div>
     </div>
@@ -423,7 +357,6 @@
 </ul>
 
 
-	    
     </div>
   </div>
 </div>
