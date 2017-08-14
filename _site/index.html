@@ -50,7 +50,7 @@
   
 
    
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Publié par {{ post.author }}, le {{ post.date | date: &quot;%d/%m/%Y&quot; }}. {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign...">
   
 
 
@@ -65,24 +65,6 @@
   <meta property="og:image" content="http://localhost:4000/img/icon.png" />
   
   
-
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@" />
-  <meta name="twitter:creator" content="@" />
-
-  
-  <meta name="twitter:title" content="Aufhebung" />
-  
-
-  
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
-  
-
-  
-  <meta name="twitter:image" content="http://localhost:4000/img/icon.png" />
-  
-
 </head>
 
 
@@ -90,7 +72,7 @@
 
     
   
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom top-nav-short">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -173,13 +155,12 @@
         <div class="page-heading">
           <h1>Aufhebung</h1>
 		  
-		  
-		  
         </div>
       </div>
     </div>
   </div>
 </div>
+
 </header>
 
 
@@ -193,13 +174,13 @@
   
   <article class="post-preview">
     <a href="/2017-07-le-fetichisme-de-la-marchandise/">
-	  <h2 class="post-title">Le Fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)</h2>
+	  <h2 class="post-title">Le fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)</h2>
 
 	  
     </a>
 
     <p class="post-meta">
-      2017/07/11
+      Publié par <span class="post-author">Aufhebung</span>, le 11/07/2017.
       <!--Le July 11, 2017-->
     </p>
 
@@ -209,7 +190,7 @@
         La domination mondiale du capitalisme se différencie radicalement de tous les modes de production qui l’ont précédé par son essence universelle, condition de l’unification de l’histoire de l’humanité. Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont précédé dans telle ou telle zone...
         
         
-          <a href="/2017-07-le-fetichisme-de-la-marchandise/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2017-07-le-fetichisme-de-la-marchandise/" class="post-read-more">[Lire&nbsp;Davantage]</a>
         
       </div>
     </div>
@@ -226,7 +207,7 @@
     </a>
 
     <p class="post-meta">
-      2017/07/10
+      Publié par <span class="post-author">Aufhebung</span>, le 10/07/2017.
       <!--Le July 10, 2017-->
     </p>
 
@@ -236,7 +217,7 @@
         Contrairement au puritanisme borné des scientifiques payés depuis des siècles pour nous décrire les sociétés primitives comme d’atroces monstruosités - comme sociétés bestiales, non encore humaines, à l’image du barbare traînant « sa femme » par les cheveux de « la guerre du feu » - le matérialisme historique, lui,...
         
         
-          <a href="/2017-07-de-l-alienation-des-communautes-primitives/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2017-07-de-l-alienation-des-communautes-primitives/" class="post-read-more">[Lire&nbsp;Davantage]</a>
         
       </div>
     </div>
@@ -251,13 +232,13 @@
 
 	  
 	  <h3 class="post-subtitle">
-	    Each post also has a subtitle
+	    Un exemple de sous-titre
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      2015/02/20
+      Publié par <span class="post-author">Autheur Inconnu</span>, le 20/02/2015.
       <!--Le February 20, 2015-->
     </p>
 
@@ -269,7 +250,7 @@
 
         
         
-          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Lire&nbsp;Davantage]</a>
         
       </div>
     </div>
@@ -284,13 +265,13 @@
 
 	  
 	  <h3 class="post-subtitle">
-	    Each post also has a subtitle
+	    Un exemple de sous-titre
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      2015/02/19
+      Publié par <span class="post-author">Autheur Inconnu</span>, le 19/02/2015.
       <!--Le February 19, 2015-->
     </p>
 
@@ -302,7 +283,7 @@
 
         
         
-          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Lire&nbsp;Davantage]</a>
         
       </div>
     </div>
@@ -317,13 +298,13 @@
 
 	  
 	  <h3 class="post-subtitle">
-	    Each post also has a subtitle
+	    Un exemple de sous-titre
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      2015/02/18
+      Publié par <span class="post-author">Autheur Inconnu</span>, le 18/02/2015.
       <!--Le February 18, 2015-->
     </p>
 
@@ -335,7 +316,7 @@
 
         
         
-          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Lire&nbsp;Davantage]</a>
         
       </div>
     </div>
@@ -351,7 +332,7 @@
   
   
   <li class="next">
-    <a href="/page2">Older Posts &rarr;</a>
+    <a href="/page2">Articles Précédents &rarr;</a>
   </li>
   
 </ul>
@@ -402,6 +383,16 @@
       
       
 		  
+          <li>
+            <a href="/feed.xml" title="RSS">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">RSS</span>
+            </a>
+          </li>
+          
         </ul>
         <p class="copyright text-muted">
 		  COLLECTIF
@@ -410,7 +401,7 @@
 
 		  
 		  &nbsp;&bull;&nbsp;
-		  <a href="http://localhost:4000">aufhebung.com</a>
+		  <a href="http://localhost:4000">aufhebung.fr</a>
 		  
 	    </p>
         <p style="margin:0.5em;text-align:center;">
@@ -418,8 +409,7 @@
         </p>
 	        <!-- Please don't remove this, keep my open source work credited :) -->
 		<p class="theme-by text-muted">
-		  Theme by
-		  <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		  Theme inspiré de <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
 		</p>
       </div>
     </div>

@@ -11,7 +11,7 @@
   <meta name="author" content="COLLECTIF" />
 
   
-  <meta name="description" content="Each post also has a subtitle">
+  <meta name="description" content="Un exemple de sous-titre">
   
 
   <link rel="alternate" type="application/rss+xml" title="Aufhebung - « L'homme est la nature prenant conscience d'elle-même. »" href="/feed.xml" />
@@ -52,7 +52,7 @@
   
 
    
-  <meta property="og:description" content="Each post also has a subtitle">
+  <meta property="og:description" content="Un exemple de sous-titre">
   
 
 
@@ -67,24 +67,6 @@
   <meta property="og:image" content="http://localhost:4000/img/icon.png" />
   
   
-
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@" />
-  <meta name="twitter:creator" content="@" />
-
-  
-  <meta name="twitter:title" content="Test markdown" />
-  
-
-  
-  <meta name="twitter:description" content="Each post also has a subtitle">
-  
-
-  
-  <meta name="twitter:image" content="http://localhost:4000/img/icon.png" />
-  
-
 </head>
 
 
@@ -92,7 +74,7 @@
 
     
   
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom top-nav-short">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -176,18 +158,15 @@
           <h1>Test markdown</h1>
 		  
 		    
-			<h2 class="post-subheading">Each post also has a subtitle</h2>
+			<h2 class="post-subheading">Un exemple de sous-titre</h2>
 			
-		  
-		  
-		  
-		  <span class="post-meta">2015/02/20 - <span class="post-author"></span></span>
 		  
         </div>
       </div>
     </div>
   </div>
 </div>
+
 </header>
 
 
@@ -197,7 +176,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
+        <span class="post-meta">Publié par <span class="post-author">Autheur Inconnu</span>, le 20/02/2015.</span>
       <article role="main" class="blog-post">
         <p>You can write regular <a href="https://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to <a href="http://markdowntutorial.com/">take 5 minutes to learn how to write in markdown</a> - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
 
@@ -291,11 +270,6 @@ foo(3)
       </ul>
 
       
-        <div class="disqus-comments">
-          
-
-        </div>
-      
     </div>
   </div>
 </div>
@@ -341,6 +315,16 @@ foo(3)
       
       
 		  
+          <li>
+            <a href="/feed.xml" title="RSS">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">RSS</span>
+            </a>
+          </li>
+          
         </ul>
         <p class="copyright text-muted">
 		  COLLECTIF
@@ -349,7 +333,7 @@ foo(3)
 
 		  
 		  &nbsp;&bull;&nbsp;
-		  <a href="http://localhost:4000">aufhebung.com</a>
+		  <a href="http://localhost:4000">aufhebung.fr</a>
 		  
 	    </p>
         <p style="margin:0.5em;text-align:center;">
@@ -357,8 +341,7 @@ foo(3)
         </p>
 	        <!-- Please don't remove this, keep my open source work credited :) -->
 		<p class="theme-by text-muted">
-		  Theme by
-		  <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		  Theme inspiré de <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
 		</p>
       </div>
     </div>

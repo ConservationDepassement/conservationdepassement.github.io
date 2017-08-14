@@ -6,9 +6,10 @@ var main = {
   numImgs : null,
 
   init : function() {
+    /*
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
+        if ($(".navbar").offset().top > -1) {
             $(".navbar").addClass("top-nav-short");
         } else {
             $(".navbar").removeClass("top-nav-short");
@@ -61,7 +62,7 @@ var main = {
 
       fakeMenu.remove();
     }        
-    
+    */
     // show the big header image	
     main.initImgs();
   },
@@ -136,3 +137,4 @@ var main = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', main.init);
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Le Fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)"
+title: "Le fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)"
 author: Aufhebung
 date: 2017/07/11
 bigimg: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/header.jpg

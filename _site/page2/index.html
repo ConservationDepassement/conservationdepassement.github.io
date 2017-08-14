@@ -50,7 +50,7 @@
   
 
    
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Publié par {{ post.author }}, le {{ post.date | date: &quot;%d/%m/%Y&quot; }}. {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign...">
   
 
 
@@ -65,24 +65,6 @@
   <meta property="og:image" content="http://localhost:4000/img/icon.png" />
   
   
-
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@" />
-  <meta name="twitter:creator" content="@" />
-
-  
-  <meta name="twitter:title" content="Aufhebung" />
-  
-
-  
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} {{ post.date | date: &quot;%Y/%m/%d&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt | number_of_words %}...">
-  
-
-  
-  <meta name="twitter:image" content="http://localhost:4000/img/icon.png" />
-  
-
 </head>
 
 
@@ -90,7 +72,7 @@
 
     
   
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom top-nav-short">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -173,13 +155,12 @@
         <div class="page-heading">
           <h1>Aufhebung</h1>
 		  
-		  
-		  
         </div>
       </div>
     </div>
   </div>
 </div>
+
 </header>
 
 
@@ -197,13 +178,13 @@
 
 	  
 	  <h3 class="post-subtitle">
-	    Each post also has a subtitle
+	    Un exemple de sous-titre
 	  </h3>
 	  
     </a>
 
     <p class="post-meta">
-      2015/02/17
+      Publié par <span class="post-author">Autheur Inconnu</span>, le 17/02/2015.
       <!--Le February 17, 2015-->
     </p>
 
@@ -215,7 +196,7 @@
 
         
         
-          <a href="/2015-02-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="/2015-02-test-markdown/" class="post-read-more">[Lire&nbsp;Davantage]</a>
         
       </div>
     </div>
@@ -230,7 +211,7 @@
 <ul class="pager main-pager">
   
   <li class="previous">
-    <a href="/">&larr; Newer Posts</a>
+    <a href="/">&larr; Articles Suivants</a>
   </li>
   
   
@@ -282,6 +263,16 @@
       
       
 		  
+          <li>
+            <a href="/feed.xml" title="RSS">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">RSS</span>
+            </a>
+          </li>
+          
         </ul>
         <p class="copyright text-muted">
 		  COLLECTIF
@@ -290,7 +281,7 @@
 
 		  
 		  &nbsp;&bull;&nbsp;
-		  <a href="http://localhost:4000">aufhebung.com</a>
+		  <a href="http://localhost:4000">aufhebung.fr</a>
 		  
 	    </p>
         <p style="margin:0.5em;text-align:center;">
@@ -298,8 +289,7 @@
         </p>
 	        <!-- Please don't remove this, keep my open source work credited :) -->
 		<p class="theme-by text-muted">
-		  Theme by
-		  <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		  Theme inspiré de <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
 		</p>
       </div>
     </div>

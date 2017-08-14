@@ -44,61 +44,17 @@ avatar: "/img/icon.png"
 author:
   name: "COLLECTIF"
   email: "mail@systemicresponse.com"
- #facebook: yourname
   github: "responsyss"
- #twitter: yourname   # eg. daattali
- #reddit: yourname    # eg. daattali
- #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
- #linkedin: yourname  # eg. daattali
- #xing: yourname      # eg. daattali
- #stackoverflow: yourlink  # eg. "3943160/daattali"
- #snapchat: yourname  # eg. daattali
- #instagram: yourname # eg. daattali
- #youtube: yourlink   # eg. user/daattali or channel/daattali
- #spotify: yourname   # eg. daattali
- #telephone: yourphone   # eg. +14159998888
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
-  facebook: true
+  rss: true
   email: true
-  twitter: true
-  google-plus: false
   github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-
-# Select which share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "aufhebung.com"  # eg. "deanattali.com/beautiful-jekyll"
-
-# --- Misc --- #
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
-
-# Google Tag Manager ID
-#gtm: ""
-
-# Facebook App ID
-# fb_app_id: ""
+url-pretty: "aufhebung.fr"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -113,8 +69,6 @@ title-separator: "-"
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
 markdown: kramdown
-#markdown: Pandoc
-## ^ Deprecated ;_;
 highlighter: rouge
 permalink: /:year-:month-:title/
 paginate: 5
@@ -124,8 +78,6 @@ pandoc:
     - normalize
     - smart
     - mathjax
-#   - csl: _styles/apa.csl
-#   - bibliography: bibliography/references.bib
 
 kramdown:
   input: GFM
@@ -138,8 +90,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
@@ -157,6 +109,7 @@ exclude:
   - Dockerfile
   - Gemfile
   - Gemfile.lock
+  - .git
   - LICENSE
   - README.md
   - Vagrantfile
@@ -215,7 +168,3 @@ prose:
 
 plugins:
   - jekyll-paginate
-# - jekyll-pandoc
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189

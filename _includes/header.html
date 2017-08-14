@@ -34,10 +34,10 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+		  <!--
 		  {% if include.type == "post" %}
-		  <span class="post-meta">{{ page.date | date: "%Y/%m/%d" }} - <span class="post-author">{{ page.author }}</span></span>
-		  {% endif %}
+		  <span class="post-meta">Publié par <span class="post-author">{{ page.author }}</span>, le {{ page.date | date: "%d/%m/%Y" }}.</span>
+		  {% endif %} -->
         </div>
       </div>
     </div>
@@ -59,15 +59,12 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
-		  {% if include.type == "post" %}
-		  <span class="post-meta">{{ page.date | date: "%Y/%m/%d" }} - <span class="post-author">{{ page.author }}</span></span>
-		  {% endif %}
         </div>
       </div>
     </div>
   </div>
 </div>
+
 </header>
 
 
