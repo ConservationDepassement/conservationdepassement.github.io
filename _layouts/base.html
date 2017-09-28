@@ -1,33 +1,18 @@
----
-common-css:
-  - "/css/bootstrap.min.css"
-  - "/css/bootstrap-social.css"
-  - "/css/main.css"
-common-googlefonts:
-  - "Lora:400,700,400italic,700italic"
-  - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-common-js:
-  - "/js/jquery-3.2.1.min.js"
-  - "/js/bootstrap.min.js"
-  - "/js/main.js"
----
-
 <!DOCTYPE html>
-<html lang="en">
-  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+<html lang="fr">
   {% include head.html %}
 
   <body>
-
-    {% include gtm_body.html %}
-  
-    {% include nav.html %}
-
+    <div class="header">
+      <div class="logo">
+          <img src="/img/aufhebung_logo.jpg">
+      </div>
+      
+    </div>
+    
     {{ content }}
 
     {% include footer.html %}
-  
-    {% include footer-scripts.html %}
   
   </body>
 </html>

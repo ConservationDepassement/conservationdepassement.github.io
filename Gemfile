@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-#gem 'github-pages', '106'
-gem 'jekyll-paginate'
-gem 'jekyll-pandoc'
+group :jekyll_plugins do
+   gem "jekyll-paginate", "~> 1.1.0"
+   gem 'jekyll-pandoc'
+end

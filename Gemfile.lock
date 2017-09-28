@@ -19,6 +19,9 @@ GEM
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-paginate (1.1.0)
+    jekyll-paginate-multiple (0.1.0)
+      jekyll (>= 2.5)
+      jekyll-paginate (~> 1.1)
     jekyll-pandoc (2.0.1)
       jekyll (>= 3.0)
       pandoc-ruby (~> 2.0, >= 2.0.0)
@@ -52,7 +55,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll-paginate
+  jekyll-paginate (~> 1.1.0)
+  jekyll-paginate-multiple (~> 0.1.0)
   jekyll-pandoc
 
 BUNDLED WITH

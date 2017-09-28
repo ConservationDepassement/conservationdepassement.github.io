@@ -3,7 +3,7 @@ layout: post
 title: "Le fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)"
 author: Aufhebung
 date: 2017/07/11
-bigimg: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/header.jpg
+image: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/header.jpg
 ---
 
 **La domination mondiale du capitalisme** se différencie radicalement de tous les modes de production qui 
@@ -67,7 +67,9 @@ du travail humain cristallisé.
 > une existence extérieure, mais que son travail existe en dehors de lui, indépendamment de lui, étranger à lui, 
 > et devient une puissance autonome vis-à-vis de lui, que la vie qu’il a prêtée à l’objet s’oppose à lui, 
 > hostile et étrangère.
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Manuscrits de 1844</span></p>
+>
+> <div class="quote-meta">Karl Marx – Manuscrits de 1844</div>
+
 
 
 **Le produit du travail est donc un objet étranger à l’ouvrier et qui le domine. Ce n’est pas l’ouvrier qui domine 
@@ -127,7 +129,7 @@ Nous avons donc vu que ce qui caractérise essentiellement le mode de production
 > travail apparaît essentiellement en tant que travail salarié (…). Les agents principaux de ce mode de 
 > production, le capitaliste et l’ouvrier salarié, sont comme tels uniquement des incarnations, des 
 > personnifications du Capital et du Travail salarié.
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Le Capital</span></p>
+> <div class="quote-meta">Karl Marx – Le Capital</div>
 
 **C’est donc la marchandise qui détermine la vie; pour exister sous le capitalisme, tout doit prendre la 
 caractéristique de marchandise, c’est-à-dire la qualité d’échangeabilité** (avoir une valeur d’échange en 
@@ -138,7 +140,7 @@ en résulte que, pour les travailleurs :
 > Les rapports de leurs travaux privés apparaissent ce qu’ils sont, c’est-à-dire non des rapports sociaux 
 > immédiats des personnes dans leurs travaux mêmes, mais bien plutôt des rapports objectifs de personnes et 
 > des rapports sociaux entre choses.
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Le Capital</span></p>
+> <div class="quote-meta">Karl Marx – Le Capital</div>
 
 **Sous le capitalisme, l’homme n’est que ce qu’il apporte, que ce qu’il possède comme valeur à échanger. C’est 
 l’argent qui occupe entièrement la place de la communauté car la seule chose de commun entre les hommes est 
@@ -150,7 +152,7 @@ au-delà des discours sur l’amour fou et le coup de foudre, la réalité n’e
 d’argent, donc de misère.
 
 > L’argent étant lui-même communauté, il ne peut en tolérer d’autres en, face de lui.
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span></p>
+> <div class="quote-meta">Karl Marx</div>
 
 **L’ouvrier se présente au final comme propriétaire de la marchandise force de travail et se vend lui-même 
 comme chose avec elle**. Le processus d’extraénisation est par conséquent double; il se manifeste d’abord 
@@ -167,7 +169,7 @@ entre choses mortes, non-humaines.**
 > pour eux la forme fantastique d’un rapport des choses entre elles. (…) C’est ce qu’on peut nommer le 
 > fétichisme attaché aux produits du travail, dès qu’ils se présentent comme des marchandises, fétichisme 
 > inséparable de ce mode de production.
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Le Capital</span></p>
+> <div class="quote-meta">Karl Marx – Le Capital</div>
 
 
 **La caractéristique générale du mode de production capitaliste réside donc dans le fait que les rapports de production 
@@ -183,7 +185,7 @@ et de l’autre le prolétaire; tous deux expressions de la division du travail.
 
 > L’économie ne traite pas de choses, mais de rapports entre personnes et, en dernière instance, entre classes; 
 > or ces rapports sont toujours liés à des choses et apparaissent comme des choses.
-> <p class="quote-meta"><span class="quote-author">Friedrich Engels</span> – <span class="quote-source">à propos de la critique de l’économie politique de Marx</span></p>
+> <div class="quote-meta">Friedrich Engels – à propos de la critique de l’économie politique de Marx</div>
 
 **Nous allons décomposer** artificiellement, **en deux temps, le processus global de réification** afin de mieux saisir 
 les différents mais indissociables éléments qui le composent:
@@ -203,7 +205,7 @@ dominatrices se trouvent eux-mêmes personnifiés par les capitalistes, représe
 choses mortes.**
 
 > Le capitaliste est du capital personnifié
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Le Capital</span></p>
+> <div class="quote-meta">Karl Marx – Le Capital</div>
 
 **Le « comble » du caractère fétichiste de la marchandise** se trouve évidemment dans la valeur qui s’engendre elle-même, 
 **dans l’argent qui enfante l’argent**.
@@ -217,7 +219,7 @@ de la valeur, dans sa **« nécrologie du mode de production capitaliste » - Le
 
 > La nature de la marchandise implique (…) la réification des conditions sociales de production et la personnification 
 > des bases matérielles de la production; voilà ce qui caractérise le mode de production capitaliste dans son ensemble.
-> <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Le Capital, Livre III</span></p>
+> <div class="quote-meta">Karl Marx – Le Capital, Livre III</div>
 
 **Il nous fallait donc restituer la théorie de la réification au centre même de la totalité que constitue le fétichisme 
 de la marchandise**. Réintroduire cette conception fondamentale, que le moteur même de **la libération humaine sera le 

@@ -3,7 +3,7 @@ layout: post
 title: De l’aliénation des communautés primitives à l’extranéisation de la société contemporaine
 author: Aufhebung
 date: 2017/07/10
-bigimg: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
+image: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
 ---
 
 **Contrairement au puritanisme borné** des scientifiques payés depuis des siècles pour nous décrire 
@@ -23,7 +23,7 @@ Des communautés où n’existent ni classes, ni Etat, ni appropriation privativ
 > Dans le communisme naturel et primitif, même si l’humanité est comprise dans la limite de la horde, 
 > l’individu ne cherche pas à soustraire du bien à son frère, mais il est prêt à s’immoler sans la moindre 
 > peur pour la survie de la grande phratrie.
-> <p class="quote-meta"><span class="quote-author">Amadeo Bordiga</span>, <span class="quote-source">A Janitzio on n’a pas peur de la mort</span></p>
+> <div class="quote-meta">Amadeo Bordiga - A Janitzio on n’a pas peur de la mort</div>
 
 Et toujours contre les âneries véhiculées par les « universitaires », **il s’avère de plus en plus nettement que 
 ces sociétés primitives, ce communisme naturel, étaient des sociétés d’abondance où de plus régnaient des rites 
@@ -64,12 +64,12 @@ essentiels de la vie humaine, de la reproduction de l’espèce: le fécondité,
 > La dernière, c’est lorsque les rapports sociaux atomisés, rendus indépendants dans le capital dominent l’être 
 > humain dont l’activité fut leur génératrice originelle. **On a alors la réification laquelle a pour conséquence 
 > inévitable la mystification complète de la réalité.”
-> <p class="quote-meta"><span class="quote-author">Jacques Camatte</span> – <span class="quote-source">Invariance</span></p>
+> <div class="quote-meta">Jacques Camatte – Invariance</div>
 
 > “La religion, comme le mot l’indique, relie les êtres. Elle n’apparaît qu’au moment où l’activité des hommes a 
 > été fragmentée, comme a été fragmentée leur communauté. Elle reprend les rituels, la magie, les mythes des sociétés 
 > précédentes. Avant il n’y avait pas de religion.”
-> <p class="quote-meta"><span class="quote-author">Jacques Camatte</span> – <span class="quote-source">à propos de l’aliénation dans Capital et Gemeinwesen</span></p>
+> <div class="quote-meta">Jacques Camatte – à propos de l’aliénation dans Capital et Gemeinwesen</div>
 
 C’est pourquoi également, **ces mythes, rituels - expressions de la vie communautaire primitive** - sont beaucoup 
 plus **l’ébauche de la conscience humaine** que celle de sa fausse **conscience, mystifiée : la religion.**
@@ -93,6 +93,6 @@ celle de sa conscience.**
 > de la nature avec un dieu usurier qui tient cette banque odieuse. Dans ces sociétés qui prétendent s’être haussées de 
 > la barbarie à la civilisation, on craint la mort personnelle et on se prosterne devant des momies, jusqu’aux mausolées 
 > de Moscou, à l’histoire infâme. »
-> <p class="quote-meta"><span class="quote-author">Amadeo Bordiga</span> – <span class="quote-source">A Janitzio on n’a pas peur de la mort</span></p>
+> <div class="quote-meta">Amadeo Bordiga – A Janitzio on n’a pas peur de la mort</div>
 
 
