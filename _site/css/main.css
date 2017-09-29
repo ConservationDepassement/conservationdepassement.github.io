@@ -17,6 +17,13 @@ body {
   font-family: FiraSans-Light, "Courier New";
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.page-layout {
+  max-width: 1500px;
+  min-width: 600px;
 }
 
 /* == Header == */
@@ -95,23 +102,19 @@ nav {
 .pagination-item a:hover {
   color: #B22F00
 }
-/*
-.pagination-button {
-  border-bottom: 4px double rgba(178, 47, 0, 0.5);
-}
-*/
+
 /* == Footer == */
 footer {
   border-top: 1px solid rgba(0,0,0,.1);
   margin-top: 30px;
 }
 
-footer p{
+footer p {
   text-align: center;
 }
 
 /* === Blog Main Page === */
-.article-list {
+.post-card-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,7 +127,7 @@ footer p{
 .post-card {
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 10px;
-  flex-basis: 40%;
+  max-width: 435px;
   margin: 20px;
   padding: 10px;
 }
@@ -224,8 +227,21 @@ footer p{
   font-size: 16px;
   text-align: right;
 }
-/*
-.post-content blockquote p:first-child {
-  margin-top: 0;
-} */
+
+/* === Bibliothèques ===*/
+.author-card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+}
+
+.author-card {
+  margin: 20px;
+  padding: 0px;
+}
+
 
