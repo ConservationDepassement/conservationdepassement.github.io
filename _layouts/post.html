@@ -25,7 +25,27 @@ layout: page
     {% if page.subtitle %}
       <h2>{{ page.subtitle }}</h2>
     {% endif %}
-    <span class="post-meta">par <span class="post-author">{{ page.author }}</span>, le {{ page.date | date: "%d/%m/%Y" }}.</span>
+    <span class="post-meta">par <span class="post-author">{{ page.author }}</span>
+    {% if page.date %}
+        , le {{ page.date | date: "%d" }}
+        {% assign month = page.date | date: "%m" %}
+        {% case month %}
+          {% when '01' %}janvier
+          {% when '02' %}février
+          {% when '03' %}mars
+          {% when '04' %}avril
+          {% when '05' %}mai
+          {% when '06' %}juin
+          {% when '07' %}juillet
+          {% when '08' %}août
+          {% when '09' %}septembre
+          {% when '10' %}octobre
+          {% when '11' %}novembre
+          {% when '12' %}décembre
+        {% endcase %}
+        {{ page.date | date: "%Y" }}.</span>
+    {% else if page.year %}, en {{ page.year }}.</span>
+    {% endif %}
   </div>
 
   {% if page.image %}
