@@ -295,13 +295,13 @@ footer p {
 }
 
 .text-list {
-  background-color: rgba(255, 67, 0, 0.7);
+  background-color: rgb(43, 254, 210, 0.7);
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .text-list:nth-child(odd) {
-  background-color: rgba(43, 254, 210, 0.7);
+  background-color: rgba(255, 67, 0, 0.7);
 }
 
 .text-list h3 {
