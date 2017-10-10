@@ -3,6 +3,8 @@ layout: post
 title: Test markdown
 subtitle: Un exemple de sous-titre
 author: Autheur Inconnu
+content_type: article
+thumbnail: /img/posts/2017-10-06-francis-cousin-entretien-sur-babeuf/gracchus-babeuf-card.jpg
 ---
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.

@@ -3,7 +3,9 @@ layout: post
 title: De l’aliénation des communautés primitives à l’extranéisation de la société contemporaine
 author: Aufhebung
 date: 2017/07/10
+content_type: article
 image: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
+thumbnail: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
 ---
 
 **Contrairement au puritanisme borné** des scientifiques payés depuis des siècles pour nous décrire 

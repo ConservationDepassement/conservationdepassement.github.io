@@ -22,7 +22,6 @@ navbar-links:
     DISCUSSIONS: http://community.spirit-project.com/
     A PROPOS: "/about"
 
-
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 title-img: favicon.ico

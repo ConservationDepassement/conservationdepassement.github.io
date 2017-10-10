@@ -23,36 +23,36 @@ title: Aufhebung
 <div class="post-card-list">
   {% for post in paginator.posts %}
     <article class="post-card">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-      <div class="post-card-title__center">
-        <div class="post-card-title">
-          <h2>{{ post.title }}</h2>
+      <a class="post-card-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="post-card-picture"
+             style="background-image: url({{ post.thumbnail }});">
         </div>
-      </div>
-
-      <div class="post-card-date">
-        {{ post.date | date: "%d" }}
-        {% assign month = post.date | date: "%m" %}
-        {% case month %}
-          {% when '01' %}JANVIER
-          {% when '02' %}FÉVRIER
-          {% when '03' %}MARS
-          {% when '04' %}AVRIL
-          {% when '05' %}MAI
-          {% when '06' %}JUIN
-          {% when '07' %}JUILLET
-          {% when '08' %}AOÛT
-          {% when '09' %}SEPTEMBRE
-          {% when '10' %}OCTOBRE
-          {% when '11' %}NOVEMBRE
-          {% when '12' %}DÉCEMBRE
-        {% endcase %}
-        {{ post.date | date: "%Y" }}
-      </div>
-
-      <div class="post-card-excerpt">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-      </div>
+        <div class="post-card-text">
+          <h3 class="post-card-title">{{ post.title }}</h3>
+          
+          {% if post.subtitle %}<h4 class="post-card-subtitle">{{ post.subtitle }}</h4>{% endif %}
+          
+          <time class="post-card-date">
+            <span class="post-card-icon">📄</span>
+            {{ post.date | date: "%d" }}
+            {% assign month = post.date | date: "%m" %}
+            {% case month %}
+              {% when '01' %}Janvier
+              {% when '02' %}Février
+              {% when '03' %}Mars
+              {% when '04' %}Avril
+              {% when '05' %}Mai
+              {% when '06' %}Juin
+              {% when '07' %}Juillet
+              {% when '08' %}Août
+              {% when '09' %}Septembre
+              {% when '10' %}Octobre
+              {% when '11' %}Novembre
+              {% when '12' %}Décembre
+            {% endcase %}
+            {{ post.date | date: "%Y" }}
+          </time>
+        </div>
       </a>
     </article>
   {% endfor %}

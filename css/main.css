@@ -17,7 +17,7 @@
 /*
  * Aufhebung blue: #2BFED2 - rgb(43, 254, 210)
  * Dark Blue     : #3D9986 - rgb(61, 153, 134)
- * Green         : #00FF39 - rbg(0, 255, 57)
+ * Green         : #00FF39 - rgb(0, 255, 57)
  * Orange        : #FF4300 - rgb(255, 67, 0)
  * Dark Orange   : #B22F00 - rgb(178, 47, 0)
  * Salmon        : #FE7C6B - rgb(254, 124, 107)
@@ -128,6 +128,8 @@ footer p {
 }
 
 /* === Blog Main Page === */
+
+/*
 .post-card-list {
   display: flex;
   flex-direction: row;
@@ -158,16 +160,28 @@ footer p {
 }
 
 .post-card-title__center {
-  background-color: rgba(43, 254, 210, 0.5);
   border-radius: 10px 10px 0px 0px;
   padding: 0;
-  margin-top: -30px;  /* Glue the title to the top of the article card */
+  margin-top: -30px;
   margin-left: -10px;
   margin-right: -10px;
 }
 
+.blue-background {
+  background-color: rgba(43, 254, 210, 0.5);
+}
+
+.red-background {
+  background-color: rgba(178, 47, 0, 0.5);
+}
+
 .post-card-title h2 {
   padding: 10px;
+}
+
+.post-card-type {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .post-card-author {
@@ -187,9 +201,79 @@ footer p {
   margin-bottom: 10px;
 }
 
+*/
+
+.post-card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  max-width: 1000px;
+}
+
+.post-card {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  height: 260px;
+  margin: 10px;
+  width: 450px;
+  min-width: 450px;
+}
+
+.post-card-link {
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
+
+.post-card-picture {
+  background-origin: border-box;
+  background-position: 50% 50%;
+  background-size: cover;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  width: 200px;
+}
+
+.post-card-text {
+  width: 50%;
+  padding: 12px;
+}
+
+.post-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post-card-icon {
+  color: rgb(178, 47, 0);
+  font-size: 20px;
+}
+
+.post-card-subtitle {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.post-card-date {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 /* === Blog Post ===*/
 .post {
   margin: auto;
+  min-width: 680px;
   padding: 0;
   width: 50%;
 }
@@ -256,6 +340,17 @@ footer p {
   color: #B22F00;
   font-weight: bold;
 }
+
+
+/* == Video post == */
+
+.youtube-video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 
 /* === Bibliothèques ===*/
 .author-card-list {
