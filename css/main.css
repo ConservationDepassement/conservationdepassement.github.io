@@ -221,6 +221,7 @@ footer p {
   margin: 10px;
   width: 450px;
   min-width: 450px;
+  box-shadow: 0 0 0.7em grey;
 }
 
 .post-card-link {
