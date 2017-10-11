@@ -23,7 +23,13 @@ title: Aufhebung
 <div class="post-card-list">
   {% for post in paginator.posts %}
     <article class="post-card">
-      <a class="post-card-link" href="{{ post.url | prepend: site.baseurl }}">
+      {% if post.external_custom_url %}
+        <a class="post-card-link" href="{{ post.external_custom_url }}" target="_blank">
+      {% elsif post.internal_custom_url %}
+        <a class="post-card-link" href="{{ post.internal_custom_url }}">
+      {% else %}
+        <a class="post-card-link" href="{{ post.url | prepend: site.baseurl }}">
+      {% endif %}
         <div class="post-card-picture"
              style="background-image: url({{ post.thumbnail }});">
         </div>
