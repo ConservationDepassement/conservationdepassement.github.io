@@ -15,7 +15,16 @@
 /* === Color Set === */
 
 /*
- * Aufhebung blue: #2BFED2 - rgb(43, 254, 210)
+ * Aufhebung blue:          #2bfed2 - rgb(43, 254, 210)
+    > complémentaire:
+        Rouge écarlate:     #fe2b57 - rgb(254, 43, 87)
+    > triade:
+        Mauve:              #d22bfe - rgb(210, 43, 254)
+        Ocre clair:         #fed22b - rgb(254, 210, 43)
+    > tetrade:
+        Jaune-vert:         #c1fe2b - rgb(193, 254, 43)
+        Bleu-mauve:         #692bfe - rgb(105, 43, 254)
+        Rouge écarlate:     #fe2b57 - rgb(254, 43, 87)
  * Dark Blue     : #3D9986 - rgb(61, 153, 134)
  * Green         : #00FF39 - rgb(0, 255, 57)
  * Orange        : #FF4300 - rgb(255, 67, 0)
@@ -410,16 +419,14 @@ footer p {
 }
 
 .text-list {
-/*background-color: rgb(43, 254, 210, 0.7);
-*/
+/*background-color: rgb(43, 254, 210, 0.7);*/
   background-color: rgb(43, 254, 210, 0.3);
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .text-list:nth-child(odd) {
-/*background-color: rgba(255, 67, 0, 0.7);
-*/
+/*background-color: rgba(255, 67, 0, 0.7);*/
   background-color: rgba(254, 210, 43, 0.3);
 }
 
@@ -434,7 +441,8 @@ footer p {
 }
 
 .text-list a:hover {
-  color: #FE2B57;
+/*color: #FE2B57;*/
+  color: #63017e; /*mauve + foncée*/
 }
 
 .text-list h3:target::before {
