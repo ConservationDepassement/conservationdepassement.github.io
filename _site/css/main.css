@@ -221,6 +221,7 @@ footer p {
   margin: 10px;
   width: 450px;
   min-width: 450px;
+  box-shadow: 0 0 0.7em grey;
 }
 
 .post-card-link {
@@ -281,6 +282,12 @@ footer p {
 .post-header {
   margin-bottom: 20px;
   text-align: center;
+}
+
+.post-subtitle {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-style: italic;
 }
 
 .post-author {
@@ -390,13 +397,17 @@ footer p {
 }
 
 .text-list {
-  background-color: rgb(43, 254, 210, 0.7);
+/*background-color: rgb(43, 254, 210, 0.7);
+*/
+  background-color: rgb(43, 254, 210, 0.3);
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .text-list:nth-child(odd) {
-  background-color: rgba(255, 67, 0, 0.7);
+/*background-color: rgba(255, 67, 0, 0.7);
+*/
+  background-color: rgba(254, 210, 43, 0.3);
 }
 
 .text-list h3 {
@@ -410,7 +421,7 @@ footer p {
 }
 
 .text-list a:hover {
-  color: red;
+  color: #FE2B57;
 }
 
 .text-list h3:target::before {

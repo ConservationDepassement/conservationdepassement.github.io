@@ -5,7 +5,7 @@ author: Aufhebung
 date: 2017/07/11
 content_type: article
 image: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/header.jpg
-thumbnail: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/header.jpg
+thumbnail: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/thumbnail.jpg
 ---
 
 **La domination mondiale du capitalisme** se différencie radicalement de tous les modes de production qui 

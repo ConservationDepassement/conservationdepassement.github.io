@@ -7,17 +7,47 @@
     <atom:link href="https://responsyss.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>L’Heure la plus sombre n°87 – Émission du 9 octobre 2017</title>
+        <description>
+          Vincent Lapierre reçoit Francis Cousin afin d’analyser le film Le Jeune Karl Marx réalisé par Raoul Peck. - 
+          
+    
+    
+
+
+        </description>
+        <pubDate>Fri, 06 Oct 2017 00:00:00 +0200</pubDate>
+        <link>https://responsyss.github.io/2017-10-l-heure-la-plus-sombre-87/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-10-l-heure-la-plus-sombre-87/</guid>
+      </item>
+    
+      <item>
         <title>Francis Cousin: entretien sur Gracchus Babeuf et le populicide vendéen</title>
         <description>
           
           
-
+    
+    
 
 
         </description>
         <pubDate>Fri, 06 Oct 2017 00:00:00 +0200</pubDate>
         <link>https://responsyss.github.io/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
         <guid isPermaLink="true">https://responsyss.github.io/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
+      </item>
+    
+      <item>
+        <title>Rencontre: Les syndicats contre le prolétariat</title>
+        <description>
+          
+          Rencontre à Poitiers organisée par Le Situationniste, le samedi 25 novembre à 19h, sur le thème des syndicats pour déconstruire l’image, le “mythe” d’un syndicat qui serait pour l’émancipation du prolétariat.
+
+Détails et inscriptions sur la page Facebook de l’organisateur.
+
+        </description>
+        <pubDate>Mon, 25 Sep 2017 00:00:00 +0200</pubDate>
+        <link>https://responsyss.github.io/2017-09-rencontre-les-syndicats-contre-le-proletariat/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-09-rencontre-les-syndicats-contre-le-proletariat/</guid>
       </item>
     
       <item>
@@ -40,50 +70,6 @@
         <pubDate>Mon, 10 Jul 2017 00:00:00 +0200</pubDate>
         <link>https://responsyss.github.io/2017-07-de-l-alienation-des-communautes-primitives/</link>
         <guid isPermaLink="true">https://responsyss.github.io/2017-07-de-l-alienation-des-communautes-primitives/</guid>
-      </item>
-    
-      <item>
-        <title>Test markdown</title>
-        <description>
-          Un exemple de sous-titre - 
-          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
-        </description>
-        <pubDate>Fri, 20 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://responsyss.github.io/2015-02-test-markdown/</link>
-        <guid isPermaLink="true">https://responsyss.github.io/2015-02-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Test markdown</title>
-        <description>
-          Un exemple de sous-titre - 
-          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
-        </description>
-        <pubDate>Thu, 19 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://responsyss.github.io/2015-02-test-markdown/</link>
-        <guid isPermaLink="true">https://responsyss.github.io/2015-02-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Test markdown</title>
-        <description>
-          Un exemple de sous-titre - 
-          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
-        </description>
-        <pubDate>Wed, 18 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://responsyss.github.io/2015-02-test-markdown/</link>
-        <guid isPermaLink="true">https://responsyss.github.io/2015-02-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Test markdown</title>
-        <description>
-          Un exemple de sous-titre - 
-          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
-        </description>
-        <pubDate>Tue, 17 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://responsyss.github.io/2015-02-test-markdown/</link>
-        <guid isPermaLink="true">https://responsyss.github.io/2015-02-test-markdown/</guid>
       </item>
     
   </channel>

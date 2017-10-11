@@ -284,6 +284,12 @@ footer p {
   text-align: center;
 }
 
+.post-subtitle {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-style: italic;
+}
+
 .post-author {
   font-style: italic;
   font-weight: bold;

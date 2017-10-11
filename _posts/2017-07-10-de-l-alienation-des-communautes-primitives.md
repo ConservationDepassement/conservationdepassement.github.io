@@ -5,7 +5,7 @@ author: Aufhebung
 date: 2017/07/10
 content_type: article
 image: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
-thumbnail: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
+thumbnail: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/thumbnail.jpg
 ---
 
 **Contrairement au puritanisme borné** des scientifiques payés depuis des siècles pour nous décrire 
