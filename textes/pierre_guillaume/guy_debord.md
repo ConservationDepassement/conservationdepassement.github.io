@@ -219,7 +219,7 @@ Debord sera parvenu en cette fin de siècle à laisser derrière lui une oeuvre 
 
 Cette phrase, seuls quelques révisionnistes, c'est-à-dire ceux d'entre eux qui jouissent d'une certaine notoriété -- et la seule notoriété dont ait jamais joui un révisionniste est négative et anti-médiatique -- pourraient, sans ridicule, la signer aujourd'hui.
 
-*Pierre Guillaume, LA VIEILLE TAUPE, numéro 1, Février 1995.*
+<div class="post-reference">Pierre Guillaume, LA VIEILLE TAUPE, numéro 1, Février 1995.</div>
 
 **NOTES**
 
