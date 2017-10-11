@@ -152,7 +152,7 @@ Ils savent, déjà, par l'expérience de la contrerévolution stalinienne, et en
 
 Que les révolutionnaires expulsent des usines et des organisations professionnelles les représentants des syndicats, et les Thorez, les Nenni, les Reuther de tous les pays, le Vatican blotti derrière les syndicats chrétiens, se verront paralysés ; la classe ouvrière aura récupéré sa liberté d'action et de pensée, et se trouvera vite en mesure de bouleverser de fond en comble la société. Elle prendra alors l'élan nécessaire pour arracher l'humanité au bourbier où elle piétine. 
 
-*Milan, mai 1960. Grandizo MUNIS.*
+<div class="post-reference">Grandizo Munis, Milan, mai 1960.</div>
 
 **NOTES**
 
