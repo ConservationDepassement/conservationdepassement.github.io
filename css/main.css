@@ -94,11 +94,11 @@ nav {
 }
 
 .menu-item a:hover {
-  color: #B22F00;
+  color: #fe2b57;
 }
 
 .menu-item__active a{
-  color: #B22F00;
+  color: #fe2b57;
 }
 
 /* == Pagination == */
@@ -123,7 +123,7 @@ nav {
 }
 
 .pagination-item a:hover {
-  color: #B22F00;
+  color: #fe2b57;
 }
 
 /* == Footer == */
@@ -442,7 +442,7 @@ footer p {
 
 .text-list a:hover {
 /*color: #FE2B57;*/
-  color: #63017e; /*mauve + foncée*/
+  color: #63017e; /*mauve + foncé*/
 }
 
 .text-list h3:target::before {
