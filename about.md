@@ -21,7 +21,7 @@ permalink: /about/
   </ul>
 </nav>
 
-<div>
+<div style="text-align: center; margin: 100px;">
   Collectifs d'humains. 
 </div>
 
