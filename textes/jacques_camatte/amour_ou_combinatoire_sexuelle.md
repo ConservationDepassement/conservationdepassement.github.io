@@ -7,7 +7,7 @@ year: Février 1978
 
 > La question essentielle ce n’est pas la sexualité mais l’amour.
 
-Le point de départ des quelques réflexions qui suivent est la lecture du livre de Mario Mieli Elementi di critica omosessuale, Einaudi, Torino, 1977<sup><a href="#note_1">1</a></sup>. Cet ouvrage présente un grand intérêt parce qu’il exprime avec netteté et sans dogmatisme un certain nombre de thèses sur la sexualité, ce qui permet en les affrontant d’opérer une approche de cette question, en ajoutant tout de suite que pour moi la question essentielle ce n’est pas la sexualité mais l’amour. L’autonomisation de la première exprime de façon percutante la déchéance à laquelle est parvenue l’humanité occidentale.
+Le point de départ des quelques réflexions qui suivent est la lecture du livre de Mario Mieli *Elementi di critica omosessuale*, Einaudi, Torino, 1977<sup><a href="#note_1">1</a></sup>. Cet ouvrage présente un grand intérêt parce qu’il exprime avec netteté et sans dogmatisme un certain nombre de thèses sur la sexualité, ce qui permet en les affrontant d’opérer une approche de cette question, en ajoutant tout de suite que pour moi la question essentielle ce n’est pas la sexualité mais l’amour. L’autonomisation de la première exprime de façon percutante la déchéance à laquelle est parvenue l’humanité occidentale.
 
 Comme le soulève M. Mieli il est difficile de dire ce que sont vraiment homme et femme, leur nature, surtout du point de vue de la sexualité du fait même de l’antique répression sexuelle que nous avons en nous et derrière nous. Comment parler sérieusement de la sexualité et en décider de façon assez « absolue » quand la femme a été esclavagisée depuis si longtemps et que la société n’a pu se fonder et se développer que sur sa domestication-réduction? Kate Miller dans La politique du mâle a montré, par exemple, à quel point était absurde l’idée d’une appétence sexuelle moins grande chez les femmes. Ainsi il semble qu’il soit difficile d’affirmer que l’homosexualité est inhérente à l’homme et à la femme. Je préfère me réserver sur l’avenir pour en décider d’une façon plus « absolue ».
 
@@ -196,26 +196,20 @@ Pour le moment, le vieux débat se renouvelle entre tous ceux qui veulent réali
 
 <div class="post-reference">Jacques Camatte, Février 1978.</div>
 
-** NOTES **
+**NOTES**
 
-<span class="footnote-number" id="note_1">(1)</span> Je dois signaler quelques erreurs, qui ne concernent pas directement le sujet abordé ici, parce qu’elles peuvent être utilisées de façon malveillante contre le travail de Mario et qu’elles peuvent être source de confusion.
+<span class="footnote-number" id="note_1">(1)</span> Je dois signaler quelques erreurs, qui ne concernent pas directement le sujet abordé ici, parce qu’elles peuvent être utilisées de façon malveillante contre le travail de Mario et qu’elles peuvent être source de confusion.  
+Si on accepte la clarification du devenir propre du capital, comme un devenir à la communauté, qu’il a réalisée, on ne peut parler de capitalisme d’État (cf. p. 96). L’État n’est qu’un élément secondaire en définitive dans la dynamique de vie du capital. On a pu parler de capitalisme d’État à l’origine de celui-ci, quand l’État est intervenu pour faciliter l’implantation du capital.  
+Parler de capitalisme bureaucratique en URSS et faire une note qui signale à ce propos l’œuvre de Bordiga Structure économique et sociale de la Russie d’aujourd’hui ne convient pas du tout. Bordiga a toujours nié une telle affirmation caractérisation, particulièrement dans l’œuvre citée où il ridiculise la thèse d’une prétendue bureaucratie-classe opérant en URSS.  
+Ce n’est pas Joe Fallisi (p. 159) qui a dit la première phase du mouvement ouvrier fut la phase sectaire, c’est Marx. J’ai dans Le KAPD et le mouvement prolétarien repris cette caractérisation de Marx et l’ai utilisée comme point de référence pour caractériser l’état du mouvement ouvrier dans les années ’20 mettant en évidence que, dès lors, commençait la phase groupusculaire du mouvement et que le parti à venir, le parti-communauté, devait se former contre tous les groupuscules. C’est en partant de cette réflexion que j’ai été amené à écrire, avec G. Collu, la lettre sur les rackets du 4.9.1969 publiée sous le titre *De l’organisation*.
 
-Si on accepte la clarification du devenir propre du capital, comme un devenir à la communauté, qu’il a réalisée, on ne peut parler de capitalisme d’État (cf. p. 96). L’État n’est qu’un élément secondaire en définitive dans la dynamique de vie du capital. On a pu parler de capitalisme d’État à l’origine de celui-ci, quand l’État est intervenu pour faciliter l’implantation du capital.
+<span class="footnote-number" id="note_2">(2)</span> Cf. *Ce monde qu’il faut quitter*, Invariance, série II, n°5, et Marx et la Gemeinwesen.
 
-Parler de capitalisme bureaucratique en URSS et faire une note qui signale à ce propos l’œuvre de Bordiga Structure économique et sociale de la Russie d’aujourd’hui ne convient pas du tout. Bordiga a toujours nié une telle affirmation caractérisation, particulièrement dans l’œuvre citée où il ridiculise la thèse d’une prétendue bureaucratie-classe opérant en URSS.
+<span class="footnote-number" id="note_3">(3)</span> Cf. la note sur l’aliénation dans *Capital et Gemeinwesen*, éd. Spartacus.
 
-Ce n’est pas Joe Fallisi (p. 159) qui a dit la première phase du mouvement ouvrier fut la phase sectaire, c’est Marx. J’ai dans Le KAPD et le mouvement prolétarien repris cette caractérisation de Marx et l’ai utilisée comme point de référence pour caractériser l’état du mouvement ouvrier dans les années ’20 mettant en évidence que, dès lors, commençait la phase groupusculaire du mouvement et que le parti à venir, le parti-communauté, devait se former contre tous les groupuscules. C’est en partant de cette réflexion que j’ai été amené à écrire, avec G. Collu, la lettre sur les rackets du 4.9.1969 publiée sous le titre De l’organisation.
-
-<span class="footnote-number" id="note_2">(2)</span> Cf. Ce monde qu’il faut quitter, Invariance, série II, n°5, et Marx et la Gemeinwesen.
-
-<span class="footnote-number" id="note_3">(3)</span> Cf. la note sur l’aliénation dans Capital et Gemeinwesen, éd. Spartacus.
-
-<span class="footnote-number" id="note_5">(5)</span> Voilà pourquoi à la fin de ma lettre à M. Mieli du 9.10.1977 – point de départ de cette ébauche d’étude – je déclarais :
-
-Et maintenant je plaide coupable.
-
-Il est clair que tout ceci, qui n’est pas une critique mais une affirmation de ce que je  suis et ce dans mon élancement vers toi, part de mon affirmation hétérosexuelle exaltée du fait que je suis follement amoureux, démesurément, anachroniquement, d’une femme qui est belle comme une éternité et qui m’a fait profondément ressentir que le temps est invention des hommes incapables d’aimer. Et, au moment où fulgurait cette intuition devenant-devenue perception envahissante, j’ai réalisé qu’il n’était pas possible de concevoir la communauté sans comprendre que nous devions non pas vivre un autre temps, un autre espace, mais les réunir (c’est pour ne pas avoir affronté cela que toutes les communautés n’ont pu éviter le piège du despotisme) et que cela reposait l’amour et l’éternité, que sans l’amour il était impossible d’envisager la nouvelle dynamique de vie.
-
+<span class="footnote-number" id="note_5">(5)</span> Voilà pourquoi à la fin de ma lettre à M. Mieli du 9.10.1977 – point de départ de cette ébauche d’étude – je déclarais :  
+Et maintenant je plaide coupable.  
+Il est clair que tout ceci, qui n’est pas une critique mais une affirmation de ce que je  suis et ce dans mon élancement vers toi, part de mon affirmation hétérosexuelle exaltée du fait que je suis follement amoureux, démesurément, anachroniquement, d’une femme qui est belle comme une éternité et qui m’a fait profondément ressentir que le temps est invention des hommes incapables d’aimer. Et, au moment où fulgurait cette intuition devenant-devenue perception envahissante, j’ai réalisé qu’il n’était pas possible de concevoir la communauté sans comprendre que nous devions non pas vivre un autre temps, un autre espace, mais les réunir (c’est pour ne pas avoir affronté cela que toutes les communautés n’ont pu éviter le piège du despotisme) et que cela reposait l’amour et l’éternité, que sans l’amour il était impossible d’envisager la nouvelle dynamique de vie.  
 Oui j’aime passionnément (la passion qui est joie – or aimer n’est-ce pas la joie la plus grande ? – fait accéder à une plus grande perfection dit Spinoza dans éthique) et c’est de l’espace-temps de cette passion dont je suis envahi et que j’intègre dans ma vie et dans toutes celles qui me précèdent et qui me succèdent et qui me succéderont (la Gemeinwesen) que je te parle charnellement, à toi que j’ai aimé à partir du moment où tu m’écrivis de ton lit d’hôpital à Londres. Alors je pense que tu comprendras !
 
 <span class="footnote-number" id="note_5">(5)</span> Je ne parlerai pas d’un homme « caché », comme il fut postulé l’existence d’un dieu caché, fondamentalement bon. Je ne propose pas une nouvelle gnose.
