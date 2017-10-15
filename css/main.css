@@ -357,7 +357,7 @@ footer p {
 /* Author and source of a post quote. */
 .post-content .quote-meta {
   color: black;
-  font-size: 16px;
+  font-size: 110%;
   text-align: right;
 }
 
@@ -366,7 +366,19 @@ footer p {
     font-weight: bold;
 }
 
+/* Quote in the text */
+.post-content .quote {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-style: italic;
+}
+
+.footnotes {
+  font-size: 90%;
+}
+
 .footnote-number {
+  margin-left: 3em;
   color: #B22F00;
   font-weight: bold;
 }
