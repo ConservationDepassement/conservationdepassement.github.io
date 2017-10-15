@@ -375,6 +375,7 @@ footer p {
 
 .footnotes {
   font-size: 90%;
+  white-space: pre-line;
 }
 
 .footnote-number {
