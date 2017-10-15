@@ -371,6 +371,7 @@ footer p {
   margin-left: 1em;
   margin-right: 1em;
   font-style: italic;
+  white-space: pre-line;
 }
 
 /* Formattage différent pour section Footnotes, mais comme il parse pas le MD dans les balises bah en fait ça fait chier,
