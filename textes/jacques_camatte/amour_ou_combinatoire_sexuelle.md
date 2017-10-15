@@ -197,7 +197,9 @@ Pour le moment, le vieux débat se renouvelle entre tous ceux qui veulent réali
 <div class="post-reference">Jacques Camatte, Février 1978.</div>
 
 **NOTES**
+
 <div class="footnotes">
+ 
 <span class="footnote-number" id="note_1">(1)</span> Je dois signaler quelques erreurs, qui ne concernent pas directement le sujet abordé ici, parce qu’elles peuvent être utilisées de façon malveillante contre le travail de Mario et qu’elles peuvent être source de confusion.  
 Si on accepte la clarification du devenir propre du capital, comme un devenir à la communauté, qu’il a réalisée, on ne peut parler de capitalisme d’État (cf. p. 96). L’État n’est qu’un élément secondaire en définitive dans la dynamique de vie du capital. On a pu parler de capitalisme d’État à l’origine de celui-ci, quand l’État est intervenu pour faciliter l’implantation du capital.  
 Parler de capitalisme bureaucratique en URSS et faire une note qui signale à ce propos l’œuvre de Bordiga Structure économique et sociale de la Russie d’aujourd’hui ne convient pas du tout. Bordiga a toujours nié une telle affirmation caractérisation, particulièrement dans l’œuvre citée où il ridiculise la thèse d’une prétendue bureaucratie-classe opérant en URSS.  
@@ -213,4 +215,5 @@ Il est clair que tout ceci, qui n’est pas une critique mais une affirmation de
 Oui j’aime passionnément (la passion qui est joie – or aimer n’est-ce pas la joie la plus grande ? – fait accéder à une plus grande perfection dit Spinoza dans éthique) et c’est de l’espace-temps de cette passion dont je suis envahi et que j’intègre dans ma vie et dans toutes celles qui me précèdent et qui me succèdent et qui me succéderont (la Gemeinwesen) que je te parle charnellement, à toi que j’ai aimé à partir du moment où tu m’écrivis de ton lit d’hôpital à Londres. Alors je pense que tu comprendras !</div>
 
 <span class="footnote-number" id="note_5">(5)</span> Je ne parlerai pas d’un homme « caché », comme il fut postulé l’existence d’un dieu caché, fondamentalement bon. Je ne propose pas une nouvelle gnose.
+
 </div>
