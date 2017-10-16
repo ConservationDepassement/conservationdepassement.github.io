@@ -38,6 +38,7 @@
 /* === General === */
 body {
   font-family: FiraSans-Light, "Courier New";
+  font-size: 11pt;
   margin: 0;
   padding: 0;
   display: flex;
@@ -273,22 +274,21 @@ footer p {
 }
 
 .post-card-title {
-  font-size: 18px;
+  font-size: 125%;
   font-weight: bold;
 }
 
 .post-card-icon {
   color: rgb(178, 47, 0);
-  font-size: 20px;
+  font-size: 150%;
 }
 
 .post-card-subtitle {
-  font-size: 14px;
   font-weight: normal;
 }
 
 .post-card-date {
-  font-size: 16px;
+  font-size: 110%;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -307,7 +307,7 @@ footer p {
 
 .post-subtitle {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 20px;
+  font-size: 133%;
   font-style: italic;
 }
 
@@ -319,7 +319,7 @@ footer p {
 
 .post-reference {
   text-align: right;
-  font-size: 20px;
+  font-size: 140%;
   font-style: oblique;
   margin: 20px;
 }
@@ -356,7 +356,7 @@ footer p {
   margin-top: 30px;
   padding: 0;
   width: 80%;
-  font-size: 19px;
+  font-size: 133%;
 }
 
 /* Author and source of a post quote. */
