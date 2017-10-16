@@ -2,7 +2,7 @@
 layout:     post
 title:      "De la misère en milieu étudiant"
 subtitle:   considérée sous ses aspects économique, politique, psychologique, sexuel et notamment intellectuel et de quelques moyenspour y remédier 
-author:     par des membres de l'Internationale Situationniste et des étudiants de Strasbourg
+author:     Internationale Situationniste et des étudiants de Strasbourg
 date:       1966
 
 ---
