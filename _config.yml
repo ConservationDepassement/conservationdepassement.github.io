@@ -18,9 +18,9 @@ description: "« L'homme est la nature prenant conscience d'elle-même. »"
 # List of links in the navigation bar
 navbar-links:
     BLOG: /
-    BIBLIOTHÈQUE: /textes/index.html
+    BIBLIOTHÈQUE: /textes/
     DIALOGUE: //facebook.com/AufhebungOfficiel/
-    A PROPOS: "/about"
+    A PROPOS: /about/
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
