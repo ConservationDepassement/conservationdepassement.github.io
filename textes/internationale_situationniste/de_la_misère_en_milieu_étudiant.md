@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "De la misère en milieu étudiant"
-subtitle:   considérée sous ses aspects économique, politique, psychologique, sexuel et notamment intellectuel et de quelques moyenspour y remédier 
-author:     Internationale Situationniste et des étudiants de Strasbourg
-date:       1966
+subtitle:   considérée sous ses aspects économique, politique, psychologique, sexuel et notamment intellectuel et de quelques moyens pour y remédier 
+author:     l'Internationale Situationniste et des étudiants de Strasbourg
+date:       novembre 1966
 
 ---
 
@@ -957,7 +957,7 @@ les seules règles qu'il pourra reconnaître.
 [^4]: Mais sans la conscience révolutionnaire ; l'ouvrier n'avait pas
     l'illusion de la promotion.
 
-[^5]: Nous ne parlons pas de celle de l'École Normale Supèrieure ou des
+[^5]: Nous ne parlons pas de celle de l'École Normale Supérieure ou des
     Sorboniqueurs, mais de celle des encyclopédistes ou de Hegel.
 
 [^6]: N'osant pas se réclamer du libéralisme philistin, ils inventent
