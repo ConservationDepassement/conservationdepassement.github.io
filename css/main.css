@@ -337,9 +337,6 @@ footer p {
 .post-content {
   text-align: justify;
   line-height: 1.5em;
-}
-
-.post-content {
   margin-top: 50px;
 }
 
@@ -348,18 +345,26 @@ footer p {
 }
 
 .post-content blockquote {
-  color: rgba(178, 47, 0, 1);
   font-style: italic;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  font-size: 120%;
+/*color: rgba(50,50,50,1);*/
+  color: rgba(178, 47, 0, 1);
+/*margin-bottom: 30px;
+/*margin-left: auto;
+/*margin-right: auto;
+/*margin-top: 30px;
+/*width: 80%;
+/*font-size: 133%;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:  3em;
+  margin-right: 3em;
   padding: 0;
-  width: 80%;
-  font-size: 133%;
 }
 
 /* Author and source of a post quote. */
+/*TODO ::: Tue 17 Oct 2017 06:05:42 PM CEST
+ * must use a note de bas de page instead */ 
 .post-content .quote-meta {
   color: black;
   font-size: 110%;
@@ -371,21 +376,23 @@ footer p {
     font-weight: bold;
 }
 
-/* Quote in the text */
-.post-content .quote {
-  margin-left: 1em;
-  margin-right: 1em;
-  font-style: italic;
-  white-space: pre-line;
-}
-
 /* Formattage différent pour section Footnotes, mais comme il parse pas le MD dans les balises bah en fait ça fait chier,
 dommage c'était bien */
 .footnotes {
   font-size: 90%;
-  white-space: pre-line;
+  text-indent: 3em;
 }
 
+.reversefootnote {
+    margin-left: 2em;
+    /*TODO ::: Tue 17 Oct 2017 06:26:07 PM CEST 
+     * couleur bleu (default) ou pas?*/
+    color: grey;
+    font-size: 120%;
+}
+
+/*TODO ::: Tue 17 Oct 2017 06:23:55 PM CEST 
+ * Useless?*/
 .footnote-number {
   margin-left: 3em;
   color: #B22F00;
