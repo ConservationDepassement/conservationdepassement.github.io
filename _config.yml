@@ -12,6 +12,7 @@ title: Aufhebung
 
 # Short description of your site
 description: "« L'homme est la nature prenant conscience d'elle-même. »"
+footer: "Aucun droit réservé sur rien."
 
 # --- Navigation bar options --- #
 
@@ -20,7 +21,7 @@ navbar-links:
     BLOG: /
     BIBLIOTHÈQUE: /textes/
     DIALOGUE: //facebook.com/AufhebungOfficiel/
-    A PROPOS: /about/
+    À PROPOS: /about/
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter

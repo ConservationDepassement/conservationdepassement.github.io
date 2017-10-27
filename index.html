@@ -3,19 +3,7 @@ layout: page
 title: Aufhebung
 ---
 
-<nav>
-  <ul class="menu">
-      <li class="menu-item menu-item__active">
-        <a href="/">BLOG</a>
-      </li>
-      <li class="menu-item">
-        <a href="/textes/index.html">BIBLIOTHÈQUE</a>
-      </li>
-      <li class="menu-item">
-        <a href="/about">À PROPOS</a>
-      </li>
-  </ul>
-</nav>
+{% include navbar-blog.html %}
 
 <div class="post-card-list">
   {% for post in paginator.posts %}
