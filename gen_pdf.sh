@@ -20,12 +20,12 @@
 set -o nounset -o errexit
 
 PROGRAM_NAME="gen.sh"
-BASEDIR="$HOME/Devel/Src/Web/responsyss.github.io/"
+#BASEDIR="$HOME/Devel/Src/Web/responsyss.github.io/"
+BASEDIR="."
 
-# templates
 F_TEMPL="texte.pdf.pandoc"
-# special
 F_TEXTES_DIR="textes"
+SEARCH_PATH="$F_TEXTES_DIR"
 
 ERR_NO_CMD=127
 ERR_WRONG_WORKING_DIR=101
