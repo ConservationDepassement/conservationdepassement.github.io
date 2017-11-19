@@ -238,6 +238,7 @@ footer p {
   min-width: 450px;
   background-color: whitesmoke;
   box-shadow: 0 0 0.7em grey;
+  overflow: hidden;
 }
 
 .post-card:hover {
