@@ -8,7 +8,7 @@ permalink: /about/
 {% include navbar-about.html %}
 
 <div style="text-align: center; margin: 100px;">
-  Collectifs d'humains. 
+  Collectif d'humains. 
 </div>
 
 
