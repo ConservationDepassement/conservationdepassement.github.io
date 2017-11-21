@@ -382,6 +382,9 @@ dommage c'était bien */
 .footnotes {
   font-size: 90%;
   text-indent: 3em;
+  margin-top: 5em;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding-top: 1em;
 }
 
 .reversefootnote {
