@@ -18,7 +18,8 @@
 # TODO: arg parsing with getopt
 # TODO: --no-interactive option to deactive xargs '-p' flag
 # TODO: customize the template
-# `toc: true` in YAML header of MD: does it work?
+# `toc: true` et `lang: fr` in YAML header of MD works perfectly but:
+# TODO: customize position of TOC in template
 
 set -o nounset -o errexit
 
