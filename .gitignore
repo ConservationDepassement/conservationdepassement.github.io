@@ -1,0 +1,6 @@
+.jekyll-metadata
+
+# Vim temp files
+*.swo
+*.swp
+*~
