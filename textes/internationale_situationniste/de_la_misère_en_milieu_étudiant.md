@@ -997,7 +997,7 @@ les seules règles qu'il pourra reconnaître.
     réservés aux membres du gouvernement.
 
 [^15]: On pense ici à l'excellente revue *Heatwave* dont l'évolution
-    semble aller vers un radicalisme de plus en plus rigoureux. Adresse :  
+    semble aller vers un radicalisme de plus en plus rigoureux. Adresse :
     *13, Redcliffe Rd, London, S W 10 Angleterre*
 
 [^16]: *KAIHOSHA c/o Dairyuso, 3 Nakanoekimae, Nakanoku, TOKYO JAPON,
