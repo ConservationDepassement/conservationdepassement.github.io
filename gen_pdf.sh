@@ -15,7 +15,6 @@
 #      REVISION:  ---
 #===============================================================================
 
-# TODO: arg parsing with getopt
 # TODO: --no-interactive option to deactive xargs '-p' flag
 # TODO: customize the template
 # `toc: true` et `lang: fr` in YAML header of MD works perfectly but:
@@ -41,12 +40,12 @@ ERR_WRONG_WORKING_DIR=101
 ERR_NO_FILE=40
 
 # $1 = message (string)
-fn_say() {
+m_say() {
 	echo "$PROGRAM_NAME: $1"
 }
 # $1 = error message (string), $2 = return code (int)
 fn_err() {
-	fn_say "$1" >&2
+	m_say "$1" >&2
 	exit $2
 }
 # $1 = command to test (string)
@@ -108,7 +107,7 @@ fn_needFile "$F_TEXTES_DIR"
 
 # cd to script directory
 cd "` dirname "$0" `" || fn_err "can't 'cd' to script dir" $ERR_WRONG_WORKING_DIR
-fn_say "current directory: `pwd`"
+m_say "current directory: `pwd`"
 
 # USE GETOPT instead
 # Arguments parsing
@@ -141,8 +140,8 @@ done
 
 fn_printParams
 
-fn_say "generating..."
+m_say "generating..."
 fn_genTextes
-fn_say "done!"
+m_say "done!"
 
 exit
