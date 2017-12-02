@@ -388,7 +388,7 @@ dommage c'était bien */
 }
 
 .reversefootnote {
-    margin-left: 2em;
+    margin-left: 4px;
     /*TODO ::: Tue 17 Oct 2017 06:26:07 PM CEST 
      * couleur bleu (default) ou pas?*/
     color: grey;
