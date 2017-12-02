@@ -223,8 +223,6 @@ Cette phrase, seuls quelques révisionnistes, c'est-à-dire ceux d'entre eux qui
 
 <div class="post-reference">Pierre Guillaume, LA VIEILLE TAUPE, numéro 1, Février 1995.</div>
 
-**NOTES**
-
 [^1]: Le premier lecteur de mon brouillon m'a fait remarquer que dans *Ma Vie*, Trotsky raconte une anecdote similaire, mais il la situe à Londres. Je ne sais pas si le récit concernant Paris est le produit d'une déformation par la rumeur ou résulte d'une tradition orale autonome qui circulait dans nos milieux, dont les anciens avaient connu Lénine et Trotsky.
 
 [^2]: Qui, à l'époque, était agent électoral du Parti "Communiste" "Français".
