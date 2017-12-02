@@ -67,7 +67,7 @@ USAGE
     ./$PROGRAM_NAME [all|PATH]
 
 OPTIONS
-    all         recursively convert all MD files to PDF in ${BASEDIR}/${F_TEXTES_DIR}/ (default)
+    all         recursively convert all MD files to PDF in ${F_TEXTES_DIR}/ (default)
     {PATH}      recursively convert all MD files to PDF in PATH
 
 EXAMPLE
