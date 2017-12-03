@@ -12,7 +12,7 @@ layout: page
     {% endif %}
     <span class="post-meta">par <span class="post-author">{{ page.author }}</span>
     {% if page.date %}
-        , le {{ page.date | date: "%d" }}
+        , le {{ page.date | date: "%-d" }}
         {% assign month = page.date | date: "%m" %}
         {% case month %}
           {% when '01' %}janvier
