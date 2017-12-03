@@ -32,21 +32,21 @@ title: Aufhebung
               {% when 'event' %}<span class="post-card-icon">⏰</span>
               {% when 'video' %}<span class="post-card-icon">📺</span>
             {% endcase %}
-            {{ post.date | date: "%d" }}
+            {{ post.date | date: "%-d" }}
             {% assign month = post.date | date: "%m" %}
             {% case month %}
-              {% when '01' %}Janvier
-              {% when '02' %}Février
-              {% when '03' %}Mars
-              {% when '04' %}Avril
-              {% when '05' %}Mai
-              {% when '06' %}Juin
-              {% when '07' %}Juillet
-              {% when '08' %}Août
-              {% when '09' %}Septembre
-              {% when '10' %}Octobre
-              {% when '11' %}Novembre
-              {% when '12' %}Décembre
+              {% when '01' %}janvier
+              {% when '02' %}février
+              {% when '03' %}mars
+              {% when '04' %}avril
+              {% when '05' %}mai
+              {% when '06' %}juin
+              {% when '07' %}juillet
+              {% when '08' %}août
+              {% when '09' %}septembre
+              {% when '10' %}octobre
+              {% when '11' %}novembre
+              {% when '12' %}décembre
             {% endcase %}
             {{ post.date | date: "%Y" }}
           </time>
