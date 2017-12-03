@@ -53,7 +53,8 @@ Nouvelle version du mythe d'Adam et Eve, de la tentation et du péché originel,
 Le féminisme est d'ailleurs incapable de comprendre le lien entre les capacités et les besoins biologiques et différenciés des gens et leur fonction au sein de la société. Il ne peut nier que les différences biologiques ou en faire le principe d'explication absolu, quitte à mélanger les deux versions: « Tout va mal à cause des hommes qui ne sont ni pires, ni meilleurs que les femmes, et d'ailleurs les deux sexes ont de semblables capacités, mais les hommes abusent des leurs.»
 
 
-## Nature du viol et du féminisme
+Nature du viol et du féminisme
+==============================
 
 Le viol a parfois trouvé des défenseurs. Selon le "féministe" Fourier, traitant d'un individu condamné pour avoir assailli plusieurs vieilles dames, le viol serait un moyen de la nature pour réaliser des unions impossibles autrement.
 
@@ -113,7 +114,8 @@ Le problème n'est pas que le viol soit monté en épingle, quoiqu'il ne soit pa
 
 Nous allons voir combien le féminisme n'est qu'un sous-produit de cette «société phallocratique» qu'il dénonce. D'abord à travers la question de la répression et de l'utilisation de la justice. Ensuite, en ce qui concerne les rapports du viol et du désir, où il se fait le gardien de l'aliénation féminine traditionnelle.
 
-## La répression et le carnaval judiciaire
+La répression et le carnaval judiciaire
+=======================================
 
 Les féministes laissent entendre que, par l'effet du phallocratisme, le viol n'aurait pas été sérieusement puni avant qu'elles commencent à intervenir. En réalité, au cours des âges, le viol a été considéré comme un délit singulier qu'il était nécessaire de réprimer sévèrement. Et on peut même voir là un effet du phallocratisme. Il s'agissait chez les Romains d'une défense de la matrone et du caractère sacré du mariage (lié à celui de la propriété). Noyade, lapidation dans les temps antiques. Les femmes étaient vivement incitées à se défendre ou à appeler au secours pour ne pas être soupçonnées de complicité et punies avec leurs agresseurs. Guillaume le Conquérant institua la castration et l'aveuglement pour châtier ceux qui violaient une vierge. Le viol est puni d'emprisonnement ou de mort suivant l'article 120 du code militaire américain. En Chine et dans quelques autres pays d'avant-garde, on fusille les délinquants sexuels.
 
@@ -160,7 +162,8 @@ La répression du viol n'est même pas le moyen assuré de le faire régresser, 
 Emprisonnements, carnavals judiciaires où les avocats se remplissent les poches et se construisent des réputations en défendant de grandes causes... L'on ne fait en acquiesçant à cela, ou en en appelant à un meilleur fonctionnement, qu'acquiescer à cette société fondée sur la solitude, la non-communication, l'obsession et la peur du sexe, le sadisme latent et l'imbécilité revancharde.
 
 
-## La femme et le désir
+La femme et le désir
+====================
 
 La lutte pour la liberté de l'avortement est, comme celle contre le viol, une lutte dont on ne peut rejeter les objeetifs. Mais ces objectifs masquent des enjeux et un contenu plus profond et plus important, concernant l'identité, le rôle social des femmes et les véritables désirs en jeu, Le problème de l'avortement, c'est aussi le problème de l'acceptation du rôle de mère de la femme, c'est aussi le problème du sadisme à l'égard de soi-même, du fœtus, de la culpabilité et du désir de punition lié à la sexualité, c'est aussi l'appartement et le salaire trop petits... Réduire tout cela à sa dimension "pratique" en ignorant les besoins profonds et les contraintes réelles qui pèsent, c'est se placer sur le terrain du capital: Et il ne suffit pas d'un peu de préparation psychologique ou politique pré ou post-opératoire pour y remédier.
 
@@ -332,7 +335,8 @@ Il faudrait abolir le culte du phallus. Mais où le voit-on, ce culte du phallus
 
 Les psychanalystes, aujourd'hui fort à la mode, nous ont révélé le caractère phallique des insignes d'autorité: sceptres, bâtons de commandement... Mais le phallus ne se fait pas admettre et respecter parce qu'il s'avancerait malicieusement masqué. Ce n'est pas simplement un jeu de cache-cache pudibond: il est nié et son sens est inversé. Le pouvoir du désir ne se confond pas avec le désir du pouvoir. Que l'on soit contre le phallocratisme, oui, mais parce que l'on est contre le pouvoir et pour le phallus.
 
-## La contradiction du féminisme
+La contradiction du féminisme
+=============================
 
 Le féminisme se nourrit des résistances que le mouvement d'égalisation capitaliste de la femme suscite. Celle du mari, qui ne voit pas pourquoi il lui faudrait mettre la main à la pâte en rentrant du boulot. Celle des femmes qui s'accrochent à un rôle et une image de la féminité de plus en plus intenables. Celle de l'entreprise qui préfère se procurer une main-d'œuvre à bon marché. Il lui est effectivement facile de constater tout un tas de cas où les femmes se trouvent en situation d'infériorité en ce qui concerne les salaires, dans les scènes conjugales - où ce sont plutôt elles qui reçoivent les coups -, etc.
 
@@ -416,15 +420,6 @@ La différence sexuelle est aujourd'hui évacuée de l'univers du travail, même
 
 La compétition sportive offre une image caricaturale de l'univers capitaliste où le plaisir même de l'effort physique et de la lutte finit par se perdre dans la mise au point de machines à gagner. Les femmes sont lancées dans la course et, pour qu'elles aillent plus vite, on n'hésite pas à les dénaturer en les bourrant d'hormones mâles. On comprendra ce qui sépare le communisme d'aussi répugnantes pratiques.
 
-
-D. Karamazov
-
-
-
-
-
-
-** NOTES **
 
 [^1]: Nous parlerons des féministes au féminin par facilité. Il est pourtant clair que le fait d'être ou non féministe ne dépend pas uniquement du sexe. Des hommes sont de farouches féministes, et les femmes sont pour eux toujours persécutées et innocentes. Des femmes sont farouchement anti-féministes.
 
