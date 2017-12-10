@@ -3,7 +3,6 @@ layout: post
 title: "Le renégat Kautsky et son disciple Lénine"
 author: Jean Barrot (Gilles Dauvé)
 year: 1977
-
 ---
 
 “Les trois sources du Marxisme, l’œuvre historique de Marx” (Livre de Karl Kautsky Ndlr) présente un intérêt historique évident. Kautsky était incontestablement le maître à penser de la IIe Internationale, et de son parti le plus puissant: le parti social-démocrate allemand. Gardien de l’orthodoxie, Kautsky était quasi universellement considéré comme le meilleur connaisseur de l’œuvre de Marx et Engels, et comme leur interprète privilégié. Les positions de Kautsky portent donc témoignage de toute une époque du mouvement ouvrier, et méritent d’être connues, ne serait-ce qu’à ce titre. 
@@ -48,7 +47,7 @@ Lénine adressait ces louanges à “la tactique parlementaire de la social-dém
 
 Nous avons vu comment Lénine avait abandonné dans la pratique les thèses de “Que faire?” en 1917. Mais l’immaturité de la lutte de classes à l’échelle mondiale, et en particulier l’absence de révolution en Europe, entraîne la défaite de la révolution russe. Les bolcheviques se retrouvent au pouvoir avec la tâche d’ “administrer la Russie” (Lénine), de remplir les tâches de la révolution bourgeoise qui n’a pu avoir lieu, c’est-à-dire en fait d’assurer le développement de l’économie russe, ce développement ne pouvant être que capitaliste. La mise au pas de la classe ouvrière – et des oppositions dans le parti – devient un objectif essentiel. Lénine, qui n’avait pas rejeté  “Que faire ?” explicitement en 1917, reprend aussitôt les conceptions “léninistes” qui seules permettent l’encadrement nécessaire – des ouvriers. Les centralistes-démocrates, l’opposition ouvrière et le Groupe ouvrier sont écrasés pour avoir nié “le rôle dirigeant du parti”. La théorie léniniste du parti est également imposée à l’Internationale. Après la mort de Lénine, Zinoviev, Staline, et tant d’autres devaient la développer en insistant toujours davantage sur la discipline de fer, l’unité de pensée et l’unité d’action : alors que le principe sur lequel reposait l’Internationale stalinisée était le même que celui qui fondait les partis socialistes réformistes (le parti séparé des travailleurs leur apportant la conscience d’eux-mêmes), quiconque refusait la théorie lénino-stalinienne tombait dans “le marais opportuniste, social-démocrate, menchevik”. 
 
-De leur côté, les trotskystes s’accrochaient à la pensée de Lénine et récitaient “Que faire ?” 
+De leur côté, les trotskystes s’accrochaient à la pensée de Lénine et récitaient “Que faire ?”
 
 “La crise de l’humanité n’est autre que la crise de la direction”, disait Trotsky : il fallait donc créer à tout prix une direction. Suprême idéalisme, l’histoire du monde était expliquée par la crise de sa conscience.
 

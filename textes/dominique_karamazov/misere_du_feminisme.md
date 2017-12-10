@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Misère du féminisme"
-author:     Dominique Karamazov
-date:       mars 1978
+layout: post
+title: "Misère du féminisme"
+author: Dominique Karamazov
+year: 1978
+month: 03
 ---
 
 

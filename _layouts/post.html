@@ -11,25 +11,38 @@ layout: page
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
     <p class="post-meta">par <span class="post-author">{{ page.author }}</span>
-    {% if page.date %}
-        , le {{ page.date | date: "%-d" }}
-        {% assign month = page.date | date: "%m" %}
-        {% case month %}
-          {% when '01' %}janvier
-          {% when '02' %}février
-          {% when '03' %}mars
-          {% when '04' %}avril
-          {% when '05' %}mai
-          {% when '06' %}juin
-          {% when '07' %}juillet
-          {% when '08' %}août
-          {% when '09' %}septembre
-          {% when '10' %}octobre
-          {% when '11' %}novembre
-          {% when '12' %}décembre
+
+    {% if page.day %}
+        {% assign day = page.day %}
+    {% endif %}
+
+    {% if page.month %}
+        {% case page.month %}
+          {% when 1 %}{% assign month = 'janvier' %}
+          {% when 2 %}{% assign month = 'février' %}
+          {% when 3 %}{% assign month = 'mars' %}
+          {% when 4 %}{% assign month = 'avril' %}
+          {% when 5 %}{% assign month = 'mai' %}
+          {% when 6 %}{% assign month = 'juin' %}
+          {% when 7 %}{% assign month = 'juillet' %}
+          {% when 8 %}{% assign month = 'août' %}
+          {% when 9 %}{% assign month = 'septembre' %}
+          {% when 10 %}{% assign month = 'octobre' %}
+          {% when 11 %}{% assign month = 'novembre' %}
+          {% when 12 %}{% assign month = 'décembre' %}
         {% endcase %}
-        {{ page.date | date: "%Y" }}.
-    {% else if page.year %}, en {{ page.year }}.
+    {% endif %}
+
+    {% if page.year %}
+        {% assign year = page.year %}
+    {% endif %}
+
+    {% if day and month and year %}
+        , le {{ day }} {{ month }} {{ year}}
+    {% elsif month and year %}
+        , {{ month }} {{ year}}
+    {% elsif year %}
+        , {{ year}}
     {% endif %}
     </p>
     
@@ -55,23 +68,4 @@ layout: page
     {{ content }}
   </article>
 
-  <div class="pagination post-pagination">
-    <ul>
-      {% if page.next.url %}
-        <li class="pagination-item">
-          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{page.next.title}}">
-              &larr; ARTICLES SUIVANTS
-          </a>
-        </li>
-        
-      {% endif %}
-      {% if page.previous.url %}
-      <li class="pagination-item">
-        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{page.previous.title}}">
-            ARTICLES PRÉCÉDENTS &rarr;
-        </a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
 </div>

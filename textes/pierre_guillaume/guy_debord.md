@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Guy Debord"
+subtitle: "La Vieille Taupe, numéro 1"
 author: Pierre Guillaume
 year: 1995
+month: 02
 ---
 
 J'ai rencontré Guy Debord pour la première fois le 27 octobre 1960. Nous nous étions téléphoné deux jours auparavant pour convenir d'une rencontre. Une manifestation contre la guerre d'Algérie qui s'annonçait comme devant revêtir une importance particulière était prévue pour le surlendemain. Elle devait débuter à la "Mutualité". J'habitais chez mes parents, à proximité du Panthéon, donc à proximité de la "Mutualité". Nous avions donc convenu de nous rencontrer chez moi, et de nous rendre ensemble à la manifestation. Nous avons discuté une heure environ, avant de rejoindre la foule, où nous nous sommes trouvés très vite séparés par les bagarres et les charges de police. Cette première rencontre devait être suivie de beaucoup d'autres.
@@ -221,7 +223,6 @@ Debord sera parvenu en cette fin de siècle à laisser derrière lui une oeuvre 
 
 Cette phrase, seuls quelques révisionnistes, c'est-à-dire ceux d'entre eux qui jouissent d'une certaine notoriété -- et la seule notoriété dont ait jamais joui un révisionniste est négative et anti-médiatique -- pourraient, sans ridicule, la signer aujourd'hui.
 
-<div class="post-reference">Pierre Guillaume, LA VIEILLE TAUPE, numéro 1, Février 1995.</div>
 
 [^1]: Le premier lecteur de mon brouillon m'a fait remarquer que dans *Ma Vie*, Trotsky raconte une anecdote similaire, mais il la situe à Londres. Je ne sais pas si le récit concernant Paris est le produit d'une déformation par la rumeur ou résulte d'une tradition orale autonome qui circulait dans nos milieux, dont les anciens avaient connu Lénine et Trotsky.
 
