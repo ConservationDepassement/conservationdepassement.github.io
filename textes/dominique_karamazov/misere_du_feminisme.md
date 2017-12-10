@@ -20,7 +20,7 @@ La presse féminine traditionnelle n'est évidemment pas à la traîne. Elle cha
 Faire palpiter des lectrices qui ne se contentent plus du courrier du cœur ou de l'art du tricot : « Comment dire non à un violeur et survivre? » « ...Donc vous êtes là, dans les buissons, toujours debout mais titubant, les mains de l'homme s'accrochant à vous. L'effet de choc se dissipe un peu. Vous réalisez qu'il s'agit d'une tentative de viol et que c'est vous la victime. Ce qu'il vous faut alors, c'est gagner du temps pour réfléchir et sans qu'il vous frappe. Comment? » (Cosmopo-
 litan). Initiez-vous aux sports de combat,au yoga, à l'action psychologique; c'est bon pour la ligne, pour la forme, et puis on ne sait jamais...
 
-![L'anti-viol, Cosmopolitan - juillet 1977](/img/bibliotheque/dominique_karamazov/anti-viol.jpg)
+![L'anti-viol, Cosmopolitan - juillet 1977](/img/bibliotheque/dominique_karamazov/anti-viol.jpg "lol")
 
 Le viol existe, et il augmente, comme augmente en général la délinquance. De multiples facteurs contribuent à multiplier et à banaliser le viol, à en faire pour certains un acte presque normal, une revanche ou une compensation facile et où finalement il n'y a pas grand risque. Effectivement, la majeure partie des violeurs ne se font pas prendre. Les victimes souvent ne portent même pas plainte. Honte, peur, sentiment d'inutilité, volonté de ne pas faire punir un proche? De la bande de loubards qui "profitent" d'une "copine" et passent à quinze dessus à ces "joyeux drilles" du week-end qui séquestrent et s'amusent avec une débile mentale, sans oublier l'horreur des viols et meurtres d'enfants, de femmes ou de couples, on peut accumuler les histoires sordides, tragiques, parfois tragi-comiques.
 

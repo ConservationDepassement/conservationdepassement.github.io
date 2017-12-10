@@ -10,7 +10,7 @@ layout: page
     {% if page.subtitle %}
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
-    <span class="post-meta">par <span class="post-author">{{ page.author }}</span>
+    <p class="post-meta">par <span class="post-author">{{ page.author }}</span>
     {% if page.date %}
         , le {{ page.date | date: "%-d" }}
         {% assign month = page.date | date: "%m" %}
@@ -28,9 +28,21 @@ layout: page
           {% when '11' %}novembre
           {% when '12' %}décembre
         {% endcase %}
-        {{ page.date | date: "%Y" }}.</span>
-    {% else if page.year %}, en {{ page.year }}.</span>
+        {{ page.date | date: "%Y" }}.
+    {% else if page.year %}, en {{ page.year }}.
     {% endif %}
+    </p>
+    
+    <!-- Add a pdf link if a pdf file exists with the same name -->
+    {% assign pdf_filename = page.path | split: "/" | last | replace: ".md", ".pdf" %}
+    {% for static_file in site.static_files %}
+        {% if static_file.name == pdf_filename %}
+            <p class="post-output">
+                <a href="{{static_file.path}}" ><img src="/img/pdf_icon.png"></a>
+            </p>
+        {% endif %}
+    {% endfor %}
+
   </div>
 
   {% if page.image %}
