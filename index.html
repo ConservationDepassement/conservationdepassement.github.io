@@ -23,14 +23,14 @@ title: Aufhebung
           
           {% if post.subtitle %}<h4 class="post-card-subtitle">{{ post.subtitle }}</h4>{% endif %}
           
-          <time class="post-card-date">
+          <div class="post-card-date">
             {% assign content_type = post.content_type %}
             {% case content_type %}
-              {% when 'article' %}<span class="post-card-icon">📄</span>
-              {% when 'audio' %}<span class="post-card-icon">📻</span>
-              {% when 'book' %}<span class="post-card-icon">📗</span>
-              {% when 'event' %}<span class="post-card-icon">⏰</span>
-              {% when 'video' %}<span class="post-card-icon">📺</span>
+              {% when 'article' %}<img src="/img/article_emoji.png" />
+              {% when 'audio' %}<img src="/img/radio_emoji.png" />
+              {% when 'book' %}<img src="/img/book_emoji.png" />
+              {% when 'event' %}<img src="/img/alarm_emoji.png" />
+              {% when 'video' %}<img src="/img/tv_emoji.png" />
             {% endcase %}
             {{ post.date | date: "%-d" }}
             {% assign month = post.date | date: "%m" %}
@@ -49,7 +49,7 @@ title: Aufhebung
               {% when '12' %}décembre
             {% endcase %}
             {{ post.date | date: "%Y" }}
-          </time>
+          </div>
         </div>
       </a>
     </article>

@@ -205,11 +205,6 @@ footer p {
   font-weight: bold;
 }
 
-.post-card-icon {
-  color: rgb(178, 47, 0);
-  font-size: 150%;
-}
-
 .post-card-subtitle {
   font-weight: normal;
 }
@@ -217,7 +212,14 @@ footer p {
 .post-card-date {
   font-size: 110%;
   color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
 }
+
+.post-card-date img {
+    margin-right: 5px;
+}
+
 
 /* === Blog Post ===*/
 .post {
