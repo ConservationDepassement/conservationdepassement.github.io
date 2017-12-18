@@ -2,12 +2,14 @@
 ## NOTES ##
 # https://github.com/ResponSySS/responsyss.github.io/wiki/make_pdf.sh
 SEARCH_PATH="textes/" 
-CMD=(./pdc_gen.sh -i md -o pdf:epub -a '--template=./template.pdf.pandoc' -j 1 -p)
+CMD_PDF=(./pdc_gen.sh -i md -o pdf -j 1 -p -a '--template=./template.pdf.pandoc')
+CMD_EPUB=(./pdc_gen.sh -i md -o epub -j 2) # add EPUB template arg
 
 case "$1" in 	"help"|"usage"|"-h"|"--help")
-			{ echo -e "[$0] Usage: $0 [SEARCH_PATH]\t(SEARCH_PATH defaults to: \"${SEARCH_PATH}\"; see ${CMD[0]} --help)\n[$0] Command to be executed: ${CMD[@]} [SEARCH_PATH]"; exit; } ;;
+			{ echo -e "[$0] Usage: $0 [SEARCH_PATH]\n  SEARCH_PATH defaults to: \"${SEARCH_PATH}\" (see ${CMD_PDF[0]} --help)\n[$0] Command to be executed:\n  (for PDF)\t ${CMD_PDF[@]} [SEARCH_PATH]\n  (for EPUB)\t ${CMD_EPUB[@]} [SEARCH_PATH]"; exit; } ;;
 		*)
 			SEARCH_PATH="$1" ;;
 esac
 
-${CMD[@]} ${SEARCH_PATH}
+${CMD_PDF[@]} 	${SEARCH_PATH}
+${CMD_EPUB[@]} 	${SEARCH_PATH}
