@@ -195,7 +195,7 @@ Celle-ci n’est positivement accessible que si on rompt avec le procès de frag
 
 Pour le moment, le vieux débat se renouvelle entre tous ceux qui veulent réaliser leurs désirs et les savants psychologues et psychiatres, qui disent que le maître ne peut pas être aboli. Il est toutefois virtuellement dépassé dans la mesure où le maître, le capital, réalise en même temps la combinatoire des désirs et des sexes.  Il n’est plus question de discuter sur la normalité ou l’anormalité car cela se réfère à une même réalité qu’il faut fuir. On ne peut se découvrir et se réaliser qu’au travers d’une autre dynamique de vie visant à réaliser cette Gemeinwesen qui réunit en elle tous les possibles (étant ainsi référant immédiat et médiat de ce qui est fémino-humain) et, dans la mesure où elle englobe l’histoire, elle renferme aussi le mal, autre manifestation des hommes et des femmes, qui demeurera ainsi un possible indéfiniment conjuré. 
 
-<div class="post-reference">Jacques Camatte, Février 1978.</div>
+*Jacques Camatte, Février 1978.*
 
 
 [^1]: Je dois signaler quelques erreurs, qui ne concernent pas directement le sujet abordé ici, parce qu’elles peuvent être utilisées de façon malveillante contre le travail de Mario et qu’elles peuvent être source de confusion.  
