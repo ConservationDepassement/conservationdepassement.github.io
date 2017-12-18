@@ -1,9 +1,8 @@
 # --- General options --- #
 
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "https://responsyss.github.io"
 baseurl: ""
 
@@ -20,13 +19,13 @@ footer: "Aucun droit réservé sur rien."
 navbar-links:
     BLOG: /
     BIBLIOTHÈQUE: /textes/
-    VIDEOS: //youtube.com/c/Aufhebung
+    VIDÉOS: //youtube.com/c/Aufhebung
     DIALOGUE: //facebook.com/AufhebungOfficiel/
     À PROPOS: /about/
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img:
+title-img: favicon.ico
 
 # --- Footer options --- #
 
