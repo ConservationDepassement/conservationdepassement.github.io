@@ -1,3 +1,3 @@
-# AUFHEBUNG
+# *AUFHEBUNG*
 
-![./img/citation_goethe.jpg]()
+![](./img/citation_goethe.jpg)
