@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guy Debord"
-subtitle: "Par Pierre Guillaume, 1995"
+subtitle: "par Pierre Guillaume, 1995"
 author: Pierre Guillaume
 year: 2017
 month: 09

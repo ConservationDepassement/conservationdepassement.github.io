@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Misère du féminisme"
-subtitle: "Par Dominique Karamazov, 1978"
+subtitle: "par Dominique Karamazov, 1978"
 author: Dominique Karamazov
 year: 2017
 month: 12
