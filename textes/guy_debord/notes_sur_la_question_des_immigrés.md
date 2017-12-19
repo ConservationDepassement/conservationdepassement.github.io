@@ -33,6 +33,6 @@ Avec l’égalisation de toute la planète dans la misère d’un environnement 
 
 Il vivra des gens sur la surface de la terre, et ici même, quand la France aura disparu. Le mélange ethnique qui dominera est imprévisible, comme leurs cultures, leurs langues mêmes. On peut affirmer que la question centrale, profondément qualitative, sera celle-ci : ces peuples futurs auront-ils dominé, par une pratique émancipée, la technique présente, qui est globalement celle du simulacre et de la dépossession ? Ou, au contraire, seront-ils dominés par elle d’une manière encore plus hiérarchique et esclavagiste qu’aujourd’hui ? Il faut envisager le pire, et combattre pour le meilleur. La France est assurément regrettable. Mais les regrets sont vains.
 
-*Guy Debord, Œuvres complètes, Gallimard, 2006, p. 1588-1591.*[^anecdote_histo]
+*Guy Debord, Œuvres complètes, Gallimard, 2006, p. 1588-1591.*[^1]
 
-[^anecdote_histo]: Ces notes furent communiquées à Mezioud Ouldamer, qui publiera en novembre 1986 aux éditions Gérard Lebovici *Le cauchemar immigré dans la décomposition de la France*.
+[^1]: Ces notes furent communiquées à Mezioud Ouldamer, qui publiera en novembre 1986 aux éditions Gérard Lebovici *Le cauchemar immigré dans la décomposition de la France*.
