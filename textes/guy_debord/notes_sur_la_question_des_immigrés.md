@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Notes sur la « question des immigrés »"
+title: "Notes sur la «question des immigrés»"
 author: Guy Debord
 month: 12
 year: 1985
 ---
 
-Tout est faux dans la « question des immigrés », exactement comme dans toute question ouvertement posée dans la société actuelle ; et pour les mêmes motifs : l’économie – c’est-à-dire l’illusion pseudo-économique – l’a apportée, et le spectacle l’a traitée.
-On ne discute que de sottises. Faut-il garder ou éliminer les immigrés ? Naturellement, le véritable immigré n’est pas l’habitant permanent d’origine étrangère, mais celui qui est perçu et se perçoit comme différent et destiné à le rester. Beaucoup d’immigrés ou leurs enfants ont la nationalité française ; beaucoup de Polonais ou d’Espagnols se sont finalement perdus dans la masse d’une population française qui était autre. Comme les déchets de l’industrie atomique ou le pétrole dans l’Océan — et là on définit moins vite et moins « scientifiquement » les seuils d’intolérance — les immigrés, produits de la même gestion du capitalisme moderne, resteront pour des siècles, des millénaires, toujours. Ils resteront parce qu’il était beaucoup plus facile d’éliminer les Juifs d’Allemagne au temps d’Hitler que les maghrébins, et autres, d’ici à présent : car il n’existe en France ni un parti nazi ni le mythe d’une race autochtone !
+Tout est faux dans la «question des immigrés», exactement comme dans toute question ouvertement posée dans la société actuelle ; et pour les mêmes motifs : l’économie – c’est-à-dire l’illusion pseudo-économique – l’a apportée, et le spectacle l’a traitée. On ne discute que de sottises. Faut-il garder ou éliminer les immigrés ? Naturellement, le véritable immigré n’est pas l’habitant permanent d’origine étrangère, mais celui qui est perçu et se perçoit comme différent et destiné à le rester. Beaucoup d’immigrés ou leurs enfants ont la nationalité française ; beaucoup de Polonais ou d’Espagnols se sont finalement perdus dans la masse d’une population française qui était autre. Comme les déchets de l’industrie atomique ou le pétrole dans l’Océan — et là on définit moins vite et moins « scientifiquement » les seuils d’intolérance — les immigrés, produits de la même gestion du capitalisme moderne, resteront pour des siècles, des millénaires, toujours. Ils resteront parce qu’il était beaucoup plus facile d’éliminer les Juifs d’Allemagne au temps d’Hitler que les maghrébins, et autres, d’ici à présent : car il n’existe en France ni un parti nazi ni le mythe d’une race autochtone !
 
 Faut-il donc les assimiler ou « respecter les diversités culturelles » ? Inepte faux choix. Nous ne pouvons plus assimiler personne : ni la jeunesse, ni les travailleurs français, ni même les provinciaux ou vieilles minorités ethniques (Corses, Bretons, etc.) car Paris, ville détruite, a perdu son rôle historique qui était de faire des Français. Qu’est-ce qu’un centralisme sans capitale ? Le camp de concentration n’a créé aucun Allemand parmi les Européens déportés. La diffusion du spectacle concentré ne peut uniformiser que des spectateurs. On se gargarise, en langage simplement publicitaire, de la riche expression de « diversités culturelles ». Quelles cultures ? Il n’y en a plus. Ni chrétienne ni musulmane ; ni socialiste ni scientiste. Ne parlez pas des absents. Il n’y a plus, à regarder un seul instant la vérité et l’évidence, que la dégradation spectaculaire-mondiale (américaine) de toute culture.
 
@@ -33,6 +32,6 @@ Avec l’égalisation de toute la planète dans la misère d’un environnement 
 
 Il vivra des gens sur la surface de la terre, et ici même, quand la France aura disparu. Le mélange ethnique qui dominera est imprévisible, comme leurs cultures, leurs langues mêmes. On peut affirmer que la question centrale, profondément qualitative, sera celle-ci : ces peuples futurs auront-ils dominé, par une pratique émancipée, la technique présente, qui est globalement celle du simulacre et de la dépossession ? Ou, au contraire, seront-ils dominés par elle d’une manière encore plus hiérarchique et esclavagiste qu’aujourd’hui ? Il faut envisager le pire, et combattre pour le meilleur. La France est assurément regrettable. Mais les regrets sont vains.
 
-*Guy Debord, Œuvres complètes, Gallimard, 2006, p. 1588-1591.*[^anecdote_histo]
+*Guy Debord, Œuvres complètes, Gallimard, 2006, p. 1588-1591.*[^1]
 
-[^anecdote_histo]: Ces notes furent communiquées à Mezioud Ouldamer, qui publiera en novembre 1986 aux éditions Gérard Lebovici *Le cauchemar immigré dans la décomposition de la France*.
+[^1]: Ces notes furent communiquées à Mezioud Ouldamer, qui publiera en novembre 1986 aux éditions Gérard Lebovici *Le cauchemar immigré dans la décomposition de la France*.

@@ -46,12 +46,28 @@ layout: page
     {% endif %}
     </p>
     
-    <!-- Add a pdf link if a pdf file exists with the same name -->
+    {% comment %}
+    Add an epud and/or a pdf link if a epub/pdf file exists with the same name.
+    {% endcomment %}
     {% assign pdf_filename = page.path | split: "/" | last | replace: ".md", ".pdf" %}
+    {% assign epub_filename = page.path | split: "/" | last | replace: ".md", ".epub" %}
+    <div class="post-output">
+    {% for static_file in site.static_files %}
+        {% if static_file.name == epub_filename %}
+        <a href="{{static_file.path}}" ><img src="/img/epub_icon.png" alt="Bouton de téléchargement de l'article au format EPUB."></a>
+        {% endif %}
+        {% if static_file.name == pdf_filename %}
+        <a href="{{static_file.path}}" ><img src="/img/pdf_icon.png" alt="Bouton de téléchargement de l'article au format PDF."></a>
+        {% endif %}
+    {% endfor %}
+    </div>
+    
+    
+    
     {% for static_file in site.static_files %}
         {% if static_file.name == pdf_filename %}
             <p class="post-output">
-                <a href="{{static_file.path}}" ><img src="/img/pdf_icon.png"></a>
+                
             </p>
         {% endif %}
     {% endfor %}
