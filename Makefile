@@ -6,12 +6,12 @@
 
 SHELL = /bin/bash
 # Path to script
-GEN_SCRIPT = ./pdc_gen.sh
+GEN_SCRIPT = ./pdc_gen/pdc_gen.sh
 # Root dir for searching files
-ROOT = textes/
+ROOT = ./textes/
 # Templates
-TEMPLATE_PDF =  ./template.pdf.pandoc
-TEMPLATE_EPUB = ./template.epub.pandoc
+TEMPLATE_PDF =  ./pdc_gen/template.pdf.pandoc
+TEMPLATE_EPUB = ./pdc_gen/template.epub.pandoc
 # File for testing
 TEST_IN = ./textes/internationale_situationniste/de_la_misère_en_milieu_étudiant.md
 

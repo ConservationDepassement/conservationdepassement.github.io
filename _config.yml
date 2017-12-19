@@ -63,9 +63,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .git
+  - .gitignore
   - LICENSE
   - README.md
-  - Vagrantfile
+  - pdc_gen/
+  - Makefile
 
 plugins:
   - jekyll-paginate
