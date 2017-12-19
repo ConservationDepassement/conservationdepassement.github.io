@@ -1,6 +1,7 @@
 #!/bin/bash -
 ## NOTES ##
 # https://github.com/ResponSySS/responsyss.github.io/wiki/make_pdf.sh
+# TODO: faire une Makefile à la place de ça
 set -o nounset -o errexit -o pipefail
 
 SEARCH_PATH="textes/" 
