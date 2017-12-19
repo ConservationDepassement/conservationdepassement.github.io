@@ -26,11 +26,11 @@ title: Aufhebung
           <div class="post-card-date">
             {% assign content_type = post.content_type %}
             {% case content_type %}
-              {% when 'article' %}<img src="/img/article_emoji.png" />
-              {% when 'audio' %}<img src="/img/radio_emoji.png" />
-              {% when 'book' %}<img src="/img/book_emoji.png" />
-              {% when 'event' %}<img src="/img/alarm_emoji.png" />
-              {% when 'video' %}<img src="/img/tv_emoji.png" />
+              {% when 'article' %}<img src="/img/article_emoji.png" alt="Icone d'article">
+              {% when 'audio' %}<img src="/img/radio_emoji.png" alt="Icone de document audio">
+              {% when 'book' %}<img src="/img/book_emoji.png" alt="Icone de texte">
+              {% when 'event' %}<img src="/img/alarm_emoji.png" alt="Icone d'évenèment">
+              {% when 'video' %}<img src="/img/tv_emoji.png" alt="Icone de document vidéo">
             {% endcase %}
             {{ post.date | date: "%-d" }}
             {% assign month = post.date | date: "%m" %}
