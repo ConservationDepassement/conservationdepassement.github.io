@@ -21,5 +21,6 @@ CMD_EPUB=( ./pdc_gen.sh -i md -o epub -j 2  	-a "--template=$TEMPLATE_EPUB" )
 	esac
 }
 
-${CMD_PDF[@]} 	${SEARCH_PATH}
-${CMD_EPUB[@]} 	${SEARCH_PATH}
+# Don't exit on error
+${CMD_PDF[@]} 	${SEARCH_PATH} || :
+${CMD_EPUB[@]} 	${SEARCH_PATH} || :
