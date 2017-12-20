@@ -4,7 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title>$pagetitle$</title>
+$if(subtitle)$
+  <title>$title$ : $subtitle$</title>
+$else$
+  <title>$title$</title>
+$endif$
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -34,24 +38,26 @@ $for(title)$
 $if(title.type)$
   <h1 class="$title.type$">$title.text$</h1>
 $else$
-  <h1 class="title">$title$</h1>
+  <h1 class="title" style="font-variant: small-caps; text-align: center;">$title$</h1>
 $endif$
 $endfor$
 $if(subtitle)$
-  <p class="subtitle">$subtitle$</p>
+  <h2 class="subtitle" style="font-variant: small-caps; text-align: center;">$subtitle$</h2>
 $endif$
 $for(author)$
-  <p class="author">$author$</p>
+  <p class="author" style="font-style: italic; text-align: center;">$author$</p>
 $endfor$
 $for(creator)$
   <p class="$creator.role$">$creator.text$</p>
 $endfor$
-$if(publisher)$
-  <p class="publisher">$publisher$</p>
-$endif$
 $if(date)$
-  <p class="date">$date$</p>
+  <h3 class="date" style="text-align: center;">$date$</h3>
+$else$
+$if(year)$
+  <h3 class="date" style="text-align: center;">$year$</h3>
 $endif$
+$endif$
+<p class="publisher" style="text-decoration: underline; text-align: right;"><a href="http://aufhebung.fr">aufhebung.fr</a>   </p>
 $if(rights)$
   <div class="rights">$rights$</div>
 $endif$

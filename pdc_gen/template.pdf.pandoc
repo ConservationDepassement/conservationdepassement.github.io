@@ -100,16 +100,15 @@ $if(colorlinks)$
 $endif$
 \usepackage{hyperref}
 \hypersetup{
-% title-meta/author-meta both default to title[+subtitle]/author
+% TITLE-META/AUTHOR-META both default to "TITLE [: SUBTITLE]"/"AUTHOR"
 $if(subtitle)$
             pdftitle={$title$ : $subtitle$},
 $else$
             pdftitle={$title$},
 $endif$
             pdfauthor={$for(author)$$author$$sep$, $endfor$},
-$if(keywords)$
-            pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
-$endif$
+% Added 'aufhebung.fr' keyword
+            pdfkeywords={aufhebung.fr$if(keywords)$, $for(keywords)$$keywords$$sep$, $endfor$$endif$},
 $if(colorlinks)$
             colorlinks=true,
             linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
@@ -282,8 +281,8 @@ $if(title)$$if(author)$
 	\centering
 	\hfill\par
 	\vspace{1cm}
-	{\href{http://aufhebung.fr}{\includegraphics[scale=0.1]{./favicon-152.png}\\
-	\textit{\textbf{aufhebung.fr}}}\par}
+	{\href{http://aufhebung.fr}{\includegraphics[scale=0.1]{./favicon-152.png}}\hspace{0.63\linewidth}
+	\href{http://aufhebung.fr}{\textit{\textbf{aufhebung.fr}}}\par}
 	\vspace{3cm}
 	{\Huge{\scshape $title$$if(thanks)$\thanks{$thanks$}$endif$}\par}
 $if(subtitle)$

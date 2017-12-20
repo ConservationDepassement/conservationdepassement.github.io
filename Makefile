@@ -9,7 +9,7 @@ SHELL = /bin/bash
 GEN_SCRIPT = ./pdc_gen/pdc_gen.sh
 # Root dir for searching files
 ROOT = ./textes/
-PDC_ARG = -V documentclass=book -V lang=fr-FR
+PDC_ARG = -V documentclass=book -V lang=fr-FR -s
 # Templates
 TEMPLATE_PDF =  ./pdc_gen/template.pdf.pandoc
 TEMPLATE_EPUB = ./pdc_gen/template.epub.pandoc
@@ -27,6 +27,10 @@ help:
 	@echo
 	@echo "$(MAKE) ROOT=/path/to/dir/ [TARGET(S)]"
 	@echo "    Set root dir for searching files to '/path/to/dir/' (defaults to '$(ROOT)')"
+	@echo "$(MAKE) TEST_OUT_PDF=outfile  test"
+	@echo "    Set output file for PDF testing to 'outfile' (defaults to '$(TEST_OUT_PDF)')"
+	@echo "$(MAKE) TEST_OUT_EPUB=outfile test"
+	@echo "    Set output file for EPUB testing to 'outfile' (defaults to '$(TEST_OUT_EPUB)')"
 	@echo
 	@echo "Examples:"
 	@echo "    $(MAKE) ROOT=./textes/guy_debord/ pdf"
@@ -39,10 +43,15 @@ all: pdf epub
 test: $(TEMPLATE_PDF) $(TEMPLATE_EPUB) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) -o $(TEST_OUT_PDF)  <$(TEST_IN) 
 	@echo ":: PDF: SUCCESS!"
+	@echo ":: OUTPUT WAS MADE TO '$(TEST_OUT_PDF)'"
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) -o $(TEST_OUT_EPUB) <$(TEST_IN)
 	@echo ":: EPUB: SUCCESS!"
+	@echo ":: OUTPUT WAS MADE TO '$(TEST_OUT_EPUB)'"
 	@xdg-open $(TEST_OUT_PDF) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_PDF)'"
-	#@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
+#@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
+
+test-clean: $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
+	rm $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
 
 pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(ROOT)
 	$(GEN_SCRIPT) -i md -o pdf  -j 1 -p -a "--template=$(TEMPLATE_PDF) $(PDC_ARG)" $(ROOT)
