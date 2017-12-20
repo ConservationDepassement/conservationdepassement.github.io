@@ -3,17 +3,11 @@
 $if(colorlinks)$
 \PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
 $endif$
-%
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$if(beamer)$ignorenonframetext,$if(handout)$handout,$endif$$if(aspectratio)$aspectratio=$aspectratio$,$endif$$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-$if(beamer)$
-\setbeamertemplate{caption}[numbered]
-\setbeamertemplate{caption label separator}{: }
-\setbeamercolor{caption name}{fg=normal text.fg}
-\beamertemplatenavigationsymbols$if(navigation)$$navigation$$else$empty$endif$
-$endif$
-$if(beamerarticle)$
-\usepackage{beamerarticle} % needs to be loaded first
-$endif$
+% Is book docclass okay when no title in the text?
+% TODO: can't have TITLE + TOC on first page, probably due to 'book' documentclass
+% If TOC, first page is TITLE + TOC, otherwise it's only TITLE
+%\documentclass[11pt,french,a4paper,openany,oneside,notitlepage]{book}
+\documentclass[11pt,french,a4paper,openany,oneside]{book}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
@@ -82,26 +76,6 @@ $if(CJKmainfont)$
   \fi
 $endif$
 \fi
-$if(beamer)$
-$if(theme)$
-\usetheme[$for(themeoptions)$$themeoptions$$sep$,$endfor$]{$theme$}
-$endif$
-$if(colortheme)$
-\usecolortheme{$colortheme$}
-$endif$
-$if(fonttheme)$
-\usefonttheme{$fonttheme$}
-$endif$
-$if(mainfont)$
-\usefonttheme{serif} % use mainfont rather than sansfont for slide text
-$endif$
-$if(innertheme)$
-\useinnertheme{$innertheme$}
-$endif$
-$if(outertheme)$
-\useoutertheme{$outertheme$}
-$endif$
-$endif$
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
@@ -126,12 +100,13 @@ $if(colorlinks)$
 $endif$
 \usepackage{hyperref}
 \hypersetup{
-$if(title-meta)$
-            pdftitle={$title-meta$},
+% title-meta/author-meta both default to title[+subtitle]/author
+$if(subtitle)$
+            pdftitle={$title$ : $subtitle$},
+$else$
+            pdftitle={$title$},
 $endif$
-$if(author-meta)$
-            pdfauthor={$author-meta$},
-$endif$
+            pdfauthor={$for(author)$$author$$sep$, $endfor$},
 $if(keywords)$
             pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
 $endif$
@@ -146,14 +121,10 @@ $endif$
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 $if(verbatim-in-note)$
+% does not work with the base package (as of 2017-12)
 \VerbatimFootnotes % allows verbatim text in footnotes
 $endif$
-$if(geometry)$
-\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
-$endif$
-$if(beamer)$
-\newif\ifbibliography
-$endif$
+\usepackage[margin=5pc]{geometry}
 $if(natbib)$
 \usepackage[$natbiboptions$]{natbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
@@ -167,9 +138,6 @@ $endif$
 $if(listings)$
 \usepackage{listings}
 \newcommand{\passthrough}[1]{#1}
-$endif$
-$if(lhs)$
-\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
 $endif$
 $if(highlighting-macros)$
 $highlighting-macros$
@@ -261,24 +229,17 @@ $endif$
 \def\fps@figure{htbp}
 \makeatother
 
+\usepackage{slantsc}\usepackage{graphicx}
 $for(header-includes)$
 $header-includes$
 $endfor$
-$if(lang)$
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[shorthands=off,$for(babel-otherlangs)$$babel-otherlangs$,$endfor$main=$babel-lang$]{babel}
-$if(babel-newcommands)$
-  $babel-newcommands$
-$endif$
+  \usepackage[shorthands=off,main=french]{babel}
 \else
   % load polyglossia as late as possible as it *could* call bidi if RTL lang (e.g. Hebrew or Arabic)
   \usepackage{polyglossia}
-  \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
-$for(polyglossia-otherlangs)$
-  \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
-$endfor$
+  \setmainlanguage[]{french}
 \fi
-$endif$
 $if(dir)$
 \ifxetex
   % load bidi as late as possible as it modifies e.g. graphicx
@@ -298,41 +259,57 @@ $if(dir)$
 $endif$
 
 $if(title)$
-\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
-$endif$
-$if(subtitle)$
-\providecommand{\subtitle}[1]{}
-\subtitle{$subtitle$}
+\title{$title$\thanks{\href{aufhebung.fr}}}
 $endif$
 $if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
+\author{\scshape $for(author)$$author$$sep$ \and $endfor$}
 $endif$
 $if(institute)$
 \providecommand{\institute}[1]{}
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
 $endif$
+$if(date)$
 \date{$date$}
-$if(beamer)$
-$if(titlegraphic)$
-\titlegraphic{\includegraphics{$titlegraphic$}}
-$endif$
-$if(logo)$
-\logo{\includegraphics{$logo$}}
+$else$
+$if(year)$
+\date{$year$}
 $endif$
 $endif$
 
 \begin{document}
-$if(title)$
-$if(beamer)$
-\frame{\titlepage}
-$else$
-\maketitle
+$if(title)$$if(author)$
+\begin{titlepage}
+	\centering
+	\hfill\par
+	\vspace{1cm}
+	{\href{http://aufhebung.fr}{\includegraphics[scale=0.1]{./favicon-152.png}\\
+	\textit{\textbf{aufhebung.fr}}}\par}
+	\vspace{3cm}
+	{\Huge{\scshape $title$$if(thanks)$\thanks{$thanks$}$endif$}\par}
+$if(subtitle)$
+	\vspace{1.5cm}
+ 	{\Large {\textsl{\scshape $subtitle$}}\par}
 $endif$
+	\vspace{1.5cm}
+	{\Large\itshape $for(author)$$author$$sep$, \\ $endfor$\par}
+$if(date)$
+	\vspace{0.5cm}
+	{$date$\par}
+$else$
+$if(year)$
+	\vspace{0.5cm}
+	{$year$\par}
+$endif$
+$endif$
+	\vfill
+% Bottom of the page
+	publié le {\large \today\par}
+\end{titlepage}
+$endif$$endif$
 $if(abstract)$
 \begin{abstract}
 $abstract$
 \end{abstract}
-$endif$
 $endif$
 
 $for(include-before)$
@@ -340,19 +317,12 @@ $include-before$
 
 $endfor$
 $if(toc)$
-$if(beamer)$
-\begin{frame}
-\tableofcontents[hideallsubsections]
-\end{frame}
-$else$
-{
 $if(colorlinks)$
 \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$$endif$}
 $endif$
 \setcounter{tocdepth}{$toc-depth$}
 \tableofcontents
-}
-$endif$
+\clearpage
 $endif$
 $if(lot)$
 \listoftables
@@ -371,26 +341,12 @@ $else$
 \renewcommand\refname{$biblio-title$}
 $endif$
 $endif$
-$if(beamer)$
-\begin{frame}[allowframebreaks]{$biblio-title$}
-\bibliographytrue
-$endif$
 \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
-$if(beamer)$
-\end{frame}
-$endif$
 
 $endif$
 $endif$
 $if(biblatex)$
-$if(beamer)$
-\begin{frame}[allowframebreaks]{$biblio-title$}
-\bibliographytrue
-\printbibliography[heading=none]
-\end{frame}
-$else$
 \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-$endif$
 
 $endif$
 $for(include-after)$

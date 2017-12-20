@@ -9,7 +9,7 @@ SHELL = /bin/bash
 GEN_SCRIPT = ./pdc_gen/pdc_gen.sh
 # Root dir for searching files
 ROOT = ./textes/
-PDC_ARG = -V documentclass=book
+PDC_ARG = -V documentclass=book -V lang=fr-FR
 # Templates
 TEMPLATE_PDF =  ./pdc_gen/template.pdf.pandoc
 TEMPLATE_EPUB = ./pdc_gen/template.epub.pandoc
