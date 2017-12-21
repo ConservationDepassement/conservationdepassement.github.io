@@ -57,7 +57,7 @@ $if(year)$
   <h3 class="date" style="text-align: center;">$year$</h3>
 $endif$
 $endif$
-<p class="publisher" style="text-decoration: underline; text-align: right;"><a href="http://aufhebung.fr">aufhebung.fr</a>   </p>
+<p class="publisher" style="text-decoration: underline; text-align: right; margin-top: 3em; margin-right: 2em; margin-bottom: 1em;"><a href="http://aufhebung.fr">aufhebung.fr</a></p>
 $if(rights)$
   <div class="rights">$rights$</div>
 $endif$

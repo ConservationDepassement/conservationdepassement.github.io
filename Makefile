@@ -40,18 +40,22 @@ help:
 
 all: pdf epub
 
-test: $(TEMPLATE_PDF) $(TEMPLATE_EPUB) $(TEST_IN)
-	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) -o $(TEST_OUT_PDF)  <$(TEST_IN) 
-	@echo ":: PDF: SUCCESS!"
-	@echo ":: OUTPUT WAS MADE TO '$(TEST_OUT_PDF)'"
+test: test-pdf test-epub
+
+test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) -o $(TEST_OUT_EPUB) <$(TEST_IN)
 	@echo ":: EPUB: SUCCESS!"
 	@echo ":: OUTPUT WAS MADE TO '$(TEST_OUT_EPUB)'"
-	@xdg-open $(TEST_OUT_PDF) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_PDF)'"
 #@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
 
-test-clean: $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
-	rm $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
+test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
+	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) -o $(TEST_OUT_PDF)  <$(TEST_IN) 
+	@echo ":: PDF: SUCCESS!"
+	@echo ":: OUTPUT WAS MADE TO '$(TEST_OUT_PDF)'"
+	@xdg-open $(TEST_OUT_PDF) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_PDF)'"
+
+test-clean: 
+	touch $(TEST_OUT_PDF) $(TEST_OUT_EPUB) && rm $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
 
 pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(ROOT)
 	$(GEN_SCRIPT) -i md -o pdf  -j 1 -p -a "--template=$(TEMPLATE_PDF) $(PDC_ARG)" $(ROOT)
