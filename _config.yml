@@ -66,7 +66,7 @@ exclude:
   - .gitignore
   - LICENSE
   - README.md
-  - pdc_gen/
+  - build_aux/
   - Makefile
 
 plugins:
