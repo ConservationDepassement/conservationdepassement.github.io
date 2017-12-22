@@ -3,8 +3,8 @@
   <channel>
     <title>Aufhebung</title>
     <description>« L'homme est la nature prenant conscience d'elle-même. »</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://responsyss.github.io</link>
+    <atom:link href="https://responsyss.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Rencontre sur «Le Système technicien», de Jacques Ellul</title>
@@ -14,8 +14,8 @@
 
         </description>
         <pubDate>Tue, 19 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</guid>
+        <link>https://responsyss.github.io/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</guid>
       </item>
     
       <item>
@@ -26,8 +26,8 @@
 
         </description>
         <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</guid>
+        <link>https://responsyss.github.io/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</guid>
       </item>
     
       <item>
@@ -38,8 +38,8 @@
 
         </description>
         <pubDate>Sun, 03 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2017-12-misere-du-feminisme/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-12-misere-du-feminisme/</guid>
+        <link>https://responsyss.github.io/2017-12-misere-du-feminisme/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-12-misere-du-feminisme/</guid>
       </item>
     
       <item>
@@ -50,8 +50,8 @@
 
         </description>
         <pubDate>Sat, 02 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</guid>
+        <link>https://responsyss.github.io/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</guid>
       </item>
     
       <item>
@@ -65,8 +65,8 @@
 
         </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-10-l-heure-la-plus-sombre-87/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-l-heure-la-plus-sombre-87/</guid>
+        <link>https://responsyss.github.io/2017-10-l-heure-la-plus-sombre-87/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-10-l-heure-la-plus-sombre-87/</guid>
       </item>
     
       <item>
@@ -80,8 +80,8 @@
 
         </description>
         <pubDate>Fri, 06 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
+        <link>https://responsyss.github.io/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
       </item>
     
       <item>
@@ -92,8 +92,8 @@
 
         </description>
         <pubDate>Wed, 04 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
+        <link>https://responsyss.github.io/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
       </item>
     
       <item>
@@ -104,8 +104,8 @@
 
         </description>
         <pubDate>Thu, 28 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
+        <link>https://responsyss.github.io/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
       </item>
     
       <item>
@@ -116,8 +116,8 @@
 
         </description>
         <pubDate>Tue, 26 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-09-textes-pierre-guillaume-guy-debord/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-textes-pierre-guillaume-guy-debord/</guid>
+        <link>https://responsyss.github.io/2017-09-textes-pierre-guillaume-guy-debord/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-09-textes-pierre-guillaume-guy-debord/</guid>
       </item>
     
       <item>
@@ -128,8 +128,8 @@
 
         </description>
         <pubDate>Mon, 25 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-09-rencontre-les-syndicats-contre-le-proletariat/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-rencontre-les-syndicats-contre-le-proletariat/</guid>
+        <link>https://responsyss.github.io/2017-09-rencontre-les-syndicats-contre-le-proletariat/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-09-rencontre-les-syndicats-contre-le-proletariat/</guid>
       </item>
     
       <item>
@@ -140,8 +140,8 @@
 
         </description>
         <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</guid>
+        <link>https://responsyss.github.io/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</guid>
       </item>
     
       <item>
@@ -152,8 +152,8 @@
 
         </description>
         <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</guid>
+        <link>https://responsyss.github.io/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</guid>
       </item>
     
       <item>
@@ -163,8 +163,8 @@
           La domination mondiale du capitalisme se différencie radicalement de tous les modes de production qui l’ont précédé par son essence universelle, condition de l’unification de l’histoire de l’humanité. Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont précédé dans telle ou telle zone...
         </description>
         <pubDate>Tue, 11 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-07-le-fetichisme-de-la-marchandise/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-07-le-fetichisme-de-la-marchandise/</guid>
+        <link>https://responsyss.github.io/2017-07-le-fetichisme-de-la-marchandise/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-07-le-fetichisme-de-la-marchandise/</guid>
       </item>
     
       <item>
@@ -174,8 +174,8 @@
           Contrairement au puritanisme borné des scientifiques payés depuis des siècles pour nous décrire les sociétés primitives comme d’atroces monstruosités - comme sociétés bestiales, non encore humaines, à l’image du barbare traînant « sa femme » par les cheveux de « la guerre du feu » - le matérialisme historique, lui,...
         </description>
         <pubDate>Mon, 10 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2017-07-de-l-alienation-des-communautes-primitives/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017-07-de-l-alienation-des-communautes-primitives/</guid>
+        <link>https://responsyss.github.io/2017-07-de-l-alienation-des-communautes-primitives/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-07-de-l-alienation-des-communautes-primitives/</guid>
       </item>
     
   </channel>
