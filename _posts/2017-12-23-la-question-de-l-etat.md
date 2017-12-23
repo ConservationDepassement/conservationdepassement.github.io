@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La Question de l'Etat
-subtitle: "publié *La guerre Guerre Sociale* numéro 2 en 1978"
+subtitle: publié <i>La guerre Guerre Sociale</i> numéro 2 en 1978
 author: La Guerre Sociale
 year: 2017
 month: 12

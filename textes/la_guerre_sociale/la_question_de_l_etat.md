@@ -6,9 +6,7 @@ year: 1978
 month: 03
 ---
 
-<div class="post-content-subpart-title">
-## I
-</div>
+<h2 style="text-align: center;">I</h2>
 
 L'Etat occupe de plus en plus la totalité de notre vie. Les Etats semblent supporter le monde, et chaque Etat constitué créer en quelque sorte la société. Produit de la société, il apparaît comme son garant, voire son fondateur. Assurant sa cohésion, il semble lui donner vie. 
 
@@ -16,7 +14,7 @@ N'importe quel Etat actuel a infiniment plus de pouvoir que les despotes d'autre
 
 La socialisation économique et technique du monde lui permet de déverser partout sa propagande au travers des multiples journaux, radios et télévisions, et d'envoyer en peu de temps, sa police où il veut grâce aux communications rapides et à la technologie moderne.
 
-![Photo de cosmonaute sur la Lune](./cosmonaute.jpf)
+![Photo de cosmonaute sur la Lune](./cosmonaute.jpg)
 
 Cette omniprésence est devenue universelle avec la conquête de la planète par le capital. Pas un territoire au monde qui ne relève d'un Etat. La "décolonisation" les a multipliés. On peut même voir des Etats là où il n'y a pas de nation. A l'intérieur de frontières tirées au cordeau sur des milliers de kilomètres, parce qu'elles n'expriment qu'un partage effectué en commun par les puissances impérialistes et les bourgeoisies locales, les structures étatiques offrent le corps nu de l'Etat, dépouillé de tous les attributs qui lui ont donné vie en Occident. Il se réduit ici à sa plus simple expression un appareil administratif, appuyé sur une armée, renforcé par un système scolaire.
 
@@ -25,9 +23,7 @@ Même s'il est violemment dénoncé comme parasite, l'Etat est considéré comme
 Dans la pensée la plus extrême, l'abolition de l'Etat n'a qu'un sens étroitement
 politique. De transformation sociale, il n'en est pas question.
 
-<div class="post-content-subpart-title">
-## II
-</div>
+<h2 style="text-align: center;">II</h2>
 
 La question de la destruction de l'Etat est centrale pour la révolution à venir, et donc déjà pour sa théorie présente. Cette question a été et continue d'être un révélateur des différentes positions face à la révolution. C'est à propos de l'Etat que s'est faite et continue à se faire la ligne de partage.
 
@@ -40,9 +36,7 @@ Il lui faudra être efficace, organiser, centraliser et réprimer, mais il le fe
 Ce sont les conditions de vie et le développement des techniques modernes comme les télécommunications et l'informatique qui, loin d'assurer sa pérénité, même s'il les utilise et les façonne suivant ses besoins, assurent les conditions de son dépassement. Les techniques modernes sont sabotables, détournables et transformables par le mouvement anti-étatique.
 
 
-<div class="post-content-subpart-title">
-## III
-</div>
+<h2 style="text-align: center;">III</h2>
 
 Le rapport de base de toute l'économie féodale, l'octroi de terre contre la prestation de certains services et redevances personnels, offrait déjà, sous sa forme originelle la plus simple, matières à litige, surtout là où, dans les rapports des seigneurs avec leur suzerain, beaucoup avaient intérêt à chercher des querelles.
 
@@ -61,9 +55,7 @@ C'est le développement de l'économie bourgeoise qui permit de résoudre ce pro
 C'étaient aux innovations technologiques qu'il convenait de sceller la fin du règne de la noblesse féodale: la poudre battit en brèche les remparts de ses châteaux et l'imprimerie ses particularismes locaux. Après avoir été copieusement pillée et malmenée par son alliée, la monarchie, la bourgeoisie allait préparer sa revanche et créer des structures politiques à l'image de son économie.
 
 
-<div class="post-content-subpart-title">
-# IV
-</div>
+<h2 style="text-align: center;">IV</h2>
 
 L'ancienne société reposait sur des rapports personnels, dans l'esclavage, le servage ou la propriété foncière. L'autorité du patricien ou du seigneur était investie de la grâce divine. Les possédants recevaient du ciel un don particulier qui justifiait leur rang et leur fonction.
 
@@ -76,9 +68,7 @@ Pas plus maître de son histoire que dans la vieille société, prenant en charg
 L'on s'étonne de ce que les hommes aient cru en des dieux comme régulateurs de leur existence: mais les hommes modernes agissent et pensent comme si la société était faite d'autre chose que d'eux-mêmes. La société s'est autonomisée par rapport au citoyen, et cette autonomie s'est cristallisée dans l'Etat. Par un renversement idéologique, l'Etat apparaît comme créateur et dispensateur de richesses prises à une société incapable de les utiliser par elle-même. Il paraît alors aussi invraisemblable de pouvoir agir sur le cours des choses que lorsque c'était Dieu, aux desseins impénétrables, qui se chargeait dela conduite des affaires terrestres.
 
 
-<div class="post-content-subpart-title">
-## V
-</div>
+<h2 style="text-align: center;">V</h2>
 
 Le problème de la révolution bourgeoise a toujours été de créer un contrat social, car elle construit moins une économie nouvelle, déjà existante, qu'un Etat lui permettant de se développer. Elle institue une organisation sociale réunissant les individus, atomisés par la dissolution des cadres anciens: ordres, corporations, domaines et solidarités locales, et par son foutu mode de production dominé par la concurrence et la compétition individuelles.
 
@@ -89,9 +79,7 @@ L'organisation politique est donc définie par un contrat; les hommes doivent re
 Ce que souhaitait Rousseau, Tocqueville, un siècle après, en craint les effets: «Le despotisme me paraît particulièrement à redouter dans les âges démocratiques [...]. Dans les siècles d'égalité, chaque individu est naturellement isolé [...]. On le met aisément à part, et on le foule aisément aux pieds[^3].». Les monarchistes eux-mêmes affirmaient que la perte d'un ordre hiérarchique provoquerait un isolement des individus tel que seul un Etat implacable pourrait unir la société. Burke, philosophe contre-révolutionnaire anglais, dit de la France en 1795: «L'Etat est suprême. Tout est subordonné à la production de la force.». Les contre-révolutionnaires se trompaient pourtant en croyant que le despotisme viencrait sous les traits de dictateurs, alors qu'il a surtout pris un visage impersonnel.
 
 
-<div class="post-content-subpart-title">
-## VI
-</div>
+<h2 style="text-align: center;">VI</h2>
 
 L'Etat et les sociétés de classe sont apparus en même temps. Mais si l'Etat est un instrument de domination de classe, il est plus que cela. La division de la société en classes s'accompagne et provient d'une division, d'une scission dans l'activité humaine. L'Etat surgit quand l'activité des hommes pose un problème, parce qu'elle n'est plus unifiée. Le problème du pouvoir apparaît quand les hommes perdent le pouvoir de se transformer eux-mêmes ainsi que leur environnement, et sont contraints d'agir dans un autre but que le contenu de leur activité. L'Etat est l'organisation rendue indispensable par le travail aliéné.
 
@@ -106,9 +94,7 @@ Il n'opprime que parce qu'il en acquiert ainsi la puissance et que toute une sé
 L'école est parmi les éléments constitutifs de ce système: seul l'Etat moderne la développe au point étonnant qu'elle atteint aujourd'hui. Apprendre est devenu un problème gigantesque qui suppose un énorme appareil et une bureaucratie, parce que le souci de produire passe avant l'intérêt pour le processus de production, le résultat avant l'activité : apprendre et faire sont devenus deux moments distincts que l'école ne peut réunifier. Dans les pays "sous-développés", en apprenant à désapprendre le travail agricole, le système scolaire pose les bases d'une société capitaliste: destruction des cultures vivrières, création de prolétaires forcés de se salarier. Le capital déracine l'homme et fait de lui un infirme perdu sans le soutien de l'Etat.
 
 
-<div class="post-content-subpart-title">
-## VII
-</div>
+<h2 style="text-align: center;">VII</h2>
 
 L'Etat moderne n'est pas qu'un médiateur et ne se trouve pas à l'extérieur du mouvement du capital, il en est devenu un élément à part entière.
 .
@@ -123,9 +109,7 @@ Le capital n'a pas plus vécu une période libérale pure, comme si les entrepre
 Dans les pays capitalistes plus jeunes, l'Etat pallie la carence de la bourgeoisie. Le capital s'est accumulé là où existait une forte tradition étatique : Allemagne bismarkienne, Japon de l'ère Meiji, Russie d'avant 1917; dans ces trois pays, la bourgeoisie, socialement faible, est tenue à l'écart du pouvoir politique, mais l'Etat développe une économie capitaliste.
 
 
-<div class="post-content-subpart-title">
-## VIII
-</div>
+<h2 style="text-align: center;">VIII</h2>
 
 L'Etat est là pour unifier une société qui ne l'est pas. Il est normal qu'à notre époque sa fonction essentielle soit économique, puisque la production économique, moteur du monde moderne, est aujourd'hui la force sociale à contrôler et unifier en priorité. L'Etat est devenu le garant de l'accumulation. Prélevant en France plus de 40% de la "production intérieure brute" (dont, en 1975, 24 % en impôts et 17 % en cotisations sociales), il redistribue ces sommes pour harmoniser les productions, augmenter la rentabilité et effectuer les transferts de revenu nécessaires à une relative paix sociale.
 
@@ -136,9 +120,7 @@ L'Etat aide aujourd'hui les catégories sociales autrefois prises en charge par 
 Certains peuvent dire que l'Etat c'est l'armée et l'impôt, l'un entretenant l'autre. C'est oublier qu'il ne se contente plus de prélever de l'argent, mais qu'il en donne, profitant du pouvoir absolu de l'argent pour se rendre lui-même indispensable.
 
 
-<div class="post-content-subpart-title">
-## IX
-</div>
+<h2 style="text-align: center;">IX</h2>
 
 Contrairement à la mythologie de gauche, les formes politiques bourgeoises démocratique et dictatoriale se succèdent et s'engendrent mutuellement, sans intervention prolétarienne directe. Les dictatures ne viennent pas au pouvoir après avoir battu les ouvriers au cours de combats de rue: ce sont les démocrates et le mouvement ouvrier traditionnel qui défont les ouvriers révolutionnaires, par les armes et la confusion électorale (telle l'Allemagne en 1918-1921).
 
@@ -153,9 +135,7 @@ En 1975, en Grèce, la crise de Chypre et la pression américaine obligent les c
 Il y a en effet une logique aussi rigoureuse dans les "suicides des démocraties" que dans les "retours" ultérieurs à la démocratie. Il ne s'agit que d'une répartition des tâches, et d'une concentration dans le temps de la violence nécessaire pour liquider les oppositions qui entravent la bonne marche du système.
 
 
-<div class="post-content-subpart-title">
-## X
-</div>
+<h2 style="text-align: center;">X</h2>
 
 Si le pluralisme démocratique, le parlementarisme, les partis de masse et les syndicats sont très efficaces pour contenir une poussée révolutionnaire, ils peuvent aussi créer une situation de confusion, non révolutionnaire, mais qui empêche la remise en ordre du capital.
 
@@ -171,12 +151,10 @@ Le secret du passage de la démocratie au fascisme, et vice versa, est donné pa
 
 Que les prolétaires puissent profiter de ces évolutions pour se manifester sur leur terrain, ou simplement mettre en difficulté la rationalisation et la rentabilité du capital par leurs revendications, comme ils l'ont fait au Portugal n'est pas négligeable, mais ils n'assurent l'avenir révolutionnaire que dans la mesure où justement, ils se situent au-delà de l'opposition démocratie/dictature. Le capital n'est jamais aussi fort que lorsqu'il réussit à mobiliser les masses à son profit, en leur faisant croire qu'elles combattent pour elles-mêmes.
 
-![Affiche républicaine espagnole de propagande pour la guerre.](./propagande.jpg)
+![Affiche républicaine espagnole de propagande pour la guerre](./propagande.jpg)
 
 
-<div class="post-content-subpart-title">
-## XI
-</div>
+<h2 style="text-align: center;">XI</h2>
 
 Tous les régimes, sur tous les continents organisent, à plus ou moins long terme un simulacre de vie parlementaire.
 
@@ -195,9 +173,7 @@ C'est au moment où la vie politique bourgeoise classique est dépouillée de so
 Comme la concurrence des capitaux, la concurrence politique est dans la nature du capital, bien que le réseau des monopoles et des Etats enserre aujourd'hui la vie politique comme la vie économique.
 
 
-<div class="post-content-subpart-title">
-## XII
-</div>
+<h2 style="text-align: center;">XII</h2>
 
 Les débats à l'intérieur des partis de gauche, et entre eux, reprennent les polémiques du début du siècle. La social-démocratie allemande s'était construite en partie en réaction au lassalisme, qui avait échangé l'appui des ouvriers à Bismark contre une amélioration de leur sort.
 
@@ -212,9 +188,7 @@ Les positions de Bernstein, de Kautsky et de Lénine sont le modèle de toutes l
 Pour la gauche, l'Etat est toujours préférable au capital privé, car elle peut plus facilement influencer les rouages étatiques que ceux de l'économie privée. Ainsi, elle dénoncera la "mainmise du patronat" sur tel ou tel secteur, en exigeant que l'Etat en soit seul responsable. Elle ne reproche à l'Etat que de l'exclure. Le stalinien Elleinstein, par exemple, reconnaît le pouvoir croissant de l'Etat, mais en conclut qu'il faut le démocratiser[^4]. Puisque l'Etat a pénétré toute la société, et donc que les luttes sociales se déroulent aussi en son sein, il en déduit que l'Etat n'est plus un appareil à abattre, mais un lieu à occuper. Ce n'est plus "l'Etat instrument de classe", mais un espace social où intervenir à tout prix.
 
 
-<div class="post-content-subpart-title">
-## XIII
-</div>
+<h2 style="text-align: center;">XIII</h2>
 
 Depuis ses débuts, c'est-à-dire depuis le milieu du XIXème siècle, le mouvement ouvrier officiel veut à la fois se faire reconnaître par l'Etat et s'intégrer. Dépourvue de base économique - au contraire de la bourgeoisie -, la bureaucratie "ouvrière" ne possède pas d'autre moyen de se promouvoir et d'accéder au contrôle des moyens de production que d'entrer dans l'Etat et d'accentuer l'intervention étatique. Même dans les pays où le mouvement ouvrier est une puissance financière, comme en Allemagne - où les syndicats possèdent, entre autres, la quatrième banque du pays -, il s'efforce toujours de pénétrer l'Etat pour disposer d'un contrôle sur le capital.
 
@@ -229,9 +203,7 @@ Ce que le mouvement ouvrier réclame de l'Etat, c'est en quelque sorte de n'êtr
 Le mouvement ouvrier a tout attendu de l'Etat et est resté le meilleur défenseur de l'Etat providence et donc, qu'on le veuille ou non, de l'Etat fort. Paradoxalement, excepté l'anarchisme resté très marginal, il a abandonné la critique de l'Etat à la fraction anti-étatique de la droite. Le monarchisme s'est acharné à dénoncer l'oppression de l'Etat républicain, lui reprochant de nier la vie des récrions et des collectivités, mais en n'envisageant de salut que par la venue d'un autre Etat puissant qui remettrait de l'ordre et nous délivrerait de la tyrannie de la république...
 
 
-<div class="post-content-subpart-title">
-## XIV
-</div>
+<h2 style="text-align: center;">XIV</h2>
 
 Assimilant le capitalisme à un processus de "fascisation" toujours plus menaçant et le "socialisme" à une libéralisation démocratique, la gauche glorifie la démocratie, passe à côté de la critique de l'Etat, et déplace le problème social au niveau purement politique. La question des rapports sociaux, de la nature de l'activité productive, du contenu de la vie, se dilue dans la revendication de droits toujours plus nombreux: il faudrait pouvoir faire ceci, cela... Mais qui dit droit dit une force qui les accorde, les limite, et en sanctionne le non-respect. L'idée du droit implique celle du devoir: c'est donc aussi bien une multiplication des devoirs qui est revendiquée.
 
@@ -244,9 +216,7 @@ Entre l'individu atomisé et la société représentée par l'Etat, existe une f
 Le principe de la démocratie est de pouvoir laisser leur initiative aux individus et groupes, sachant que, placés dans un cadre capitaliste, c'est-à-dire où la logique de la valeur et du salariat s'impose d'elle-même à eux sans contrainte externe, ils agiront dans un sens capitaliste.
 
 
-<div class="post-content-subpart-title">
-## XV
-</div>
+<h2 style="text-align: center;">XV</h2>
 
 Le programme de la gauche prévoit de compenser la force de l'Etat par des organisations de masse où les individus se retrouveraient sur la base de leur travail, de leur domicile, de leurs intérêts de consommateur et d'usager... La "participation" de De Gaulle en 1968 apparaît bien mesquine devant la vague de fond démocratique et le lyrisme autogestionnaire : «On voit aussi des jeunes construire leurs Maisons de jeunes, des travailleurs aménager leurs locaux de travail, des adultes réaliser des maisons pour vieillards, des consommateurs concevoir et organiser leur zone commerciale[^6].» Que chacun participe à la vie de la cité et de la nation, revendique, milite pour accroître les compétences de son organisation: voilà ce qu'est changer la vie !
 
@@ -257,9 +227,7 @@ On donne la parole pour éviter une remise en cause réelle: c'est une libérati
 Bien qu'il les suscite lui-même, le capital craint les formes dictatoriales, parce qu'il se prive alors de l'intervention active des hommes dans son fonctionnement. La dictature tend à rendre les salariés passifs, alors que la démocratie repose, en principe, sur leur capacité à réorganiser dynamiquement au moins une partie de leur activité.
 
 
-<div class="post-content-subpart-title">
-## XVI
-</div>
+<h2 style="text-align: center;">XVI</h2>
 
 Si le capital dynamise ceux qui le servent, il les rend également passifs. Il vit de notre participation, et la freine au même moment. Il offre une activité, en la rendant impossible. Il exige une initiative des ouvriers comme des responsables, mais en la réprimant lorsqu'elle pparaît. Il suscite une action collective, en individualisant le travail, suppose une vision globale, mais parcellarise la production.
 
@@ -274,9 +242,7 @@ L'Etat rationalise son budget avec les modèles économétriques les plus sophis
 Dans la sphère politique, lieu de partage des pouvoirs, la vie politique, d'un côté, occuperait tant les forces sociales qu'elle disperserait les énergies par un pluralisme excessif. De l'autre, l'Etat éteindrait toute politique en concentrant autoritairement tous les pouvoirs. La plupart du temps, la politique domine autant que l'Etat, et la société s'unifie par son dynamisme propre, l'Etat n'intervenant que comme garant des limites d'un jeu à ne pas dépasser: mais l'équilibre reste précaire.
 
 
-<div class="post-content-subpart-title">
-## XVII
-</div>
+<h2 style="text-align: center;">XVII</h2>
 
 Dans ce contexte, les projets de réforme rendant l'Etat de plus en plus social, le mettant au niveau des citoyens, ne peuvent rien régler. La revitalisation de la commune ne donnerait aucune vigueur à une démocratie directe impossible: elle réglerait au mieux quelques affaires mineures "devant la population", le conseil municipal offrant lui-même le spectacle public de séances où il n'exercerait aucun pouvoir.
 
@@ -297,9 +263,7 @@ Il ne s'agit plus de liquider des classes moyennes ou des organisations ouvrièr
 «Nous assistons à un curieux spectacle. Sous nos yeux se déroulent les préliminaires de la communauté[^8]»: la question de l'apparition du communisme - de la destruction des entraves à son fonctionnement - se trouve ainsi posée; la situation irrésoluble créée par le capital exige la transformation de l'activité humaine et de toute la vie sociale.
 
 
-<div class="post-content-subpart-title">
-## XVIII
-</div>
+<h2 style="text-align: center;">XVIII</h2>
 
 L'anarchisme a le mérite d'avoir affirmé l'exigence de la destruction de l'Etat, mais l'incapacité anarchiste à fonder sa critique l'entraîne à une grande stérilité, sinon à des aberrations. Faisant reposer toute la société sur l'autorité concentrée dans l'Etat, vu comme cible à détruire en priorité, elle réduit le capital à l'Etat, et ne cherche pas plus que le marxisme vulgaire à définir la révolution communiste. L'"abolition de l'Etat" a pu ainsi devenir une formule magique recouvrant bien des confusions.
 
@@ -312,9 +276,7 @@ En Espagne, en 1936-39, les anarchistes en sont venus à identifier la révoluti
 Paradoxalement, le courant le plus acharné contre l'Etat admet qu'en Espagne il y avait révolution en 1936, bien que les prolétaires aient laissé l'Etat intact. Pour l'anarchisme aussi, la révolution, c'est une grande démocratisation.
 
 
-<div class="post-content-subpart-title">
-## XIX
-</div>
+<h2 style="text-align: center;">XIX</h2>
 
 Malgré sa critique de l'anarchisme sur le plan économique, où il tente de définir le communisme comme dépassement de la loi de la valeur, le conseillisme partage sa vision administrative et territoriale: «Les anarcho-syndicalistes reconnaissent la nécessité de planifier la vie économique et pensent que cela est irréalisable sans une centralisation comptable impliquant un recensement statistique des facteurs productifs et des besoins sociaux. Cependant, ils omettent de donner une base effective à cette nécessité statistique[^9].»
 
@@ -329,9 +291,7 @@ Dans le conseillisme, le système des conseils est conçu comme une généralisa
 Les uns veulent agir à l'intérieur, les autres à l'extérieur, mais l'erreur est identique: tous privilégient le moment de la décislon, et assimilent la révolution à la création d'un nouveau processus de décision. Les conseillistes veulent transférer ce processus des organes étatiques aux usines et aux quartiers. Parce qu'ils ne sortent pas de l'illusion politique, ils peuvent parler d'"abolition du salariat" et de suppression de la forme marchande, sans en faire plus qu'une formule jamais explicitée: ils ne comprennent pas la révolution comme processus engendrant une nouvelle activité.
 
 
-<div class="post-content-subpart-title">
-## XX
-</div>
+<h2 style="text-align: center;">XX</h2>
 
 La force et l'impasse du communisme utopique, depuis des millénaires, a été de vouloir créer artificiellement une communauté, faisant appel à un facteur extérieur pour réaliser une unité inexistante : Dieu, une morale stricte ou un plan impératif. Or le communisme est une résultante générale, et une communauté humaine est aujourd'hui possible qui soit basée sur ce qui est commun aux individus qui la composent: leurs besoins et leurs passions, leurs façons de les satisfaire, leurs modes d'existence. C'est pourquoi l'Etat peut disparaître, et une révolution mettre en place des structures de centralisation sans pour autant recréer un nouvel Etat.
 
@@ -348,9 +308,7 @@ Le rapport à la nature en est lui-même transformé, et l'homme peut enfin sort
 L'Etat n'a plus aucune place dans un monde où la gourmandise est en mode composé.
 
 
-<div class="post-content-subpart-title">
-## XXI
-</div>
+<h2 style="text-align: center;">XXI</h2>
 
 La révolution communiste n'est pas le heurt de deux armées, comme cela se voit généralement dans les conflits guerriers, et dont l'une défendrait le vieux monde et l'autre annoncerait le nouveau. Raisonner de cette façon, c'est réduire la révolution à un problème militaire: tout au plus à une guerre populaire.
 
@@ -369,9 +327,7 @@ Le communisme est d'abord activité. Le bouleversement de la société ne sera p
 ![Occupation de l'immeuble du Vorwarts par les spartakistes, janvier 1919](./spartakistes.jpg)
 
 
-<div class="post-content-subpart-title">
-## XXII
-</div>
+<h2 style="text-align: center;">XXII</h2>
 
 Dans les révolutions antérieures, les révolutionnaires ne cernaient pas le lien entre action contre l'Etat et communisation de la société. On raisonne encore en léniniste ou symétriquement au léninisme: contre l'optique qui met au premier plan la socialisation de l'économie, la "gauche italienne", par exemple, privilégie la question du pouvoir; la révolution serait d'abord politique, économique et sociale ensuite. En revanche, pour les conseillistes, il suffit que la gestion de l'économie soit bouleversée pour que la société le soit entièrement.
 
@@ -386,9 +342,7 @@ Le but de la révolution communiste n'est pas de fonder une structure sociale, u
 La révolution communiste ne se fonde pas sur l'opposition gouvernés/gouvernants. Quand bien même les hommes s'autogouverneraient, le principe de séparation à la racine de l'Etat et de la politique subsisterait. Le communisme ne particularise pas ce principe, il le supprime.
 
 
-<div class="post-content-subpart-title">
-## XXIII
-</div>
+<h2 style="text-align: center;">XXIII</h2>
 
 L'Etat, qui vit de l'incapacité des hommes et des groupes à organiser une activité où ils se transforment eux-mêmes, est sapé dès que l'on commence à rendre inutile sa fonction de médiateur.
 
