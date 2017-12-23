@@ -19,8 +19,8 @@ footer: "Aucun droit réservé sur rien."
 navbar-links:
     BLOG: /
     BIBLIOTHÈQUE: /textes/
-    VIDÉOS: //youtube.com/c/Aufhebung
-    DIALOGUE: //facebook.com/AufhebungOfficiel/
+    VIDÉOS: https://youtube.com/c/Aufhebung
+    DIALOGUE: https://facebook.com/AufhebungOfficiel/
     À PROPOS: /about/
 
 # If you want to have an image logo in the top-left corner instead of the title text,
@@ -69,5 +69,5 @@ exclude:
   - build_aux/
   - Makefile
 
-plugins:
+plugins_dir:
   - jekyll-paginate
