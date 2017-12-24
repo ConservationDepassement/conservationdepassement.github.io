@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aufhebung</title>
-    <description>« L&#39;homme est la nature prenant conscience d&#39;elle-même. »</description>
+    <description>« L'homme est la nature prenant conscience d'elle-même. »</description>
     <link>https://responsyss.github.io</link>
     <atom:link href="https://responsyss.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>La Question de l'Etat</title>
+        <description>
+          publié &lt;i&gt;La guerre Guerre Sociale&lt;/i&gt; numéro 2 en 1978 - 
+          
+
+        </description>
+        <pubDate>Sat, 23 Dec 2017 00:00:00 +0100</pubDate>
+        <link>https://responsyss.github.io/2017-12-la-question-de-l-etat/</link>
+        <guid isPermaLink="true">https://responsyss.github.io/2017-12-la-question-de-l-etat/</guid>
+      </item>
     
       <item>
         <title>Rencontre sur «Le Système technicien», de Jacques Ellul</title>
@@ -33,7 +45,7 @@
       <item>
         <title>Misère du féminisme</title>
         <description>
-          par Dominique Karamazov, 1978 - 
+          par Dominique Karamazov, publié dans *La Guerre Sociale* numéro 2* en 1978 - 
           
 
         </description>

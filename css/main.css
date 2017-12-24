@@ -269,8 +269,8 @@ footer p {
 }
 
 
-.post-content-subpart-title {
-  text-align: center;
+.post-content h4, h5 {
+    text-align: center;
 }
 
 .post-output {
