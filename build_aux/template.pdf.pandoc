@@ -6,8 +6,8 @@ $endif$
 % Is book docclass okay when no title in the text?
 % TODO: can't have TITLE + TOC on first page, probably due to 'book' documentclass
 % If TOC, first page is TITLE + TOC, otherwise it's only TITLE
-%\documentclass[11pt,french,a4paper,openany,oneside,notitlepage]{book}
-\documentclass[11pt,french,a4paper,openany,oneside]{book}
+%\documentclass[12pt,french,a4paper,openany,oneside,notitlepage]{book}
+\documentclass[12pt,french,a4paper,openany,oneside]{book}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
