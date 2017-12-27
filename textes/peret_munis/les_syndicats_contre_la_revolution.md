@@ -4,7 +4,6 @@ title: "Les Syndicats Contre la Révolution"
 author: Benjamin Peret et Grandizo Munis
 year: 1968
 toc: true
-lang: fr
 ---
 
 I. - LES ANTECEDENTS

@@ -68,17 +68,17 @@ test: test-pdf test-epub
 
 test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) -o $(TEST_OUT_EPUB) <$(TEST_IN)
-	$(warning :: EPUB: SUCCESS!)
-	$(warning :: Output was made to '$(TEST_OUT_EPUB)')
+	@echo ":: EPUB: SUCCESS!"
+	@echo ":: Output was made to '$(TEST_OUT_EPUB)'"
 #@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
 
 test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) -o $(TEST_OUT_PDF)  <$(TEST_IN) 
-	$(warning :: PDF: SUCCESS!)
-	$(warning :: Output was made to '$(TEST_OUT_PDF)')
+	@echo ":: PDF: SUCCESS!"
+	@echo ":: Output was made to '$(TEST_OUT_PDF)'"
 	@xdg-open $(TEST_OUT_PDF) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_PDF)'"
 
-test-clean: 
+clean-test: 
 	touch $(TEST_OUT_PDF) $(TEST_OUT_EPUB) && rm $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
 
 vim-correct: $(VIM_SCRIPT) $(IN)
