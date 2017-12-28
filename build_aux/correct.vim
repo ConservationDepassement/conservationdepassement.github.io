@@ -32,4 +32,8 @@
 "' A ' -> ' À '
 :%s/\(^\| \)A[ ]/\1À /gc
 
-Ce texte! Mais quel&nbsp;? choc!
+" GUILLEMETS
+
+
+" EXPOSANTS
+:%s/\([IVX0-9]\)\(ème\|er\)/\1<sup>\2<\/sup>/gc
