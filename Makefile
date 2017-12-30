@@ -10,8 +10,12 @@ VIM = vim
 GEN_SCRIPT = ./build_aux/pdc_gen.sh
 VIM_SCRIPT = ./build_aux/correct.vim
 # Root dir for searching files
-ROOT = ./textes/
-PDC_ARG = -V documentclass=book -V lang=fr-FR -s
+SEARCH_PATH = ./textes/
+ifdef IN
+	SEARCH_PATH = $(IN)
+endif
+# TODO: fail-if-warnings fails to fail when images not found for PDF!
+PDC_ARG = --fail-if-warnings -V documentclass=book -V lang=fr-FR -s
 # Templates
 TEMPLATE_PDF =  ./build_aux/template.pdf.pandoc
 TEMPLATE_EPUB = ./build_aux/template.epub.pandoc
@@ -36,8 +40,8 @@ help:
 	@echo "    vim-correct      - Trigger vim typographic correction script"
 	@echo
 	@echo "PARAMETERS"
-	@echo "    $(MAKE)  ROOT=/path/to/dir/     [all|pdf|epub]"
-	@echo "        Set root dir for searching files to '/path/to/dir/' (defaults to '$(ROOT)')"
+	@echo "    $(MAKE)  IN=/path/to/dir/     [all|pdf|epub]"
+	@echo "        Set root dir for searching files to '/path/to/dir/' (defaults to '$(SEARCH_PATH)')"
 	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_PDF=outfile   [test|test-pdf]"
 	@echo "        For PDF testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
 	@echo "         and output file to 'outfile' (defaults to '$(TEST_OUT_PDF)')"
@@ -48,7 +52,7 @@ help:
 	@echo "        Set input file for vim correction script to 'infile'"
 	@echo
 	@echo "EXAMPLES"
-	@echo "    $(MAKE) ROOT=./textes/guy_debord/ pdf"
+	@echo "    $(MAKE) IN=./textes/guy_debord/ pdf"
 	@echo "        Recursively build PDF files from MD files in ./textes/guy_debord/**"
 	@echo "    $(MAKE) TEST_OUT_EPUB=/media/KOBOeReader/test.epub TEST_OUT_PDF=/media/KOBOeReader/test.pdf test"
 	@echo "    $(MAKE) IN=./textes/pierre_guillaume/guy_debord.md vim-correct"
@@ -58,14 +62,15 @@ help:
 
 all: pdf epub
 
-pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(ROOT)
-	$(GEN_SCRIPT) -i md -o pdf  -j 1 -p -a "--template=$(TEMPLATE_PDF) $(PDC_ARG)" $(ROOT)
+pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(SEARCH_PATH)
+	$(GEN_SCRIPT) -i md -o pdf  -j 1 -p -a "--template=$(TEMPLATE_PDF) $(PDC_ARG)" $(SEARCH_PATH)
 
-epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(ROOT)
-	$(GEN_SCRIPT) -i md -o epub -j 2    -a "--template=$(TEMPLATE_EPUB) $(PDC_ARG)" $(ROOT)
+epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
+	$(GEN_SCRIPT) -i md -o epub -j 2    -a "--template=$(TEMPLATE_EPUB) $(PDC_ARG)" $(SEARCH_PATH)
 
 test: test-pdf test-epub
 
+# TODO: can't test PDF with relative resource pathes this way
 test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) -o $(TEST_OUT_EPUB) <$(TEST_IN)
 	@echo ":: EPUB: SUCCESS!"
