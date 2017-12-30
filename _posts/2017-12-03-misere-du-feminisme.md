@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Misère du féminisme"
-subtitle: "par Dominique Karamazov, publié dans *La Guerre Sociale* numéro 2* en 1978"
+subtitle: "publié dans <i>La Guerre Sociale</i> n° 2, 1978"
 author: Dominique Karamazov
 year: 2017
 month: 12

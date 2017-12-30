@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La Question de l'État
-subtitle: publié dans <i>La guerre Guerre Sociale</i>, n° 2, 1978
+subtitle: publié dans <i>La guerre Guerre Sociale</i> n° 2, 1978
 author: La Guerre Sociale
 year: 2017
 month: 12
