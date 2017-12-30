@@ -52,6 +52,9 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:title/
 
+# Publish posts of a future date
+future: false
+
 paginate: 10
 paginate_path: "/page:num/"
 
