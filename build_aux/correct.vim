@@ -38,6 +38,9 @@
 :%s/\(&nbsp;\)\@<![ ]*»/\&nbsp;»/gc
 :%s/«[ ]*\(\w\)/«\&nbsp;\1/gc
 
+" DOUBLE SPACES
+:%s/[ ]\+&nbsp;/\&nbsp;/gc
+:%s/&nbsp;[ ]\+/\&nbsp;/gc
 
 " EXPOSANTS
 :%s/\([IVX0-9]\)\(ème\|er\)/\1<sup>\2<\/sup>/gc
