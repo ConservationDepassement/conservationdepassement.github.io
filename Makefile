@@ -90,5 +90,4 @@ vim-correct: $(VIM_SCRIPT) $(IN)
 ifndef IN
 	$(error Please set 'IN' for input file (see 'make help'))
 endif
-	@[[ -f "$(IN)" ]]
 	$(VIM) -c ":e $(IN) | :source $(VIM_SCRIPT)"

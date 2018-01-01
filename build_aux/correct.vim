@@ -1,5 +1,7 @@
 " Vim script for typographic correction of texts
 " TODO: improve verbosity
+" TODO: make vim status line display the current replacement being processed
+" TODO: make vim stop on errors
 " TODO: improve testing process
 
 :let SCRIPT_NAME='correct.vim'
@@ -25,7 +27,7 @@
 " ';(\W)' (not after '&nbsp') -> '&nbsp;; \1'
 :%s/\(&nbsp\)\@<!;\([^ ]\)/\&nbsp;; \2/gc
 " '([?,.:!])(\W)' -> '\1 \2'
-:%s/\([?,.:!]\)\([^ \_$]\)/\1 \2/gc
+":%s/\([?,.:!]\)\([^ \_$]\)/\1 \2/gc
 
 " ACCENTUATED CAPITAL LETTERS [ÉÈÀ]
 :echomsg "[".SCRIPT_NAME."] CORRECTING ACCENTUATED CAPITAL LETTERS"
@@ -33,6 +35,8 @@
 :%s/\(^\| \)A[ ]/\1À /gc
 
 " GUILLEMETS
+:%s/\(&nbsp;\)\@<![ ]*»/\&nbsp;»/gc
+:%s/«[ ]*\(\w\)/«\&nbsp;\1/gc
 
 
 " EXPOSANTS
