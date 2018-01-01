@@ -290,7 +290,8 @@ footer p {
 
 .post-content blockquote {
   font-style: italic;
-  font-size: 120%;
+  /*font-size: 120%;*/
+  font-size: 110%;
   color: rgba(178, 47, 0, 1);
   margin-top: 0;
   margin-bottom: 0;
