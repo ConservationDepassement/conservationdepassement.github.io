@@ -87,7 +87,7 @@ consommer béatement de l'aliénation, dans l'espoir, devant le manque
 d'intérêt général, d'intéresser à son manque particulier Les exigences
 du capitalisme moderne font que la majeure partie des étudiants seront
 tout simplement de petits cadres (c'est-à-dire l'équivalent de ce
-qu'était au XIX^ème^ siècle la fonction d'ouvrier qualifié[^4]). Devant
+qu'était au XIX<sup>ème</sup> siècle la fonction d'ouvrier qualifié[^4]). Devant
 le caractère misérable, facile à pressentir, de cet avenir plus ou moins
 proche qui le "dédommagera" de la honteuse misère du présent, l'étudiant
 préfère se tourner vers son présent et le décorer de prestiges
@@ -656,13 +656,13 @@ bureaucratiques et bourgeoises, florissait de nouveau sur les cadavres
 des marins de Kronstadt et des paysans d'Ukraine, des ouvriers de
 Berlin, Kiel, Turin, Shangaï, et plus tard de Barcelone.
 
-La III^ème^ Internationale, apparemment créée par les Bolcheviks pour
+La III<sup>ème</sup> Internationale, apparemment créée par les Bolcheviks pour
 lutter contre les débris de la social-démocratie réformiste de la
-II^ème^ Internationale, et grouper l'avant-garde prolétarienne dans les
+II<sup>ème</sup> Internationale, et grouper l'avant-garde prolétarienne dans les
 "partis communistes révolutionnaires", était trop liée à ses créateurs
 et à leurs intérêts pour pouvoir réaliser, où que ce soit, la véritable
-révolution socialiste. En fait la II^ème^ Internationale était la vérité
-de la III^ème^. Très tôt, le modèle russe s'imposa aux organisations
+révolution socialiste. En fait la II<sup>ème</sup> Internationale était la vérité
+de la III<sup>ème</sup>. Très tôt, le modèle russe s'imposa aux organisations
 ouvrières d'Occident, et leurs évolutions furent une seule et même
 chose. À la dictature totalitaire de la Bureaucratie, nouvelle classe
 dirigeante, sur le prolétariat russe, correspondait au sein de ces
@@ -732,7 +732,7 @@ Ils ne peuvent plus entretenir d'illusions que dans les fameux pays
 sous-développés[^23] où ils entérinenet eux-mêmes le sous-développement
 théorique. De Partisans (organe des stalino-trotskismes réconciliés) à
 toutes les tendances et demi-tendances qui se disputent "Trotsky" à
-l'intérieur et à l'extérieur de la IV^ème^ Internationale, règne une
+l'intérieur et à l'extérieur de la IV<sup>ème</sup> Internationale, règne une
 même idéologie révolutionnaire, et une même incapacité pratique et
 théorique de comprendre les problèmes du monde moderne. Quarante années
 d'histoire contre-révolutionnaire les séparent de la Révolution. Ils ont
@@ -925,7 +925,7 @@ L'histoire moderne ne peut être libérée, et ses acquisitions
 innombrables librement utilisées, que par les forces qu'elle
 refoule : les travailleurs sans pouvoir sur les conditions, le sens et
 le produit de leurs activités. Comme le prolétariat était déjà, au
-XIX^ème^ siècle, l'héritier de la philosophie, il est en plus devenu
+XIX<sup>ème</sup> siècle, l'héritier de la philosophie, il est en plus devenu
 l'héritier de l'art moderne et de la première critique consciente de la
 vie quotidienne. Il ne peut se supprimer sans réaliser, en même temps,
 l'art et la philosophie. Transformer le monde et changer la vie sont

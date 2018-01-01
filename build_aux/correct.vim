@@ -37,3 +37,6 @@
 
 " EXPOSANTS
 :%s/\([IVX0-9]\)\(ème\|er\)/\1<sup>\2<\/sup>/gc
+
+" FAUTE DE FRAPPES
+:%s/\([Cc]\)'est [aà] dire/\1'est-à-dire/gc
