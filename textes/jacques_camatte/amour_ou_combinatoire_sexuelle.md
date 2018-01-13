@@ -83,7 +83,7 @@ Je ne m’éloigne pas du propos de M. Mieli puisque celui-ci écrit page 150&nb
 
 Je suis d’accord sur le polymorphisme englobé en nous, mais je ne suis pas d’accord sur le mode de l’effectuer.
 
-Avant de poursuivre&nbsp;: l’espèce n’aurait-elle pas peur de faire le saut pour accéder à la réalisation de ce qu’elle est virtuellement&nbsp;: la réflexion du phénomène vie et l’englobement de tous les possibles de ce phénomène&nbsp;? Alors elle régresse et cherche à réaliser des possibles anciens et s’y fixe. Ainsi il y aurait sous forme amplifiée le phénomène indiqué dans "C’est ici qu’est la peur c’est ici qu’il faut sauter"[^ref_invariance]. Ce faisant elle risque de sombrer dans une destruction qui est déjà en acte&nbsp;: la réduction des hommes et des femmes à des particules asexuées, à des particules neutres qui ne se sexualisent qu’en prenant à l’extérieur un sexe… avec l’avantage, qui fascine les gens immédiats, de la combinatoire réalisable&nbsp;!
+Avant de poursuivre&nbsp;: l’espèce n’aurait-elle pas peur de faire le saut pour accéder à la réalisation de ce qu’elle est virtuellement&nbsp;: la réflexion du phénomène vie et l’englobement de tous les possibles de ce phénomène&nbsp;? Alors elle régresse et cherche à réaliser des possibles anciens et s’y fixe. Ainsi il y aurait sous forme amplifiée le phénomène indiqué dans «&nbsp;C’est ici qu’est la peur c’est ici qu’il faut sauter&nbsp;»[^ref_invariance]. Ce faisant elle risque de sombrer dans une destruction qui est déjà en acte&nbsp;: la réduction des hommes et des femmes à des particules asexuées, à des particules neutres qui ne se sexualisent qu’en prenant à l’extérieur un sexe… avec l’avantage, qui fascine les gens immédiats, de la combinatoire réalisable&nbsp;!
 
 [^ref_invariance]: *Invariance*, série II, n°6.
 
@@ -220,7 +220,7 @@ Si on accepte la clarification du devenir propre du capital, comme un devenir à
 Parler de capitalisme bureaucratique en URSS et faire une note qui signale à ce propos l’œuvre de Bordiga *Structure économique et sociale de la Russie d’aujourd’hui* ne convient pas du tout. Bordiga a toujours nié une telle affirmation-caractérisation, particulièrement dans l’œuvre citée où il ridiculise la thèse d’une prétendue bureaucratie-classe opérant en URSS.   
 Ce n’est pas Joe Fallisi (p. 159) qui a dit la première phase du mouvement ouvrier fut la phase sectaire, c’est Marx. J’ai dans *Le KAPD et le mouvement prolétarien* repris cette caractérisation de Marx et l’ai utilisée comme point de référence pour caractériser l’état du mouvement ouvrier dans les années ’20 mettant en évidence que, dès lors, commençait la phase groupusculaire du mouvement et que le parti à venir, le parti-communauté, devait se former contre tous les groupuscules. C’est en partant de cette réflexion que j’ai été amené à écrire, avec G. Collu, la lettre sur les rackets du 4.9.1969 publiée sous le titre *De l’organisation*.
 
-[^2]: Cf. "Ce monde qu’il faut quitter", *Invariance*, série II, n° 5, et *Marx et la Gemeinwesen*.
+[^2]: Cf. «&nbsp;Ce monde qu’il faut quitter&nbsp;», *Invariance*, série II, n° 5, et *Marx et la Gemeinwesen*.
 
 [^3]: Cf. la note sur l’aliénation dans *Capital et Gemeinwesen*, éd. Spartacus.
 
