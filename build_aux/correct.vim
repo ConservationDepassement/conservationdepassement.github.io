@@ -47,3 +47,6 @@
 
 " FAUTE DE FRAPPES
 :%s/\([Cc]\)'est [aà] dire/\1'est-à-dire/gc
+
+" NDLR
+:%s/ndlr/*NDLR*/gic
