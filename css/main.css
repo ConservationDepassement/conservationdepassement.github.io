@@ -66,6 +66,12 @@ body {
   justify-content: center;
 }
 
+.accroche {
+/* TODO: adapt to screen width when shriking*/
+  display: flex;
+  justify-content: center;
+}
+
 
 /* == Navigation == */
 nav {
