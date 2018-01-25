@@ -156,20 +156,20 @@ footer p {
 }
 
 .post-card {
-  border: 1px solid rgba(0, 0, 0, 0.5);
+/*border: 1px solid rgba(0, 0, 0, 0.5);*/
   box-sizing: border-box;
   height: 260px;
   margin: 10px;
   width: 450px;
   min-width: 450px;
   background-color: whitesmoke;
-  box-shadow: 0 0 0.7em grey;
+  box-shadow: 6px 6px 0.6em rgba(0,0,0,0.4);
   overflow: hidden;
 }
 
 .post-card:hover {
   background-color: white;
-  box-shadow: 0 0 1em black;
+  box-shadow: 3px 3px 0.6em rgba(0,0,0,0.8);
 }
 
 
