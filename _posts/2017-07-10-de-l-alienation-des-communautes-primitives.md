@@ -1,5 +1,6 @@
 ---
 layout: post
+nav: blog
 title: De l’aliénation des communautés primitives à l’extranéisation de la société contemporaine
 author: Aufhebung
 year: 2017

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Les syndicats contre le prolétariat"
+nav: blog
 subtitle: "Rencontre organisée par Le Situationniste à Poitiers le 25 novembre 2017 à 19h"
 author: Le situationniste
 year: 2017

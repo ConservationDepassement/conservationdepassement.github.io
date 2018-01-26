@@ -1,5 +1,6 @@
 ---
 layout: post
+nav: textes
 title: "Notes sur la «question des immigrés»"
 author: Guy Debord
 month: 12

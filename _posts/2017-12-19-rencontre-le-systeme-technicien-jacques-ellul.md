@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rencontre sur «Le Système technicien», de Jacques Ellul
+nav: blog
 subtitle: "Rencontre organisée par le Cercle Marx à Nantes le 13 janvier 2018 à 19h"
 author: Cercle Marx
 year: 2017

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Misère du féminisme"
+nav: textes
 author: Dominique Karamazov
 year: 1978
 month: 03

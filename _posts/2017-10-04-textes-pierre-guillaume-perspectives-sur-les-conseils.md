@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Perspectives sur les conseils, la gestion ouvrière et la gauche allemande"
+nav: blog
 subtitle: "par Pierre Guillaume, 1974"
 author: Pierre Guillaume
 year: 2017

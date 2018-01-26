@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Perspectives sur les conseils, la gestion ouvrière et la gauche allemande"
+nav: textes
 author: Pierre Guillaume
 year: 1974
 ---

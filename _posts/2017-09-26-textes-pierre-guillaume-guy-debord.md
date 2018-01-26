@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Guy Debord"
+nav: blog
 subtitle: "par Pierre Guillaume, 1995"
 author: Pierre Guillaume
 year: 2017

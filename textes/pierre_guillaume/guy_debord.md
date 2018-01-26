@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Guy Debord"
+nav: textes
 subtitle: "La Vieille Taupe, numéro 1"
 author: Pierre Guillaume
 year: 1995

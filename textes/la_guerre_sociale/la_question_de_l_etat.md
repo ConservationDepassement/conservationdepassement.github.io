@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "La question de l'État"
+nav: textes
 author: La Guerre Sociale
 year: 1978
 month: 03

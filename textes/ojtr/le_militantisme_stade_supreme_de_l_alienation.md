@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Le militantisme, stade suprême de l'aliénation"
+nav: textes
 author: Organisation des Jeunes Travailleurs Révolutionnaires
 year: 1972
 ---

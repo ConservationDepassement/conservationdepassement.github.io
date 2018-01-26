@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "La Guerre d’Espagne [extraits du chap. VI]"
+nav: blog
 subtitle: "Révolution et contre-révolution (1934-1939)"
 author: Burnett Bolloten
 year: 2017

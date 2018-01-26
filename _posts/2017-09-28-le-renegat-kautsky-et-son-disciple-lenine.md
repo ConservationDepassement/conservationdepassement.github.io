@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Le renégat Kautsky et son disciple Lénine"
+nav: blog
 subtitle: "par Jean Barrot, 1977"
 author: Jean Barrot
 year: 2017

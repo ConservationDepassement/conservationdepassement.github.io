@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
   {% include head.html %}
-
   <body>
     <div class="page-layout">
       <div class="header">
@@ -14,9 +13,16 @@
           <img src="/img/accroche.png" alt="Pour une critique radicale du faux omniprésent">
         </div>
       </div>
-    
+      {% if page.nav == "blog" %}
+        {% include navbar-blog.html %}
+      {% elsif page.nav == "textes" %}
+        {% include navbar-textes.html %}
+      {% elsif page.nav == "about" %}
+        {% include navbar-about.html %}
+      {% else %}
+        {% include navbar.html %}
+      {% endif %}
       {{ content }}
-
       {% include footer.html %}
     </div>
   </body>

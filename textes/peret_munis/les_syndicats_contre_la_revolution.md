@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Les Syndicats Contre la Révolution"
+nav: textes
 author: Benjamin Peret et Grandizo Munis
 year: 1968
 toc: true

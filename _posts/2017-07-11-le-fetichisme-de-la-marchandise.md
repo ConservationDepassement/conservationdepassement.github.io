@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Le fétichisme de la marchandise et sa conséquence : la réification (chosification et personification)"
+nav: blog
 author: Aufhebung
 year: 2017
 month: 07
