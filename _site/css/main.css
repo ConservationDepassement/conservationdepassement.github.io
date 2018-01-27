@@ -55,6 +55,11 @@ body {
   min-width: 600px;
 }
 
+a {
+  color: #672bff;
+  text-decoration: none;
+}
+
 /* == Header == */
 .header {
   margin: 0;
@@ -177,7 +182,6 @@ footer p {
   background-color: white;
   box-shadow: 3px 3px 0.6em rgba(0,0,0,0.8);
 }
-
 
 .post-card-link {
   box-sizing: border-box;
