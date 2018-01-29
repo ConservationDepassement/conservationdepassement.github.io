@@ -24,6 +24,8 @@ GEM
       pandoc-ruby (~> 2.0, >= 2.0.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-seo-tag (2.4.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.15.0)
@@ -54,6 +56,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-pandoc
+  jekyll-seo-tag
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

@@ -1,19 +1,31 @@
 # --- General options --- #
 
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-url: "https://responsyss.github.io"
+# full website URL
+#url: "https://responsyss.github.io"
 url: "http://aufhebung.fr"
+# website's URL without the hostname
 baseurl: ""
 
-# Name of website
-title: Aufhebung
+title: "AUFHEBUNG"
+author: "Collectif"
+description: "Pour une critique radicale du faux omniprésent"
 
-# Short description of your site
-description: "« L'homme est la nature prenant conscience d'elle-même. »"
-footer: "Aucun droit réservé sur rien."
+logo: /img/aufhebung_logo.png
+lang: fr_FR
 
+# --- Social medias ---#
+facebook:
+    publisher: https://www.facebook.com/AufhebungOfficiel/
+social:
+    links:
+        - https://youtube.com/c/Aufhebung
+        - https://facebook.com/AufhebungOfficiel/
+# Default image
+defaults:
+    - scope:
+        path: ""
+      values:
+        image: /img/aufhebung_logo.png
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -28,15 +40,11 @@ navbar-links:
 # then specify the following parameter
 title-img: favicon.ico
 
-# --- Footer options --- #
+footer: "Aucun droit réservé sur rien."
 
-# Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: "Collectif"
-  email: "mail@systemicresponse.com"
-  github: "responsyss"
-
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -45,7 +53,6 @@ url-pretty: "aufhebung.fr"
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 35
-
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
@@ -76,3 +83,4 @@ exclude:
 
 plugins_dir:
   - jekyll-paginate
+  - jekyll-seo-tags
