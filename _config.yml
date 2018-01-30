@@ -22,11 +22,13 @@ social:
         - https://youtube.com/c/Aufhebung
         - https://facebook.com/AufhebungOfficiel/
 # Default image
-defaults:
-    - scope:
-        path: ""
-      values:
-        image: /img/aufhebung_logo.png
+# Problem: displays on top of page layout when no 'image' variable set (we don't
+# want that)
+#defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       image: /img/aufhebung_logo.png
 
 # --- Navigation bar options --- #
 
