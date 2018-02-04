@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L'entraide : un facteur de l'évolution [extraits du chap. III]"
+title: "L'Entraide : un facteur de l'évolution [extraits du chap. III]"
 nav: blog
 subtitle: "L'entraide parmi les sauvages"
 author: Pierre Kropotkine
@@ -72,7 +72,7 @@ Ce serait une fatigante répétition que de donner plus d’exemples de la vie s
 
 [^note_geographie_sauvages]: [*NDLR*&nbsp;:&nbsp;Les Bushmen et les Hottentots sont des peuplades d'Afrique&nbsp;; les Ostiaks, les Samoyèdes, les Esquimaux, les Toungouses et les Tchoucktchis vivent en Sibérie et en Arctique&nbsp;; les Aléoutes vivent en Alaska&nbsp;; les Dayaks et les Papous sont des peuplades d'Indonésie&nbsp;; les Sioux sont une peuplade d'indiens d'Amérique (qu'on peut voir dans le film *Danse avec les Loups*).]
 
-*Pierre Kropotkine,* L’entraide: un facteur de l’évolution *(1902), Kontre Kulture, 2014.[^note_vente]  
+*Pierre Kropotkine,* L’Entraide: un facteur de l’évolution *(1902), Kontre Kulture, 2014.[^note_vente]  
 Extraits du chap. III, "L'entraide parmi les sauvages", p. 109-135 ; les **emphases** sont les nôtres et les notes de bas de pages ont été omises.*
 
 [^note_vente]: En vente ici&nbsp;: <http://www.kontrekulture.com/produit/l-entraide-un-facteur-de-l-evolution>
