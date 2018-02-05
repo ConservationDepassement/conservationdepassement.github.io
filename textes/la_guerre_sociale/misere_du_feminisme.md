@@ -2,7 +2,7 @@
 layout: post
 title: "Misère du féminisme"
 nav: textes
-author: Dominique Karamazov
+author: Dominique Karamazov (revue La Guerre Sociale)
 year: 1978
 month: 03
 ---
