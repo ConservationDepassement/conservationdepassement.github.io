@@ -3,8 +3,20 @@
   <channel>
     <title>AUFHEBUNG</title>
     <description>Pour une critique radicale du faux omniprésent</description>
-    <link>http://aufhebung.fr</link>
-    <atom:link href="http://aufhebung.fr/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Le retour d'un Iguanodon</title>
+        <description>
+          publié dans &lt;i&gt;La Guerre Sociale&lt;/i&gt; n°3, 1979 - 
+          
+
+        </description>
+        <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018-02-le-retour-d-un-iguanodon/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-02-le-retour-d-un-iguanodon/</guid>
+      </item>
     
       <item>
         <title>L'Entraide : un facteur de l'évolution [extraits du chap. III]</title>
@@ -13,8 +25,8 @@
           La persistance même de l’organisation du clan montre combien il est faux de représenter l’humanité primitive comme une agglomération désordonnée d’individus obéissant seulement à leurs passions individuelles et tirant avantage de leur force et de leur habileté personnelle contre tous les autres représentants de l’espèce. L’individualisme effréné est une production...
         </description>
         <pubDate>Sat, 03 Feb 2018 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2018-02-l-entraide-parmi-les-sauvages/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2018-02-l-entraide-parmi-les-sauvages/</guid>
+        <link>http://localhost:4000/2018-02-l-entraide-parmi-les-sauvages/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-02-l-entraide-parmi-les-sauvages/</guid>
       </item>
     
       <item>
@@ -24,20 +36,20 @@
           Tout comme les artisans, les petits industriels et les petits commerçants, les propriétaires exploitants, les fermiers et les métayers redoutaient la collectivisation. Si la collectivisation de la terre avait été appliquée presque sans exception aux grands domaines, une forme d’exploitation qui avait été spontanément adoptée par les paysans sans terre...
         </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2018-01-la-guerre-d-espagne/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2018-01-la-guerre-d-espagne/</guid>
+        <link>http://localhost:4000/2018-01-la-guerre-d-espagne/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-01-la-guerre-d-espagne/</guid>
       </item>
     
       <item>
         <title>La Question de l'État</title>
         <description>
-          publié dans &lt;i&gt;La Guerre Sociale&lt;/i&gt; n° 2, 1978 - 
+          publié dans &lt;i&gt;La Guerre Sociale&lt;/i&gt; n°2, 1978 - 
           
 
         </description>
         <pubDate>Sat, 23 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2017-12-la-question-de-l-etat/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-12-la-question-de-l-etat/</guid>
+        <link>http://localhost:4000/2017-12-la-question-de-l-etat/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-la-question-de-l-etat/</guid>
       </item>
     
       <item>
@@ -48,8 +60,8 @@
 
         </description>
         <pubDate>Tue, 19 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</guid>
+        <link>http://localhost:4000/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</guid>
       </item>
     
       <item>
@@ -60,20 +72,20 @@
 
         </description>
         <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</guid>
+        <link>http://localhost:4000/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</guid>
       </item>
     
       <item>
         <title>Misère du féminisme</title>
         <description>
-          publié dans &lt;i&gt;La Guerre Sociale&lt;/i&gt; n° 2, 1978 - 
+          publié dans &lt;i&gt;La Guerre Sociale&lt;/i&gt; n°2, 1978 - 
           
 
         </description>
         <pubDate>Sun, 03 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2017-12-misere-du-feminisme/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-12-misere-du-feminisme/</guid>
+        <link>http://localhost:4000/2017-12-misere-du-feminisme/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-misere-du-feminisme/</guid>
       </item>
     
       <item>
@@ -84,8 +96,8 @@
 
         </description>
         <pubDate>Sat, 02 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://aufhebung.fr/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</guid>
+        <link>http://localhost:4000/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</guid>
       </item>
     
       <item>
@@ -99,8 +111,8 @@
 
         </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-10-l-heure-la-plus-sombre-87/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-10-l-heure-la-plus-sombre-87/</guid>
+        <link>http://localhost:4000/2017-10-l-heure-la-plus-sombre-87/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-l-heure-la-plus-sombre-87/</guid>
       </item>
     
       <item>
@@ -114,8 +126,8 @@
 
         </description>
         <pubDate>Fri, 06 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
+        <link>http://localhost:4000/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
       </item>
     
       <item>
@@ -126,8 +138,8 @@
 
         </description>
         <pubDate>Wed, 04 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
+        <link>http://localhost:4000/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
       </item>
     
       <item>
@@ -138,8 +150,8 @@
 
         </description>
         <pubDate>Thu, 28 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
+        <link>http://localhost:4000/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
       </item>
     
       <item>
@@ -150,8 +162,8 @@
 
         </description>
         <pubDate>Tue, 26 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-09-textes-pierre-guillaume-guy-debord/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-09-textes-pierre-guillaume-guy-debord/</guid>
+        <link>http://localhost:4000/2017-09-textes-pierre-guillaume-guy-debord/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-textes-pierre-guillaume-guy-debord/</guid>
       </item>
     
       <item>
@@ -162,8 +174,8 @@
 
         </description>
         <pubDate>Mon, 25 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-09-rencontre-les-syndicats-contre-le-proletariat/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-09-rencontre-les-syndicats-contre-le-proletariat/</guid>
+        <link>http://localhost:4000/2017-09-rencontre-les-syndicats-contre-le-proletariat/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-rencontre-les-syndicats-contre-le-proletariat/</guid>
       </item>
     
       <item>
@@ -174,8 +186,8 @@
 
         </description>
         <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</guid>
+        <link>http://localhost:4000/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-audio-la-guerre-civile-en-france-chapitre-2/</guid>
       </item>
     
       <item>
@@ -186,8 +198,8 @@
 
         </description>
         <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</guid>
+        <link>http://localhost:4000/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-livre-audio-la-guerre-civile-en-france-chapitre-1/</guid>
       </item>
     
       <item>
@@ -197,8 +209,8 @@
           La domination mondiale du capitalisme se différencie radicalement de tous les modes de production qui l’ont précédé par son essence universelle, condition de l’unification de l’histoire de l’humanité. Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont précédé dans telle ou telle zone...
         </description>
         <pubDate>Tue, 11 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-07-le-fetichisme-de-la-marchandise/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-07-le-fetichisme-de-la-marchandise/</guid>
+        <link>http://localhost:4000/2017-07-le-fetichisme-de-la-marchandise/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-07-le-fetichisme-de-la-marchandise/</guid>
       </item>
     
       <item>
@@ -208,8 +220,8 @@
           Contrairement au puritanisme borné des scientifiques payés depuis des siècles pour nous décrire les sociétés primitives comme d’atroces monstruosités - comme sociétés bestiales, non encore humaines, à l’image du barbare traînant « sa femme » par les cheveux de « la guerre du feu » - le matérialisme historique, lui,...
         </description>
         <pubDate>Mon, 10 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://aufhebung.fr/2017-07-de-l-alienation-des-communautes-primitives/</link>
-        <guid isPermaLink="true">http://aufhebung.fr/2017-07-de-l-alienation-des-communautes-primitives/</guid>
+        <link>http://localhost:4000/2017-07-de-l-alienation-des-communautes-primitives/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-07-de-l-alienation-des-communautes-primitives/</guid>
       </item>
     
   </channel>

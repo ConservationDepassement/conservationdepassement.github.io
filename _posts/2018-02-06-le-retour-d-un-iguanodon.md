@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Le retour d'un Iguanodon"
+nav: blog
+subtitle: "publié dans <i>La Guerre Sociale</i> n°3, 1979"
+author: La Guerre Sociale
+year: 2018
+month: 02
+day: 06
+content_type: book
+thumbnail: /img/posts/2018-02-06-le-retour-d-un-iguanodon/thumbnail.jpg
+internal_custom_url: /textes/la_guerre_sociale/le_retour_d_un_iguanodon/
+---
