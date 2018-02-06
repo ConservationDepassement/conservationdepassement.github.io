@@ -66,6 +66,7 @@ call s:f_say('CORRECTING MINOR THINGS (1/3)')
 call s:f_say('CORRECTING MINOR THINGS (2/3)')
 " FAUTE DE FRAPPES
 :%s/\([Cc]\)'est [aà] dire/\1'est-à-dire/gc
+:%s/Etat/État/gc
 call s:f_say('CORRECTING MINOR THINGS (3/3)')
 " NDLR
 :%s/ndlr/*NDLR*/gic
