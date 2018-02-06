@@ -5,6 +5,7 @@ nav: textes
 author: Dominique Karamazov (revue La Guerre Sociale)
 year: 1978
 month: 03
+thumbnail: /img/posts/2017-12-03-misere-du-feminisme/thumbnail.jpg
 ---
 
 
