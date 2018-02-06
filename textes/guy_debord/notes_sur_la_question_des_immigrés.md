@@ -5,6 +5,7 @@ title: "Notes sur la «question des immigrés»"
 author: Guy Debord
 month: 12
 year: 1985
+thumbnail: /img/posts/2017-12-18-notes-sur-la-question-des-immigrés/thumbnail.jpg
 ---
 
 Tout est faux dans la «question des immigrés», exactement comme dans toute question ouvertement posée dans la société actuelle ; et pour les mêmes motifs : l’économie – c’est-à-dire l’illusion pseudo-économique – l’a apportée, et le spectacle l’a traitée. On ne discute que de sottises. Faut-il garder ou éliminer les immigrés ? Naturellement, le véritable immigré n’est pas l’habitant permanent d’origine étrangère, mais celui qui est perçu et se perçoit comme différent et destiné à le rester. Beaucoup d’immigrés ou leurs enfants ont la nationalité française ; beaucoup de Polonais ou d’Espagnols se sont finalement perdus dans la masse d’une population française qui était autre. Comme les déchets de l’industrie atomique ou le pétrole dans l’Océan — et là on définit moins vite et moins « scientifiquement » les seuils d’intolérance — les immigrés, produits de la même gestion du capitalisme moderne, resteront pour des siècles, des millénaires, toujours. Ils resteront parce qu’il était beaucoup plus facile d’éliminer les Juifs d’Allemagne au temps d’Hitler que les maghrébins, et autres, d’ici à présent : car il n’existe en France ni un parti nazi ni le mythe d’une race autochtone !
