@@ -38,7 +38,7 @@ help:
 	@echo "    test-pdf         - Test generation for PDFs and check out result"
 	@echo "    test-epub        - Test generation for EPUBs"
 	@echo "    vim-correct      - Trigger vim typographic correction script"
-	@echo "    vim-uncorrect    - Trigger vim uncorrection script for non-breakable spaces"
+	@echo "    vim-uncorrect    - Trigger vim uncorrection script for removing non-breakable spaces"
 	@echo
 	@echo "PARAMETERS"
 	@echo "    $(MAKE)  IN=/path/to/dir/     [all|pdf|epub]"
@@ -50,7 +50,7 @@ help:
 	@echo "        For EPUB testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
 	@echo "         and output file to 'outfile' (defaults to '$(TEST_OUT_EPUB)')"
 	@echo "    $(MAKE)  IN=infile.md              vim-[un]correct"
-	@echo "        Set input file for vim correction script to 'infile.md'"
+	@echo "        Set input file for vim [un]correction script to 'infile.md'"
 	@echo
 	@echo "EXAMPLES"
 	@echo "    $(MAKE) IN=./textes/guy_debord/ pdf"
