@@ -8,7 +8,7 @@ year: 1979
 month: 06
 ---
 
-> Figurez-vous qu'ils reprennent, et ils le font systématiquement, la polémique en faveur d'un personnage que nous pourrions appeler préhistorique, comme l’iguanodon, l’ingénieur Amadeo Bordiga. --- Togliatti, juillet 1953.
+> Figurez-vous qu'ils reprennent, et ils le font systématiquement, la polémique en faveur d'un personnage que nous pourrions appeler préhistorique, comme l’iguanodon, l’ingénieur Amadeo Bordiga. --- Togliatti, juillet 1953
 
 À l'Est comme à l'Ouest, l'industrie produit de semblables dommages à l'environnement, liquide la vie dans les grands lacs, empoisonne l'atmosphère et la mer avec ses substances toxiques, construit des centrales nucléaires. Si l'on retrouve, ici et là, tant de traits semblables, la réponse en est extrêmement simple&nbsp;: c'est le même mode de production qui domine. La critique que Marx a faite du capitalisme, de ses effets désastreux pour la nature de cette partie de la nature qu'est la nature humaine -- qui existe, n'en déplaise à certains philosophes --, s'applique aussi bien à la Russie qu'à l'Amérique.
 
