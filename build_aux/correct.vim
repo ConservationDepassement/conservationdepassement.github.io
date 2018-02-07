@@ -1,7 +1,4 @@
 " Vim script for typographic correction of texts
-" TODO: improve verbosity : make vim status line display the current replacement being processed
-" TODO: make vim stop on errors
-" TODO: improve testing process
 
 let g:SCRIPT_NAME='correct.vim'
 set laststatus=2
@@ -10,7 +7,7 @@ let s:stl_orig = &statusline
 
 "
 " Display a message to the statusline
-" message (string), current step number, total step number
+" message (string)
 "
 function! s:f_say ( msg )
  	"let &statusline = '['.g:SCRIPT_NAME.'] '.a:msg.' (phase '.a:step_num.'/'.a:step_tot.') in "%f" (%p%%)'
