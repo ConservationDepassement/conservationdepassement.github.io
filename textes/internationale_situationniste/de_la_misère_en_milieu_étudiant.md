@@ -110,7 +110,7 @@ intériorisée et véhiculée par la masse des futurs petits cadres.
 Si la misère sociale ancienne a produit les systèmes de compensation les
 plus grandioses de l'histoire (les religions), la misère marginale
 étudiante n'a trouvé de consolation que dans les images les plus éculées
-de la société dominante la répétition burlesque de tous ses produits
+de la société dominante, la répétition burlesque de tous ses produits
 aliénés.
 
 L'étudiant français, en sa qualité d'être idéologique arrive trop tard à
