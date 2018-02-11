@@ -31,7 +31,7 @@ IN =
 
 help:
 	@echo "TARGETS"
-	@echo "    all              - Build all targets marked with [*]"
+	@echo "    all              - Build all targets marked with '*'"
 	@echo " *  pdf              - Build all PDFs"
 	@echo " *  epub             - Build all EPUBs"
 	@echo "    test             - Test generation for PDFs and EPUBs and check out result"
@@ -41,12 +41,12 @@ help:
 	@echo "    vim-uncorrect    - Trigger vim uncorrection script for removing non-breakable spaces"
 	@echo
 	@echo "PARAMETERS"
-	@echo "    $(MAKE)  IN=/path/to/dir/     [all|pdf|epub]"
+	@echo "    $(MAKE)  IN=/path/to/dir/     {all|pdf|epub}"
 	@echo "        Set root dir for searching files to '/path/to/dir/' (defaults to '$(SEARCH_PATH)')"
-	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_PDF=outfile   [test|test-pdf]"
+	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_PDF=outfile   {test|test-pdf}"
 	@echo "        For PDF testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
 	@echo "         and output file to 'outfile' (defaults to '$(TEST_OUT_PDF)')"
-	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_EPUB=outfile  [test|test-epub]"
+	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_EPUB=outfile  {test|test-epub}"
 	@echo "        For EPUB testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
 	@echo "         and output file to 'outfile' (defaults to '$(TEST_OUT_EPUB)')"
 	@echo "    $(MAKE)  IN=infile.md              vim-[un]correct"
