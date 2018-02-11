@@ -3,6 +3,7 @@
 # TODO: arranger la partie 'test'
 # TODO: how to handle/trap errors?
 # TODO: faire une target pour 'ln -s sous_doss/* .' les images d'un texte?
+# TODO: fix test-[epub|pdf] (broken because --resource-path option not specified)
 
 SHELL = /bin/bash
 VIM = vim
