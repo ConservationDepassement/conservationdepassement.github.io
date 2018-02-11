@@ -14,7 +14,7 @@ month: 06
 
 Mais des gens éclairés et à l'esprit critique verront dans le culte marxiste de l'industrie, "livre ouvert des facultés humaines", la cause de la situation dans des pays que, malgré tous leurs "défauts", ils s'acharneront à appeler communistes. Vu la lourde expérience historique, on ne prendra pas au sérieux ceux qui prétendraient qu'il suffit de changer le mode de production pour en finir avec le saccage de la nature. Les préoccupations écologiques sont aussi bien au-delà du communisme que du capitalisme et, pour tout dire, de la société industrielle productiviste. À la croyance simpliste suivant laquelle il suffirait de révolutionner la base économique, on rétorquera que ce sont toutes nos manières d'être qu'il faut faire évoluer.
 
-![Gozilla](./godzilla.jpg)
+![Gozilla](/textes/la_guerre_sociale/le_retour_d_un_iguanodon/godzilla.jpg)
 
 La vérité est au contraire que l'écologisme n'est qu'une autocritique de la société capitaliste et que, quelle que soit la virulence avec laquelle il dénonce telle ou telle pollution, il ne sait pas remonter et lutter contre le système qui produit ces pollutions et qui fausse déjà le problème des rapports entre l'humanité et son environnement en le prenant sous l'angle de la pollution ou de la défense de la nature. Vieux thème de droite que la gauche nouvelle, mais cependant toujours réformiste, reprend à son compte.
 
