@@ -74,12 +74,14 @@ test: test-pdf test-epub
 
 # TODO: can't test PDF with relative resource pathes this way
 test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
+	$(error Broken for now, please look elsewhere.)
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) -o $(TEST_OUT_EPUB) <$(TEST_IN)
 	@echo ":: EPUB: SUCCESS!"
 	@echo ":: Output was made to '$(TEST_OUT_EPUB)'"
 #@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
 
 test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
+	$(error Broken for now, please look elsewhere.)
 	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) -o $(TEST_OUT_PDF)  <$(TEST_IN) 
 	@echo ":: PDF: SUCCESS!"
 	@echo ":: Output was made to '$(TEST_OUT_PDF)'"
