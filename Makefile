@@ -3,7 +3,6 @@
 # TODO: arranger la partie 'test'
 # TODO: how to handle/trap errors?
 # TODO: faire une target pour 'ln -s sous_doss/* .' les images d'un texte?
-# TODO: fix test-[epub|pdf] (broken because --resource-path option not specified)
 
 SHELL = /bin/bash
 VIM = vim
@@ -57,6 +56,7 @@ help:
 	@echo "    $(MAKE) IN=./textes/guy_debord/ pdf"
 	@echo "        Recursively build PDF files from MD files in ./textes/guy_debord/**"
 	@echo "    $(MAKE) TEST_OUT_EPUB=/media/KOBOeReader/test.epub TEST_OUT_PDF=/media/KOBOeReader/test.pdf test"
+	@echo "    $(MAKE) IN=./textes/guy_debord/notes_sur_la_question_des_immigrés.md test-pdf"
 	@echo "    $(MAKE) IN=./textes/pierre_guillaume/guy_debord.md vim-correct"
 	@echo
 	@echo "Script used for PDF and EPUB generation: $(GEN_SCRIPT) (see '$(GEN_SCRIPT) --help')"
@@ -72,17 +72,14 @@ epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
 
 test: test-pdf test-epub
 
-# TODO: can't test PDF with relative resource pathes this way
 test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
-	$(error Broken for now, please look elsewhere)
-	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) -o $(TEST_OUT_EPUB) <$(TEST_IN)
+	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(TEST_OUT_EPUB) <$(TEST_IN)
 	@echo ":: EPUB: SUCCESS!"
 	@echo ":: Output was made to '$(TEST_OUT_EPUB)'"
 #@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
 
 test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
-	$(error Broken for now, please look elsewhere)
-	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) -o $(TEST_OUT_PDF)  <$(TEST_IN) 
+	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(TEST_OUT_PDF)  <$(TEST_IN) 
 	@echo ":: PDF: SUCCESS!"
 	@echo ":: Output was made to '$(TEST_OUT_PDF)'"
 	@xdg-open $(TEST_OUT_PDF) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_PDF)'"
