@@ -316,8 +316,7 @@ footer p {
 }
 
 /* Author and source of a post quote. */
-/*TODO ::: Tue 17 Oct 2017 06:05:42 PM CEST
- * must use a footnote instead */ 
+/*TODO: erase this and use "--- AUTEUR, SOURCE (DATE) instead) */ 
 .post-content .quote-meta {
   color: black;
   font-size: 110%;

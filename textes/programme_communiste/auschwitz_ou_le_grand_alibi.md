@@ -6,9 +6,8 @@ author: revue Programme Communiste
 year: 1960
 ---
 
-<!--- TODO
-- relecture
-- vim-correct
+<!---
+TODO: vim-correct
 --->
 
 La presse de gauche vient de montrer de nouveau que le racisme, et en fait essentiellement l'antisémitisme, constitue en quelque sorte le Grand Alibi de l'antifascisme&nbsp;: il est son drapeau favori et en même temps son dernier refuge dans la discussion. Qui résiste à l'évocation des camps d'extermination et des fours crématoires&nbsp;? Qui ne s'incline devant les six millions de Juifs assassinés&nbsp;? Qui ne frémit devant le sadisme des nazis&nbsp;? Pourtant c'est là une des plus scandaleuses mystifications de l'antifascisme, et nous devons la démonter.

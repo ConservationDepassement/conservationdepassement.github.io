@@ -1,8 +1,5 @@
 ## NOTES ##
 # Voir : https://github.com/ResponSySS/responsyss.github.io/wiki/Générer-les-PDFs
-# TODO: arranger la partie 'test'
-# TODO: how to handle/trap errors?
-# TODO: faire une target pour 'ln -s sous_doss/* .' les images d'un texte?
 
 SHELL = /bin/bash
 VIM = vim
