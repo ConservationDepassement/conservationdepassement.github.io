@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amour ou combinatoire sexuelle"
+title: "Amour ou Combinatoire Sexuelle"
 nav: textes
 author: Jacques Camatte
 year: 1978

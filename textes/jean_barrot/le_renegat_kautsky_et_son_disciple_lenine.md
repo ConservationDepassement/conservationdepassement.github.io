@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Le renégat Kautsky et son disciple Lénine"
+title: "Le Renégat Kautsky et son Disciple Lénine"
 nav: textes
 author: Jean Barrot (Gilles Dauvé)
 year: 1977

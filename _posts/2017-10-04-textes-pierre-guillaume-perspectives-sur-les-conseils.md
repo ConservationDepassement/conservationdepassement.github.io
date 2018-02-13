@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perspectives sur les conseils, la gestion ouvrière et la gauche allemande"
+title: "Perspectives sur les Conseils, la Gestion Ouvrière et la Gauche Allemande"
 nav: blog
 subtitle: "par Pierre Guillaume, 1974"
 author: Pierre Guillaume

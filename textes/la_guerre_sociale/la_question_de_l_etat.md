@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La question de l'État"
+title: "La Question de l'État"
 nav: textes
 author: revue La Guerre Sociale
 year: 1978

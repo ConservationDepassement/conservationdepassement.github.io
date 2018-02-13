@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: textes
-title: "Auschwitz ou le grand alibi"
+title: "Auschwitz ou le Grand Alibi"
 author: revue Programme Communiste
 year: 1960
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Le retour d'un Iguanodon"
+title: "Le Retour d'un Iguanodon"
 nav: blog
 subtitle: "publié dans <i>La Guerre Sociale</i> n°3, 1979"
 author: La Guerre Sociale

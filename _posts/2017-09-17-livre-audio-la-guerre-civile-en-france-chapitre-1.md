@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Karl Marx - La guerre civile en France"
+title: "Karl Marx - La Guerre Civile en France"
 nav: blog
 subtitle: "Livre audio du chapitre 1"
 author: Aufhebung

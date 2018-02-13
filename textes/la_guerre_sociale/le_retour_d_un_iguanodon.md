@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Le retour d'un iguanodon"
+title: "Le Retour d'un Iguanodon"
 subtitle: Écologie et communisme I
 nav: textes
 author: revue La Guerre Sociale

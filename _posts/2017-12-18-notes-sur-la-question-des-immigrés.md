@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes sur la «question des immigrés»
+title: Notes sur la « Question des Immigrés »
 nav: blog
 subtitle: par Guy Debord, 1985
 author: Guy Debord

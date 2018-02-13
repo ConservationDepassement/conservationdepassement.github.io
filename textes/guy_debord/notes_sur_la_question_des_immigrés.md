@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: textes
-title: "Notes sur la «question des immigrés»"
+title: "Notes sur la « Question des Immigrés »"
 author: Guy Debord
 month: 12
 year: 1985

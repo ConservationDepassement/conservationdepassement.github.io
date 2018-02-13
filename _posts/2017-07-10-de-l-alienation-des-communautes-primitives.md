@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-title: De l’aliénation des communautés primitives à l’extranéisation de la société contemporaine
+title: De l'Aliénation des Communautés Primitives à l'Extranéisation de la Société Contemporaine
 author: Aufhebung
 year: 2017
 month: 07

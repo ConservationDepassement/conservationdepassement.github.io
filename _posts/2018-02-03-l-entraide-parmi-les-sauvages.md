@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L'Entraide : un facteur de l'évolution [extraits du chap. III]"
+title: "L'Entraide : un Facteur de l'Évolution [extraits du chap. III]"
 nav: blog
 subtitle: "L'entraide parmi les sauvages"
 author: Pierre Kropotkine
