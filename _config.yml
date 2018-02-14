@@ -6,7 +6,7 @@ url: "http://aufhebung.fr"
 # website's URL without the hostname
 baseurl: ""
 
-# TODO: get rid of Jekyll SEO's <title> duplicate
+# jekyll-seo-tags inserts the <title> using 'title' var as "<title>{{ page.title }} | {{ seo.title }}</title>"
 title: "AUFHEBUNG"
 author: "Collectif"
 description: "Pour une critique radicale du faux omniprésent"
