@@ -1027,7 +1027,7 @@ les seules règles qu'il pourra reconnaître.
 [^24]: *Internationale Situationniste*, n° 9.
 
 [^25]: *Adresse aux révolutionnaires d'Algérie et de tous les pays*,
-    *Internationale Situationniste*, n°10.
+    *Internationale Situationniste*, n° 10.
 
 [^26]: Défini par la prédominance du travail-marchandise.
 
