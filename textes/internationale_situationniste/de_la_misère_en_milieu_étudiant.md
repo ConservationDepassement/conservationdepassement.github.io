@@ -1009,7 +1009,7 @@ les seules règles qu'il pourra reconnaître.
 
 [^18]: *Internationale Situationniste*, n° 7.
 
-[^19]: Karl Liebknecht à la veille de son assassinat
+[^19]: Karl Liebknecht à la veille de son assassinat.
 
 [^20]: Leur réalisation effective, c'est tendre à industrialiser le pays
     par la classique accumulation primitive aux dépens de la
