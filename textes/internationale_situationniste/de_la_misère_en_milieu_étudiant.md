@@ -645,7 +645,7 @@ doivent être jugés à la lumière de leurs prolongements, et leurs vérités
 rétablies. Ainsi, nous pouvons affirmer qu'« *il y a des défaites qui
 sont des victoires et des victoires plus honteuses que des
 défaites* »[^19]. La première grande "défaite" du pouvoir prolétarien,
-la Commune de Paris, est en réalité sa première grande victoire car,
+la Commune de Paris, est en réalité sa première grande *victoire* car,
 pour la première fois, le Prolétariat primitif a affirmé sa capacité
 historique de diriger d'une façon *libre* tous les aspects de la vie
 sociale. De même que sa première grande "victoire", la révolution
@@ -754,7 +754,7 @@ la critique révolutionnaire à réinventer*[^24]. Elle est significative
 en ce sens que toute séparation entre ces deux aspects retombe
 inévitablement soit dans le musée de la Préhistoire révolutionnaire
 achevée, soit dans la modernité du pouvoir, c'est-à-dire dans la
-contre-révolution dominante : Voix ouvrière ou Arguments.
+contre-révolution dominante : *Voix ouvrière* ou *Arguments*.
 
 Quant aux divers groupuscules "anarchistes", ensemble prisonniers de
 cette appellation, ils ne possèdent rien d'autre que cette idéologie
