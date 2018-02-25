@@ -8,6 +8,8 @@ year: 1966
 month: 11
 ---
 
+## Rendre la honte plus honteuse en la livrant à la publicité
+
 Nous pouvons affirmer, sans grand risque de nous tromper, que l'étudiant
 en France est, après le policier et le prêtre, l'être le plus
 universellement reprisé. Si les raisons pour lesquelles on le méprise
@@ -30,18 +32,18 @@ Toutes les analyses et études entreprises sur le milieu étudiant ont,
 jusqu'ici, négligé l'essentiel. Jamais elles ne dépassent le point de
 vue des spécialisations universitaires (psychologie, sociologie,
 économie), et demeurent donc : fondamentalement erronées. Toutes, elles
-commettent ce que Fourier appelait déjà une étourderie méthodique
+commettent ce que Fourier appelait déjà une *étourderie méthodique*
 "puisqu'elle porte régulièrement sur les questions primordiales", en
 ignorant le point de vue total de la société moderne. Le fétichisme des
 faits masque la catégorie essentielle, et les détails font oublier la
 totalité. On dit tout de cette société, sauf ce qu'elle est
-effectivement : marchande et spectaculaire. Les sociologues Bourderon et
+effectivement : *marchande* et *spectaculaire*. Les sociologues Bourderon et
 Passedieu, dans leur enquête *Les Héritiers : les étudiants et la
 culture* restent désarmés devant les quelques vérités partielles qu'ils
 ont fini par prouver. Et, malgré toute leur volonté bonne, ils retombent
 dans la morale des professeurs, l'inévitable éthique kantienne d'une
-démocratisation réelle par une rationalisation réelle du système
-d'enseignement c'est-à-dire de l'enseignement du système. Tandis que
+*démocratisation réelle par une rationalisation réelle du système
+d'enseignement* c'est-à-dire de l'enseignement du système. Tandis que
 leurs disciples, les Kravetz[^1] se croient des milliers à se réveiller,
 compensant leur amertume petite-bureaucrate par le fatras d'une
 phraséologie révolutionnaire désuète.
@@ -87,7 +89,7 @@ complaisance envers toutes les misères, sa propension malsaine à
 consommer béatement de l'aliénation, dans l'espoir, devant le manque
 d'intérêt général, d'intéresser à son manque particulier. Les exigences
 du capitalisme moderne font que la majeure partie des étudiants seront
-tout simplement de petits cadres (c'est-à-dire l'équivalent de ce
+tout simplement de *petits cadres* (c'est-à-dire l'équivalent de ce
 qu'était au XIX<sup>ème</sup> siècle la fonction d'ouvrier qualifié[^4]). Devant
 le caractère misérable, facile à pressentir, de cet avenir plus ou moins
 proche qui le "dédommagera" de la honteuse misère du présent, l'étudiant
@@ -100,9 +102,9 @@ vécu.
 Esclave stoïcien, l'étudiant se croit d'autant plus libre que toutes les
 chaînes de l'autorité le lient. Comme sa nouvelle famille, l'Université,
 il se prend pour l'être social le plus "autonome" alors qu'il relève
-directement et conjointement des deux systèmes les plus puissants de
+*directement et conjointement* des deux systèmes les plus puissants de
 l'autorité sociale : la famille et l'État. Il est leur enfant rangé et
-reconnaissant. Suivant la même logique de l'enfant soumis, il participe
+reconnaissant. Suivant la même logique de l'*enfant soumis*, il participe
 à toutes les valeurs et mystifications du système, et les concentre en
 lui. Ce qui était illusions imposées aux employés devient idéologie
 intériorisée et véhiculée par la masse des futurs petits cadres.
@@ -113,8 +115,8 @@ plus grandioses de l'histoire (les religions), la misère marginale
 de la société dominante, la répétition burlesque de tous ses produits
 aliénés.
 
-L'étudiant français, en sa qualité d'être idéologique arrive trop tard à
-tout. Toutes les valeurs et illusions qui font la fierté de son monde
+L'étudiant français, en sa qualité d'être idéologique *arrive trop tard à
+tout*. Toutes les valeurs et illusions qui font la fierté de son monde
 fermé sont déjà condamnées en tant qu'illusions insoutenables, depuis
 longtemps ridiculisées par l'histoire.
 
@@ -127,16 +129,16 @@ réalité qui domine tout cela, le système économique, réclame une
 fabrication massive d'étudiants incultes et incapables de penser. Que
 l'Université soit devenue une organisation -- institutionnelle -- de
 l'ignorance, que la "haute culture" elle-même se dissolve au rythme de
-la production en série des professeurs, que tous ces professeurs soient
+la production en série des professeurs, que *tous* ces professeurs soient
 des crétins dont la plupart provoqueraient le chahut de n'importe quel
 public de lycée -- l'étudiant l'ignore ; et il continue d'écouter
 respectueusement ses maîtres, avec la volonté consciente de perdre tout
 esprit critique afin de mieux communier dans l'illusion mystique d'être
 devenu un "étudiant", quelqu'un qui s'occupe sérieusement à apprendre un
-savoir sérieux, dans l'espoir qu'on lui confiera les vérités dernières.
+savoir *sérieux*, dans l'espoir qu'on lui confiera les vérités dernières.
 C'est une ménopause de l'esprit. Tout ce qui se passe aujourd'hui dans
 les amphithéâtres des écoles et des facultés sera condamné dans la
-future société révolutionnaire comme bruit, socialement nocif. D'ores et
+future société révolutionnaire comme *bruit*, socialement nocif. D'ores et
 déjà, l'étudiant fait rire.
 
 L'étudiant ne se rend même pas compte que l'histoire altère aussi son
@@ -181,10 +183,10 @@ modernes, voila l'ennemi.
 
 Mais il est normal que tout ce débat passe par-dessus la tête de
 l'étudiant, dans le ciel de ses maîtres et lui échappe
-totalement : l'ensemble de sa vie, et a fortiori sa vie, lui échappe.
+totalement : l'ensemble de sa vie, et *a fortiori* de la vie, lui échappe.
 
 De par sa situation économique d'extrême pauvreté, l'étudiant est
-condamné à un certain mode de survie très peu enviable. Mais toujours
+condamné à un certain mode de *survie* très peu enviable. Mais toujours
 content de son être, il érige sa triviale misère en "style de vie"
 original : le misérabilisme et la bohème. Or, la "bohème", déjà loin
 d'être une solution originale, n'est jamais authentiquement vécue
@@ -223,7 +225,7 @@ marchandise culturelle. Dans le spectacle culturel, l'étudiant retrouve
 naturellement sa place de disciple respectueux. Proche du lieu de
 production sans jamais y accéder -- le Sanctuaire lui reste interdit --
 l'étudiant découvre la "culture moderne" en spectateur admiratif. À une
-époque où l'art est mort, il reste le principal fidèle des théâtres et
+époque où *l'art est mort*, il reste le principal fidèle des théâtres et
 des ciné-clubs, et le plus avide consommateur de son cadavre congelé et
 diffusé sous cellophane dans les supermarchés pour les ménagères de
 l'abondance. Il y participe sans réserve, sans arrière-pensée et sans
@@ -273,12 +275,11 @@ est vraiment un journal "objectif" qui reflète l'actualité. Pour
 approfondir ses connaissances générales, il s'abreuve de *Planète*, la
 revue magique qui enlève les rides et les points noirs des vieilles
 idées. C'est avec de tels guides qu'il croit participer au monde moderne
-et s'initier à la politique.
-
-Car l'étudiant, plus que partout ailleurs, est content d'être politisé.
-Seulement, il ignore qu'il y participe à travers le même spectacle.
+et s'initier à la politique.  
+Car l'étudiant, plus que partout ailleurs, est content d'être *politisé*.
+Seulement, il ignore qu'il y participe à travers le même *spectacle*.
 Ainsi se réapproprie-t-il tous les restes en lambeaux ridicules d'une
-gauche qui fut anéantie voilà plus de quarante ans, par le réformisme
+gauche qui fut anéantie voilà plus de *quarante ans*, par le réformisme
 "socialiste" et par la contre-révolution stalinienne. Cela, il l'ignore
 encore, alors que le Pouvoir le sait clairement, et les ouvriers d'une
 façon confuse. Il participe, avec une fierté débile, aux manifestations
@@ -292,13 +293,13 @@ de résistance, dans un ordre qui n'a jamais été un instant mis en
 question[^12]. Quand il croit aller outre, comme ces gens qui se
 nomment, par une véritable maladie de l'inversion publicitaire, J C.R.,
 alors qu'ils ne sont ni jeunes, ni communistes, ni révolutionnaires,
-c'est pour se rallier gaiement au mot d'ordre pontifical : Paix au
-Viet-Nam.
+c'est pour se rallier gaiement au mot d'ordre pontifical : *Paix au
+Viet-Nam*.
 
 L'étudiant est fier de s'opposer aux "archaïsmes" d'un de Gaulle, mais
-ne comprend pas qu'il le fait au nom d'erreurs du passé, de crimes
-refroidis (comme le stalinisme à l'époque de Togliatti - Garaudy -
-Krouchtchev - Mao) et qu'ainsi sa jeunesse est encore plus archaïque que
+ne comprend pas qu'il le fait au nom d'erreurs du passé, de *crimes
+refroidis* (comme le stalinisme à l'époque de Togliatti - Garaudy -
+Krouchtchev - Mao) et qu'ainsi sa *jeunesse* est encore plus *archaïque* que
 le pouvoir qui, lui, dispose effectivement de tout ce qu'il faut pour
 administrer une société moderne.
 
@@ -321,7 +322,7 @@ d'étudiants dans leurs chiottes spirituelles.
 Certes, il existe tout de même, parmi les étudiants, des gens d'un
 niveau intellectuel suffisant. Ceux-là dominent sans fatigue les
 misérables contrôles de capacité prévus pour les médiocres, et ils les
-dominent justement parce qu'ils ont compris le système, parce qu'ils le
+dominent justement parce qu'ils ont *compris le système*, parce qu'ils le
 méprisent et se savent ses ennemis. Ils prennent dans le système des
 études ce qu'il a de meilleur : les bourses. Profitant des failles du
 contrôle, que sa logique propre oblige actuellement et ici à garder un
@@ -336,10 +337,9 @@ du mouvement révolutionnaire qui vient, et se flattent d'être aussi
 connus que lui quand on va commencer à en parler. Ils ne cachent à
 personne que ce qu'ils prennent si aisément au "système des études" est
 utilisé pour sa destruction. Car l'étudiant ne peut se révolter contre
-rien sans se révolter contre ses études, et la nécessité de cette
+rien sans se révolter contre ses *études*, et la nécessité de cette
 révolte se fait sentir moins naturellement que chez l'ouvrier, qui se
-révolte spontanément contre sa condition.
-
+révolte spontanément contre sa condition.  
 Mais l'étudiant est un produit de la société moderne, au même titre que
 Godard et le Coca-Cola. Son extrême aliénation ne peut être contestée
 que par la contestation de la société toute entière. En aucune façon
@@ -350,6 +350,8 @@ comble de la fausse conscience. Mais, partout où la société moderne
 commence à être contestée, il y a révolte de la jeunesse, qui correspond
 immédiatement à une critique totale du comportement étudiant.
 
+## Il ne suffit pas que la pensée recherche sa réalisation, il faut que la réalité recherche la pensée
+
 Après une longue période de sommeil léthargique et de contre-révolution
 permanente, s'esquisse, depuis quelques années, une nouvelle période de
 contestation dont la jeunesse semble être la porteuse. Mais la société
@@ -357,7 +359,7 @@ du spectacle, dans la représentation qu'elle se fait d'elle-même et de
 ses ennemis, impose ses catégories idéologiques pour la compréhension du
 monde et de l'histoire. Elle ramène tout ce qui s'y passe à l'ordre
 naturel des choses, et enferme les véritables nouveautés qui annoncent
-son dépassement dans le cadre restreint de son illusoire nouveauté. La
+son *dépassement* dans le cadre restreint de son illusoire nouveauté. La
 révolte de la jeunesse contre le mode de vie qu'on lui impose n'est, en
 réalité, que le signe avant-coureur d'une subversion plus vaste qui
 englobera l'ensemble de ceux qui éprouvent de plus en plus
@@ -375,7 +377,7 @@ inflation journalistique qui en fait le spectacle d'une "révolte"
 possible à donner contempler pour empêcher qu'on la vive, la sphère
 aberrante -- déjà intégrée -- nécessaire au fonctionnement du système
 social ; cette révolte contre la société rassure la société parce
-qu'elle est censée rester partielle, dans l'apartheid des "problèmes" de
+qu'elle est censée rester partielle, dans *l'apartheid* des "problèmes" de
 la jeunesse -- comme il y aurait des problèmes de la femme, ou un
 problème noir -- et ne durer qu'une partie de la vie. En réalité, s'il y
 a un problème de la "jeunesse" dans la société moderne, c'est que la
@@ -394,7 +396,7 @@ profondément lié au mode de production capitaliste, comme expression de
 son dynamisme. Cette illusoire primauté de la jeunesse est devenue
 possible avec le redémarrage de l'économie, après la Deuxième Guerre
 mondiale, par suite de l'entrée en masse sur le marché de toute une
-catégorie de consommateurs plus malléables, un rôle qui assure un brevet
+catégorie de consommateurs plus malléables, un *rôle* qui assure un brevet
 d'intégration à la société du spectacle. Mais l'explication dominante du
 monde se trouve de nouveau en contradiction avec la réalité
 socio-économique (car en retard sur elle) et c'est justement la jeunesse
@@ -407,16 +409,16 @@ se cherche et se constitue partout dans le monde. Il lui faut atteindre
 la cohérence de la critique théorique et l'organisation pratique de
 cette cohérence.
 
-Au niveau le plus sommaire, les "Blousons noirs", dans tous les pays,
+Au niveau le plus sommaire, les "Blousons noirs"[^note_blousons_noirs], dans tous les pays,
 expriment avec le plus de violence apparente le refus de s'intégrer.
 Mais le caractère abstrait de leur refus ne leur laisse aucune chance
 d'échapper aux contradictions d'un système dont ils sont le produit
 négatif spontané. Les "Blousons noirs" sont produits par tous les côtés
-de l'ordre actuel : l'urbanisme des grands ensembles, la décomposition
+de l'*ordre* actuel : l'urbanisme des grands ensembles, la décomposition
 des valeurs, l'extension des loisirs consommables de plus en plus
 ennuyeux, le contrôle humaniste-policier de plus en plus étendu à toute
 la vie quotidienne, la survivance économique de la cellule familiale
-privée de toute signification. Ils méprisent le travail mais ils
+privée de toute signification. Ils méprisent le travail *mais* ils
 acceptent les marchandises. Ils voudraient avoir tout ce que la
 publicité leur montre, tout de suite et sans qu'ils puissent le payer.
 Cette contradiction fondamentale domine toute leur existence, et c'est
@@ -426,7 +428,7 @@ individuelle et la constitution d'une sorte de communauté. (Seulement,
 de telles micro-communautés recomposent, en marge de la société
 développée, un primitivisme où la misère recrée inéluctablement la
 hiérarchie de la bande. Cette hiérarchie, qui ne peut s'affirmer que
-dans la lutte contre d'autres bandes, isole chaque bande et, dans chaque
+dans la lutte contre d'autres bandes, *isole* chaque bande et, dans chaque
 bande, l'individu.) Pour sortir de cette contradiction, le "Blouson
 noir" devra finalement travailler pour acheter des marchandises -- et là
 tout un secteur de la production est expressément fabriqué pour sa
@@ -439,7 +441,9 @@ et leur révolte retombe dans le pire conformisme. Le monde des Blousons
 noirs n'a d'autre issue que la prise de conscience révolutionnaire ou
 l'obéissance aveugle dans les usines.
 
-Les Provos constituent la première forme de dépassement de l'expérience
+[^note_blousons_noirs]: *[NDLR]* Les blousons noirs sont une sous-culture juvénile apparue en France dans les années 1950, issue de l'influence américaine, associée à un code vestimentaire particulier et au rock'n'roll ; elle a été la matrice du mouvement yéyé et de beaucoup de modes adolescentes ultérieures.
+
+Les Provos[^note_provos] constituent la première forme de dépassement de l'expérience
 des "Blousons noirs", de l'organisation de sa première expression
 politique. Ils sont nés à la faveur d'une rencontre entre quelques
 déchets de l'art décomposé en quête de succès et une masse de jeunes
@@ -494,12 +498,14 @@ contestation moderne authentique qui a déjà une base réelle chez eux.
 S'ils veulent réellement transformer le monde, ils n'ont que faire de
 ceux qui veulent se contenter de le peindre en blanc.
 
+[^note_provos]: *[NDLR]* Le mouvement Provo est un mouvement néerlandais de contre-culture, contestataire et libertaire, du milieu des années 1960.
+
 En se révoltant contre leurs études, les étudiants américains ont
 immédiatement mis en question une société qui a besoin de telles études.
 De même que leur révolte (à Berkeley et ailleurs) contre la hiérarchie
-universitaire s'est d'emblée affirmée comme révolte contre tout le
+universitaire s'est d'emblée affirmée comme *révolte contre tout le
 système social basé sur la hiérarchie et la dictature de l'économie et
-de l'État. En refusant d'intégrer les entreprises, auxquelles les
+de l'État*. En refusant d'*intégrer les entreprises*, auxquelles les
 destinaient tout naturellement leurs études spécialisées, ils mettent
 profondément en question un système de production où toutes les
 activités et leur produit échappent totalement à leurs auteurs. Ainsi, à
@@ -515,7 +521,7 @@ dans des contradictions dangereuses. L'hostilité à la politique
 traditionnelle des vieilles organisations est facilement récupérée par
 l'ignorance du monde politique, qui se traduit par un grand manque
 d'informations, et des illusions sur ce qui se passe effectivement dans
-le monde. L'hostilité abstraite à leur société les conduit à
+le monde. L'hostilité *abstraite* à leur société les conduit à
 l'admiration ou à l'appui de ses ennemis les plus apparents : les
 bureaucraties dites socialistes, la Chine ou Cuba. Ainsi trouve-t-on
 dans un groupe comme "Resurgence Youth Movement", et en même temps une
@@ -618,19 +624,21 @@ importante formation révolutionnaire du monde, et doit être, d'ores et
 déjà, un des pôles de discussion et de rassemblement pour la nouvelle
 critique révolutionnaire prolétarienne dans le monde.
 
+## Créer enfin la situation qui rende impossible tout retour en arrière
+
 « *Être d'avant-garde, c'est marcher au pas de la réalité.* »[^17] La
 critique radicale du monde moderne doit avoir maintenant pour objet et
 pour objectif la "totalité". Elle doit porter indissolublement sur son
 passé réel, sur ce qu'il est effectivement et sur les perspectives de sa
 transformation. C'est que, pour pouvoir dire toute la vérité du monde
-actuel et, a fortiori, pour formuler le projet de sa subversion totale,
-il faut être capable de révéler toute son histoire cachée, c'est-à-dire
+actuel et, *a fortiori*, pour formuler le projet de sa subversion totale,
+il faut être capable de *révéler* toute son *histoire cachée*, c'est-à-dire
 regarder d'une façon totalement démystifiée et fondamentalement
 critique, l'histoire de tout le mouvement révolutionnaire international,
 inaugurée voilà plus d'un siècle par le prolétariat des pays d'Occident,
 ses "échecs" et ses "victoires". « *Ce mouvement contre l'ensemble de
 l'organisation du vieux monde est depuis longtemps fini* »[^18] et a
-échoué. Sa dernière manifestation historique étant la défaite de la
+*échoué*. Sa dernière manifestation historique étant la défaite de la
 révolution prolétarienne en Espagne (à Barcelone, en mai 1937).
 Cependant, ses "échecs" officiels, comme ses "victoires" officielles,
 doivent être jugés à la lumière de leurs prolongements, et leurs vérités
@@ -639,7 +647,7 @@ sont des victoires et des victoires plus honteuses que des
 défaites* »[^19]. La première grande "défaite" du pouvoir prolétarien,
 la Commune de Paris, est en réalité sa première grande victoire car,
 pour la première fois, le Prolétariat primitif a affirmé sa capacité
-historique de diriger d'une façon libre tous les aspects de la vie
+historique de diriger d'une façon *libre* tous les aspects de la vie
 sociale. De même que sa première grande "victoire", la révolution
 bolchévique, n'est en définitive que sa défaite la plus lourde de
 conséquences. Le triomphe de l'ordre bolchevik coïncide avec le
@@ -649,8 +657,8 @@ triomphe commun était plus profond que leur opposition apparente, et cet
 odre bolchevik n'était, en définitive, qu'un déguisement nouveau et une
 figure particulière de l'ordre ancien. Les résultats de la
 contre-révolution russe furent, à l'intérieur, l'établissement et le
-développement d'un nouveau mode d'exploitation, le capitalisme
-bureaucratique d'État et, à l'extérieur, la multiplication des sections
+développement d'un nouveau mode d'exploitation, le *capitalisme
+bureaucratique d'État* et, à l'extérieur, la multiplication des sections
 de l'Internationale dite communiste, succursales destinées à le défendre
 et à répandre son modèle. Le capitalisme, sous ses différentes variantes
 bureaucratiques et bourgeoises, florissait de nouveau sur les cadavres
@@ -661,8 +669,8 @@ La III<sup>ème</sup> Internationale, apparemment créée par les Bolcheviks pou
 lutter contre les débris de la social-démocratie réformiste de la
 II<sup>ème</sup> Internationale, et grouper l'avant-garde prolétarienne dans les
 "partis communistes révolutionnaires", était trop liée à ses créateurs
-et à leurs intérêts pour pouvoir réaliser, où que ce soit, la véritable
-révolution socialiste. En fait la II<sup>ème</sup> Internationale était la vérité
+et à leurs intérêts pour pouvoir réaliser, où que ce soit, la *véritable
+révolution socialiste*. En fait la II<sup>ème</sup> Internationale était la vérité
 de la III<sup>ème</sup>. Très tôt, le modèle russe s'imposa aux organisations
 ouvrières d'Occident, et leurs évolutions furent une seule et même
 chose. À la dictature totalitaire de la Bureaucratie, nouvelle classe
@@ -674,13 +682,13 @@ hantait la conscience ouvrière, tandis que le Capitalisme, en voie de
 bureaucratisation et de surdéveloppement, résolvait ses crises internes
 et affirmait tout fièrement sa nouvelle victoire, qu'il prétend
 permanente. Une même forme sociale, apparemment divergente et variée,
-s'empare du monde, et les principes du vieux monde continuent à
-gouverner notre monde moderne. Les morts hantent encore les cerveaux des
+s'empare du monde, et les principes du *vieux monde* continuent à
+gouverner notre *monde moderne*. Les morts hantent encore les cerveaux des
 vivants.
 
 Au sein de ce monde, des organisations prétendument révolutionnaires ne
 font que le combattre apparemment, sur son terrain propre, à travers les
-plus grandes mystifications. Toutes se réclament d'idéologies plus ou
+plus grandes mystifications. Toutes se réclament d'*idéologies* plus ou
 moins pétrifiées, et ne font en définitive que participer à la
 consolidation de l'ordre dominant. Les syndicats et les partis
 politiques forgés par la classe ouvrière pour sa propre émancipation
@@ -689,7 +697,7 @@ dirigeants qui travaillent à leur émancipation particulière et trouvent
 un statut dans la classe dirigeante d'une société qu'ils ne pensent
 jamais mettre en question. Le programme réel de ces syndicats et partis
 ne fait que reprendre platement la phraséologie "révolutionnaire" et
-appliquer en fait les mots d'ordre du réformisme le plus édulcoré,
+appliquer en fait les mots d'ordre du *réformisme* le plus édulcoré,
 puisque le capitalisme lui-même se fait officiellement réformiste. Là où
 ils ont pu prendre le pouvoir -- dans des pays plus arriérés que la
 Russie -- ce n'était que pour reproduire le modèle stalinien du
@@ -718,9 +726,9 @@ révolutionnaires. Il est clair qu'en France, par exemple, où le retard
 économique recule encore la conscience de la crise, le mouvement
 révolutionnaire ne pourra renaître que sur les ruines du stalinisme
 anéanti. La destruction du stalinisme doit devenir le *delenda Carthago*
-de la dernière révolution de la préhistoire.
+de la *dernière* révolution de la préhistoire.
 
-Celle-ci doit elle-même rompre définitivement, avec sa propre
+Celle-ci doit elle-même rompre *définitivement*, avec sa propre
 préhistoire, et tirer toute sa poésie de l'avenir. Les "Bolcheviks
 ressuscités" qui jouent la farce du "militantisme" dans les différents
 groupuscules gauchistes, sont des relents du passé, et en aucune manière
@@ -731,10 +739,10 @@ leur scandaleuse démission.
 
 Ils ne peuvent plus entretenir d'illusions que dans les fameux pays
 sous-développés[^23] où ils entérinenet eux-mêmes le sous-développement
-théorique. De Partisans (organe des stalino-trotskismes réconciliés) à
+théorique. De *Partisans* (organe des stalino-trotskismes réconciliés) à
 toutes les tendances et demi-tendances qui se disputent "Trotsky" à
 l'intérieur et à l'extérieur de la IV<sup>ème</sup> Internationale, règne une
-même idéologie révolutionnaire, et une même incapacité pratique et
+même *idéologie* révolutionnaire, et une même incapacité pratique et
 théorique de comprendre les problèmes du monde moderne. Quarante années
 d'histoire contre-révolutionnaire les séparent de la Révolution. Ils ont
 tort parce qu'ils ne sont plus en 1920 et, en 1920, ils avaient déjà
@@ -751,9 +759,9 @@ contre-révolution dominante : Voix ouvrière ou Arguments.
 Quant aux divers groupuscules "anarchistes", ensemble prisonniers de
 cette appellation, ils ne possèdent rien d'autre que cette idéologie
 réduite à une simple étiquette. L'incroyable *Monde Libertaire*,
-évidemment rédigé par des étudiants, atteint le degré le plus
-fantastique de la confusion et de la bêtise. Ces gens-là tolèrent
-effectivement tout, puisqu'ils se tolèrent les uns les autres.
+évidemment rédigé par des *étudiants*, atteint le degré le plus
+fantastique de la confusion et de la bêtise. Ces gens-là *tolèrent
+effectivement tout*, puisqu'ils se tolèrent les uns les autres.
 
 La société dominante, qui se flatte de sa modernisation permanente, doit
 maintenant trouver à qui parler, c'est-à-dire à la négation modernisée
@@ -772,36 +780,36 @@ porteurs, afin d'éviter que sa réalisation fragmentaire n'entraîne une
 nouvelle division de la société.
 
 La lutte entre le pouvoir et le nouveau prolétariat ne pouvant se faire
-que sur la totalité, le futur mouvement révolutionnaire doit abolir, en
-son sein, tout ce qui tend à reproduire les produits aliénés du système
-marchand[^26] : il doit en être, en même temps, la critique vivante et
-la négation qui porte en elle tous les éléments du dépassement possible.
+que sur la *totalité*, le futur mouvement révolutionnaire doit abolir, en
+son sein, tout ce qui tend à reproduire les produits aliénés du *système
+marchand*[^26] : il doit en être, en même temps, la critique vivante et
+la négation qui porte en elle tous les éléments du *dépassement* possible.
 Comme l'a bien vu Lukács (mais pour l'appliquer à un objet qui n'en
 était pas digne : le parti bolchevik), l'organisation révolutionnaire
 est cette médiation nécessaire entre la théorie et la pratique, entre
 l'homme et l'histoire, entre la masse des travailleurs et le prolétariat
-constitué en classe. Les tendances et divergences "théoriques" doivent
+*constitué en classe*. Les tendances et divergences "théoriques" doivent
 immédiatement se transformer en question d'organisation si elles veulent
 montrer la voie de leur réalisation. La question de l'organisation sera
 le jugement dernier du nouveau mouvement révolutionnaire, le tribunal
-devant lequel sera jugée la cohérence de son projet essentiel : la
-réalisation internationale du pouvoir absolu des Conseils Ouvriers, tel
+devant lequel sera jugée la cohérence de son projet essentiel : *la
+réalisation internationale du pouvoir absolu des Conseils Ouvriers*, tel
 qu'il a été esquissé par l'expérience des révolutions prolétariennes de
 ce siècle. Une telle organisation doit mettre en avant la critique
 radicale de tout ce qui fonde la société qu'elle combat, à savoir : la
-production marchande, l'idéologie sous tous ses déguisements, l'État et
+production marchande, l'*idéologie* sous tous ses déguisements, l'État et
 les scissions qu'il impose.
 
 La scission entre théorie et pratique a été le roc contre lequel a buté
 le vieux mouvement révolutionnaire. Seuls, les plus hauts moments des
 luttes prolétariennes ont dépassé cette scission pour retrouver leur
-vérité. Aucune organisation n'a encore sauté ce Rhodus. L'idéologie, si
+*vérité*. Aucune organisation n'a encore *sauté* ce Rhodus. L'*idéologie*, si
 "révolutionnaire" qu'elle puisse être, est toujours au service des
-maîtres, le signal d'alarme qui désigne l'ennemi déguisé. C'est pourquoi
+maîtres, le *signal d'alarme* qui désigne l'ennemi déguisé. C'est pourquoi
 la critique de l'idéologie doit être, en dernière analyse, le problème
 central de l'organisation révolutionnaire. Seul, le monde aliéné produit
 le mensonge, et celui-ci ne saurait réapparaître à l'intérieur de ce qui
-prétend porter la vérité sociale, sans que cette organisation ne se
+prétend porter la *vérité sociale*, sans que cette organisation ne se
 transforme elle-même en un mensonge de plus dans un monde
 fondamentalement mensonger.
 
@@ -824,9 +832,9 @@ dépérissant du prolétariat en armes.
 
 C'est pourtant ce slogan qu'il faut reprendre radicalement et en le
 débarrassant des arrière-pensées bolcheviques. Le prolétariat ne peut
-s'adonner au jeu de la révolution que pour gagner tout un monde,
-autrement il n'est rien. La forme unique de son pouvoir, l'autogestion
-généralisée, ne peut être partagée avec aucune autre force. Parce qu'il
+s'adonner au *jeu* de la révolution que pour gagner *tout* un monde,
+autrement il n'est rien. La forme unique de son pouvoir, l'*autogestion
+généralisée*, ne peut être partagée avec aucune autre force. Parce qu'il
 est la dissolution effective de tous les pouvoirs, il ne saurait tolérer
 aucune limitation (géographique ou autre) ; les compromis qu'il accepte
 se transforment immédiatement en compromissions, en démission.
@@ -844,17 +852,17 @@ l'aliénation dans un domaine de la vie sociale, elle reconnaît la
 fatalité de toutes les réifications. Il ne suffit pas d'être pour le
 pouvoir abstrait des Conseils Ouvriers, mais il faut en montrer la
 signification concrète : la suppression de la production marchande et
-donc du prolétariat. La logique de la marchandise est la rationalité
+donc du prolétariat. La *logique de la marchandise* est la rationalité
 première et ultime des sociétés actuelles, elle est la base de
 l'autorégulation totalitaire de ces sociétés comparables à des puzzles
 dont les pièces, si dissemblables en apparence, sont en fait
-équivalentes. La réification marchande est l'obstacle essentiel à une
+équivalentes. La réification marchande est l'obstacle *essentiel* à une
 émancipation totale, à la construction libre de la vie. Dans le monde de
 la production marchande, la praxis ne se poursuit pas en fonction d'une
 fin déterminée de façon autonome, mais sous les directives de puissances
 extérieures. Et si les lois économiques semblent devenir des lois
 naturelles d'une espèce particulière, c'est que leur puissance repose
-uniquement sur "l'absence de conscience de ceux qui y ont part".
+*uniquement* sur "l'absence de conscience de ceux qui y ont part".
 
 Le principe de la production marchande, c'est la perte de soi dans la
 création chaotique et inconsciente d'un monde qui échappe totalement à
@@ -893,27 +901,27 @@ tout le projet révolutionnaire. L'histoire moderne, comme toute
 l'histoire passée, est le produit de la praxis sociale, le résultat --
 inconscient -- de toutes les activités humaines. À l'époque de sa
 domination totalitaire, le capitalisme a produit sa nouvelle
-religion : le spectacle. Le spectacle est la réalisation terrestre de
-l'idéologie. Jamais le monde n'a si bien marché sur la tête. « *Et comme
+religion : le *spectacle*. Le *spectacle* est la réalisation terrestre de
+l'*idéologie*. Jamais le monde n'a si bien marché sur la tête. « *Et comme
 la critique de la religion, la critique du spectacle est aujourd'hui la
 condition première de toute critique.* »[^30]
 
-C'est que le problème de la révolution est historiquement posé à
+C'est que le problème de la *révolution* est historiquement posé à
 l'humanité. L'accumulation de plus en plus grandiose des moyens
 matériels et techniques n'a d'égale que l'insatisfaction de plus en plus
 profonde de tous. La bourgeoisie et son héritière à l'Est, la
 bureaucratie, ne peuvent avoir le mode d'emploi de ce surdéveloppement
 qui sera la base de la poésie de l'avenir, justement parce qu'elles
-travaillent, toutes les deux, au maintien d'un ordre ancien. Elles ont
+travaillent, toutes les deux, *au maintien d'un ordre ancien*. Elles ont
 tout au plus le secret de son usage policier. Elles ne font qu'accumuler
-le Capital et donc le prolétariat ; est prolétaire celui qui n'a aucun
+le *Capital* et donc le *prolétariat* ; est *prolétaire* celui qui n'a aucun
 pouvoir sur l'emploi de sa vie, et qui le sait. La chance historique du
 nouveau prolétariat est d'être le seul héritier conséquent de la
-richesse sans valeur du monde bourgeois, à transformer et à dépasser
+richesse sans valeur du *monde bourgeois*, à transformer et à *dépasser*
 dans le sens de l'homme total poursuivant l'appropriation totale de la
 nature et de sa propre nature. Cette réalisation de la nature de l'homme
 ne peut avoir de sens que par la satisfaction sans bornes et la
-multiplication infinie des désirs réels que le spectacle refoule dans
+multiplication infinie des *désirs réels* que le *spectacle* refoule dans
 les zones lointaines de l'inconscient révolutionnaire, et qu'il n'est
 capable de réaliser que fantastiquement dans le délire onirique de sa
 publicité. C'est que la réalisation effective des désirs réels,
@@ -937,10 +945,10 @@ possible au règne de la liberté. La critique radicale et la
 reconstruction libre de toutes les conduites et valeurs imposées par la
 réalité aliénée sont son programme maximum, et la créativité libérée
 dans la construction de tous les moments et événements de la vie est la
-seule poésie qu'il pourra reconnaître, la poésie faite par tous, le
+seule *poésie* qu'il pourra reconnaître, la poésie faite par tous, le
 commencement de la fête révolutionnaire. Les révolutions prolétariennes
-seront des fêtes ou ne seront pas, car la vie qu'elles annoncent sera
-elle-même créée sous le signe de la fête. Le jeu est la rationalité
+seront des *fêtes* ou ne seront pas, car la vie qu'elles annoncent sera
+elle-même créée sous le signe de la fête. Le *jeu* est la rationalité
 ultime de cette fête, vivre sans temps mort et jouir sans entraves sont
 les seules règles qu'il pourra reconnaître.
 
