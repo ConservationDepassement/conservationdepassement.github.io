@@ -152,7 +152,7 @@ bourgeoise se banalisent au moment où sa base sociale disparaît.
 L'Université a pu se prendre pour une puissance autonome à l'époque du
 capitalisme de libre-échange et de son État libéral, qui lui laissait
 une certaine liberté marginale. Elle dépendait, en fait, étroitement des
-besoins de ce type de societé : donner à la minorité privilégiée, qui
+besoins de ce type de société : donner à la minorité privilégiée, qui
 faisait des études, la culture générale adéquate, avant qu'elle ne
 rejoigne les rangs de la classe dirigeante dont elle était à peine
 sortie. D'où le ridicule de ces professeurs nostalgiques[^6], aigris
@@ -161,7 +161,7 @@ maîtres pour celle, beaucoup moins noble, de chiens de berger
 conduisant, suivant les besoins planifiés du système économique, les
 fournées de "cols blancs" vers leurs usines et bureaux respectifs. Ce
 sont eux qui opposent leurs archaïsmes à la technocratisation de
-l'Université, et contiluent imperturbablement à débiter les bribes d'une
+l'Université, et continuent imperturbablement à débiter les bribes d'une
 culture dite générale à de futurs spécialistes qui ne sauront qu'en
 faire.
 
@@ -213,7 +213,7 @@ proclamant un hypocrite mépris pour les "bosseurs" et les "bêtes à
 concours". Il entérine toutes les séparations et va ensuite gémir dans
 divers "cercles" religieux, sportifs, politiques ou syndicaux, sur la
 non communication. Il est si bête et si malheureux qu'il va même jusqu'à
-se confier spontanément et en masse au contrôle parapolicier des
+se confier spontanément et en masse au contrôle para-policier des
 psychiatres et psychologues, mis en place à son usage par l'avant-garde
 de l'oppression moderne, et donc applaudi par ses "représentants" qui
 voient naturellement dans ces Bureaux d'Aide Psychologique Universitaire
@@ -436,7 +436,7 @@ récupération en tant que consommateurs (motos, guitares électriques,
 vêtements, disques, etc.) -- ou bien il doit s'attaquer aux lois de la
 marchandise, soit de façon primaire en la volant, soit d'une façon
 consciente en s'élevant à la critique révolutionnaire du monde de la
-marchandise. La consommation adoucit les moeurs de ces jeunes révoltés,
+marchandise. La consommation adoucit les mœurs de ces jeunes révoltés,
 et leur révolte retombe dans le pire conformisme. Le monde des Blousons
 noirs n'a d'autre issue que la prise de conscience révolutionnaire ou
 l'obéissance aveugle dans les usines.
@@ -476,7 +476,7 @@ Prolétariat est le moteur de la société capitaliste, et donc son danger
 mortel : tout est fait pour le réprimer (partis, syndicats
 bureaucratiques, police, plus souvent que contre les Provos,
 colonisation de toute sa vie), car il est la seule force réellement
-mençante. Les Provos n'ont rien compris de cela : ainsi, ils restent
+menaçante. Les Provos n'ont rien compris de cela : ainsi, ils restent
 incapables de faire la critique du système de production, et donc
 prisonniers de tout le système. Et quand, dans une émeute ouvrière
 anti-syndicale, leur base s'est ralliée à la violence directe, les
@@ -491,7 +491,7 @@ largement montré que leur vague "anarchisme" n'est qu'un mensonge de
 plus. La base révoltée des Provos ne peut accéder à la critique
 révolutionnaire qu'en commençant par se révolter contre ses chefs, ce
 qui veut dire rallier les forces révolutionnaires objectives du
-Prolétariat et se débarasser d'un Constant, l'artiste officiel de la
+Prolétariat et se débarrasser d'un Constant, l'artiste officiel de la
 Hollande Royale, ou d'un De Vries, parlementaire raté et admirateur de
 la police anglaise. Là, seulement, les Provos peuvent rejoindre la
 contestation moderne authentique qui a déjà une base réelle chez eux.
@@ -560,7 +560,7 @@ apparaissent et disparaissent selon les fluctuations de la répression
 policière. Le fait le plus important a été la publication par les jeunes
 Polonais Kuron et Modzelewski de leur *Lettre ouverte au Parti Ouvrier
 Polonais*. Dans ce texte, ils affirment expressément "la nécessité de
-l'abolitaion des rapports de production et des relations sociales
+l'abolition des rapports de production et des relations sociales
 actuelles" et voient qu'à cette fin "la révolution est inéluctable".
 L'intelligentsia des pays de l'Est cherche actuellement à rendre
 conscientes et à formuler clairement les raisons de cette critique que
@@ -654,7 +654,7 @@ conséquences. Le triomphe de l'ordre bolchevik coïncide avec le
 mouvement de contre-révolution internationale qui commença avec
 l'écrasement des Spartakistes par la "Social-démocratie" allemande. Leur
 triomphe commun était plus profond que leur opposition apparente, et cet
-odre bolchevik n'était, en définitive, qu'un déguisement nouveau et une
+ordre bolchevik n'était, en définitive, qu'un déguisement nouveau et une
 figure particulière de l'ordre ancien. Les résultats de la
 contre-révolution russe furent, à l'intérieur, l'établissement et le
 développement d'un nouveau mode d'exploitation, le *capitalisme
@@ -708,7 +708,7 @@ humanisme policier. D'autre part, ils restent, vis-à-vis des masses
 ouvrières, les garants indéfectibles et les défenseurs inconditionnels
 de la contre-révolution bureaucratique, les instruments dociles de sa
 politique étrangère. Dans un monde fondamentalement mensonger, ils sont
-les porteurs du mensonge le plus radical, et travaillent à la pérenninté
+les porteurs du mensonge le plus radical, et travaillent à la pérennité
 de la dictature universelle de l'Économie et de l'État. Comme
 l'affirment les situationnistes, « *un modèle social universellement
 dominant, qui tend à l'autorégulation totalitaire, n'est qu'apparemment
@@ -738,7 +738,7 @@ bolchevique : la défense de l'U.R.S.S. est leur indépassable fidélité et
 leur scandaleuse démission.
 
 Ils ne peuvent plus entretenir d'illusions que dans les fameux pays
-sous-développés[^23] où ils entérinenet eux-mêmes le sous-développement
+sous-développés[^23] où ils entérinent eux-mêmes le sous-développement
 théorique. De *Partisans* (organe des stalino-trotskismes réconciliés) à
 toutes les tendances et demi-tendances qui se disputent "Trotsky" à
 l'intérieur et à l'extérieur de la IV<sup>ème</sup> Internationale, règne une
@@ -760,14 +760,14 @@ Quant aux divers groupuscules "anarchistes", ensemble prisonniers de
 cette appellation, ils ne possèdent rien d'autre que cette idéologie
 réduite à une simple étiquette. L'incroyable *Monde Libertaire*,
 évidemment rédigé par des *étudiants*, atteint le degré le plus
-fantastique de la confusion et de la bêtise. Ces gens-là *tolèrent
+fantastique de la confusion et de la bêtise. Ces gens là *tolèrent
 effectivement tout*, puisqu'ils se tolèrent les uns les autres.
 
 La société dominante, qui se flatte de sa modernisation permanente, doit
 maintenant trouver à qui parler, c'est-à-dire à la négation modernisée
 qu'elle produit elle-même[^25] : « *laissons maintenant aux morts le
 soin d'enterrer leurs morts et de les pleurer* ». Les démystifications
-pratiques du mouvement historique débarassent la conscience
+pratiques du mouvement historique débarrassent la conscience
 révolutionnaire des fantômes qui la hantaient ; la révolution de la vie
 quotidienne se trouve face à face avec les tâches immenses qu'elle doit
 accomplir. La révolution, comme la vie qu'elle annonce, est à
