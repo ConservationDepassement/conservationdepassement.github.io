@@ -1,9 +1,9 @@
 # --- General options --- #
 
-# full website URL
+# Full website URL
 #url: "https://responsyss.github.io"
 url: "http://aufhebung.fr"
-# website's URL without the hostname
+# Website's URL without the hostname
 baseurl: ""
 
 # jekyll-seo-tags inserts the <title> using 'title' var as "<title>{{ page.title }} | {{ seo.title }}</title>"

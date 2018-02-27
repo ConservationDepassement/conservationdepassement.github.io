@@ -650,11 +650,11 @@ pour la première fois, le Prolétariat primitif a affirmé sa capacité
 historique de diriger d'une façon *libre* tous les aspects de la vie
 sociale. De même que sa première grande "victoire", la révolution
 bolchévique, n'est en définitive que sa défaite la plus lourde de
-conséquences. Le triomphe de l'ordre bolchevik coïncide avec le
+conséquences. Le triomphe de l'ordre bolchévique coïncide avec le
 mouvement de contre-révolution internationale qui commença avec
 l'écrasement des Spartakistes par la "Social-démocratie" allemande. Leur
 triomphe commun était plus profond que leur opposition apparente, et cet
-ordre bolchevik n'était, en définitive, qu'un déguisement nouveau et une
+ordre bolchévique n'était, en définitive, qu'un déguisement nouveau et une
 figure particulière de l'ordre ancien. Les résultats de la
 contre-révolution russe furent, à l'intérieur, l'établissement et le
 développement d'un nouveau mode d'exploitation, le *capitalisme
@@ -734,7 +734,7 @@ ressuscités" qui jouent la farce du "militantisme" dans les différents
 groupuscules gauchistes, sont des relents du passé, et en aucune manière
 n'annoncent l'avenir. Épaves du grand naufrage de la "révolution
 trahie", ils se présentent comme les fidèles tenants de l'orthodoxie
-bolchevique : la défense de l'U.R.S.S. est leur indépassable fidélité et
+bolchévique : la défense de l'U.R.S.S. est leur indépassable fidélité et
 leur scandaleuse démission.
 
 Ils ne peuvent plus entretenir d'illusions que dans les fameux pays
@@ -785,7 +785,7 @@ son sein, tout ce qui tend à reproduire les produits aliénés du *système
 marchand*[^26] : il doit en être, en même temps, la critique vivante et
 la négation qui porte en elle tous les éléments du *dépassement* possible.
 Comme l'a bien vu Lukács (mais pour l'appliquer à un objet qui n'en
-était pas digne : le parti bolchevik), l'organisation révolutionnaire
+était pas digne : le parti bolchévique), l'organisation révolutionnaire
 est cette médiation nécessaire entre la théorie et la pratique, entre
 l'homme et l'histoire, entre la masse des travailleurs et le prolétariat
 *constitué en classe*. Les tendances et divergences "théoriques" doivent
@@ -819,7 +819,7 @@ les aspects positifs de ce pouvoir. Aussi doit-elle mener une lutte à
 mort contre la théorie léniniste de l'organisation. La révolution de
 1905 et l'organisation spontanée des travailleurs russes en Soviets
 était déjà une critique en actes[^27] de cette théorie néfaste. Mais le
-mouvement bolchevik persistait à croire que la spontanéité ouvrière ne
+mouvement bolchévique persistait à croire que la spontanéité ouvrière ne
 pouvait dépasser la conscience "trade-unioniste". Ce qui revenait à
 décapiter le prolétariat pour permettre au parti de prendre la "tête" de
 la Révolution. On ne peut contester, aussi impitoyablement que l'a fait
@@ -831,7 +831,7 @@ Parti, l'instauration de l'État du parti à la place de "l'État"
 dépérissant du prolétariat en armes.
 
 C'est pourtant ce slogan qu'il faut reprendre radicalement et en le
-débarrassant des arrière-pensées bolcheviques. Le prolétariat ne peut
+débarrassant des arrière-pensées bolchéviques. Le prolétariat ne peut
 s'adonner au *jeu* de la révolution que pour gagner *tout* un monde,
 autrement il n'est rien. La forme unique de son pouvoir, l'*autogestion
 généralisée*, ne peut être partagée avec aucune autre force. Parce qu'il
