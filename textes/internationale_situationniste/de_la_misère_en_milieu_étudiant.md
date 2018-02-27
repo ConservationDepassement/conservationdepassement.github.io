@@ -19,7 +19,7 @@ du point de vue de la critique révolutionnaire sont refoulées et
 inavouées. Les tenants de la fausse contestation savent pourtant les
 reconnaître, et s'y reconnaître. Ils inversent ce vrai mépris en une
 admiration complaisante. Ainsi l'impuissante intelligentsia de gauche
-(des *Temps Modernes* à *l'Express*) se pâme devant la prétendue "montée
+(des *Temps Modernes* à *L'Express*) se pâme devant la prétendue "montée
 des étudiants", et les organisations bureaucratiques effectivement
 déclinantes (du parti dit communiste à l'U.N.E.F.) se disputent
 jalousement son appui "moral et matériel". Nous montrerons les raisons
