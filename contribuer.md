@@ -19,13 +19,14 @@ Comment contribuer ?
 
 Pour mettre la main à la pâte, la première possibilité est de nous envoyer un email avec votre contribution en pièce-jointe à l'adresse suivante: **contribution**(arobase)**aufhebung**(point)**fr**.
 
-La seconde possibilité est de publier votre contribution sur notre Google Drive, disponible via le lien suivant : <http://aufhebung.fr/drive/>  
-Pour uploader un nouveau document sur ce Google Drive, il vous est nécessaire de posséder un compte Google. Si vous ne souhaitez pas créer un compte Google, nous vous prions de nous envoyer vos contributions par email.
+La seconde possibilité est de publier votre contribution sur notre Google Drive, disponible via le lien suivant : <http://aufhebung.fr/drive/>   
+Vous pouvez consulter les instructions se trouvant de le dossier `INSTRUCTIONS`.  
+Pour uploader un nouveau document sur ce Google Drive, il vous est nécessaire de posséder un compte Google (mais nul besoin si vous souhaitez juste consulter ou modifier un fichier déjà présent sur le Drive). Si vous ne souhaitez pas créer un compte Google, nous vous prions de nous envoyer vos contributions par email.
 
 Publier un texte ou un article
 ------------------------------
 
-Si vous souhaitez publier un texte ou un article, nous vous prions d'utiliser l'un des formats suivants : <acronym title="LibreOffice/OpenOffice">.odt</acronym>, <acronym title="Texte">.txt</acronym>, <acronym title="Markdown">.md</acronym>, <acronym title="Microsoft Word">.docx</acronym>.
+Si vous souhaitez publier un texte ou un article, nous vous prions d'utiliser l'un des formats suivants (par ordre de préférence) : <acronym title="Markdown">.md</acronym>, <acronym title="Texte">.txt</acronym>, <acronym title="LibreOffice/OpenOffice">.odt</acronym>, <acronym title="Microsoft Word">.docx</acronym>.
 
 Dans l'en-tête de votre document, veuillez également nous indiquer les éléments suivants :
 
