@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Exemple d'une page exemplaire
 ---
 
 # Titre de niveau 1
