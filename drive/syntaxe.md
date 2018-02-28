@@ -34,7 +34,17 @@ _Combination des **deux** !_
 
 ![texte correspondant à l’image (pas la légende !)](/drive/syntaxe/image.gif)
 
-Ceci est un lien : [le Site de la radicalité cosmique](http://aufhebung.fr) !
+Ceci est un lien : [le site de la radicalité cosmique](http://aufhebung.fr) !
 
 > Un journaliste, c’est soit un chômeur
 > soit une pute. --- Platon
+
+Ce texte est annoté aveg[^note_faute] une référence[^note_bouquin_cool].
+
+[^note_faute]: Non pas ave**g** mais ave**c** !
+
+La description de la note de bas de page peut-être n’importe où sur la page[^note_position][^57].
+
+[^note_position]: Deux écoles : soit juste après le paragraphe qu’elles annotent, soit tout en bas de la page.
+[^note_bouquin_cool]: Ce bouquin est cool.
+[^57]: Soit `note_...` (facile à retrouver), soit `1`, `2`, etc.
