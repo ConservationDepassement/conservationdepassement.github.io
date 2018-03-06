@@ -64,7 +64,7 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 " FAUTE DE FRAPPES
 :%s/\([Cc]\)['’]est\s\+[aà]\s\+dire/\1'est-à-dire/gc
 :%s/Etat/État/gc
-:%s/\(lui\|elle\|eux\)\s\+même\(s\?\)/\1-même\2/gci
+:%s/\(moi\|nous\|vous\|lui\|elles\?\|toi\|soi\|eux\)\s\+même\(s\?\)/\1-même\2/gci
 :%s/\(a\)u\s\+del[àa]/\1u-delà/gci
 :%s/\(c\)elui\s\+ci/\1elui-ci/gci
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
