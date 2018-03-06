@@ -33,6 +33,7 @@ Dans l'en-tête de votre document, veuillez également nous indiquer les éléme
 - Titre et/ou sous-titre de l'oeuvre
 - Nom et prénom de l'auteur
 - Date de publication
+- Source bibliographique ou page web d'origine
 
 Pour vous aider, vous pouvez prendre exemple sur cette contribution pour publier [*Notes sur la « Question des Immigrés »*](https://docs.google.com/document/d/1A_Sya_56zbVSY2mVVPqcX4pYJZnei_mWH7HkkpEWKJE/edit) de Guy Debord.  
 Après une relecture commune nous essaierons de publier votre contribution dans les jours qui suivent, en fonction du temps et de la disponibilité de chacun.
