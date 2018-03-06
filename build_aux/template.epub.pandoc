@@ -16,6 +16,7 @@ $endif$
       div.line-block{white-space: pre-line;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
       figure{font-size: 80%; text-align: center;}
+      img{width: 100%;}
 $if(quotes)$
       q { quotes: "“" "”" "‘" "’"; }
 $endif$
