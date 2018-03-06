@@ -62,8 +62,14 @@ call s:f_say('CORRECTING MINOR THINGS (1/3)')
 :%s/\([IVX0-9]\)\(ème\|er\)/\1<sup>\2<\/sup>/gc
 call s:f_say('CORRECTING MINOR THINGS (2/3)')
 " FAUTE DE FRAPPES
-:%s/\([Cc]\)'est [aà] dire/\1'est-à-dire/gc
+:%s/\([Cc]\)['’]est\s\+[aà]\s\+dire/\1'est-à-dire/gc
 :%s/Etat/État/gc
+:%s/\(lui\|elle\|eux\)\s\+même\(s\?\)/\1-même\2/gci
+:%s/\(a\)u\s\+del[àa]/\1u-delà/gci
+:%s/\(c\)elui\s\+ci/\1elui-ci/gci
+:%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
+:%s/oeil/œil/gc
+:%s/oeuvre/œuvre/gc
 call s:f_say('CORRECTING MINOR THINGS (3/3)')
 " NDLR
 :%s/ndlr/*NDLR*/gic
