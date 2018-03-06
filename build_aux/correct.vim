@@ -28,7 +28,7 @@ call s:f_say('CORRECTING NON-BREAKABLE SPACES (1/3)')
 ":%s/\(&nbsp[;]\?\)\@<!;/\&nbsp;;/gc
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (2/3)')
 " ':' (not after '&nbsp;', nor YAML parameter like '^title', '^date', etc, nor footnote like '[^this_ref]: THAT', with space before or not) -> '&nbsp;:'
-:%s/\(&nbsp;\|^layout\|^toc\|^title\|^subtitle\|^nav\|^author\|^date\|^year\|^month\|^\[\^[^\]]\+\]\)\@<![ ]*:/\&nbsp;:/gc
+:%s/\(&nbsp;\|^layout\|^toc\|^title\|^titre\|^subtitle\|^nav\|^author\|^auteur\|^date\|^year\|^month\|^\[\^[^\]]\+\]\)\@<![ ]*:/\&nbsp;:/gc
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (3/3)')
 " '([!?])' (not after '&nbsp;', with space before or not) -> '&nbsp;\1'
 :%s/\(&nbsp;\)\@<![ ]*\([?!]\)/\&nbsp;\2/gc
@@ -67,14 +67,16 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 :%s/\([Cc]\)['’]est\s\+[aà]\s\+dire/\1'est-à-dire/gc
 :%s/\(moi\|nous\|vous\|lui\|elles\?\|toi\|soi\|eux\)\s\+même\(s\?\)/\1-même\2/gci
 :%s/\(a\)u\s\+del[àa]/\1u-delà/gci
-:%s/\(c\)elui\s\+ci/\1elui-ci/gci
+:%s/\(ceux\|celui\)\s\+ci/\1-ci/gci
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
 """ demi-, non-, etc.
 :%s/\(d\)emi\s\+\([a-z]\)/\1emi-\2/gci
+"""" TODO: éviter 'non encore' et 'non seulement'
 :%s/\(n\)on\s\+\([a-z]\)/\1on-\2/gci
 "" œ
 :%s/oeil/œil/gc
 :%s/oeuvre/œuvre/gc
+:%s/oeuf/œuf/gc
 call s:f_say('CORRECTING MINOR THINGS (3/3)')
 " NDLR
 :%s/ndlr/*NDLR*/gic
