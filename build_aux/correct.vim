@@ -68,6 +68,7 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 :%s/\(a\)u\s\+del[àa]/\1u-delà/gci
 :%s/\(c\)elui\s\+ci/\1elui-ci/gci
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
+:%s/\(d\)emi\s\+\([a-z]\)/\1emi-\2/gci
 :%s/oeil/œil/gc
 :%s/oeuvre/œuvre/gc
 call s:f_say('CORRECTING MINOR THINGS (3/3)')
