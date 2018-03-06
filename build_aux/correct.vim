@@ -69,6 +69,7 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 :%s/\(a\)u\s\+del[àa]/\1u-delà/gci
 :%s/\(ceux\|celui\)\s\+ci/\1-ci/gci
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
+:%s/\(v\)is\s\+à\s\+vis/\1is-à-vis/gci
 """ demi-, non-, etc.
 :%s/\(d\)emi\s\+\([a-z]\)/\1emi-\2/gci
 """" TODO: éviter 'non encore' et 'non seulement'
