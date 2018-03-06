@@ -15,6 +15,7 @@ $endif$
       span.underline{text-decoration: underline;}
       div.line-block{white-space: pre-line;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
+      figure{font-size: 80%; text-align: center;}
 $if(quotes)$
       q { quotes: "“" "”" "‘" "’"; }
 $endif$

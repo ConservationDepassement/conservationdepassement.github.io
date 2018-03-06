@@ -21,8 +21,8 @@ TEST_IN = ./textes/internationale_situationniste/de_la_misère_en_milieu_étudia
 ifdef IN
 	TEST_IN = $(IN)
 endif
-TEST_OUT_PDF = /tmp/test.pdf
-TEST_OUT_EPUB = /tmp/test.epub
+OUT_TEST_PDF = /tmp/test.pdf
+OUT_TEST_EPUB = /tmp/test.epub
 # File for vim correction script
 IN =
 
@@ -40,19 +40,19 @@ help:
 	@echo "PARAMETERS"
 	@echo "    $(MAKE)  IN=/path/to/dir/     {all|pdf|epub}"
 	@echo "        Set root dir for searching files to '/path/to/dir/' (defaults to '$(SEARCH_PATH)')"
-	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_PDF=outfile   {test|test-pdf}"
+	@echo "    $(MAKE)  IN=test_me.md OUT_TEST_PDF=outfile   {test|test-pdf}"
 	@echo "        For PDF testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
-	@echo "         and output file to 'outfile' (defaults to '$(TEST_OUT_PDF)')"
-	@echo "    $(MAKE)  IN=test_me.md TEST_OUT_EPUB=outfile  {test|test-epub}"
+	@echo "         and output file to 'outfile' (defaults to '$(OUT_TEST_PDF)')"
+	@echo "    $(MAKE)  IN=test_me.md OUT_TEST_EPUB=outfile  {test|test-epub}"
 	@echo "        For EPUB testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
-	@echo "         and output file to 'outfile' (defaults to '$(TEST_OUT_EPUB)')"
+	@echo "         and output file to 'outfile' (defaults to '$(OUT_TEST_EPUB)')"
 	@echo "    $(MAKE)  IN=infile.md              vim-[un]correct"
 	@echo "        Set input file for vim [un]correction script to 'infile.md'"
 	@echo
 	@echo "EXAMPLES"
 	@echo "    $(MAKE) IN=./textes/guy_debord/ pdf"
 	@echo "        Recursively build PDF files from MD files in ./textes/guy_debord/**"
-	@echo "    $(MAKE) TEST_OUT_EPUB=/media/KOBOeReader/test.epub TEST_OUT_PDF=/media/KOBOeReader/test.pdf test"
+	@echo "    $(MAKE) OUT_TEST_EPUB=/media/KOBOeReader/test.epub OUT_TEST_PDF=/media/KOBOeReader/test.pdf test"
 	@echo "    $(MAKE) IN=./textes/guy_debord/notes_sur_la_question_des_immigrés.md test-pdf"
 	@echo "    $(MAKE) IN=./textes/pierre_guillaume/guy_debord.md vim-correct"
 	@echo
@@ -70,19 +70,19 @@ epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
 test: test-pdf test-epub
 
 test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
-	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(TEST_OUT_EPUB) <$(TEST_IN)
+	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(OUT_TEST_EPUB) <$(TEST_IN)
 	@echo ":: EPUB: SUCCESS!"
-	@echo ":: Output was made to '$(TEST_OUT_EPUB)'"
-#@xdg-open $(TEST_OUT_EPUB) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_EPUB)'"
+	@echo ":: Output was made to '$(OUT_TEST_EPUB)'"
+#@xdg-open $(OUT_TEST_EPUB) || echo ":: NO PROGRAM TO OPEN '$(OUT_TEST_EPUB)'"
 
 test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
-	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(TEST_OUT_PDF)  <$(TEST_IN) 
+	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(OUT_TEST_PDF)  <$(TEST_IN) 
 	@echo ":: PDF: SUCCESS!"
-	@echo ":: Output was made to '$(TEST_OUT_PDF)'"
-	@xdg-open $(TEST_OUT_PDF) || echo ":: NO PROGRAM TO OPEN '$(TEST_OUT_PDF)'"
+	@echo ":: Output was made to '$(OUT_TEST_PDF)'"
+	@xdg-open $(OUT_TEST_PDF) || echo ":: NO PROGRAM TO OPEN '$(OUT_TEST_PDF)'"
 
 clean-test: 
-	touch $(TEST_OUT_PDF) $(TEST_OUT_EPUB) && rm $(TEST_OUT_PDF) $(TEST_OUT_EPUB)
+	touch $(OUT_TEST_PDF) $(OUT_TEST_EPUB) && rm $(OUT_TEST_PDF) $(OUT_TEST_EPUB)
 
 vim-correct: $(VIM_SCRIPT) $(IN)
 ifndef IN
