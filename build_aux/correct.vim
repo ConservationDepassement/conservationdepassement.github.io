@@ -64,12 +64,12 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 " FAUTE DE FRAPPES
 :%s/Etat/État/gc
 "" expressions avec tiret
-:%s/\([Cc]\)['’]est\s\+[aà]\s\+dire/\1'est-à-dire/gc
+:%s/\(c\)['’]est\s\+[aà]\s\+dire/\1'est-à-dire/gci
+:%s/\(v\)is\s\+à\s\+vis/\1is-à-vis/gci
 :%s/\(moi\|nous\|vous\|lui\|elles\?\|toi\|soi\|eux\)\s\+même\(s\?\)/\1-même\2/gci
 :%s/\(a\)u\s\+del[àa]/\1u-delà/gci
 :%s/\(ceux\|celui\)\s\+ci/\1-ci/gci
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
-:%s/\(v\)is\s\+à\s\+vis/\1is-à-vis/gci
 """ demi-, non-, etc.
 :%s/\(d\)emi\s\+\([a-z]\)/\1emi-\2/gci
 """" TODO: éviter 'non encore' et 'non seulement'
