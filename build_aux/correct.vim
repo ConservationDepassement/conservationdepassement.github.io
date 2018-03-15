@@ -18,8 +18,9 @@ endfunc
 
 echomsg '['.g:SCRIPT_NAME.'] STARTING...'
 
-" NOTE: '&' MUST NOT be escaped in the search pattern and MUST BE escaped in the
-"  replacement pattern
+" NOTE: '&' MUST NOT be escaped in the search pattern and MUST BE escaped in the replacement pattern
+" NOTE: '\([letter]\)' technique is mandatory to not override the original case of the first letter
+" NOTE: '\w' does not match UTF-8 character, therefore '[a-zéèêœôàîïù]' (with 'ignorecase' option)  must be used instead
 
 " NON-BREAKABLE SPACES ('&nbsp;') BEFORE [?;:!]
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (1/3)')
@@ -28,10 +29,10 @@ call s:f_say('CORRECTING NON-BREAKABLE SPACES (1/3)')
 ":%s/\(&nbsp[;]\?\)\@<!;/\&nbsp;;/gc
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (2/3)')
 " ':' (not after '&nbsp;', nor YAML parameter like '^title', '^date', etc, nor footnote like '[^this_ref]: THAT', with space before or not) -> '&nbsp;:'
-:%s/\(&nbsp;\|^layout\|^toc\|^title\|^titre\|^subtitle\|^nav\|^author\|^auteur\|^date\|^year\|^month\|^\[\^[^\]]\+\]\)\@<![ ]*:/\&nbsp;:/gc
+:%s/\(&nbsp;\|^layout\|^toc\|^title\|^titre\|^subtitle\|^nav\|^author\|^auteur\|^date\|^year\|^month\|^thumbnail\|^\[\^[^\]]\+\]\)\@<![ ]*:/\&nbsp;:/gc
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (3/3)')
-" '([!?])' (not after '&nbsp;', with space before or not) -> '&nbsp;\1'
-:%s/\(&nbsp;\)\@<![ ]*\([?!]\)/\&nbsp;\2/gc
+" '([!?])' (not after start of line or '&nbsp;', with space before or not) -> '&nbsp;\1'
+:%s/\(^\|&nbsp;\)\@<![ ]*\([?!]\)/\&nbsp;\2/gc
 
 " SPACES AFTER [?,;.:!]
 call s:f_say('CORRECTING SPACES')
@@ -41,8 +42,10 @@ call s:f_say('CORRECTING SPACES')
 ":%s/\([?,.:!]\)\([^ \_$]\)/\1 \2/gc
 
 " GUILLEMETS
+call s:f_say('CORRECTING APOSTROPHES')
+:%s/’/'/gc
 call s:f_say('CORRECTING GUILLEMETS (1/2)')
-:%s/«[ ]*\(\w\|-\|(\|\[\)/«\&nbsp;\1/gc
+:%s/«[ ]*\([a-zéèêœôàîïù]\|-\|(\|\[\|[.]\{3}\)/«\&nbsp;\1/gci
 call s:f_say('CORRECTING GUILLEMETS (2/2)')
 :%s/\(&nbsp;\)\@<![ ]*»/\&nbsp;»/gc
 
@@ -64,16 +67,15 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 " FAUTE DE FRAPPES
 :%s/Etat/État/gc
 "" expressions avec tiret
-:%s/\(c\)['’]est\s\+[aà]\s\+dire/\1'est-à-dire/gci
+:%s/\(c\)'est\s\+[aà]\s\+dire/\1'est-à-dire/gci
 :%s/\(v\)is\s\+à\s\+vis/\1is-à-vis/gci
 :%s/\(moi\|nous\|vous\|lui\|elles\?\|toi\|soi\|eux\)\s\+même\(s\?\)/\1-même\2/gci
 :%s/\(a\)u\s\+del[àa]/\1u-delà/gci
 :%s/\(ceux\|celui\)\s\+ci/\1-ci/gci
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
 """ demi-, non-, etc.
-:%s/\(d\)emi\s\+\([a-z]\)/\1emi-\2/gci
-"""" TODO: éviter 'non encore' et 'non seulement'
-:%s/\(n\)on\s\+\([a-z]\)/\1on-\2/gci
+:%s/\(d\)emi\s\+\([a-zéèêœôàîïù]\)/\1emi-\2/gci
+:%s/\<\(n\)on\s\+\(s\>\|à\|le\>\|la\>\|les\>\|de\>\|du\>\|des\>\|par\>\|pas\>\|plus\>\|comme\>\|encore\>\|seulement\>\|[^a-zéèêœôàîïù]\)\@!/\1on-\2/gci
 "" œ
 :%s/oeil/œil/gc
 :%s/oeuvre/œuvre/gc
