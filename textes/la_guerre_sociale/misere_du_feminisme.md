@@ -96,7 +96,7 @@ Le féminisme s'appuie sur la misère de la condition féminine, mais est surtou
 
 Le féminisme est la représentation faussée et militante de cette liquidation du vieux statut féminin. Il met en scène un mouvement qui, fondamentalement, échappe à la volonté des femmes (en tant qu'hommes et femmes) comme le combat des femmes et de leurs alliés contre l'oppression masculine et l'inégalité. Il n'a raison que dans la mesure où quelques actes militants et politiques - de Gaulle et le vote des femmes - liquident effectivement les vieilles entraves politiques et juridiques.
 
-![Le 1<sup>er<sup> festival de la femme, *Le Monde*, 16/10/1977](./festival_de_la_femme.jpg)
+![Le 1<sup>er</sup> festival de la femme, *Le Monde*, 16/10/1977](./festival_de_la_femme.jpg)
 
 Cette vision militante est projetée sur tout et elle en arrive à prendre les remous secondaires qu'elle provoque pour le fond des choses, comme pour les gauchistes l'essence du capitalisme est la répression. Le problème devient celui de la domination des femmes par les hommes, qu'il s'agit d'abolir ou d'inverser, en arrivant à l'égalité des sexes et au partage du pouvoir ou à la prédominance du féminin. Le problème des relations entre les sexes est conçu d'abord comme rapport de force à geler, à codifier dans des questions de "droits" et de "devoirs". Tout passe dans le faux langage du politique et du judiciaire.
 
