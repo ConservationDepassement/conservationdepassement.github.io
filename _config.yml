@@ -39,7 +39,8 @@ navbar-links:
     BIBLIOTHÈQUE: /textes/
     VIDÉOS: https://youtube.com/c/Aufhebung
     DIALOGUE: https://facebook.com/AufhebungOfficiel/
-    À PROPOS: /about/
+    CONTRIBUER: /contribuer
+    À PROPOS: /about
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
