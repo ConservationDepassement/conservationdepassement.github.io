@@ -11,7 +11,6 @@ content_type: article
 thumbnail: /img/posts/2018-03-11-sur-l-emploi-du-temps-libre/thumbnail.jpg
 # TODO: comme les passages les plus intéressants sont ceux qui citent l'article de Socialisme ou Barbarie, pourquoi ne pas plutôt publié celui de S ou B?
 published: false
-
 ---
 
 La plus grossière banalité des sociologues de gauche, depuis quelques années, est d’insister sur le rôle des loisirs comme facteur déjà dominant dans la société capitaliste développée. Ceci est le lieu d’infinis débats pour ou contre l’importance de l’élévation réformiste du niveau de vie ; ou la participation des ouvriers aux valeurs dominantes d’une société où ils sont toujours plus intégrés.

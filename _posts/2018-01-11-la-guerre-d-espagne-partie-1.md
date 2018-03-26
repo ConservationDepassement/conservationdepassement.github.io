@@ -1,15 +1,16 @@
 ---
-layout: post
-title: "La Guerre d’Espagne [extraits du chap. VI]"
-nav: blog
-subtitle: "Révolution et contre-révolution (1934-1939)"
+
+title: "La Guerre d’Espagne, partie 1"
+subtitle: "Extraits du chapitre VI de <i>Révolution et contre-révolution, (1934-1939)</i>."
 author: Burnett Bolloten
 year: 2017
 month: 12
 day: 28
+nav: blog
+layout: post
 content_type: article
-thumbnail: /img/posts/2018-01-11-la-guerre-d-espagne/thumbnail.jpg
-image: /img/posts/2018-01-11-la-guerre-d-espagne/header.jpg
+thumbnail: /img/posts/2018-01-11-la-guerre-d-espagne-partie-1/thumbnail.jpg
+image: /img/posts/2018-01-11-la-guerre-d-espagne-partie-1/header.jpg
 ---
 
 Tout comme les artisans, les petits industriels et les petits commerçants, les propriétaires exploitants, les fermiers et les métayers redoutaient la collectivisation. Si la collectivisation de la terre avait été appliquée presque sans exception aux grands domaines, une forme d’exploitation qui avait été spontanément adoptée par les paysans sans terre qui y travaillaient comme journaliers avant la révolution, des milliers de fermiers propriétaires de petites et moyennes exploitations avaient également été touchés par le mouvement de collectivisation dans les premières semaines de la révolution. Même ceux qui n’avaient pas été concernés immédiatement voyaient approcher la ruine à mesure que le mouvement se développait&nbsp;; car dans le domaine agricole, non seulement les collectivisations menaçaient d’épuiser la main-d’œuvre et de créer une concurrence catastrophique dans la production et la vente de produits agricoles, mais elles représentaient aussi un danger tant pour les anciens petits propriétaires que pour les nouveaux qui, après s’être approprié la terre qu’ils cultivaient, estimaient que la révolution avait accompli sa mission.
@@ -42,7 +43,8 @@ Cette crainte qu’une nouvelle classe de riches propriétaires ne renaisse sur 
 
 [^note_verdad]: *Verdad*, 8 janvier 1937.
 [^note_finalidad]: Isaac Puente, «&nbsp;Finalidad de la CNT&nbsp;: El comunismo libertario&nbsp;», Barcelone, *Tierra y Libertad*, 1936, p. 3 et 4.
-[^note_leval]: Gaston Leval, le célèbre anarchiste français, écrit à propos du village de Calanda&nbsp;: «&nbsp;On accorda un minimum de liberté aux individualistes. Ils pouvaient posséder la terre, puisque tel était leur désir, mais il leur était impossible de faire du commerce avec le fruit de leur travail. Ils ne pouvaient ni spéculer, ni faire de concurrence déloyale à la collectivité naissante&nbsp;» (*Cultura Proletaria*, 4 novembre 1939).
+[^note_leval]: Gaston Leval, le célèbre anarchiste français, écrit à propos du village de Calanda&nbsp;:
+    >« &nbsp;On accorda un minimum de liberté aux individualistes. Ils pouvaient posséder la terre, puisque tel était leur désir, mais il leur était impossible de faire du commerce avec le fruit de leur travail. Ils ne pouvaient ni spéculer, ni faire de concurrence déloyale à la collectivité naissante&nbsp; » (*Cultura Proletaria*, 4 novembre 1939).
 
 Bien qu’aucune discipline rigoureuse n’ait présidé à l’instauration du communisme libertaire, celle-ci s’effectua partout plus ou moins selon le même processus. Un comité CNT-FAI était mis sur pied dans chacune des localités où le nouveau régime était instauré. Ce comité était non seulement investi des pouvoirs législatif et exécutif, mais il administrait également la justice. L’une de ses premières initiatives consistait à interdire le commerce privé, à mettre entre les mains de la collectivité les terres des riches, et parfois celles des pauvres, ainsi que les bâtiments agricoles, l’outillage, le bétail et les moyens de transport. À quelques rares exceptions près, les coiffeurs, les boulangers, les charpentiers, les cordonniers, les médecins, les dentistes, les enseignants, les forgerons et les tailleurs durent eux aussi s’intégrer au système collectif. Des stocks de vêtements, de nourriture et d’autres marchandises étaient emmagasinés dans un dépôt communal qui demeurait sous le contrôle du comité local, et les églises qui avaient échappé aux incendies étaient transformées en magasin, en réfectoire, en café, en atelier, en école, en garage ou en caserne. Au sein de certaines communautés, l’utilisation de l’argent fut supprimée pour les échanges internes, car pour les anarchistes «&nbsp;l’argent et le pouvoir sont des philtres diaboliques qui détruisent la fraternité et transforment l’homme en loup, en l’ennemi le plus féroce et le plus acharné de ses semblables&nbsp;»[^note_tierra]. «&nbsp;Ici, à Fraga [petite ville aragonaise], s’il prend à quelqu’un la fantaisie de jeter des billets de 1 000 pesetas dans la rue, personne n’y prêtera attention. Rockefeller, si vous veniez à Fraga avec tout votre compte en banque, vous ne pourriez même pas vous payer une tasse de café. L’argent, votre serviteur et votre Dieu, a été chassé de notre ville et le peuple est heureux&nbsp;», pouvait-on lire dans un périodique libertaire[^note_soziale]. Une autre publication rapportait&nbsp;: «&nbsp;Les femmes et les hommes qui attaquaient les couvents [à Barcelone] brûlaient tout ce qu’ils trouvaient, même l’argent. Je ne suis pas près d’oublier ce rude travailleur qui me montra avec orgueil, un morceau de billet de 1 000 pesetas brûlé&nbsp;!&nbsp;»[^note_fragua] Dans les communautés libertaires où l’argent avait été aboli, les travailleurs recevaient, en guise de salaire, des bons dont la valeur dépendait de l’importance de leur famille. «&nbsp;Ce qui caractérise la plupart des collectivités de la CNT – notait un observateur étranger – c’est l’instauration d’un salaire familial. Ce sont les besoins des membres de la collectivité qui déterminent le montant de leur rétribution et non la quantité de travail fournie par chaque ouvrier&nbsp;»[^note_tierra2]. S’ils étaient abondants, les aliments produits sur place tels que le pain, le vin ou l’huile d’olive étaient distribués gratuitement, tandis que l’on pouvait se procurer les autres marchandises au moyen de bons au dépôt communal. Les excédents de production étaient échangés avec les autres villes et les autres villages anarchistes, l’argent n’étant utilisé que pour les transactions avec les communautés qui n’avaient pas encore adopté le nouveau système.
 

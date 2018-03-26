@@ -90,6 +90,6 @@ L’économie monopoliste n’abolit nullement la loi de la valeur : elle en con
 [^1]: Capital, III, Ed. sociale, t. 2, p. 104.
 [^2]: Anti-Dühring, trad. E. Bottigelli, p. 316.
 [^3]: Ibid., p. 318-319.
-[^4]: R. Hilferding, le Capital financier, trad. M. Ollivier ; p. 439.
+[^4]: R. Hilferding, le Capital financier, trad. M. Ollivier, p. 439.
 [^5]: Lénine, Werke 24, p. 259.
 [^6]: R. Hilferding, op. cit., p. 321.
