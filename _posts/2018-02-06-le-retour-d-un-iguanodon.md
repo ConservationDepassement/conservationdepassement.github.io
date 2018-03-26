@@ -2,7 +2,7 @@
 layout: post
 title: "Le Retour d'un Iguanodon"
 nav: blog
-subtitle: "publié dans <i>La Guerre Sociale</i> n°3, 1979"
+subtitle: "publié dans <i>La Guerre Sociale</i> n°3 en 1979."
 author: La Guerre Sociale
 year: 2018
 month: 02
