@@ -1,5 +1,5 @@
 ---
-title: "Le capitalisme monopoliste d’État"
+title: "Le Capitalisme Monopoliste d'État"
 author: Paul Mattick
 year: 1976
 month: 07

@@ -1,5 +1,5 @@
 ---
-title: "La Guerre d’Espagne, partie 2"
+title: "La Guerre d’Espagne (partie 2)"
 subtitle: "Extraits du chapitre VI de <i>Révolution et contre-révolution, (1934-1939)</i>."
 author: Burnett Bolloten
 year: 2018

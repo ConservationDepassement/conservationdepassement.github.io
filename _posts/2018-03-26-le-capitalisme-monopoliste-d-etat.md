@@ -1,6 +1,6 @@
 ---
-title: "Le capitalisme monopoliste d’État"
-subtitle: "publié par <i>Paul Mattick</i> dans la revue <i>Spartacus</i> n° 3 en 1976."
+title: "Le Capitalisme Monopoliste d'État"
+subtitle: "par Paul Mattick, publié dans la revue <i>Spartacus</i> n°3, 1976."
 author: Paul Mattick
 nav: blog
 content_type: book
