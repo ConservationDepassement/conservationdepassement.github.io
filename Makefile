@@ -89,9 +89,8 @@ export DEPS_PKG
 deps:
 	@echo "Required dependencies:"
 	@echo "$$DEPS_PKG"
-	@[[ "`latex --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`"  = "3" ]] || echo ":: ERROR: please update texlive/latex to v3.0 or higher"
-	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher"
-	@echo ":: Successful version check for 'pandoc' and 'latex/pdftex'"
+	@[[ "`latex --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`"  = "3" ]] || echo ":: ERROR: please update texlive/latex to v3.0 or higher" && echo ":: Successful version check for 'pandoc'"
+	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher" && echo ":: Successful version check for 'latex/pdftex'"
 
 test: test-pdf test-epub
 
