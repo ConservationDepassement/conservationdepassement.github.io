@@ -7,10 +7,6 @@ VIM = vim
 GEN_SCRIPT = ./build_aux/pdc_gen.sh
 VIM_SCRIPT = ./build_aux/correct.vim
 # List of dependencies
-define DEPS_CMD
-	pandoc  		[>2.0.0]
-	pdftex/latex 		[>3.0.0]
-endef
 define DEPS_PKG
 	haskell-pandoc-types    [1.17.4.2-1]
 	haskell-texmath     	[0.10.1.1-16]
@@ -21,6 +17,7 @@ define DEPS_PKG
 	texlive-bin 		[2017.44590-11]
 	texlive-core     	[2017.46770-1]
 	texlive-latexextra     	[2017.46778-1]
+	texlive-lang-french 	(on Debian-based OSes)
 endef
 # Root dir for searching files
 SEARCH_PATH = ./textes/
@@ -87,17 +84,14 @@ pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(SEARCH_PATH)
 epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
 	$(GEN_SCRIPT) -i md -o epub -j 2    -a "--template=$(TEMPLATE_EPUB) $(PDC_ARG)" $(SEARCH_PATH)
 
-check-pandoc-version:
-	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher"
-
 # Export variables to echo multiline bash variables from outside this Makefile
-export DEPS_CMD DEPS_PKG
-deps:  check-pandoc-version
-	@echo "Required commands:"
-	@echo "$$DEPS_CMD"
+export DEPS_PKG
+deps:
 	@echo "Required dependencies:"
 	@echo "$$DEPS_PKG"
-#@for dep in $$DEPS_CMD ; do which $$dep 1>&2 2>/dev/null 1>&2; [[ $$? = 0 ]] || echo "    Missing dependency: $$dep"; done
+	@[[ "`latex --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`"  = "3" ]] || echo ":: ERROR: please update texlive/latex to v3.0 or higher"
+	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher"
+	@echo ":: Successful version check for 'pandoc' and 'latex/pdftex'"
 
 test: test-pdf test-epub
 
