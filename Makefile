@@ -6,12 +6,30 @@ VIM = vim
 # Path to scripts
 GEN_SCRIPT = ./build_aux/pdc_gen.sh
 VIM_SCRIPT = ./build_aux/correct.vim
+# List of dependencies
+define DEPS_CMD
+	pandoc
+	pdftex
+	latex
+endef
+define DEPS_PKG
+	haskell-pandoc-types    [1.17.4.2-1]
+	haskell-texmath     	[0.10.1.1-16]
+	pandoc     		[2.1.3-11]
+	pandoc-citeproc     	[0.13.0.1-52]
+	pandoc-crossref     	[0.3.0.3-12]
+	texinfo     		[6.5-1]
+	texlive-bin 		[2017.44590-11]
+	texlive-core     	[2017.46770-1]
+	texlive-latexextra     	[2017.46778-1]
+endef
 # Root dir for searching files
 SEARCH_PATH = ./textes/
 ifdef IN
 	SEARCH_PATH = $(IN)
 endif
-# TODO: fail-if-warnings fails to fail when images not found for PDF!
+# NOTE: 'fail-if-warnings' fails to fail when images not found for PDF; problem 
+# is known among Pandoc folks
 PDC_ARG = --fail-if-warnings -V documentclass=book -V lang=fr-FR -s
 # Templates
 TEMPLATE_PDF =  ./build_aux/template.pdf.pandoc
@@ -31,6 +49,7 @@ help:
 	@echo "    all              - Build all targets marked with '*'"
 	@echo " *  pdf              - Build all PDFs"
 	@echo " *  epub             - Build all EPUBs"
+	@echo "    deps             - List dependencies"
 	@echo "    test             - Test generation for PDFs and EPUBs and check out result"
 	@echo "    test-pdf         - Test generation for PDFs and check out result"
 	@echo "    test-epub        - Test generation for EPUBs"
@@ -50,6 +69,8 @@ help:
 	@echo "        Set input file for vim [un]correction script to 'infile.md'"
 	@echo
 	@echo "EXAMPLES"
+	@echo "    $(MAKE) deps"
+	@echo "        Run this first to make sure you have everything it needs"
 	@echo "    $(MAKE) IN=./textes/guy_debord/ pdf"
 	@echo "        Recursively build PDF files from MD files in ./textes/guy_debord/**"
 	@echo "    $(MAKE) OUT_TEST_EPUB=/media/KOBOeReader/test.epub OUT_TEST_PDF=/media/KOBOeReader/test.pdf test"
@@ -66,6 +87,15 @@ pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(SEARCH_PATH)
 
 epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
 	$(GEN_SCRIPT) -i md -o epub -j 2    -a "--template=$(TEMPLATE_EPUB) $(PDC_ARG)" $(SEARCH_PATH)
+
+# Export variables to echo multiline bash variables from outside this Makefile
+export DEPS_CMD DEPS_PKG
+deps:
+	@echo "Required commands:"
+	@echo "$$DEPS_CMD"
+	@echo "Required dependencies:"
+	@echo "$$DEPS_PKG"
+#@for dep in $$DEPS_CMD ; do which $$dep 1>&2 2>/dev/null 1>&2; [[ $$? = 0 ]] || echo "    Missing dependency: $$dep"; done
 
 test: test-pdf test-epub
 
