@@ -4,7 +4,7 @@
 # 
 #   DESCRIPTION: RTFM (--help)
 #  REQUIREMENTS: find, xargs, sed, pandoc
-#        AUTHOR: Sylvain S. (ResponSyS), mail@systemicresponse.com
+#        AUTHOR: Sylvain S. (ResponSyS), mail@sylsau.com
 #       CREATED: 11/27/2017 16:07
 #===============================================================================
 ################################################################################
@@ -115,7 +115,7 @@ EXAMPLE
          with the pandoc template "./tmpl.pandoc"
 AUTHOR
     Written by Sylvain Saubier (<http://SystemicResponse.com>)
-    Report bugs at: <feedback@systemicresponse.com>
+    Report bugs at: <feedback@sylsau.com>
 EOF
 }
 
