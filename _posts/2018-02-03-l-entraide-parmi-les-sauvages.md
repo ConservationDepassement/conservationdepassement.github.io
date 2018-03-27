@@ -2,7 +2,7 @@
 layout: post
 title: "L'Entraide Parmi les Sauvages"
 nav: blog
-subtitle: "Extrais du chapitre III de <i>L'entraide: un facteur de l'évolution</i>."
+subtitle: "Extrais du chapitre III de <i>L'Entraide: un Facteur de l'Évolution</i>."
 author: Pierre Kropotkine
 year: 2018
 month: 02
