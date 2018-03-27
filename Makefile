@@ -8,9 +8,8 @@ GEN_SCRIPT = ./build_aux/pdc_gen.sh
 VIM_SCRIPT = ./build_aux/correct.vim
 # List of dependencies
 define DEPS_CMD
-	pandoc
-	pdftex
-	latex
+	pandoc  		[>2.0.0]
+	pdftex/latex 		[>3.0.0]
 endef
 define DEPS_PKG
 	haskell-pandoc-types    [1.17.4.2-1]
@@ -88,9 +87,12 @@ pdf: $(GEN_SCRIPT) $(TEMPLATE_PDF) $(SEARCH_PATH)
 epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
 	$(GEN_SCRIPT) -i md -o epub -j 2    -a "--template=$(TEMPLATE_EPUB) $(PDC_ARG)" $(SEARCH_PATH)
 
+check-pandoc-version:
+	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher"
+
 # Export variables to echo multiline bash variables from outside this Makefile
 export DEPS_CMD DEPS_PKG
-deps:
+deps:  check-pandoc-version
 	@echo "Required commands:"
 	@echo "$$DEPS_CMD"
 	@echo "Required dependencies:"
