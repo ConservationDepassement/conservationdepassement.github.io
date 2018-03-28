@@ -89,6 +89,9 @@ exclude:
   - build_aux/
   - Makefile
   - "*.xcf"
+# Include SSL cert files
+include:
+  - .well-known/
 
 # TODO: pourquoi c'est pas juste 'plugins' ?
 plugins_dir:
