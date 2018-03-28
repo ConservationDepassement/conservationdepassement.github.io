@@ -9,5 +9,5 @@ month: 12
 day: 02
 content_type: book
 thumbnail: /img/posts/2017-12-02-de-la-misere-en-milieu-etudiant/thumbnail.jpg
-internal_custom_url: /textes/internationale_situationniste/de_la_misère_en_milieu_étudiant/
+internal_custom_url: /textes/internationale-situationniste/de-la-misère-en-milieu-étudiant/
 ---

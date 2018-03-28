@@ -9,5 +9,5 @@ month: 02
 day: 06
 content_type: book
 thumbnail: /img/posts/2018-02-06-le-retour-d-un-iguanodon/thumbnail.jpg
-internal_custom_url: /textes/la_guerre_sociale/le_retour_d_un_iguanodon/
+internal_custom_url: /textes/la-guerre-sociale/le-retour-d-un-iguanodon/
 ---

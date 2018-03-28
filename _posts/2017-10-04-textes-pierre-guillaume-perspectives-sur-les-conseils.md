@@ -9,5 +9,5 @@ month: 10
 day: 04
 content_type: book
 thumbnail: /img/posts/2017-10-04-textes-pierre-guillaume-perspectives-sur-les-conseils/thumbnail.jpg
-internal_custom_url: /textes/pierre_guillaume/perspectives_sur_les_conseils_la_gestion_ouvriere_et_la_gauche_allemande/
+internal_custom_url: /textes/pierre-guillaume/perspectives-sur-les-conseils-la-gestion-ouvriere-et-la-gauche-allemande/
 ---

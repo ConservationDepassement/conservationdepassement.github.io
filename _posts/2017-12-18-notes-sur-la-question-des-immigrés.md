@@ -9,5 +9,5 @@ month: 12
 day: 18
 content_type: book
 thumbnail: /img/posts/2017-12-18-notes-sur-la-question-des-immigrés/thumbnail.jpg
-internal_custom_url: /textes/guy_debord/notes_sur_la_question_des_immigrés/
+internal_custom_url: /textes/guy-debord/notes-sur-la-question-des-immigrés/
 ---
