@@ -5,7 +5,6 @@ year: 1976
 month: 07
 layout: post
 nav: textes
-image: /img/textes/paul-mattick/le-capitalisme-monopoliste-d-etat/header.jpg
 thumbnail: /img/posts/2018-03-26-le-capitalisme-monopoliste-d-etat/thumbnail.jpg
 ---
 
