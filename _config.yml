@@ -1,8 +1,7 @@
 # --- General options --- #
 
 # Full website URL
-#url: "https://responsyss.github.io"
-url: "http://aufhebung.fr"
+url: "https://aufhebung.fr"
 # Website's URL without the hostname
 baseurl: ""
 
@@ -11,7 +10,7 @@ title: "AUFHEBUNG"
 author: "Collectif"
 description: "Pour une critique radicale du faux omniprésent"
 
-logo: /img/aufhebung_logo.png
+logo: /img/aufhebung_logo_large.png
 lang: fr_FR
 
 # --- Social medias ---#
@@ -22,14 +21,12 @@ social:
     links:
         - https://youtube.com/c/Aufhebung
         - https://facebook.com/AufhebungOfficiel/
-# Default image
-# Problem: displays on top of page layout when no 'image' variable set (we don't
-# want that)
+# Default image 'og:image'
+# Setting a 'defaults' 'image' for all pages is NOT appropriate as it gives a
+# header to every page
 #defaults:
-#   - scope:
-#       path: ""
-#     values:
-#       image: /img/aufhebung_logo.png
+# Relative path used by _includes/head.html
+og_image_rpath: /img/aufhebung_logo_large.png
 
 # --- Navigation bar options --- #
 
@@ -37,10 +34,10 @@ social:
 navbar-links:
     BLOG: /
     BIBLIOTHÈQUE: /textes/
-    VIDÉOS: https://youtube.com/c/Aufhebung
+    VIDÉOS: https://youtube.com/c/Aufhebung/
     DIALOGUE: https://facebook.com/AufhebungOfficiel/
-    CONTRIBUER: /contribuer
-    À PROPOS: /about
+    CONTRIBUER: /contribuer/
+    À PROPOS: /about/
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -65,9 +62,14 @@ excerpt_length: 35
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Paris"
-markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:title/
+
+markdown: kramdown
+kramdown:
+  toc_levels: 1..4
+  # TODO: it defaults to false? Test with 'true'
+  #footnote_backlink_inline: true
 
 # Publish posts of a future date
 future: false
@@ -90,7 +92,6 @@ exclude:
   - Makefile
   - "*.xcf"
 
-# TODO: pourquoi c'est pas juste 'plugins' ?
 plugins_dir:
   - jekyll-paginate
   - jekyll-seo-tags
