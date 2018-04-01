@@ -8,7 +8,9 @@ layout: page
     {% if page.subtitle %}
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
+    {% if page.author %}
     <p class="post-meta">par <span class="post-author">{{ page.author }}</span>
+    {% endif %}
 
     {% if page.day %}
         {% assign day = page.day %}
