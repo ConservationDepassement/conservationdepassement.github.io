@@ -86,6 +86,7 @@ Ce qui passait l'entendement de Hilferding, c'était que, suivant la théorie de
 L'économie monopoliste n'abolit nullement la loi de la valeur&nbsp;: elle en confirme au contraire la validité, comme le montrent et la baisse du taux de profit et du taux d'accumulation qui lui est lié — lequel baisse lui aussi en ce qui concerne le capital monopoliste —, et les interventions étatiques dans l'économie que cette situation rend indispensables. Mais ces dernières se heurtent à des butoirs, les limites bien déterminées que leur imposent les rapports de production capitalistes, et ne constituent donc que des palliatifs temporaires. Ces voies de recours une fois fermées, la tendance du capitalisme aux crises réapparaît, offrant de nouveau une possibilité de transformation révolutionnaire du système capitaliste. Le caractère monopoliste d'État du capitalisme d'aujourd'hui place ainsi le prolétariat devant la même tâche qui lui incombe sous n'importe quelle forme de capitalisme&nbsp;: abolir les rapports capitalistes par l'élimination du travail salarié au sein d'une société sans classes.
 
 
+
 [^1]: K. Marx, *Le Capital*, III, Les Éd. Sociales, t. 2, p. 104.
 [^2]: F. Engels, *Anti-Dühring*, trad. E. Bottigelli, p. 316.
 [^3]: *Ibid*., p. 318-319.
