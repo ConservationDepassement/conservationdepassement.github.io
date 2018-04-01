@@ -161,12 +161,12 @@ fn_find_files() {
 fn_gen_files() {
 	local IFS_OLD=$IFS
 	local CMD="pandoc"
-	# Be verbose by default, but not on dry-run
 	local XARGS_VERBOSE="-t"
 	IFS=':'
 	# On dry-run, just echo the command-lines without prompting
 	[[ $DRY_RUN ]] && { XARGS_PROMPT= ; CMD=(echo $CMD); XARGS_VERBOSE= ; }
 	for EXT in $EXT_OUT; do
+		echo -en "\t"
 		echo "$1" | sort | uniq | sed "s/[.]$EXT_IN[.]<EXTOUT>/.$EXT/" | 
 			xargs ${XARGS_FLAGS[@]} $XARGS_VERBOSE $XARGS_JOBS $XARGS_PROMPT ${CMD[@]}
 	done
@@ -246,7 +246,6 @@ main() {
 	[[ -n "$RET" ]] || fn_exit_err "no file was found matching your criterias (**.$EXT_IN -> **.{$EXT_OUT} under ${SEARCH_PATH:-./})" $ERR_NO_FILE
 	[[ $DEBUG ]] && m_say_debug "FIND list:\n$RET"
 	m_say "Converting..."
-	echo -en "\t" # Tab before xargs' output
 	#fn_count_args
 	fn_gen_files "$RET"
 	m_say "Done!"
