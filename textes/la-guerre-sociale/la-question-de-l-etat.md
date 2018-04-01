@@ -403,10 +403,10 @@ La révolution ne veut pas "le pouvoir", mais elle a besoin de pouvoir réaliser
 [^1]: Montesquieu, *De l'Esprit des lois*.
 [^2]: Rousseau, *Du Contrat social*.
 [^3]: A. de Tocqueville, *De la Démocratie en Amérique*.
-[^4]: Elleinstein*Le Parti communiste*
-[^5]: B. cie Jouvenel, *Du Pouvoir*.
+[^4]: Elleinstein, *Le Parti communiste*
+[^5]: B. de Jouvenel, *Du Pouvoir*.
 [^6]: M. Ragon, *L'Architecte, le Prince et la Démocratie*.
 [^7]: M. Duverger, *L'Autre côté des choses.*
-[^8]: Blanqui, «Le Communisme, avenir de la société», in *La Critique sociale*.
-[^9]: Wagner, «L'Anarchisme et la révolution espagnole», in *La Contre-révolution bureaucratique*.
+[^8]: Blanqui, « Le Communisme, avenir de la société », in *La Critique sociale*.
+[^9]: Wagner, « L'Anarchisme et la révolution espagnole », in *La Contre-révolution bureaucratique*.
 [^10]: Fourier, *Théorie de l'Unité universelle.*
