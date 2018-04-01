@@ -9,7 +9,7 @@ layout: page
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
     {% if page.author %}
-    <p class="post-meta">par <span class="post-author">{{ page.author }}</span>
+    <p class="post-meta">par <span class="post-author">{{ page.author }}</span>,
     {% endif %}
 
     {% if page.day %}
@@ -38,11 +38,11 @@ layout: page
     {% endif %}
 
     {% if day and month and year %}
-        , le {{ day }} {{ month }} {{ year}}
+        le {{ day }} {{ month }} {{ year}}
     {% elsif month and year %}
-        , {{ month }} {{ year}}
+        {{ month }} {{ year}}
     {% elsif year %}
-        , {{ year}}
+        {{ year}}
     {% endif %}
     </p>
     
