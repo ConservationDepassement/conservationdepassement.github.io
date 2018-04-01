@@ -29,7 +29,7 @@ call s:f_say('CORRECTING NON-BREAKABLE SPACES (1/3)')
 ":%s/\(&nbsp[;]\?\)\@<!;/\&nbsp;;/gc
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (2/3)')
 " ':' (not after '&nbsp;', nor YAML parameter like '^title', '^date', etc, nor footnote like '[^this_ref]: THAT', with space before or not) -> '&nbsp;:'
-:%s/\(&nbsp;\|^layout\|^toc\|^title\|^titre\|^subtitle\|^nav\|^author\|^auteur\|^date\|^year\|^month\|^thumbnail\|^\[\^[^\]]\+\]\)\@<![ ]*:/\&nbsp;:/gc
+:%s/\(&nbsp;\|^layout\|^toc\|^title\|^titre\|^subtitle\|^nav\|^author\|^auteur\|^date\|^year\|^month\|^day\|^content_type\|^image\|^thumbnail\|^\[\^[^\]]\+\]\)\@<![ ]*:/\&nbsp;:/gc
 call s:f_say('CORRECTING NON-BREAKABLE SPACES (3/3)')
 " '([!?])' (not after start of line or '&nbsp;', with space before or not) -> '&nbsp;\1'
 :%s/\(^\|&nbsp;\)\@<![ ]*\([?!]\)/\&nbsp;\2/gc
