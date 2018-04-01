@@ -70,7 +70,8 @@ fn_need_cmd() {
 }
 # $1: message (string)
 m_say() {
-	echo -e "$SCRIPT_NAME: $1"
+	#echo -e "$SCRIPT_NAME: $1"
+	echo -e "$1"
 }
 # $1: debug message (string)
 m_say_debug() {
@@ -238,16 +239,17 @@ main() {
 	[[ $EXT_OUT ]] || fn_exit_err "extension(s) for output files (EXT_OUT) not set" 	$ERR_WRONG_ARG
 
 	[[ $DEBUG ]] && { m_say_debug "Parameters:"; fn_print_params; }
-	[[ $DRY_RUN ]] && m_say "this is a dry-run; no file will be written!"
+	[[ $DRY_RUN ]] && m_say "This is a dry-run; no file will be written!"
 
-	m_say "searching for files to convert in \"${SEARCH_PATH:-./}\"..."
+	m_say "Searching for files to convert in \"${SEARCH_PATH:-./}\"..."
 	fn_find_files
 	[[ -n "$RET" ]] || fn_exit_err "no file was found matching your criterias (**.$EXT_IN -> **.{$EXT_OUT} under ${SEARCH_PATH:-./})" $ERR_NO_FILE
 	[[ $DEBUG ]] && m_say_debug "FIND list:\n$RET"
-	m_say "converting..."
+	m_say "Converting..."
+	echo -en "\t" # Tab before xargs' output
 	#fn_count_args
 	fn_gen_files "$RET"
-	m_say "done!"
+	m_say "Done!"
 }
 
 main "$@"
