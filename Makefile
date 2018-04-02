@@ -4,7 +4,7 @@
 SHELL = /bin/bash
 VIM = vim
 # Path to scripts
-GEN_SCRIPT = ./build_aux/pdc_gen.sh
+GEN_SCRIPT = ./build_aux/pdc-gen.sh
 VIM_SCRIPT = ./build_aux/correct.vim
 # List of dependencies
 define DEPS_PKG
