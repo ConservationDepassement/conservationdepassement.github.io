@@ -5,8 +5,6 @@ author: Dominique Karamazov
 year: 2017
 month: 12
 day: 03
-layout: post
-nav: blog
 content_type: book
 thumbnail: /img/posts/2017-12-03-misere-du-feminisme/thumbnail.jpg
 internal_custom_url: /textes/la-guerre-sociale/misere-du-feminisme/
