@@ -41,4 +41,10 @@ Pour vous aider, vous pouvez prendre exemple sur cette contribution pour publier
 
 Après une relecture commune nous essaierons de publier votre contribution dans les jours qui suivent, en fonction du temps et de la disponibilité de chacun.
 
+### Publier directement sur le site
+
+Si vous avez quelques connaissances en informatique et que vous souhaitez publier vos articles vous-mêmes, rendez-vous sur le wiki pour de plus amples informations : <https://github.com/ResponSySS/responsyss.github.io/wiki/Comment-publier>.
+
+--- 
+
 Au plaisir de se lire et de se rencontrer.
