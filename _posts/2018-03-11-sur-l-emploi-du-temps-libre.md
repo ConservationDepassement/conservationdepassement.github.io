@@ -1,12 +1,12 @@
 ---
-layout: post
 title: "Sur l'emploi du temps libre"
-nav: blog
 subtitle: "publié dans l'<i>Internationale Situationniste</i> n° 4"
 author: Internationale Situationniste
 year: 2018
 month: 03
 day: 11
+layout: post
+nav: blog
 content_type: article
 thumbnail: /img/posts/2018-03-11-sur-l-emploi-du-temps-libre/thumbnail.jpg
 # TODO: comme les passages les plus intéressants sont ceux qui citent l'article de Socialisme ou Barbarie, pourquoi ne pas plutôt publié celui de S ou B?

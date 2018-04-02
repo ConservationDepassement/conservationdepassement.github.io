@@ -1,11 +1,11 @@
 ---
-layout: post
 title: "Francis Cousin : entretien sur Gracchus Babeuf et le populicide vendéen"
-nav: blog
 author: Aufhebung
 year: 2017
 month: 10
 day: 06
+layout: post
+nav: blog
 content_type: video
 thumbnail: /img/posts/2017-10-06-francis-cousin-entretien-sur-babeuf/thumbnail.jpg
 ---

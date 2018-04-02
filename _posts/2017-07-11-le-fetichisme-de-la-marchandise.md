@@ -1,11 +1,11 @@
 ---
-layout: post
 title: "Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)"
-nav: blog
 author: Aufhebung
 year: 2017
 month: 07
 day: 11
+layout: post
+nav: blog
 content_type: article
 image: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/header.jpg
 thumbnail: /img/posts/2017-07-11-le-fetichisme-de-la-marchandise/thumbnail.jpg

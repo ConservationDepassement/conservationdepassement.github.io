@@ -1,13 +1,12 @@
 ---
-
 title: "La Guerre d’Espagne (partie 1)"
 subtitle: "Extraits du chapitre VI de <i>Révolution et contre-révolution, (1934-1939)</i>."
 author: Burnett Bolloten
 year: 2017
 month: 12
 day: 28
-nav: blog
 layout: post
+nav: blog
 content_type: article
 thumbnail: /img/posts/2018-01-11-la-guerre-d-espagne-partie-1/thumbnail.jpg
 image: /img/posts/2018-01-11-la-guerre-d-espagne-partie-1/header.jpg

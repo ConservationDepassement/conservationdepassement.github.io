@@ -5,8 +5,8 @@ author: Burnett Bolloten
 year: 2018
 month: 03
 day: 26
-nav: blog
 layout: post
+nav: blog
 content_type: article
 thumbnail: /img/posts/2018-03-26-la-guerre-d-espagne-partie-2/thumbnail.jpg
 image: /img/posts/2018-03-26-la-guerre-d-espagne-partie-2/header.jpg

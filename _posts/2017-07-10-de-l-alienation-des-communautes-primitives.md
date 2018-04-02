@@ -1,11 +1,11 @@
 ---
-layout: post
-nav: blog
 title: De l'Aliénation des Communautés Primitives à l'Extranéisation de la Société Contemporaine
 author: Aufhebung
 year: 2017
 month: 07
 day: 10
+layout: post
+nav: blog
 content_type: article
 image: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/header.jpg
 thumbnail: /img/posts/2017-07-10-de-l-alienation-des-communautes-primitives/thumbnail.jpg
