@@ -1,6 +1,6 @@
 #!/bin/bash - 
 #===============================================================================
-#         USAGE: ./pdc_gen.sh --help
+#         USAGE: ./pdc-gen.sh --help
 # 
 #   DESCRIPTION: RTFM (--help)
 #  REQUIREMENTS: find, xargs, sed, pandoc
