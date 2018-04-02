@@ -41,4 +41,4 @@ Pour vous aider, vous pouvez prendre exemple sur cette contribution pour publier
 
 Après une relecture commune nous essaierons de publier votre contribution dans les jours qui suivent, en fonction du temps et de la disponibilité de chacun.
 
-Au plaisir se lire et de se rencontrer.
+Au plaisir de se lire et de se rencontrer.
