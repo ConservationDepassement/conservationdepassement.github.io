@@ -1,5 +1,5 @@
 ---
-title: "[Rencontre] Sur <i>Le Système Technicien</i>, de Jacques Ellul"
+title: "[Rencontre]<br>Sur <i>Le Système Technicien</i>, de Jacques Ellul"
 subtitle: "Rencontre organisée par le Cercle Marx à Nantes le 13 janvier 2018 à 19h."
 author: Cercle Marx
 content_type: event
