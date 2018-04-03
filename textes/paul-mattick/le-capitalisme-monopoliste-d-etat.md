@@ -3,9 +3,9 @@ title: "Le Capitalisme Monopoliste d'État"
 author: Paul Mattick
 year: 1976
 month: 07
+thumbnail: /img/posts/2018-03-26-le-capitalisme-monopoliste-d-etat/thumbnail.jpg
 layout: post
 nav: textes
-thumbnail: /img/posts/2018-03-26-le-capitalisme-monopoliste-d-etat/thumbnail.jpg
 ---
 
 La notion de «&nbsp;capital monopoliste d'État&nbsp;» ne va pas, en fin de compte, au-delà d'une description correcte de l'état actuel de la société. Le système capitaliste est taraudé en tous sens par des monopoles et se trouve dans une large mesure déterminé par eux. L'État, qui a pour fonction de protéger la structure sociale, est ainsi l'État du capital monopoliste. Il ne s'agit nullement, toutefois, d'un phénomène social nouveau, mais d'un caractère de tout temps inhérent au capitalisme, bien que sous une forme moins développée jadis.

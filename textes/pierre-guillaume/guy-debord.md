@@ -1,11 +1,11 @@
 ---
-layout: post
 title: "Guy Debord"
-nav: textes
 subtitle: "La Vieille Taupe, numéro 1"
 author: Pierre Guillaume
 year: 1995
 month: 02
+layout: post
+nav: textes
 ---
 
 J'ai rencontré Guy Debord pour la première fois le 27 octobre 1960. Nous nous étions téléphoné deux jours auparavant pour convenir d'une rencontre. Une manifestation contre la guerre d'Algérie qui s'annonçait comme devant revêtir une importance particulière était prévue pour le surlendemain. Elle devait débuter à la "Mutualité". J'habitais chez mes parents, à proximité du Panthéon, donc à proximité de la "Mutualité". Nous avions donc convenu de nous rencontrer chez moi, et de nous rendre ensemble à la manifestation. Nous avons discuté une heure environ, avant de rejoindre la foule, où nous nous sommes trouvés très vite séparés par les bagarres et les charges de police. Cette première rencontre devait être suivie de beaucoup d'autres.

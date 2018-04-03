@@ -1,9 +1,9 @@
 ---
-layout: post
-nav: textes
 title: "Le Rôle du Travail dans la Transformation du Singe en Homme"
 author: "Friedrich Engels"
 year: 1876
+layout: post
+nav: textes
 thumbnail: /img/posts/2018-03-15-le-rôle-du-travail-dans-la-transformation-du-singe-en-homme/thumbnail.jpg
 ---
 

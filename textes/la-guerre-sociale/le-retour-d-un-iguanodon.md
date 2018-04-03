@@ -1,11 +1,11 @@
 ---
-layout: post
 title: "Le Retour d'un Iguanodon"
 subtitle: Écologie et communisme I
-nav: textes
 author: revue La Guerre Sociale
 year: 1979
 month: 06
+layout: post
+nav: textes
 ---
 
 > Figurez-vous qu'ils reprennent, et ils le font systématiquement, la polémique en faveur d'un personnage que nous pourrions appeler préhistorique, comme l’iguanodon, l’ingénieur Amadeo Bordiga. --- Togliatti, juillet 1953

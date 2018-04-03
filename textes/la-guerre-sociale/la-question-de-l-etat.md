@@ -1,10 +1,10 @@
 ---
-layout: post
 title: "La Question de l'État"
-nav: textes
 author: revue La Guerre Sociale
 year: 1978
 month: 03
+layout: post
+nav: textes
 ---
 
 <div style="text-align: center;" markdown="1">

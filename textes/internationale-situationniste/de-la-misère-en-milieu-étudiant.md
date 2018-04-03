@@ -1,11 +1,11 @@
 ---
-layout: post
 title: "De la Misère en Milieu Étudiant"
-nav: textes
-subtitle: considérée sous ses aspects économique, politique, psychologique, sexuel et notamment intellectuel et de quelques moyens pour y remédier 
-author: l'Internationale Situationniste et des étudiants de Strasbourg
+subtitle: "considérée sous ses aspects économique, politique, psychologique, sexuel et notamment intellectuel et de quelques moyens pour y remédier"
+author: "l'Internationale Situationniste et des étudiants de Strasbourg"
 year: 1966
 month: 11
+layout: post
+nav: textes
 ---
 
 ## Rendre la honte plus honteuse en la livrant à la publicité

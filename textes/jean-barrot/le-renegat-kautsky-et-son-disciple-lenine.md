@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Le Renégat Kautsky et son Disciple Lénine"
-nav: textes
 author: Jean Barrot (Gilles Dauvé)
 year: 1977
+layout: post
+nav: textes
 ---
 
 “Les trois sources du Marxisme, l’œuvre historique de Marx” (Livre de Karl Kautsky Ndlr) présente un intérêt historique évident. Kautsky était incontestablement le maître à penser de la IIe Internationale, et de son parti le plus puissant: le parti social-démocrate allemand. Gardien de l’orthodoxie, Kautsky était quasi universellement considéré comme le meilleur connaisseur de l’œuvre de Marx et Engels, et comme leur interprète privilégié. Les positions de Kautsky portent donc témoignage de toute une époque du mouvement ouvrier, et méritent d’être connues, ne serait-ce qu’à ce titre. 

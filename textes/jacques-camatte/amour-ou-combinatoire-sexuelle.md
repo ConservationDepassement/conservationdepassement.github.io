@@ -1,10 +1,10 @@
 ---
-layout: post
 title: "Amour ou Combinatoire Sexuelle"
-nav: textes
 author: Jacques Camatte
 year: 1978
 month: 02
+layout: post
+nav: textes
 ---
 
 > La question essentielle ce n’est pas la sexualité mais l’amour.

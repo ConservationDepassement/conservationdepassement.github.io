@@ -1,11 +1,11 @@
 ---
-layout: post
 title: "Misère du Féminisme"
-nav: textes
 author: revue La Guerre Sociale (Dominique Karamazov)
 year: 1978
 month: 03
 thumbnail: /img/posts/2017-12-03-misere-du-feminisme/thumbnail.jpg
+layout: post
+nav: textes
 ---
 
 

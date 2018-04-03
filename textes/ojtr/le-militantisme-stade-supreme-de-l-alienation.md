@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Le Militantisme, Stade Suprême de l'Aliénation"
-nav: textes
 author: Organisation des Jeunes Travailleurs Révolutionnaires
 year: 1972
+layout: post
+nav: textes
 ---
 
 Le révolutionnaire est au militant ce que le loup est à l'agneau. 

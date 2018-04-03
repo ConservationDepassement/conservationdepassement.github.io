@@ -1,10 +1,10 @@
 ---
-layout: post
 title: "L'anthropogénèse"
 subtitle: Une étude sur l'origine de l'Homme
-nav: textes
 author: Anton Pannekoek
 year: 1953
+layout: post
+nav: textes
 ---
 
 Ce text est en cours de transcription :)
