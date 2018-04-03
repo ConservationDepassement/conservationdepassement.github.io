@@ -145,7 +145,7 @@ EOF
 #}
 # Ensure recent enough 'pandoc' version
 fn_check_pandoc_ver() {
-	pandoc --version | grep "^pandoc 2[.]" > /dev/null || fn_exit_err "need pandoc version 2" $ERR_WRONG_ARG
+	[[ `pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1` ]] == 2 ]] || fn_exit_err "need pandoc version 2" $ERR_WRONG_ARG
 }
 
 # return: result of 'find' invocation (string)
