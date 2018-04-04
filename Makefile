@@ -51,6 +51,8 @@ help:
 	@echo "    test-epub        - Test generation for EPUBs"
 	@echo "    vim-correct      - Trigger vim typographic correction script"
 	@echo "    vim-uncorrect    - Trigger vim uncorrection script for removing non-breakable spaces"
+	@echo "    clean            - Remove built PDFs and EPUBs under $(SEARCH_PATH)"
+	@echo "    clean-test       - Remove test output files"
 	@echo
 	@echo "PARAMETERS"
 	@echo "    $(MAKE)  IN=/path/to/dir/     {all|pdf|epub}"
@@ -106,8 +108,11 @@ test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
 	@echo ":: Output was made to '$(OUT_TEST_PDF)'"
 	@xdg-open $(OUT_TEST_PDF) || echo ":: NO PROGRAM TO OPEN '$(OUT_TEST_PDF)'"
 
+clean:
+	find $(SEARCH_PATH) -type f -iregex ".*[.]\(pdf\|epub\)" -ok rm -v '{}' ';'
+
 clean-test: 
-	touch $(OUT_TEST_PDF) $(OUT_TEST_EPUB) && rm $(OUT_TEST_PDF) $(OUT_TEST_EPUB)
+	touch $(OUT_TEST_PDF) $(OUT_TEST_EPUB) && rm -v $(OUT_TEST_PDF) $(OUT_TEST_EPUB)
 
 vim-correct: $(VIM_SCRIPT) $(IN)
 ifndef IN

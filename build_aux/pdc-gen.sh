@@ -42,6 +42,8 @@ EXT_OUT=
 JOBS=4
 # Pandoc additional arguments (--template, etc.)
 PANDOC_ARGS="--fail-if-warnings"
+# Prefix prepended to output pathes
+PREFIX=
 ## xargs flags
 # -L1: run command for each line; -r: don't run if empty line
 # As to be a fucking array otherwise it fucks up for some reason?
@@ -87,12 +89,12 @@ fn_exit_err() {
 fn_show_help() {
     cat << EOF
 $SCRIPT_NAME $VERSION
-    Recursively convert files with pandoc (ideal for automation).
-    Turn all matching **.EXT_IN files into **.EXT_OUT.
+    Bulk pandoc conversion tool (ideal for automation).
+    Turn all matching *.EXT_IN files into *.EXT_OUT.
 USAGE
-    $SCRIPT_NAME [OPTIONS] [SEARCH_PATH]
+    $SCRIPT_NAME -o EXT_OUT [OPTIONS] [SEARCH_PATH]
 	where SEARCH_PATH is the path under which files will be searched
-         (default: "${SEARCH_PATH:-./}")
+        (default: "${SEARCH_PATH:-./}")
 OPTIONS
     -i EXT_IN           set extension of input files (default: "$EXT_IN")
     -o EXT_OUT          set extension(s) of output files; EXT_OUT is a 
@@ -105,15 +107,19 @@ OPTIONS
     --dry-run           output command lines without executing them
     -a PANDOC_ARGS      set additional arguments to 'pandoc' invocation
                          (default: "$PANDOC_ARGS")
+    --prefix PREFIX     prepend PREFIX to output pathes
 PARALLEL PROCESSING
-    The '-n' flag allows for parallel processing of potentially shared resources.
-     Be sure to not output to the same file otherwise result are likely to be 
-     mixed up (though pandoc seems to handle it well).
+    The '-j' flag allows for parallel processing of potentially shared resources.
+    Be sure to not output to the same file otherwise result are likely to be 
+    mixed up (though pandoc seems to handle it well).
 EXAMPLE
-    $ ./$SCRIPT_NAME . -j 4 -n index -i pdc -o html:pdf:epub -a "--template ./tmpl.pandoc"
-	Convert all files ending with ".pdc" found under ./ to (1) "index.html",
-         (2) "index.pdf" and (3) "index.epub" files in their respective directory
-         with the pandoc template "./tmpl.pandoc"
+    $ ./$SCRIPT_NAME   -j 4   -n index   -i pdc   -o html:pdf:epub \
+              -a "--template ./tmpl.pandoc"       --prefix "_site/"
+        Convert a file like "./marx/das_kapital.pdc" to:
+         1) "_site/marx/index.html"
+         2) "_site/marx/index.pdf"
+         3) "_site/marx/index.epub"
+        using the pandoc template "./tmpl.pandoc".
 AUTHOR
     Written by Sylvain Saubier (<http://SystemicResponse.com>)
     Report bugs at: <feedback@sylsau.com>
@@ -126,6 +132,7 @@ fn_print_params() {
  EXT_OUT        $EXT_OUT
  JOBS           $JOBS
  FNAME_NEW      $FNAME_NEW
+ PREFIX         $PREFIX
  SEARCH_PATH    $SEARCH_PATH
  XARGS_PROMPT   $XARGS_PROMPT
  PANDOC_ARGS    $PANDOC_ARGS
@@ -145,7 +152,7 @@ EOF
 #}
 # Ensure recent enough 'pandoc' version
 fn_check_pandoc_ver() {
-	[[ `pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1` ]] == 2 ]] || fn_exit_err "need pandoc version 2" $ERR_WRONG_ARG
+	[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] || fn_exit_err "need pandoc version 2" $ERR_WRONG_ARG
 }
 
 # return: result of 'find' invocation (string)
@@ -153,8 +160,9 @@ fn_find_files() {
 	# <EXTOUT> is placeholder for extension of output files
 	# "[.]$EXT_IN[.]<EXTOUT>" will then be replaced by $EXT_OUT so don't remove the "[.]$EXT_IN" part
 	local FNAME_OUT="%p.<EXTOUT>"
+	[[ $PREFIX ]] && PREFIX="${PREFIX}/"
 	[[ $FNAME_NEW ]] && FNAME_OUT="%h/$FNAME_NEW.$EXT_IN.<EXTOUT>"
-	RET="$(find $SEARCH_PATH -type f -name \*[.]${EXT_IN} -printf "$PANDOC_ARGS --resource-path='%h' '%p' -o '$FNAME_OUT'\n")"
+	RET="$(find $SEARCH_PATH -type f -name \*[.]${EXT_IN} -printf "$PANDOC_ARGS --resource-path='%h' '%p' -o '${PREFIX}${FNAME_OUT}'\n")"
 }
 
 # $1: list of files to convert, '\n'-separated (string)
@@ -218,6 +226,10 @@ main() {
 				shift
 				PANDOC_ARGS="$1"
 				;;
+			"--prefix")
+				shift
+				PREFIX="$1"
+				;;
 			"-h"|"--help")
 				fn_show_help
 				exit
@@ -245,10 +257,10 @@ main() {
 	fn_find_files
 	[[ -n "$RET" ]] || fn_exit_err "no file was found matching your criterias (**.$EXT_IN -> **.{$EXT_OUT} under ${SEARCH_PATH:-./})" $ERR_NO_FILE
 	[[ $DEBUG ]] && m_say_debug "FIND list:\n$RET"
-	m_say "Converting..."
+	[[ $DRY_RUN ]] && m_say "Commands:" || m_say "Converting..."
 	#fn_count_args
 	fn_gen_files "$RET"
-	m_say "Done!"
+	m_say "All done!"
 }
 
 main "$@"
