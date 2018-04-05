@@ -113,7 +113,7 @@ PARALLEL PROCESSING
     Be sure to not output to the same file otherwise result are likely to be 
     mixed up (though pandoc seems to handle it well).
 EXAMPLE
-    $ ./$SCRIPT_NAME   -j 4   -n index   -i pdc   -o html:pdf:epub \
+    $ ./$SCRIPT_NAME   -j 4   -n index   -i pdc   -o html:pdf:epub \\
               -a "--template ./tmpl.pandoc"       --prefix "_site/"
         Convert a file like "./marx/das_kapital.pdc" to:
          1) "_site/marx/index.html"
