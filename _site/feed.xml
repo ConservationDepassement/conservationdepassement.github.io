@@ -3,8 +3,20 @@
   <channel>
     <title>AUFHEBUNG</title>
     <description>Pour une critique radicale du faux omniprésent</description>
-    <link>https://aufhebung.fr</link>
-    <atom:link href="https://aufhebung.fr/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Idéologie et Lutte de Classes</title>
+        <description>
+          par Pierre Guillaume, 1977 - 
+          
+
+        </description>
+        <pubDate>Thu, 12 Apr 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018-04-ideologie-et-lutte-des-classes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-ideologie-et-lutte-des-classes/</guid>
+      </item>
     
       <item>
         <title>[Rencontre]&lt;br&gt;Que Faire ?</title>
@@ -14,8 +26,8 @@
 
         </description>
         <pubDate>Thu, 05 Apr 2018 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2018-04-rencontre-que-faire/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-04-rencontre-que-faire/</guid>
+        <link>http://localhost:4000/2018-04-rencontre-que-faire/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-rencontre-que-faire/</guid>
       </item>
     
       <item>
@@ -26,8 +38,8 @@
 
         </description>
         <pubDate>Wed, 04 Apr 2018 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2018-04-rencontre-l-autre-68/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-04-rencontre-l-autre-68/</guid>
+        <link>http://localhost:4000/2018-04-rencontre-l-autre-68/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-rencontre-l-autre-68/</guid>
       </item>
     
       <item>
@@ -38,8 +50,8 @@
 
         </description>
         <pubDate>Mon, 26 Mar 2018 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2018-03-le-capitalisme-monopoliste-d-etat/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-03-le-capitalisme-monopoliste-d-etat/</guid>
+        <link>http://localhost:4000/2018-03-le-capitalisme-monopoliste-d-etat/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-le-capitalisme-monopoliste-d-etat/</guid>
       </item>
     
       <item>
@@ -49,8 +61,8 @@
           Le reportage d’un anarchiste à Fraga détaille le fonctionnement concret de l’expérience révolutionnaire dans ce petit village : Le produit de leur propre travail : blé, fruits, olives, etc., est librement disponible. Pour le reste de ses besoins, chaque famille touche une somme hebdomadaire qui augmente avec le nombre des membres de...
         </description>
         <pubDate>Mon, 26 Mar 2018 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2018-03-la-guerre-d-espagne-partie-2/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-03-la-guerre-d-espagne-partie-2/</guid>
+        <link>http://localhost:4000/2018-03-la-guerre-d-espagne-partie-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-la-guerre-d-espagne-partie-2/</guid>
       </item>
     
       <item>
@@ -61,8 +73,8 @@
 
         </description>
         <pubDate>Sat, 24 Mar 2018 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2018-03-contribuer/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-03-contribuer/</guid>
+        <link>http://localhost:4000/2018-03-contribuer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-contribuer/</guid>
       </item>
     
       <item>
@@ -73,8 +85,8 @@
 
         </description>
         <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2018-03-le-r%C3%B4le-du-travail-dans-la-transformation-du-singe-en-homme/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-03-le-r%C3%B4le-du-travail-dans-la-transformation-du-singe-en-homme/</guid>
+        <link>http://localhost:4000/2018-03-le-r%C3%B4le-du-travail-dans-la-transformation-du-singe-en-homme/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-le-r%C3%B4le-du-travail-dans-la-transformation-du-singe-en-homme/</guid>
       </item>
     
       <item>
@@ -85,8 +97,8 @@
 
         </description>
         <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2018-02-le-retour-d-un-iguanodon/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-02-le-retour-d-un-iguanodon/</guid>
+        <link>http://localhost:4000/2018-02-le-retour-d-un-iguanodon/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-02-le-retour-d-un-iguanodon/</guid>
       </item>
     
       <item>
@@ -96,8 +108,8 @@
           La persistance même de l’organisation du clan montre combien il est faux de représenter l’humanité primitive comme une agglomération désordonnée d’individus obéissant seulement à leurs passions individuelles et tirant avantage de leur force et de leur habileté personnelle contre tous les autres représentants de l’espèce. L’individualisme effréné est une production...
         </description>
         <pubDate>Sat, 03 Feb 2018 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2018-02-l-entraide-parmi-les-sauvages/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-02-l-entraide-parmi-les-sauvages/</guid>
+        <link>http://localhost:4000/2018-02-l-entraide-parmi-les-sauvages/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-02-l-entraide-parmi-les-sauvages/</guid>
       </item>
     
       <item>
@@ -107,8 +119,8 @@
           Tout comme les artisans, les petits industriels et les petits commerçants, les propriétaires exploitants, les fermiers et les métayers redoutaient la collectivisation. Si la collectivisation de la terre avait été appliquée presque sans exception aux grands domaines, une forme d’exploitation qui avait été spontanément adoptée par les paysans sans terre...
         </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2018-01-la-guerre-d-espagne-partie-1/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2018-01-la-guerre-d-espagne-partie-1/</guid>
+        <link>http://localhost:4000/2018-01-la-guerre-d-espagne-partie-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-01-la-guerre-d-espagne-partie-1/</guid>
       </item>
     
       <item>
@@ -119,8 +131,8 @@
 
         </description>
         <pubDate>Sat, 23 Dec 2017 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2017-12-la-question-de-l-etat/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-12-la-question-de-l-etat/</guid>
+        <link>http://localhost:4000/2017-12-la-question-de-l-etat/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-la-question-de-l-etat/</guid>
       </item>
     
       <item>
@@ -131,8 +143,8 @@
 
         </description>
         <pubDate>Tue, 19 Dec 2017 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</guid>
+        <link>http://localhost:4000/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-rencontre-le-systeme-technicien-jacques-ellul/</guid>
       </item>
     
       <item>
@@ -143,8 +155,8 @@
 
         </description>
         <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</guid>
+        <link>http://localhost:4000/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-notes-sur-la-question-des-immigr%C3%A9s/</guid>
       </item>
     
       <item>
@@ -155,8 +167,8 @@
 
         </description>
         <pubDate>Sun, 03 Dec 2017 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2017-12-misere-du-feminisme/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-12-misere-du-feminisme/</guid>
+        <link>http://localhost:4000/2017-12-misere-du-feminisme/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-misere-du-feminisme/</guid>
       </item>
     
       <item>
@@ -167,8 +179,8 @@
 
         </description>
         <pubDate>Sat, 02 Dec 2017 00:00:00 +0100</pubDate>
-        <link>https://aufhebung.fr/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</guid>
+        <link>http://localhost:4000/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-12-de-la-mis%C3%A8re-en-milieu-%C3%A9tudiant/</guid>
       </item>
     
       <item>
@@ -182,8 +194,8 @@
 
         </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-10-l-heure-la-plus-sombre-87/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-10-l-heure-la-plus-sombre-87/</guid>
+        <link>http://localhost:4000/2017-10-l-heure-la-plus-sombre-87/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-l-heure-la-plus-sombre-87/</guid>
       </item>
     
       <item>
@@ -197,8 +209,8 @@
 
         </description>
         <pubDate>Fri, 06 Oct 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
+        <link>http://localhost:4000/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-francis-cousin-entretien-grachus-babeuf-et-populicide-vendeen/</guid>
       </item>
     
       <item>
@@ -209,8 +221,8 @@
 
         </description>
         <pubDate>Wed, 04 Oct 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
+        <link>http://localhost:4000/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
       </item>
     
       <item>
@@ -221,8 +233,8 @@
 
         </description>
         <pubDate>Thu, 28 Sep 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
+        <link>http://localhost:4000/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
       </item>
     
       <item>
@@ -233,20 +245,8 @@
 
         </description>
         <pubDate>Tue, 26 Sep 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-09-textes-pierre-guillaume-guy-debord/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-09-textes-pierre-guillaume-guy-debord/</guid>
-      </item>
-    
-      <item>
-        <title>[Rencontre]&lt;br&gt;Les Syndicats Contre le Prolétariat</title>
-        <description>
-          Rencontre organisée par &lt;i&gt;Le Situationniste&lt;/i&gt; à Poitiers le 25 novembre 2017 à 19h. - 
-          
-
-        </description>
-        <pubDate>Mon, 25 Sep 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-09-rencontre-les-syndicats-contre-le-proletariat/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-09-rencontre-les-syndicats-contre-le-proletariat/</guid>
+        <link>http://localhost:4000/2017-09-textes-pierre-guillaume-guy-debord/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-09-textes-pierre-guillaume-guy-debord/</guid>
       </item>
     
   </channel>

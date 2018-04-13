@@ -3,7 +3,7 @@ title: "Le Capitalisme Monopoliste d'État"
 author: Paul Mattick
 year: 1976
 month: 07
-thumbnail: /img/posts/2018-03-26-le-capitalisme-monopoliste-d-etat/thumbnail.jpg
+image: /img/textes/paul-mattick/le-capitalisme-monopoliste-d-etat/header.jpg
 layout: post
 nav: textes
 ---
