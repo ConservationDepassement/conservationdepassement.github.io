@@ -7,12 +7,26 @@
     <atom:link href="https://aufhebung.fr/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Il y a 50 ans...</title>
+        <description>
+          Actualité révolutionnaire de la grève sauvage généralisée de Mai-Juin - 
+          
+
+        </description>
+        <pubDate>Tue, 15 May 2018 00:00:00 +0200</pubDate>
+        <link>https://aufhebung.fr/2018-05-il-y-a-50-ans/</link>
+        <guid isPermaLink="true">https://aufhebung.fr/2018-05-il-y-a-50-ans/</guid>
+      </item>
+    
+      <item>
         <title>L'Autre 68 : Juin</title>
         <description>
           Vidéo de la rencontre avec &lt;strong&gt;Francis Cousin et James Bryant&lt;/strong&gt; du 28 et 29 avril. - 
           
     
     
+
+
 
 
         </description>
@@ -238,18 +252,6 @@
         <pubDate>Wed, 04 Oct 2017 00:00:00 +0200</pubDate>
         <link>https://aufhebung.fr/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</link>
         <guid isPermaLink="true">https://aufhebung.fr/2017-10-textes-pierre-guillaume-perspectives-sur-les-conseils/</guid>
-      </item>
-    
-      <item>
-        <title>Le Renégat Kautsky et son Disciple Lénine</title>
-        <description>
-          par Jean Barrot, 1977 - 
-          
-
-        </description>
-        <pubDate>Thu, 28 Sep 2017 00:00:00 +0200</pubDate>
-        <link>https://aufhebung.fr/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</link>
-        <guid isPermaLink="true">https://aufhebung.fr/2017-09-le-renegat-kautsky-et-son-disciple-lenine/</guid>
       </item>
     
   </channel>
