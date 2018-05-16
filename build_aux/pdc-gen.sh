@@ -72,8 +72,8 @@ fn_need_cmd() {
 }
 # $1: message (string)
 m_say() {
-	#echo -e "$SCRIPT_NAME: $1"
-	echo -e "$1"
+	echo -e "$SCRIPT_NAME: $1"
+	#echo -e "$1"
 }
 # $1: debug message (string)
 m_say_debug() {

@@ -91,7 +91,7 @@ epub: $(GEN_SCRIPT) $(TEMPLATE_EPUB) $(SEARCH_PATH)
 # Export variables to echo multiline bash variables from outside this Makefile
 export DEPS_PKG
 deps:
-	@echo "Required dependencies:"
+	@echo "[MAKE] Required dependencies:"
 	@echo "$$DEPS_PKG"
 	@[[ "`latex --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`"  = "3" ]] && echo ":: Successful version check for 'latex/pdftex'"   || echo ":: ERROR: please update texlive/latex to v3.0 or higher"
 	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] && echo ":: Successful version check for 'pandoc'"         || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher"
@@ -100,15 +100,15 @@ test: test-pdf test-epub
 
 test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(OUT_TEST_EPUB) <$(TEST_IN)
-	@echo ":: EPUB: SUCCESS!"
-	@echo ":: Output was made to '$(OUT_TEST_EPUB)'"
+	@echo "[MAKE] EPUB: SUCCESS!"
+	@echo "[MAKE] Output was made to '$(OUT_TEST_EPUB)'"
 #@xdg-open $(OUT_TEST_EPUB) || echo ":: NO PROGRAM TO OPEN '$(OUT_TEST_EPUB)'"
 
 test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(OUT_TEST_PDF)  <$(TEST_IN) 
-	@echo ":: PDF: SUCCESS!"
-	@echo ":: Output was made to '$(OUT_TEST_PDF)'"
-	@xdg-open $(OUT_TEST_PDF) || echo ":: NO PROGRAM TO OPEN '$(OUT_TEST_PDF)'"
+	@echo "[MAKE] PDF: SUCCESS!"
+	@echo "[MAKE] Output was made to '$(OUT_TEST_PDF)'"
+	@xdg-open $(OUT_TEST_PDF) || echo "[MAKE] NO PROGRAM TO OPEN '$(OUT_TEST_PDF)'"
 
 clean:
 	find $(SEARCH_PATH) -type f -iregex ".*[.]\(pdf\|epub\)" -ok rm -v '{}' ';'
@@ -118,12 +118,12 @@ clean-test:
 
 vim-correct: $(VIM_SCRIPT) $(IN)
 ifndef IN
-	$(error Please set 'IN' for input file (see 'make help'))
+	$(error [MAKE] Please set 'IN' for input file (see 'make help'))
 endif
 	$(VIM) -c ":e $(IN) | :source $(VIM_SCRIPT)"
 
 vim-uncorrect: $(IN)
 ifndef IN
-	$(error Please set 'IN' for input file (see 'make help'))
+	$(error [MAKE] Please set 'IN' for input file (see 'make help'))
 endif
 	$(VIM) -c ":e $(IN) | :%s/&nbsp;/ /gc"
