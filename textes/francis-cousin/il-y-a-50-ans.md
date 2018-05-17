@@ -67,7 +67,7 @@ resta contenue par tous les pouvoirs politiques et syndicaux du Capital
 mais un ouvrier français sur deux y a quand même activement participé
 d'une manière ou une autre et c'est là l'essentiel puisqu'il fut là
 bien visible que l'agitation sociale peut faire trembler les services
-secrets, la police et toutes les pègres *gouvernementalistes* ...  
+secrets, la police et toutes les pègres *gouvernementalistes*...  
 
 La contradiction entre le développement des forces productives et les
 rapports sociaux de production atteint toujours son moment historique le
@@ -516,7 +516,7 @@ cohésion des forces de répression qui maintiennent le prolétariat dans
 la disposition de ne pouvoir précisément jamais s'auto-abolir.  
 
 La situation étant visiblement de plus en plus dangereuse pour toutes
-les cliques de la Sainte*-*Alliance de la marchandise avec notamment la
+les cliques de la Sainte-Alliance de la marchandise avec notamment la
 nuit marquante du 24 mai qui prit un tour franchement *insurrectionnel*
 avec entre autres l'incendie de la Bourse, toute la gauche du Capital
 syndicale et politique va rapidement courir au chevet de l'État en
@@ -581,8 +581,8 @@ travail va pouvoir s'imposer dans les méandres de la manipulation
 orchestrée par toutes les pègres de la *responsabilité* qui entendent
 sauver le système et donc leur propre existence. Alors que la base,
 depuis le 27 avait rejeté unanimement les accords de Grenelle, les
-syndicats – bloquant l'accès à toutes les discussions allant vers la vie
-*anti-quantifiée* - vont pouvoir laisser la place aux CRS afin de
+syndicats -- bloquant l'accès à toutes les discussions allant vers la vie
+*anti-quantifiée* -- vont pouvoir laisser la place aux CRS afin de
 débusquer et repousser les ultimes séditions et indocilités de manière
 à éteindre ici et là les derniers brasiers du flamboiement de la
 *Commune* de 68.  
@@ -684,8 +684,8 @@ des classes est le véritable aboutissement déterministe du rapport
 contradictoire entre les classes dans le mode de production capitaliste
 *enfin* achevé par sa décadence totalement conclue.  
   
-La contradiction entre le prolétariat et le Capital -en tant qu'elle est
-la dialectique de leur implication réciproque - qui fait à la fois,
+La contradiction entre le prolétariat et le Capital -- en tant qu'elle est
+la dialectique de leur implication réciproque -- qui fait à la fois,
 d'abord, le Capital possible puis, ensuite, le Capital impossible est
 simultanément la dynamique du développement du mode de production
 capitaliste qui peut se reproduire et celle de son dépassement quand il
@@ -808,8 +808,8 @@ d'intelligence artificielle et de technologie irrésistible par rapport
 entier aspirés par la géo-politique cosmopolite de l'argent *illimité*.
 L'avènement du marché mondial, après la victoire du 68 du gauchisme des
 affaires sur le 68 de la *répugnance* au travail n'est rien d'autre que
-la soumission de tous les hommes, de tous les désirs, de toutes les vies
-- extérieures et intérieures - et de la nature tout entière au règne
+la soumission de tous les hommes, de tous les désirs, de toutes les vies --
+extérieures et intérieures -- et de la nature tout entière au règne
 autocratique de la valeur. La grandeur de valeur d'une marchandise est
 historiquement définie par le temps de travail moyen socialement
 nécessaire à sa production. Ce travail se définit comme du «&nbsp;travail
@@ -824,7 +824,7 @@ domination réelle supérieure de la valeur, est devenu un totalitarisme
 impeccable, et même qu'il est le fondement et la condition de
 possibilité de tous les apprivoisements et assujettissements du vingt
 et unième siècle car le régime de la démocratie absolue de la
-*bien*-*pensance* sans restriction et des lois mémorielles
+*bien-pensance* sans restriction et des lois mémorielles
 catégoriquement *indispensables* ne sont là que les expressions
 caricaturales et grossières du principe constitutif de la pleine
 modernité capitaliste, à savoir la massification totale de l'humanité
@@ -1020,14 +1020,14 @@ indiqué dans *L'Idéologie allemande*&nbsp;:
 Ce qui nous renvoie bien entendu à la nécessité préalable de la crise
 universelle de la marchandise universelle qui est finalement la ***clef
 de voûte*** de la dynamique de conscience vers l'être générique de
-l'auto-production de la *Gemeinwesen* ...  
+l'auto-production de la *Gemeinwesen*...  
   
 En 2018 comme en 1968, la critique du travail et de l'argent doit être
 au centre de la pensée radicale et se placer radicalement au-delà de
 tous les mythes qui fondent la dictature démocratique de la valeur
 d'échange. La véritable théorie révolutionnaire sait aujourd'hui
 qu'il n'y a qu'un seul vrai sujet révolutionnaire&nbsp;: le prolétariat ne
-voulant plus être - à titre humain - du prolétariat. Ce mouvement
+voulant plus être -- à titre humain -- du prolétariat. Ce mouvement
 universel du prolétariat universel qui s'auto-abolit universellement est
 en effet le seul sujet révolutionnaire en tant qu'il est la
 manifestation déterministe de la crise *finale* du Capital comme
@@ -1051,8 +1051,8 @@ Par là, il n'y a rien à dire de nouveau. Il y a simplement à toujours
 creuser la même et indispensable critique, celle qui faisait déjà dire à
 Marx en 1845 dans son retentissant texte *À propos de List et de
 l'économie politique* que puisque «&nbsp;le travail est par nature
-activité asservie ...&nbsp;», l'objectif ne peut être que l' «&nbsp;**abolition
-du travail**&nbsp;» ... Par suite, le prolétariat ne peut plus désormais
+activité asservie...&nbsp;», l'objectif ne peut être que l' «&nbsp;**abolition
+du travail**&nbsp;»... Par suite, le prolétariat ne peut plus désormais
 accepter aucune média-tion entre lui et la révolution de son
 auto-suppression, donc aucune réalité autre que le propre mouvement de
 sa rupture avec le Capital et de sa propre négation vers la communauté
