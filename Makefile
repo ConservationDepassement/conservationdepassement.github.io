@@ -93,8 +93,8 @@ export DEPS_PKG
 deps:
 	@echo "[MAKE] Required dependencies:"
 	@echo "$$DEPS_PKG"
-	@[[ "`latex --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`"  = "3" ]] && echo ":: Successful version check for 'latex/pdftex'"   || echo ":: ERROR: please update texlive/latex to v3.0 or higher"
-	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] && echo ":: Successful version check for 'pandoc'"         || echo ":: ERROR: please update 'pandoc' to v2.0.0 or higher"
+	@[[ "`latex --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`"  = "3" ]] && echo "[MAKE] Successful version check for 'latex/pdftex'"   || echo "[MAKE] ERROR: please update texlive/latex to v3.0 or higher"
+	@[[ "`pandoc --version | head -1 | cut -d' ' -f2- | cut -d'.' -f1`" = "2" ]] && echo "[MAKE] Successful version check for 'pandoc'"         || echo "[MAKE] ERROR: please update 'pandoc' to v2.0.0 or higher"
 
 test: test-pdf test-epub
 
@@ -102,7 +102,7 @@ test-epub: $(TEMPLATE_EPUB) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_EPUB)" $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(OUT_TEST_EPUB) <$(TEST_IN)
 	@echo "[MAKE] EPUB: SUCCESS!"
 	@echo "[MAKE] Output was made to '$(OUT_TEST_EPUB)'"
-#@xdg-open $(OUT_TEST_EPUB) || echo ":: NO PROGRAM TO OPEN '$(OUT_TEST_EPUB)'"
+#@xdg-open $(OUT_TEST_EPUB) || echo "[MAKE] NO PROGRAM TO OPEN '$(OUT_TEST_EPUB)'"
 
 test-pdf: $(TEMPLATE_PDF) $(TEST_IN)
 	pandoc --template="$(TEMPLATE_PDF)"  $(PDC_ARG) --resource-path=`dirname $(TEST_IN)` -o $(OUT_TEST_PDF)  <$(TEST_IN) 
