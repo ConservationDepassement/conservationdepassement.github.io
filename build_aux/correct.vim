@@ -34,6 +34,10 @@ call s:f_say('CORRECTING NON-BREAKABLE SPACES (3/3)')
 " '([!?])' (not after start of line or '&nbsp;', with space before or not) -> '&nbsp;\1'
 :%s/\(^\|&nbsp;\)\@<![ ]*\([?!]\)/\&nbsp;\2/gc
 
+" ELLIPSIS
+call s:f_say('CORRECTING UTF-8 ELLIPSIS')
+:%s/…/.../gc
+
 " SPACES AFTER [?,;.:!]
 call s:f_say('CORRECTING SPACES')
 " ';(\W)' (not after '&nbsp') -> '&nbsp;; \1'
@@ -75,7 +79,7 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
 """ demi-, non-, etc.
 :%s/\(d\)emi\s\+\([a-zéèêœôàîïù]\)/\1emi-\2/gci
-:%s/\<\(n\)on\s\+\(s\>\|à\|le\>\|la\>\|les\>\|de\>\|du\>\|des\>\|par\>\|pas\>\|plus\>\|comme\>\|encore\>\|seulement\>\|[^a-zéèêœôàîïù]\)\@!/\1on-\2/gci
+:%s/\<\(n\)on\s\+\(s\>\|à\|le\>\|la\>\|les\>\|de\>\|du\>\|des\>\|par\>\|pas\>\|point\>\|plus\>\|comme\>\|encore\>\|seulement\>\|[^a-zéèêœôàîïù]\)\@!/\1on-\2/gci "devrait aussi figurer tous les pronoms possessifs: mon, ton, son, ma, ta, mes, ...
 "" œ
 :%s/oeil/œil/gc
 :%s/oeuvre/œuvre/gc
