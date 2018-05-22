@@ -1,5 +1,6 @@
 ---
 title: "Grève des cheminots&nbsp;: À bas la merde syndicale&nbsp;!"
+subtitle: "REFUSONS D'AMÉLIORER CE QUI NOUS ABÎME..."
 author: Aufhebung
 year: 2018
 month: 03
@@ -7,10 +8,8 @@ nav: blog
 layout: post
 content_type: article
 thumbnail: /img/posts/2018-05-22-grève-des-cheminots/thumbnail.jpg
-image: /img/posts/2018-05-22-grève-des-cheminots/header.png
+image: /img/posts/2018-05-22-grève-des-cheminots/header.jpg
 ---
-
-## *REFUSONS D'AMELIORER CE QUI NOUS ABÎME...*
 
 Dans le spectacle actuel de la crise du fétichisme de l'argent, tout apparemment semble continuer à tourner rond mais à bien y regarder de plus près, les choses commencent subrepticement à bouger vers un commencement de radicalité tendancielle qui annonce un possible réveil de la lutte de classe prolétaire... _La grève des cheminots est bien entendu à la source toujours torpillée par la gauche et l'extrême gauche du Capital mais elle signale simultanément qu'une colère des profondeurs porteuse d'un autre regard est bien en train de naître du fin fond des difficultés de la vie humaine arraisonnée par le système des objets..._
 
