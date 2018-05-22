@@ -79,7 +79,7 @@ call s:f_say('CORRECTING MINOR THINGS (2/3)')
 :%s/\(a\)u\s\+dess\(o\?u\)s/\1u-dess\2s/gci
 """ demi-, non-, etc.
 :%s/\(d\)emi\s\+\([a-zéèêœôàîïù]\)/\1emi-\2/gci
-:%s/\<\(n\)on\s\+\(s\>\|à\|le\>\|la\>\|les\>\|de\>\|du\>\|des\>\|par\>\|pas\>\|point\>\|plus\>\|comme\>\|encore\>\|seulement\>\|[^a-zéèêœôàîïù]\)\@!/\1on-\2/gci "devrait aussi figurer tous les pronoms possessifs: mon, ton, son, ma, ta, mes, ...
+:%s/\<\(n\)on\s\+\(s\>\|à\|un\>\|le\>\|la\>\|les\>\|de\>\|dans\>\|du\>\|des\>\|par\>\|pas\>\|point\>\|plus\>\|comme\>\|encore\>\|seulement\>\|[^a-zéèêœôàîïù]\)\@!/\1on-\2/gci "devrait aussi figurer tous les pronoms possessifs: mon, ton, son, ma, ta, mes, ...
 "" œ
 :%s/oeil/œil/gc
 :%s/oeuvre/œuvre/gc
