@@ -23,10 +23,10 @@ La période dans laquelle nous entrons est certes encore déterminée par l'extr
 
 La contradiction essentielle de la domination spectaculaire en crise finale, c'est qu'elle est irrémédiablement condamnée à échouer en ce moment même où étant devenue le temps de la puissance historique la plus forte de son apogée, elle a perdu simultanément toute chance désormais de ne plus pouvoir être autre chose que l'histoire progressive de son dépérissement définitivement arrivé.
 
-_Tous les lamentables experts syndicalo-politiques du pouvoir de la pourriture marchande appuyés sur toutes les machineries numériques de l'intoxication sont partout réunis en permanents conciliabules pluridisciplinaires de vacuité et d'ineptie pour tenter de trouver les moyens de donner à un ordre moribond une dernière apparence de survie...Mais rien n'y fera..._
+**Tous les lamentables experts syndicalo-politiques du pouvoir de la pourriture marchande appuyés sur toutes les machineries numériques de l'intoxication sont partout réunis en permanents conciliabules pluridisciplinaires de vacuité et d'ineptie pour tenter de trouver les moyens de donner à un ordre moribond une dernière apparence de survie...Mais rien n'y fera...**
 
 Les jours de la société du calcul sont de plus en plus comptés à mesure que son compter historique invalide lui-même toute l'histoire de ses comptages et qu'un nombre croissant de vivants va vouloir véridiquement exister. Il s'ensuit irrépressiblement qu'elle doit et va disparaître.
 
 Contre tous les rackets politiques du Capital, la conscience radicale de l'Être de la vie sait que pour devenir elle-même, la jouissance authentique doit se produire comme acte cosmique de subversion absolue vers la constitution de la communauté humaine universelle pour un monde sans argent, ni salariat ni État.
 
-_Des cheminots et des humains sans étiquette qui quelque soit ce qui arrivera, ne veulent plus être ce qu'on les force à ne pas devenir..._
+**Des cheminots et des humains sans étiquette qui quelque soit ce qui arrivera, ne veulent plus être ce qu'on les force à ne pas devenir...**
