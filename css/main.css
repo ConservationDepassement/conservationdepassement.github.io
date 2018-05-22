@@ -1,16 +1,19 @@
 /* === Fonts === */
 
 @font-face {
-    font-family: 'FiraSans-Light';
-        src: url('/css/FiraSans-Light.ttf') format('truetype');
+    font-family: 'LibreFranklin-Light';
+        src: url('/css/librefranklin-light.ttf') format('truetype');
     font-style: normal;
 }
 
+/* TODO: C'est utile ça ? Parce que du coup personne l'utilise et ça alourdit les
+ * pages juste pour un tout petit peu de texte en italique  -sylsau, 05/22/18 
 @font-face {
-    font-family: 'FiraSans-LightItalic';
-        src: url('/css/FiraSans-LightItalic.ttf') format('truetype');
+    font-family: 'LibreFranklin-LightItalic';
+        src: url('/css/librefranklin-lightitalic.ttf') format('truetype');
     font-style: italic;
 }
+*/
 
 /* === Color Set === */
 
@@ -38,7 +41,7 @@
 /* === General === */
 
 body {
-  font-family: FiraSans-Light, "Courier New";
+  font-family: "LibreFranklin-Light", "Courier New";
   font-size: 11pt;
   margin: 0;
   padding: 0;
@@ -78,7 +81,6 @@ a {
   display: flex;
   justify-content: center;
 }
-
 
 /* == Navigation == */
 
@@ -419,6 +421,7 @@ footer p {
 }
 
 .text-list a {
+  margin-left: 3%;
   text-decoration: None;
   color: black;
 }
