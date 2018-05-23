@@ -1,6 +1,6 @@
 ---
 title: "Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)"
-author: Aufhebung
+author: "Collectif Aufhebung"
 year: 2017
 month: 07
 day: 11

@@ -1,6 +1,6 @@
 ---
 title: De l'Aliénation des Communautés Primitives à l'Extranéisation de la Société Contemporaine
-author: Aufhebung
+author: "Collectif Aufhebung"
 year: 2017
 month: 07
 day: 10

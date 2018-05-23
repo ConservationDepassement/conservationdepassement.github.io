@@ -1,7 +1,7 @@
 ---
 title: "Karl Marx - La Guerre Civile en France"
 subtitle: "Livre audio du chapitre 2"
-author: Aufhebung
+author: "Collectif Aufhebung"
 year: 2017
 month: 09
 day: 20

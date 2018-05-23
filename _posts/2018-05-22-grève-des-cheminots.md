@@ -1,7 +1,7 @@
 ---
 title: "Grève des cheminots&nbsp;: À bas la merde syndicale&nbsp;!"
 subtitle: "REFUSONS D'AMÉLIORER CE QUI NOUS ABÎME..."
-author: Aufhebung
+author: "Collectif Aufhebung"
 year: 2018
 month: 03
 nav: blog

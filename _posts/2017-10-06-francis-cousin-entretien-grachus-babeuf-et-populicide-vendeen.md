@@ -1,6 +1,6 @@
 ---
 title: "Francis Cousin : entretien sur Gracchus Babeuf et le populicide vendéen"
-author: Aufhebung
+author: "Collectif Aufhebung"
 year: 2017
 month: 10
 day: 06
