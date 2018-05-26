@@ -1,7 +1,7 @@
 ---
 title: "Il y a 50 ans..."
 subtitle: "Actualité révolutionnaire de la grève sauvage généralisée de Mai-Juin"
-author: Francis Cousin
+author: "Francis Cousin"
 year: 2018
 month: 04
 day: 26
