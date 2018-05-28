@@ -7,7 +7,6 @@ month: 04
 day: 26
 layout: post
 image: /textes/francis-cousin/il-y-a-50-ans/68_2.jpg
-content_type: book
 ---
 
 > Une formation sociale ne disparaît jamais avant que soient développées toutes les forces productives qu'elle est assez large pour contenir, jamais des rapports de production nouveaux et supérieurs ne s'y substituent avant que les conditions d'existence matérielles de ces rapports soient écloses dans le sein même de la vieille société. C'est pourquoi l'humanité ne se pose jamais que des problèmes qu'elle peut résoudre, car, à y regarder de plus près, il se trouvera toujours, que le problème lui-même ne surgit que là où les conditions matérielles pour le résoudre existent déjà ou du moins sont en voie de devenir.  

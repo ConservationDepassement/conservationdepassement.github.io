@@ -21,10 +21,24 @@ social:
     links:
         - https://youtube.com/c/Aufhebung
         - https://facebook.com/AufhebungOfficiel/
-# Default image 'og:image'
+# DEFAULTS
 # Setting a 'defaults' 'image' for all pages is NOT appropriate as it gives a
 # header to every page
-#defaults:
+defaults:
+    -
+        scope: # defaults for all files
+            path: ""
+        values:
+            layout: post
+    -
+        scope: # defaults for posts
+            type: "posts"
+        values:
+            nav: blog
+            author: "Collectif Aufhebung"
+            content_type: article
+            thumbnail: /img/posts/aufhebung_thumbnail.jpg
+
 # Relative path used by _includes/head.html
 og_image_rpath: /img/aufhebung_logo_large.png
 
