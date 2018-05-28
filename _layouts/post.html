@@ -12,21 +12,44 @@ layout: page
     <p class="post-meta">par <span class="post-author">{{ page.author }}</span>,
     {% endif %}
 
+    {% comment %}
+    page.date default to date in post filename (e.g. "2018-03-21-lol-mdr.md" =>  "2018-03-21")
+    {% endcomment %}
+    {% if page.date %}
+        {% assign year = page.date | date: "%Y" %}
+        {% capture month_no %}{{ page.date | date: "%m" }}{% endcapture %}
+        {% case month_no %}
+          {% when '01' %}{% assign month = 'janvier' %}
+          {% when '02' %}{% assign month = 'février' %}
+          {% when '03' %}{% assign month = 'mars' %}
+          {% when '04' %}{% assign month = 'avril' %}
+          {% when '05' %}{% assign month = 'mai' %}
+          {% when '06' %}{% assign month = 'juin' %}
+          {% when '07' %}{% assign month = 'juillet' %}
+          {% when '08' %}{% assign month = 'août' %}
+          {% when '09' %}{% assign month = 'septembre' %}
+          {% when '10' %}{% assign month = 'octobre' %}
+          {% when '11' %}{% assign month = 'novembre' %}
+          {% when '12' %}{% assign month = 'décembre' %}
+        {% endcase %}
+        {% assign day = page.date | date: "%d" %}
+    {% endif %}
+
     {% if page.day %}
         {% assign day = page.day %}
     {% endif %}
 
     {% if page.month %}
         {% case page.month %}
-          {% when 1 %}{% assign month = 'janvier' %}
-          {% when 2 %}{% assign month = 'février' %}
-          {% when 3 %}{% assign month = 'mars' %}
-          {% when 4 %}{% assign month = 'avril' %}
-          {% when 5 %}{% assign month = 'mai' %}
-          {% when 6 %}{% assign month = 'juin' %}
-          {% when 7 %}{% assign month = 'juillet' %}
-          {% when 8 %}{% assign month = 'août' %}
-          {% when 9 %}{% assign month = 'septembre' %}
+          {% when 1 %}{% assign month  = 'janvier' %}
+          {% when 2 %}{% assign month  = 'février' %}
+          {% when 3 %}{% assign month  = 'mars' %}
+          {% when 4 %}{% assign month  = 'avril' %}
+          {% when 5 %}{% assign month  = 'mai' %}
+          {% when 6 %}{% assign month  = 'juin' %}
+          {% when 7 %}{% assign month  = 'juillet' %}
+          {% when 8 %}{% assign month  = 'août' %}
+          {% when 9 %}{% assign month  = 'septembre' %}
           {% when 10 %}{% assign month = 'octobre' %}
           {% when 11 %}{% assign month = 'novembre' %}
           {% when 12 %}{% assign month = 'décembre' %}
@@ -38,11 +61,13 @@ layout: page
     {% endif %}
 
     {% if day and month and year %}
-        le {{ day }} {{ month }} {{ year}}
+        le {{ day }} {{ month }} {{ year }}
     {% elsif month and year %}
-        {{ month }} {{ year}}
+        {{ month }} {{ year }}
     {% elsif year %}
-        {{ year}}
+        {{ year }}
+    {% else %}
+        {{ "now" | date: "%Y/%m/%d" }}
     {% endif %}
     </p>
     
