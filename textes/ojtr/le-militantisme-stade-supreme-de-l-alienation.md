@@ -1,9 +1,10 @@
 ---
-title: "Le Militantisme, Stade Suprême de l'Aliénation"
+title: 'Le Militantisme, Stade Suprême de l''Aliénation'
 author: Organisation des Jeunes Travailleurs Révolutionnaires
 year: 1972
 layout: post
 nav: textes
+published: true
 ---
 
 Le révolutionnaire est au militant ce que le loup est à l'agneau. 
@@ -24,7 +25,7 @@ Cette critique du militantisme est inséparable de la construction des organisat
 
 Ce que nous disons des militants est dur et sans appel. Nous ne sommes prêts effectivement à aucun compromis avec eux, ce ne sont pas des révolutionnaires qui se trompent ou des semi révolutionnaires, mais des gens qui restent en deçà de la révolution. Mais cela ne veut nullement dire que :
 
-1° nous nous mettons en dehors de cette critique, si nous tenons à être clairs et nets, c’est d’abord à l'égard de nous-mêmes, et que, 2° nous condamnons le militant en tant qu’individu et faisons de cette condamnation une affaire morale. Il ne s’agit pas de retomber dans la séparation des bons et des méchants. Nous ne sous-estimons pas la tentation du : « *plus je gueule contre les militants, plus je prouve que je n’en suis pas et plus je me mets à l'abri de la critique !* » 
+1° nous nous mettons en dehors de cette critique, si nous tenons à être clairs et nets, c’est d’abord à l'égard de nous-mêmes, et que, 2° nous condamnons le militant en tant qu’individu et faisons de cette condamnation une affaire morale. Il ne s’agit pas de retomber dans la séparation des bons et des méchants. Nous ne sous-estimons pas la tentation du : « _plus je gueule contre les militants, plus je prouve que je n’en suis pas et plus je me mets à l'abri de la critique !_ » 
 
 I - LE MASOCHISME
 =================
@@ -159,4 +160,4 @@ Les travailleurs feront de nouveau des erreurs. Ils ne trouveront pas immédiate
 
 Le développement du capitalisme moderne qui se traduit par l'occupation de tout l'espace social par les marchandises, par la généralisation du travail salarié, mais aussi par la dégradation des valeurs morales, le mépris du travail et des idéologies, augmentera la violence du choc. Les prolétaires iront beaucoup plus vite et beaucoup plus loin que par le passé. Si des organisations de militants ont pu jadis jouer un rôle révolutionnaire pendant un certains temps, cela ne sera plus possible. Ces organisations ne pourront être rapidement que de plus en plus contre-révolutionnaires lors des prochaines grandes batailles de la lutte des classes. Coincés entre le prolétariat et le vieux monde, elles ne pourront survivre qu’en servant de rempart à ce dernier. 
 
-Si les syndicalistes et autres militants essaient de prendre en main le ravitaillement puis l'organisation de la production et du maintien de l'ordre pour répondre aux « défaillances » du capital et de l'État et se mettent au « service des ménagères », il faudra les traiter pour ce qu’ils sont : une nouvelle classe dirigeante en formation. Les conseillistes devront se battre pour que les commissions et délégués a ectés à des tâches particulières soient responsables UNIQUEMENT devant les assemblées générales de la base et révocables à tout moment. Les adhérents d’une organisation quelconque, élus au sein des conseils n’auront pas à être les représentants de leur organisation mais les délégués des ouvriers. Les conseils doivent être TOUT LE POUVOIR ET NON UN SIMULACRE DE POUVOIR affaibli de l'intérieur par la division et les tentatives d’accaparement des organisations. On ne nous refera pas le coup des soviets russes transformés en foire politicarde par les Partis ou des colonnes armées communistes, socialistes, anarchistes, trotskistes s’affrontant et se disputant armes et influence pendant la guerre d’Espagne. Les conseils devront prendre en main et unifier toutes les tâches que nécessitera la destruction de l'ordre bourgeois et traiter en ennemis tous ceux qui leur contesteraient ce droit ! 
+Si les syndicalistes et autres militants essaient de prendre en main le ravitaillement puis l'organisation de la production et du maintien de l'ordre pour répondre aux « défaillances » du capital et de l'État et se mettent au « service des ménagères », il faudra les traiter pour ce qu’ils sont : une nouvelle classe dirigeante en formation. Les conseillistes devront se battre pour que les commissions et délégués a ectés à des tâches particulières soient responsables UNIQUEMENT devant les assemblées générales de la base et révocables à tout moment. Les adhérents d’une organisation quelconque, élus au sein des conseils n’auront pas à être les représentants de leur organisation mais les délégués des ouvriers. Les conseils doivent être TOUT LE POUVOIR ET NON UN SIMULACRE DE POUVOIR affaibli de l'intérieur par la division et les tentatives d’accaparement des organisations. On ne nous refera pas le coup des soviets russes transformés en foire politicarde par les Partis ou des colonnes armées communistes, socialistes, anarchistes, trotskistes s’affrontant et se disputant armes et influence pendant la guerre d’Espagne. Les conseils devront prendre en main et unifier toutes les tâches que nécessitera la destruction de l'ordre bourgeois et traiter en ennemis tous ceux qui leur contesteraient ce droit !
