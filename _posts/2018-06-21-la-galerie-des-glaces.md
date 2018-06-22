@@ -1,14 +1,17 @@
 ---
 title: La Galerie des Glaces
-subtitle: Comme classe absolument aliénée, le prolétariat est la classe absolument révolutionnaire, le sujet-objet de l'histoire.
-author: "Intervention Communiste"
+subtitle: >-
+  Comme classe absolument aliénée, le prolétariat est la classe absolument
+  révolutionnaire, le sujet-objet de l'histoire.
+author: Intervention Communiste
 year: 1972
-month: 02
+month: 2
 layout: post
 nav: blog
 content_type: article
-image:  /img/posts/2018-06-21-la-galerie-des-glaces/GDG_image.jpg 
-thumbnail:  /img/posts/2018-06-21-la-galerie-des-glaces/GDG_thumb.jpg 
+image: /img/posts/2018-06-21-la-galerie-des-glaces/GDG_image.jpg
+thumbnail: /img/posts/2018-06-21-la-galerie-des-glaces/GDG_thumb.jpg
+published: true
 ---
 
 ## LA GALERIE DES GLACES
@@ -143,9 +146,12 @@ C'est cette notion de l'être véritable de l'homme, sa qualité sociale, qui fa
 Tous les rapports sociaux accèdent à l'autonomie et se réifient mais, simultanément, contre le pouvoir, peut se développer une *« guérilla* » *de l'affectivité* où tout rapport à l'autre est une quête de sa propre essence, limitée et partielle comme toute guérilla mais capable de former des *zones affectives en voie de libération.* Dans un groupe (« sierra maestra » de l'affectivité) tout comme dans les rapports à la femme « apparaît dans quelle mesure le *besoin* de l'homme est devenu un besoin *humain*, donc dans quelle mesure, dans son existence la plus individuelle, il est en même temps un être social » (Marx, *Manuscrits de 1844*, p. 87) ; même si ce besoin et l'être social sont loin d'être réalisés, ne pouvant l'être que sur la *totalité* de la société.
 
 
-> « Aimai-je un rêve ?
-> Mon doute, amas de nuit ancienne, s'achève\ En maint rameau subtils, qui, demeuré les vrais\ Bois mêmes, prouve, hélas ! que bien seul je m'offrais\ Pour triomphe la faute idéale de roses.
->Réfléchissons\... »
+> « Aimai-je un rêve ?  
+> Mon doute, amas de nuit ancienne, s'achève  
+>En maint rameau subtils, qui, demeuré les vrais  
+>Bois mêmes, prouve, hélas ! que bien seul je m'offrais  
+>Pour triomphe la faute idéale de roses.  
+>Réfléchissons... »
  > (*Stéphane Mallarmé*, l'après-midi d'un faune)
 
 Tout objet économique, tout produit, toute circonstance, peuvent être appréciés comme la manifestation *exotériques* des « forces essentielles de l'homme », comme son *essence extrinsèque.* Dans la société actuelle, l'essence extrinsèque de l'homme est complètement rendue étrangère à lui-même, et, seulement au niveau de cette extériorité, elle fonctionne comme communauté humaine ; elle domine absolument l'essence intrinsèque, si bien que qui ne possède pas n'a pas d'essence ; il est totalement rendu étranger à ce qui pour l'autre est sa réalité et pour soi-même son objectivité. Dans le procès de travail, l'ouvrier salarié produit sa propre essence concrète, dans la marchandise, directement comme essence aliénée. *L'homme aliéné, c'est le monde aliéné de l'homme.*
@@ -174,4 +180,4 @@ La deuxième partie de ce texte (à paraître dans le n° 2 de cette revue) pré
 
 *Qu'on y prenne garde, la négativité active se transforme toujours en positivité absolue.*
 
-P.S. (octobre 2000) : cette deuxième partie annoncée ne fut jamais publiée, parce que jamais écrite. Outre les difficultés inhérentes à la description positive du communisme (les premières ébauches ne parvenaient pas à dépasser un certain mysticisme), c'est toute la problématique de la réalisation d'un « être négatif du prolétariat », supposant un « être véritable de l'homme », qui fut emportée dans la critique du programmatisme et d'une « nature révolutionnaire » du prolétariat comme essence de celui-ci. Cette critique fut amorcée par le groupe qui faisait *Intervention communiste* dans des textes comme « Les classes » *(I.C.* 2) et « Prolétaires et Communistes » *(Bulletin communiste* n 3). Textes qui se trouvent dans ce recueil. Cette critique aboutissant, après une période de tentative de travail commun avec le groupe de *Négation*, à la revue *Théorie communiste.* 
+P.S. (octobre 2000) : cette deuxième partie annoncée ne fut jamais publiée, parce que jamais écrite. Outre les difficultés inhérentes à la description positive du communisme (les premières ébauches ne parvenaient pas à dépasser un certain mysticisme), c'est toute la problématique de la réalisation d'un « être négatif du prolétariat », supposant un « être véritable de l'homme », qui fut emportée dans la critique du programmatisme et d'une « nature révolutionnaire » du prolétariat comme essence de celui-ci. Cette critique fut amorcée par le groupe qui faisait *Intervention communiste* dans des textes comme « Les classes » *(I.C.* 2) et « Prolétaires et Communistes » *(Bulletin communiste* n 3). Textes qui se trouvent dans ce recueil. Cette critique aboutissant, après une période de tentative de travail commun avec le groupe de *Négation*, à la revue *Théorie communiste.*
