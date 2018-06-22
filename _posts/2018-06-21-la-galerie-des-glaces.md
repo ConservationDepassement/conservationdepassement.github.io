@@ -1,7 +1,4 @@
 ---
-published: true
----
----
 title: La Galerie des Glaces
 author: "Intervention Communiste"
 year: 1972
@@ -11,7 +8,6 @@ nav: blog
 content_type: article
 image:  /img/posts/2018-06-21-la-galerie-des-glaces/GDG_image.jpg 
 thumbnail:  /img/posts/2018-06-21-la-galerie-des-glaces/GDG_thumb.jpg 
-
 ---
 
 ## LA GALERIE DES GLACES
