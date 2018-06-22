@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 title: La Galerie des Glaces
