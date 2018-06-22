@@ -1,5 +1,6 @@
 ---
 title: La Galerie des Glaces
+subtitle: Comme classe absolument aliénée, le prolétariat est la classe absolument révolutionnaire, le sujet-objet de l'histoire.
 author: "Intervention Communiste"
 year: 1972
 month: 02
