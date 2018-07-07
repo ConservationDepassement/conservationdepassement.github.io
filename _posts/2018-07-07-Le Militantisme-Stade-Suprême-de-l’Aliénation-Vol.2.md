@@ -11,9 +11,6 @@ thumbnail: /img/mili.jpg
 published: true
 ---
 
-**LE MILITANTISME, STADE SUPRÊME DE L’ALIÉNATION**
-
-Suite, 1974.
 
 > « Il y a une méfiance légitime du PSU vis-à-vis de la prise en charge des questions Jeunes travailleurs : celle de voir le parti laisser se créer une organisation, y investir des forces militantes et matérielles et puis voir l’organisation se transformer en micro parti de jeunes, combattant le parti de l’intérieur ou de l’extérieur. Mais aujourd’hui cette objection a perdu de sa valeur car le PSU s’est doté d’un ensemble de positions cohérentes dans les thèses de Dijon, qui se fondent sur le socialisme scientifique, seul capable de faire face aux idéologies ou utopies de gauche. »
 >
