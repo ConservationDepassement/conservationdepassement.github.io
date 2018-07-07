@@ -1,3 +1,1 @@
-# *AUFHEBUNG*
-
-![](./img/citation_goethe.jpg)
+On prend les mêmes et on recommence

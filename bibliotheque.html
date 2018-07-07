@@ -1,0 +1,13 @@
+---
+layout: page
+title: "Pour une critique radicale du faux omniprésent"
+---
+
+<div class="authors-list">
+
+  {% assign texts_grouped_by_author = site.bibliotheque | group_by: 'author' %}
+
+  {% for author in texts_grouped_by_author %}
+    <h2>{{ author.name }}</h2>
+  {% endfor %}
+</div>

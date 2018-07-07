@@ -2,12 +2,13 @@
 
 # Full website URL
 url: "https://aufhebung.fr"
+
 # Website's URL without the hostname
 baseurl: ""
 
 # jekyll-seo-tags inserts the <title> using 'title' var as "<title>{{ page.title }} | {{ seo.title }}</title>"
 title: "AUFHEBUNG"
-author: "Collectif"
+author: "Collectif Aufhebung"
 description: "Pour une critique radicale du faux omniprésent"
 
 logo: /img/aufhebung_logo_large.png
@@ -17,27 +18,11 @@ lang: fr_FR
 
 facebook:
     publisher: https://www.facebook.com/AufhebungOfficiel/
+    
 social:
     links:
         - https://youtube.com/c/Aufhebung
         - https://facebook.com/AufhebungOfficiel/
-# DEFAULTS
-# Setting a 'defaults' 'image' for all pages is NOT appropriate as it gives a
-# header to every page
-defaults:
-    -
-        scope: # defaults for all files
-            path: ""
-        values:
-            layout: post
-    -
-        scope: # defaults for posts
-            type: "posts"
-        values:
-            nav: blog
-            author: "Collectif Aufhebung"
-            content_type: article
-            thumbnail: /img/posts/aufhebung_thumbnail.jpg
 
 # Relative path used by _includes/head.html
 og_image_rpath: /img/aufhebung_logo_large.png
@@ -47,19 +32,16 @@ og_image_rpath: /img/aufhebung_logo_large.png
 # List of links in the navigation bar
 navbar-links:
     BLOG: /
-    BIBLIOTHÈQUE: /textes/
-    VIDÉOS: https://youtube.com/c/Aufhebung/
-    DIALOGUE: https://facebook.com/AufhebungOfficiel/
-    CONTRIBUER: /contribuer/
-    À PROPOS: /about/
+    ARTICLES: /articles
+    BIBLIOTHÈQUE: /bibliotheque
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 title-img: favicon.ico
 
 # --- Footer --- #
-
 footer: "Aucun droit réservé sur rien."
+
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 url-pretty: "aufhebung.fr"
@@ -68,7 +50,7 @@ url-pretty: "aufhebung.fr"
 
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: "Collectif"
+  name: "Collectif Aufhebung"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -82,8 +64,6 @@ permalink: /:year-:month-:title/
 markdown: kramdown
 kramdown:
   toc_levels: 1..4
-  # TODO: it defaults to false? Test with 'true'
-  #footnote_backlink_inline: true
 
 # Publish posts of a future date
 future: false
@@ -110,3 +90,10 @@ plugins_dir:
   - jekyll-paginate
   - jekyll-seo-tags
   - jekyll-sitemap
+
+
+collections:
+  articles:
+    output: true
+  bibliotheque:
+    output: true

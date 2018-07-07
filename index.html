@@ -1,77 +1,24 @@
 ---
 layout: page
-nav: blog
 title: "Pour une critique radicale du faux omniprésent"
 ---
 
-<div class="post-card-list">
-  {% for post in paginator.posts %}
-    <article class="post-card">
-      {% if post.external_custom_url %}
-        <a class="post-card-link" href="{{ post.external_custom_url }}" target="_blank">
-      {% elsif post.internal_custom_url %}
-        <a class="post-card-link" href="{{ post.internal_custom_url }}">
-      {% else %}
-        <a class="post-card-link" href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}
-        <div class="post-card-picture"
-             style="background-image: url({{ post.thumbnail }});">
-        </div>
-        <div class="post-card-text">
-          <h3 class="post-card-title">{{ post.title }}</h3>
-          
-          {% if post.subtitle %}<h4 class="post-card-subtitle">{{ post.subtitle }}</h4>{% endif %}
-          
-          <div class="post-card-date">
-            {% assign content_type = post.content_type %}
-            {% case content_type %}
-              {% when 'article' %}<img src="/img/article_emoji.png" alt="Icone d'article">
-              {% when 'audio' %}<img src="/img/radio_emoji.png" alt="Icone de document audio">
-              {% when 'book' %}<img src="/img/book_emoji.png" alt="Icone de texte">
-              {% when 'event' %}<img src="/img/alarm_emoji.png" alt="Icone d'évenèment">
-              {% when 'video' %}<img src="/img/tv_emoji.png" alt="Icone de document vidéo">
-            {% endcase %}
-            {{ post.date | date: "%-d" }}
-            {% assign month = post.date | date: "%m" %}
-            {% case month %}
-              {% when '01' %}janvier
-              {% when '02' %}février
-              {% when '03' %}mars
-              {% when '04' %}avril
-              {% when '05' %}mai
-              {% when '06' %}juin
-              {% when '07' %}juillet
-              {% when '08' %}août
-              {% when '09' %}septembre
-              {% when '10' %}octobre
-              {% when '11' %}novembre
-              {% when '12' %}décembre
-            {% endcase %}
-            {{ post.date | date: "%Y" }}
-          </div>
-        </div>
-      </a>
-    </article>
-  {% endfor %}
+<div class="articles-slider">
+    <h3>DERNIERS ARTICLES</h3>
+    {% assign articles = site.articles | reverse  %}
+    {% for article in articles limit: 3 %}
+    <article>
+        <h4><a href="{{ article.url }}">{{ article.title }}</a></h4>
+     </article>
+    {% endfor %}
 </div>
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  <ul>
-    {% if paginator.previous_page %}
-    <li class="pagination-item">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-          &larr; ARTICLES SUIVANTS
-      </a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="pagination-item">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-          ARTICLES PRÉCÉDENTS &rarr;
-      </a>
-    </li>
-    {% endif %}
-  </ul>
+<div class="bibliotheque-slider">
+    <h3>DERNIERS TEXTES</h3>
+    {% assign texts = site.bibliotheque | reverse  %}
+    {% for text in  texts limit: 3 %}
+    <article>
+        <h4><a href="{{ text.url }}">{{ text.title }}</a></h4>
+     </article>
+    {% endfor %}
 </div>
-{% endif %}

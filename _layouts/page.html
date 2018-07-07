@@ -6,24 +6,14 @@
       <div class="header">
         <div class="logo">
             <a href="/">
-              <img src="/img/aufhebung_logo.png" alt="Logo de Aufhebung.fr">
+              <img src="/img/assets/aufhebung_logo.jpg" alt="Logo de Aufhebung.fr">
             </a>
         </div>
         <div class="accroche">
-          <img src="/img/accroche.png" alt="Pour une critique radicale du faux omniprésent">
+          <img src="/img/assets/accroche.png" alt="Pour une critique radicale du faux omniprésent">
         </div>
       </div>
-      {% if page.nav == "blog" %}
-        {% include navbar-blog.html %}
-      {% elsif page.nav == "textes" %}
-        {% include navbar-textes.html %}
-      {% elsif page.nav == "about" %}
-        {% include navbar-about.html %}
-      {% elsif page.nav == "contribuer" %}
-        {% include navbar-contribuer.html %}
-      {% else %}
-        {% include navbar.html %}
-      {% endif %}
+      {% include navbar.html %}
       {{ content }}
       {% include footer.html %}
     </div>

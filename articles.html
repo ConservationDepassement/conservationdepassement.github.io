@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Pour une critique radicale du faux omniprésent"
+---
+
+<div class="articles-slider">
+    <h3>DERNIERS ARTICLES</h3>
+    {% assign articles = site.articles | reverse %}
+    {% for article in articles %}
+    <article>
+        <h4><a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h4>
+     </article>
+    {% endfor %}
+</div>
