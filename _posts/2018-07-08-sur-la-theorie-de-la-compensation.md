@@ -1,7 +1,9 @@
 ---
 title: Sur la Théorie de la Compensation
-subtitle: Pourquoi la robotisation remplace inéluctablement l'homme par la machine sans pouvoir recréer de nouveaux emplois ou compenser cette baisse.
-author: "Karl Marx"
+subtitle: >-
+  Pourquoi la robotisation remplace inéluctablement l'homme par la machine sans
+  pouvoir recréer autant de nouveaux emplois ou compenser cette baisse.
+author: Karl Marx
 year: 1867
 month: 09
 day: 14
@@ -9,7 +11,7 @@ layout: post
 nav: blog
 content_type: book
 thumbnail: /img/karl_marx_thumbnail.jpg
-source: Le Capital, Livre 1, Section IV, Chapitre XV, vi
+source: 'Le Capital, Livre 1, Section IV, Chapitre XV, vi'
 published: true
 ---
 
