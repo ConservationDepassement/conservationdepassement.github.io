@@ -1,16 +1,18 @@
 ---
 published: true
 ---
---- 
+---
 title: Le Militantisme, Stade Suprême de l’Aliénation Vol.2
-author: "Organisation des Jeunes Travailleurs Révolutionnaires" 
+subtitle: Suite et fin au texte paru en 1972.
+author: "Organisation des Jeunes Travailleurs Révolutionnaires"
 year: 1974
-layout: post 
-nav: blog 
-content_type: article 
+layout: post
+nav: blog
+content_type: article
 image: _posts/mili.jpg
 thumbnail: _posts/mili.jpg
 ---
+
 **LE MILITANTISME, STADE SUPRÊME DE L’ALIÉNATION**
 
 Suite, 1974.
