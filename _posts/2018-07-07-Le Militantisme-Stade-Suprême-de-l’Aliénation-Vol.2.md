@@ -9,8 +9,6 @@ year: 1974
 layout: post
 nav: blog
 content_type: article
-image: _posts/mili.jpg
-thumbnail: _posts/mili.jpg
 ---
 
 **LE MILITANTISME, STADE SUPRÊME DE L’ALIÉNATION**
