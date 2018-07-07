@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 title: Sur la Théorie de la Compensation
