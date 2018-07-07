@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 --- 
 title: Le Militantisme, Stade Suprême de l’Aliénation Vol.2
