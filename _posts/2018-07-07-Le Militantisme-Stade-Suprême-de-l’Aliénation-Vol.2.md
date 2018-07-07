@@ -6,8 +6,8 @@ year: 1974
 layout: post
 nav: blog
 content_type: article
-image: /_posts/mili.jpg
-thumbnail: /_posts/mili.jpg
+image: /img/mili.jpg
+thumbnail: /img/mili.jpg
 published: true
 ---
 
