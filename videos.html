@@ -1,0 +1,17 @@
+---
+layout: page
+title: "Pour une critique radicale du faux omniprésent"
+---
+
+<div class="videos-slider">
+    <h3>TOUTES LES VIDEOS</h3>
+    {% assign videos = site.videos | reverse  %}
+    {% for video in  videos limit: 3 %}
+    <article>
+        <h4><a href="{{ video.url }}">{{ video.title }}</a></h4>
+     </article>
+    {% endfor %}
+</div>
+
+
+

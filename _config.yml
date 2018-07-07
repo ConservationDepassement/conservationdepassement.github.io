@@ -31,9 +31,12 @@ og_image_rpath: /img/aufhebung_logo_large.png
 
 # List of links in the navigation bar
 navbar-links:
-    BLOG: /
-    ARTICLES: /articles
-    BIBLIOTHÈQUE: /bibliotheque
+
+    Accueil: /
+    Actualités: /actualites
+    Articles: /articles
+    Vidéos: /videos
+    Bibliothèque: /bibliotheque
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -93,7 +96,13 @@ plugins_dir:
 
 
 collections:
+  actualites:
+    output: true
   articles:
     output: true
   bibliotheque:
+    output: true
+  importants:
+    output: true
+  videos:
     output: true

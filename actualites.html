@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Pour une critique radicale du faux omniprésent"
+---
+
+<div class="actualites-slider">
+    <h3>TOUTES LES ACTUALITÉS</h3>
+    {% assign actualites = site.actualites | reverse  %}
+    {% for actualite in actualites %}
+    <article>
+        <h4><a href="{{ actualite.url }}">{{ actualite.title }}</a></h4>
+     </article>
+    {% endfor %}
+</div>
+

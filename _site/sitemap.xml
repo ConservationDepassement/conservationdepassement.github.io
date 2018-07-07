@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/actualites/2017-07-10-test-actu-1/</loc>
+<lastmod>2017-07-10T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/articles/2017-07-10-de-l-alienation-des-communautes-primitives/</loc>
 <lastmod>2017-07-10T00:00:00+02:00</lastmod>
 </url>
@@ -25,6 +29,17 @@
 <lastmod>2018-05-15T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/importants/2017-07-13-test-important-1/</loc>
+<lastmod>2017-07-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/videos/2017-07-12-test-video-1/</loc>
+<lastmod>2017-07-12T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/actualites/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/articles/</loc>
 </url>
 <url>
@@ -34,6 +49,6 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tags/</loc>
+<loc>http://localhost:4000/videos/</loc>
 </url>
 </urlset>
