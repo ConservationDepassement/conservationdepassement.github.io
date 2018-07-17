@@ -3,15 +3,14 @@ published: true
 title: 'A bas le prolétariat, Vive le communisme !'
 subtitle: >-
   Les révolutionnaires ne proposent pas l’amélioration de la condition
-  prolétarienne mais sa suppression. La révolution sera prolétarienne par ceux
-  qui la feront et anti-prolétarienne par son contenu. Prolétaires, encore un
-  effort pour cesser de l’être...
+  prolétarienne mais sa suppression. Prolétaires, encore un effort pour cesser
+  de l’être...
 author: Les Amis du Potlatch
 year: 1979
 layout: post
 nav: blog
 content_type: article
-thumbnail: _posts/chain.jpg
+thumbnail: /_posts/chain.jpg
 ---
 
 ### A BAS LE PROLÉTARIAT.
