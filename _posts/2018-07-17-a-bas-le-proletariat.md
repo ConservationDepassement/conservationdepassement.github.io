@@ -1,14 +1,16 @@
 ---
-published: false
----
----
-title: A bas le prolétariat, Vive le communisme !
-subtitle: Les révolutionnaires ne proposent pas l’amélioration de la condition prolétarienne mais sa suppression. La révolution sera prolétarienne par ceux qui la feront et anti-prolétarienne par son contenu. Prolétaires, encore un effort pour cesser de l’être...
-author: "Les Amis du Potlatch" 
+published: true
+title: 'A bas le prolétariat, Vive le communisme !'
+subtitle: >-
+  Les révolutionnaires ne proposent pas l’amélioration de la condition
+  prolétarienne mais sa suppression. La révolution sera prolétarienne par ceux
+  qui la feront et anti-prolétarienne par son contenu. Prolétaires, encore un
+  effort pour cesser de l’être...
+author: Les Amis du Potlatch
 year: 1979
-layout: post 
-nav: blog 
-content_type: article 
+layout: post
+nav: blog
+content_type: article
 thumbnail: _posts/chain.jpg
 ---
 
@@ -145,4 +147,3 @@ La violence révolutionnaire est un rapport social qui bouleverse les êtres, qu
 Beaucoup savent confusément que nous vivons la fin d’un monde, même s’ils ne savent pas encore ce qui va advenir : le mouvement n’a pas encore eu la force de rendre visible son contenu et d’affirmer ses perspectives. Ceux qui supportent de moins en moins la barbarie capitaliste doivent découvrir ce à quoi ils aspirent : le monde dont leur révolte est porteur, le communisme.
 
 Prolétaires, encore un effort pour cesser de l’être...
-![chain.jpg]({{site.baseurl}}/_posts/chain.jpg)
