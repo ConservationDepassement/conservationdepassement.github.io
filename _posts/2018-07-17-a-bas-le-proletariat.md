@@ -10,7 +10,7 @@ year: 1979
 layout: post
 nav: blog
 content_type: article
-thumbnail: /_posts/chain.jpg
+thumbnail: /img/chain.jpg
 ---
 
 ### A BAS LE PROLÉTARIAT.
