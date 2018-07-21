@@ -2,7 +2,13 @@
     {% assign importants = site.importants | reverse  %}
     {% for important in importants limit: 10 %}
     <div>
-        <img src="{{ important.image }}"/>
+        <div class="important-slide">
+            <div class="important-textbox">
+                <h3>{{ important.title }}</h3>
+                <h4>{{ important.subtitle }}</h4>
+            </div>
+            <img src="{{ important.image }}"/>
+        </div>
     </div>
     {% endfor %}
 </div>

@@ -137,6 +137,23 @@
     justify-content: center;
 }
 
+.important-slide {
+    position: relative;
+}
+
+.important-textbox {
+    color: #fff; 
+    position: absolute;
+    top: 33%;
+}
+
+.important-textbox h3 {
+    font-size: 45px;
+}
+
+
+
+
 /* ===== News ===== */
 
 .news-slider {

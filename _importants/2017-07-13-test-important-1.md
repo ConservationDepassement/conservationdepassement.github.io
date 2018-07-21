@@ -1,5 +1,6 @@
 ---
 title: Test Important 1
+subtitle: subtitle one
 author: "Collectif Aufhebung"
 year: 2017
 month: 07
