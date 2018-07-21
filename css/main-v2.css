@@ -1,0 +1,148 @@
+/* ===== Header ===== */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* ----- Header: Menu ----- */
+
+.header .menu {
+    align-items: center;
+    display: flex;
+}
+
+.header .menu ul {
+    position: unset;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-item a:hover {
+    color: #2BD1D2;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* ----- Header: Mobile menu ----- */
+
+@media only screen and (max-width : 640px) {
+    .menu {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .header .menu ul {
+        display: none;
+    }
+        
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .header .menu:hover {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .header .menu:hover ul {
+        display: block;
+        background-color: #fff;
+        border: 2px solid #444;
+        padding: 20px;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        z-index:1000;
+    }
+    
+    .header .menu:hover .menu-item {
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* ===== Importants ===== */
+
+.importants-slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.importants-slider .slide{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+}
+
+.importants-slider .slick-list,
+.importants-slider slick-track,
+.importants-slider .slick-slide {
+    margin: 0;
+    padding: 0;
+}
+
+.importants-slider .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.importants-slider .slick-slide {
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+.importants-slider .slick-slide img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.importants-slider .slick-dots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* ===== News ===== */
+
+.news-slider {
+    margin: 60px auto;
+}
+
+.news-slider div {
+    height: 100%;
+}

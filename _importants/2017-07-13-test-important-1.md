@@ -5,6 +5,7 @@ year: 2017
 month: 07
 day: 13
 layout: post
+image: img/importants/2017-07-13-test-important-1.jpeg
 ---
 
 **Contrairement au puritanisme borné** des scientifiques payés depuis des siècles pour nous décrire 

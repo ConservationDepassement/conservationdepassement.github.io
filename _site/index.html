@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8" />
   <meta name="author" content="Collectif Aufhebung" />
-  <link rel="stylesheet" href="/css/main.css" />
+  <!-- <link rel="stylesheet" href="/css/main.css" /> -->
   <link rel="shortcut icon" type="image/png" href="/favicon-152.png"/>
   <meta name="keywords" content="philosophie, histoire, économie, radicalité, critique radicale, Francis Cousin, genos, logos, aufhebung, marx, engels, présocratiques, internationale situationniste, capitalisme, bibliothèque, livres, rencontre" />
 
@@ -27,12 +27,16 @@
 {"name":"AUFHEBUNG","description":"Pour une critique radicale du faux omniprésent","author":{"@type":"Person","name":"Collectif Aufhebung"},"@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/img/aufhebung_logo_large.png"},"name":"Collectif Aufhebung"},"headline":"Pour une critique radicale du faux omniprésent","sameAs":["https://youtube.com/c/Aufhebung","https://facebook.com/AufhebungOfficiel/"],"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+  <link rel="stylesheet" type="text/css" href="css/main-v2.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css"/>
 </head>
 
   <body>
     <div class="page-layout">
-      <nav>
-  <ul class="menu">
+      <div class="header">
+          <div class="menu">
+  <ul>
     
       <li class="menu-item">
         <a href="/">Accueil</a>
@@ -55,85 +59,54 @@
       </li>
     
   </ul>
-</nav>
+  <div class="menu-icon">
+      <img src="img/menu-icon.png">
+  </div>
+</div>
 
+      </div>
       <div class="importants-slider">
-    <h3>DERNIERS IMPORTANTS</h3>
     
     
-    <article>
-        <h4><a href="/importants/2017-07-13-test-important-1/">Test Important 1</a></h4>
-     </article>
+    <div>
+        <img src="img/importants/2017-07-13-test-important-1.jpeg"/>
+    </div>
     
-</div>
-
-
-<div class="actualites-slider">
-    <h3>DERNIERES ACTUALITÉS</h3>
+    <div>
+        <img src="img/importants/2017-07-14-test-important-2.jpeg"/>
+    </div>
     
+    <div>
+        <img src="img/importants/2017-07-14-test-important-2.jpeg"/>
+    </div>
     
-    <article>
-        <h4><a href="/actualites/2017-07-10-test-actu-1/">Test Actu 1</a></h4>
-     </article>
-    
-</div>
-
-<div class="articles-slider">
-    <h3>DERNIERS ARTICLES</h3>
-    
-    
-    <article>
-        <h4><a href="/articles/2018-06-04-a-propos-de-la-page-facebook/">À propos de la page Facebook...</a></h4>
-     </article>
-    
-    <article>
-        <h4><a href="/articles/2018-05-22-greve-des-cheminots/">Grève des cheminots&nbsp;: À bas la merde syndicale!</a></h4>
-     </article>
-    
-    <article>
-        <h4><a href="/articles/2017-07-11-le-fetichisme-de-la-marchandise/">Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)</a></h4>
-     </article>
+    <div>
+        <img src="img/importants/2017-07-13-test-important-1.jpeg"/>
+    </div>
     
 </div>
 
-<div class="bibliotheque-slider">
-    <h3>DERNIERS TEXTES</h3>
-    
-    
-    <article>
-        <h4><a href="/bibliotheque/francis-cousin/2018-05-15-il-y-a-50-ans/">Il y a 50 ans...</a></h4>
-     </article>
-    
-    <article>
-        <h4><a href="/bibliotheque/pierre-guillaume/2018-04-12-ideologie-et-lutte-des-classes/">Idéologie et Lutte de Classes</a></h4>
-     </article>
-    
-</div>
 
-<div class="videos-slider">
-    <h3>DERNIERES VIDEOS</h3>
-    
-    
-    <article>
-        <h4><a href="/videos/2017-07-12-test-video-1/">Test Video 1</a></h4>
-     </article>
-    
-</div>
 
-      <footer>
-  <p>
-    Collectif Aufhebung
 
-    
-    &nbsp;&bull;&nbsp;
-    <a href="http://localhost:4000">aufhebung.fr</a>
-    
-  </p>
-  <p>
-    Aucun droit réservé sur rien.
-  </p>
-</footer>
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.importants-slider').slick({
+            dots: true,
+            arrows: false,
+            infinite: false,
+            slidesToShow: 1,
+        });
+    });
+</script>
+
+
+      
     </div>
   </body>
 </html>

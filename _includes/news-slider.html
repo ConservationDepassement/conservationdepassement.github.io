@@ -1,0 +1,27 @@
+<h3>DERNIERES ACTUALITÉS</h3>
+<div class="news-slider">
+    {% assign actualites = site.actualites | reverse  %}
+    {% for actualite in actualites limit: 10 %}
+    <div>
+        <a href="{{ actualite.url }}">{{ actualite.title }}</a> 
+        <img src="http://placehold.it/350x300?text=1" height="100" width="100" />
+    </div>
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.news-slider').slick({
+            arrows: true,
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    });
+</script>
+
+<style>
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
+</style>

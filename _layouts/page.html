@@ -3,9 +3,13 @@
   {% include head.html %}
   <body>
     <div class="page-layout">
-      {% include navbar.html %}
+      <div class="header">
+          {% include navbar.html %}
+      </div>
       {{ content }}
-      {% include footer.html %}
+      {% comment %}
+        {% include footer.html %}
+      {% endcomment %}
     </div>
   </body>
 </html>

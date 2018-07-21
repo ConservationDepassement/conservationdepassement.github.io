@@ -1,9 +1,12 @@
-<nav>
-  <ul class="menu">
+<div class="menu">
+  <ul>
     {% for link in site.navbar-links %}
       <li class="menu-item">
         <a href="{{link[1]}}">{{link[0]}}</a>
       </li>
     {% endfor %}
   </ul>
-</nav>
+  <div class="menu-icon">
+      <img src="img/menu-icon.png">
+  </div>
+</div>

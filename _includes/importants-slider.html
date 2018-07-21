@@ -1,0 +1,8 @@
+<div class="importants-slider">
+    {% assign importants = site.importants | reverse  %}
+    {% for important in importants limit: 10 %}
+    <div>
+        <img src="{{ important.image }}"/>
+    </div>
+    {% endfor %}
+</div>
