@@ -144,15 +144,47 @@
 .important-textbox {
     color: #fff; 
     position: absolute;
-    top: 33%;
+    top: 20%;
+    left: 5%;
 }
 
 .important-textbox h3 {
     font-size: 45px;
 }
 
+.important-textbox h4 {
+    font-size: 35px;
+}
 
+.important-textbox a {
+    background-color: #2bfed2;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+}
 
+.important-textbox a:hover {
+    color: #444;
+}
+
+/* ----- Importants: mobile ----- */
+
+@media only screen and (max-width : 640px) {
+    .important-textbox h3 {
+        font-size: 23px;
+    }
+    
+    .important-textbox h4 {
+        font-size: 16px;
+    }
+    
+    .important-textbox a {
+        font-size: 12px;
+    }
+
+}
 
 /* ===== News ===== */
 
