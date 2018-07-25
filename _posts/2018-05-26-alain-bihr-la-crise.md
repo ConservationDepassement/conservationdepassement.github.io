@@ -1,14 +1,15 @@
 ---
-title: "La Crise, par Alain Bihr"
-subtitle: "Conférence à la maison des syndicats de Strasbourg."
-author: "Alain Bihr"
+title: 'La Crise, par Alain Bihr'
+subtitle: Conférence à la maison des syndicats de Strasbourg.
+author: Alain Bihr
 year: 2018
-month: 05
+month: 5
 day: 26
 content_type: video
 layout: post
 nav: blog
 thumbnail: /img/posts/2018-05-26-alain-bihr-la-crise/thumbnail.jpg
+published: false
 ---
 
 <div class="youtube-video">
