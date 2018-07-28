@@ -96,6 +96,7 @@
     margin-right: auto;
     width: 100%;
 }
+
 .importants-slider .slide{
     height: 500px;
     width: 90%;
@@ -188,10 +189,90 @@
 
 /* ===== News ===== */
 
-.news-slider {
-    margin: 60px auto;
+.news-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.news-slider div {
-    height: 100%;
+.news-title {
+    font-family: FreeSans, Helvetica;
+    font-size: 30px;
+    text-align: center;
+}
+
+.news-slider {
+    margin: auto;
+    width: 80%;
+}
+
+.news-slider .slick-slide img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.news-slide {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.news-textbox {
+    align-items: center;
+    bottom: 5%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: FreeSans, Helvetica;
+    justify-content: center;
+    left: 5%;
+    position: absolute;
+    right: 5%;
+    text-align: center;
+    top: 5%;
+    z-index: 1;
+}
+
+.uppercased {
+    text-transform: uppercase;
+}
+
+.thin-blue-button {
+    background-color: #2bfed2;
+    border-radius: 30px;
+    color: #000;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+.darkened-image {
+    filter: brightness(40%);
+}
+
+.news-textbox .verbose-date {
+    color: #2bfed2;
+    font-size: 18px;
+}
+
+.all-news-button {
+    margin-top: 50px;
+}
+
+.grey-button {
+    background-color: #535556;
+    border-radius: 30px;
+    color: #fff;
+    font-family: FreeSans, Helvetica;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
 }

@@ -65,53 +65,122 @@
 </div>
 
       </div>
-      <div class="importants-slider">
-    
-    
-    <div>
-        <div class="important-slide">
-            <div class="important-textbox">
-                <h3>Test Important 4</h3>
-                <h4>subtitle four</h4>
-                <a href="/importants/2017-07-16-test-important-4/">En savoir plus</a>
+      
+
+<div class="news-container">
+    <h3 class="news-title">Dernières Actualités</h3>
+
+    <div class="news-slider">
+        
+        
+        <div>
+            <div class="news-slide">
+                <div class="news-textbox">
+                    <h3 class="uppercased">Le chaos migratoire en Europe</h3>
+                    <div class="verbose-date">
+    <p>
+        <span class="verbose-day">
+        
+            1<sup>er</sup>
+        
+        </span>
+        <span class="verbose-month">
+        
+              juillet
+            
+        </span>
+        2017
+    </p>
+</div>
+
+                    <a class="thin-blue-button" href="/actualites/2017-07-13-test-actu-4/">Lire la suite</a>
+                </div>
+                <img class="darkened-image" src="img/actualites/2017-07-13-test-actu-4.jpeg"/>
             </div>
-            <img src="img/importants/2017-07-13-test-important-1.jpeg"/>
         </div>
-    </div>
-    
-    <div>
-        <div class="important-slide">
-            <div class="important-textbox">
-                <h3>Test Important 3</h3>
-                <h4>subtitle three</h4>
-                <a href="/importants/2017-07-15-test-important-3/">En savoir plus</a>
+        
+        <div>
+            <div class="news-slide">
+                <div class="news-textbox">
+                    <h3 class="uppercased">Grêve de la SNCF: Où en est le mouvement ?</h3>
+                    <div class="verbose-date">
+    <p>
+        <span class="verbose-day">
+        
+            12
+        
+        </span>
+        <span class="verbose-month">
+        
+              juillet
+            
+        </span>
+        2017
+    </p>
+</div>
+
+                    <a class="thin-blue-button" href="/actualites/2017-07-12-test-actu-3/">Lire la suite</a>
+                </div>
+                <img class="darkened-image" src="img/actualites/2017-07-12-test-actu-3.jpeg"/>
             </div>
-            <img src="img/importants/2017-07-14-test-important-2.jpeg"/>
         </div>
-    </div>
-    
-    <div>
-        <div class="important-slide">
-            <div class="important-textbox">
-                <h3>Test Important 2</h3>
-                <h4>subtitle two</h4>
-                <a href="/importants/2017-07-14-test-important-2/">En savoir plus</a>
+        
+        <div>
+            <div class="news-slide">
+                <div class="news-textbox">
+                    <h3 class="uppercased">Destruction programmée de la Syrie</h3>
+                    <div class="verbose-date">
+    <p>
+        <span class="verbose-day">
+        
+            11
+        
+        </span>
+        <span class="verbose-month">
+        
+              juillet
+            
+        </span>
+        2017
+    </p>
+</div>
+
+                    <a class="thin-blue-button" href="/actualites/2017-07-11-test-actu-2/">Lire la suite</a>
+                </div>
+                <img class="darkened-image" src="img/actualites/2017-07-11-test-actu-2.jpeg"/>
             </div>
-            <img src="img/importants/2017-07-14-test-important-2.jpeg"/>
         </div>
-    </div>
-    
-    <div>
-        <div class="important-slide">
-            <div class="important-textbox">
-                <h3>Test Important 1</h3>
-                <h4>subtitle one</h4>
-                <a href="/importants/2017-07-13-test-important-1/">En savoir plus</a>
+        
+        <div>
+            <div class="news-slide">
+                <div class="news-textbox">
+                    <h3 class="uppercased">Féminisme ou lutte des classes ?</h3>
+                    <div class="verbose-date">
+    <p>
+        <span class="verbose-day">
+        
+            10
+        
+        </span>
+        <span class="verbose-month">
+        
+              juillet
+            
+        </span>
+        2017
+    </p>
+</div>
+
+                    <a class="thin-blue-button" href="/actualites/2017-07-10-test-actu-1/">Lire la suite</a>
+                </div>
+                <img class="darkened-image" src="img/actualites/2017-07-10-test-actu-1.jpeg"/>
             </div>
-            <img src="img/importants/2017-07-13-test-important-1.jpeg"/>
         </div>
+        
     </div>
-    
+    <div class="all-news-button">
+        <a class="grey-button" href="/actualites">Toutes les Actualités</a>
+    </div>
 </div>
 
 
@@ -130,9 +199,21 @@
             infinite: false,
             slidesToShow: 1,
         });
+
+        $('.news-slider').slick({
+            arrows: true,
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
     });
 </script>
 
+<style>
+.news-slider .slick-prev:before, .news-slider .slick-next:before {
+    color: black;
+}
+</style>
 
       
     </div>

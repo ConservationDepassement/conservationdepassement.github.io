@@ -1,27 +1,26 @@
-<h3>DERNIERES ACTUALITÉS</h3>
-<div class="news-slider">
-    {% assign actualites = site.actualites | reverse  %}
-    {% for actualite in actualites limit: 10 %}
-    <div>
-        <a href="{{ actualite.url }}">{{ actualite.title }}</a> 
-        <img src="http://placehold.it/350x300?text=1" height="100" width="100" />
+<div class="news-container">
+    <h3 class="news-title">Dernières Actualités</h3>
+
+    <div class="news-slider">
+        {% assign news = site.actualites | reverse  %}
+        {% for item in news limit: 10 %}
+        <div>
+            <div class="news-slide">
+                <div class="news-textbox">
+                    <h3 class="uppercased">{{ item.title }}</h3>
+                    {% include verbose-date.html
+                           day=item.day
+                           month=item.month
+                           year=item.year
+                    %}
+                    <a class="thin-blue-button" href="{{ item.url }}">Lire la suite</a>
+                </div>
+                <img class="darkened-image" src="{{ item.thumbnail }}"/>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+    <div class="all-news-button">
+        <a class="grey-button" href="/actualites">Toutes les Actualités</a>
+    </div>
 </div>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.news-slider').slick({
-            arrows: true,
-            infinite: false,
-            slidesToShow: 3,
-            slidesToScroll: 3
-        });
-    });
-</script>
-
-<style>
-.slick-prev:before, .slick-next:before{
-    color: black;
-}
-</style>

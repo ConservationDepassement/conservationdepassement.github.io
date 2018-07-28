@@ -3,12 +3,12 @@ layout: page
 title: "Pour une critique radicale du faux omniprésent"
 ---
 
-
-{% include importants-slider.html %}
-
 {% comment %}
-{% include news-slider.html %}
+{% include importants-slider.html %}
 {% endcomment %}
+
+{% include news-slider.html %}
+
 
 {% comment %}
 <h3>DERNIERS ARTICLES</h3>
@@ -47,6 +47,7 @@ title: "Pour une critique radicale du faux omniprésent"
     {% endfor %}
 </div>
 {% endcomment %}
+
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -59,6 +60,18 @@ title: "Pour une critique radicale du faux omniprésent"
             infinite: false,
             slidesToShow: 1,
         });
+
+        $('.news-slider').slick({
+            arrows: true,
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
     });
 </script>
 
+<style>
+.news-slider .slick-prev:before, .news-slider .slick-next:before {
+    color: black;
+}
+</style>
