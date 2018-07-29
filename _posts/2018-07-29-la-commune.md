@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 subtitle: Préface de Pierre Guillaume au livre «La Commune de 1871» de Talès.
 author: Pierre Guillaume
 year: 1983
