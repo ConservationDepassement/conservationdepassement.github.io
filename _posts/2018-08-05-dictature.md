@@ -49,6 +49,3 @@ Mais ils sont jusqu'alors notre seul exemple. La dictature du prolétariat c'est
 Les conseils organisés sur les lieux de production auront le monopole des armes et le contrôle de la presse. Mais de même que chaque membre d'un conseil sera armé, il pourra s'exprimer librement par l'écrit et la parole. Le contrôle de la presse ne signifiera pas la centralisation et l'unicité de l'expression mais sa diversité illimitée. Les conseils effaceront la division des pouvoirs. Les sphères juridiques du public et du privé ne se distingueront plus, bien que le privé ne se confonde point au public.
 
 La dictature sera de fait, non de droit. Elle n'a point besoin d'institutions originales. Elle est la dictature sociale d'une classe. La seule façon de s'y soustraire sera d'en partager l'exercice en partageant l'effort productif.
-
-
-
