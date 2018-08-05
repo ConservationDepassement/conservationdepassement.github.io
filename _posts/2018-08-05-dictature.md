@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Les longues décennies de misère théorique et politique traversées par le mouvement ouvrier n'ont pas seulement égaré son action ; elles ont aussi perverti la compréhension de ses tâches et de ses objectifs historiques. De ce fait, les concepts et les notions sur lesquels se fondaient ses analyses et ses perspectives se sont trouvés corrompus. Ainsi en est-il de la « dictature du prolétariat ». Dans un article de ce même numéro de Spartacus, Louis Rigal montre la déformation que le contenu de cette expression de Marx a subie, la faisant chuter de notion sociale en notion politique, et ouvrant la voie à l'identification du prolétariat au parti, forme politique d'exercice du pouvoir d'État. Je ne reviendrai pas sur cette question. Cependant il ne suffit pas de « dire par une étude textuelle que la pensée originelle de Marx a été trahie ; encore faut-il démontrer que cette trahison conduit, pratiquement, à une forme inadéquate. C'est ce que j'essaierai de mettre en évidence en esquissant la démarche suivant laquelle la production et la distribution des biens, c'est-à-dire ce qu'il est convenu d'appeler l'économie, seront organisées par la classe ouvrière dans le procès de transformation révolutionnaire de la société.
 
