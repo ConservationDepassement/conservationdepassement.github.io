@@ -1,0 +1,37 @@
+<div class="home-container 80-percent-width">
+    <h3 class="home-section-title">Dernier Article</h3>
+    {% assign articles = site.articles | reverse  %}
+    {% for item in articles limit: 1 %}
+    <img class="last-article-thumbnail" src="{{ item.thumbnail }}" />
+    <div class="last-article-container">
+        <div class="last-article-content">
+            <h4 class="last-article-title">{{ item.title }}</h4>
+            <div class="last-article-excerpt">
+                {{ item.content | truncatewords: 98 }}
+                <span class="last-article-read-more-button">
+                    <a href="{{ item.url }}">Lire la suite</a>
+                </span>
+            </div>
+        </div>
+        <div class="last-article-meta">
+            <div>
+                <span class="last-article-publication-date">20 avr</span> Par {{ item.author }}
+            </div>
+            <div class="last-article-tags-container">
+                <img class="label-icon" src="img/label-icon.png" />
+                <div class="last-article-tag-labels-container">
+                    {% for tag in item.tags %}
+                    <div class="last-article-tag">
+                        <a href="{{ item.url }}">{{ tag }}</a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="all-articles-button">
+        <a class="blue-button" href="/articles">Tous les Articles</a>
+    </div>
+</div>
+

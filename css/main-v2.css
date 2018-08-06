@@ -189,7 +189,7 @@
 
 /* ===== News ===== */
 
-.news-container {
+.home-container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -197,7 +197,7 @@
     justify-content: center;
 }
 
-.news-title {
+.home-section-title {
     font-family: FreeSans, Helvetica;
     font-size: 30px;
     text-align: center;
@@ -244,7 +244,7 @@
 }
 
 .thin-blue-button {
-    background-color: #2bfed2;
+    background-color: #5bfad7;
     border-radius: 30px;
     color: #000;
     padding-bottom: 3px;
@@ -259,7 +259,7 @@
 }
 
 .news-textbox .verbose-date {
-    color: #2bfed2;
+    color: #5bfad7;
     font-size: 18px;
 }
 
@@ -271,6 +271,104 @@
     background-color: #535556;
     border-radius: 30px;
     color: #fff;
+    font-family: FreeSans, Helvetica;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* ===== Last Article ===== */
+
+.80-percent-width {
+    width: 80%;
+}
+
+.all-articles-button {
+    margin-top: 50px;
+}
+
+.last-article-thumbnail {
+    height: 400px;
+    width: 80%;
+}
+
+.last-article-container {
+    align-items: baseline;
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.last-article-content {
+    width: 75%;
+}
+
+.last-article-title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.last-article-excerpt {
+    text-align: justify;
+}
+
+.last-article-read-more-button {
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.last-article-read-more-button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.last-article-meta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+}
+
+.last-article-publication-date {
+    background-color: #5bfad7;
+    margin-right: 5px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.last-article-tags-container {
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+
+.last-article-tag {
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.last-article-tag a {
+    color: #000;
+    text-decoration: none;
+}
+
+.label-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.all-articles-button {
+    text-align: center;
+}
+
+.blue-button {
+    background-color: #5bfad7;
+    border-radius: 30px;
+    color: #000;
     font-family: FreeSans, Helvetica;
     padding: 15px;
     text-align: center;
