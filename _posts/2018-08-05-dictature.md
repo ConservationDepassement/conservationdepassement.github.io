@@ -1,7 +1,7 @@
 ---
 published: true
 title: La dictature anti-étatique du prolétariat
-author: Bulletin Spartacuss
+author: Bulletin Spartacus
 year: 1976
 month: 12
 layout: post
