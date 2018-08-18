@@ -1,73 +1,394 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-  <meta charset="utf-8" />
-  <meta name="author" content="Collectif Aufhebung" />
-  <!-- <link rel="stylesheet" href="/css/main.css" /> -->
-  <link rel="shortcut icon" type="image/png" href="/favicon-152.png"/>
-  <meta name="keywords" content="philosophie, histoire, économie, radicalité, critique radicale, Francis Cousin, genos, logos, aufhebung, marx, engels, présocratiques, internationale situationniste, capitalisme, bibliothèque, livres, rencontre" />
-
-  
-    <meta property="og:image" content="http://aufhebung.fr/img/aufhebung_logo_large.png" />
-    <meta property="og:image:secure_url" content="https://aufhebung.fr/img/aufhebung_logo_large.png" />
-  
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification) | AUFHEBUNG</title>
-<meta name="generator" content="Jekyll v3.8.2" />
-<meta property="og:title" content="Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)" />
+    <head>
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Collectif Aufhebung" />
-<meta property="og:locale" content="fr_FR" />
-<meta name="description" content="Pour une critique radicale du faux omniprésent" />
-<meta property="og:description" content="Pour une critique radicale du faux omniprésent" />
-<link rel="canonical" href="http://localhost:4000/articles/2017-07-11-le-fetichisme-de-la-marchandise/" />
-<meta property="og:url" content="http://localhost:4000/articles/2017-07-11-le-fetichisme-de-la-marchandise/" />
-<meta property="og:site_name" content="AUFHEBUNG" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2017-07-11T00:00:00+02:00" />
-<meta property="article:publisher" content="https://www.facebook.com/AufhebungOfficiel/" />
-<script type="application/ld+json">
-{"description":"Pour une critique radicale du faux omniprésent","author":{"@type":"Person","name":"Collectif Aufhebung"},"@type":"BlogPosting","url":"http://localhost:4000/articles/2017-07-11-le-fetichisme-de-la-marchandise/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/img/aufhebung_logo_large.png"},"name":"Collectif Aufhebung"},"headline":"Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)","dateModified":"2017-07-11T00:00:00+02:00","datePublished":"2017-07-11T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/2017-07-11-le-fetichisme-de-la-marchandise/"},"@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+<meta name="keywords" content="philosophie, histoire, économie, radicalité, critique radicale, Francis Cousin, genos, logos, aufhebung, marx, engels, présocratiques, internationale situationniste, capitalisme, bibliothèque, livres, rencontre" />
 
-  <link rel="stylesheet" type="text/css" href="/css/main-v2.css"/>
-  <link rel="stylesheet" type="text/css" href="/lib/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="/lib/slick/slick-theme.css"/>
-</head>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"/>
 
-  <body>
-    <div class="page-layout">
-      <div class="header">
-          <div class="menu">
-  <ul>
-    
-      <li class="menu-item">
-        <a href="/">Accueil</a>
-      </li>
-    
-      <li class="menu-item">
-        <a href="/actualites">Actualités</a>
-      </li>
-    
-      <li class="menu-item">
-        <a href="/articles">Articles</a>
-      </li>
-    
-      <li class="menu-item">
-        <a href="/videos">Vidéos</a>
-      </li>
-    
-      <li class="menu-item">
-        <a href="/bibliotheque">Bibliothèque</a>
-      </li>
-    
-  </ul>
-  <div class="menu-icon">
-      <img src="/img/menu-icon.png">
-  </div>
+        <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/base.css"/>
+
+        <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/post.css"/>
+
+    </head>
+    <body>
+        <div style="max-width: 1600px; margin: auto">
+            <div class="navbar is-white" role="navigation" aria-label="main navigation">
+
+    <div class="navbar-brand">
+        <a class="navbar-item" href="http://localhost:4000">
+            <img src="http://localhost:4000/img/logo.jpg" alt="Aufhebung: pour la communauté humaine universelle">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navigation-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navigation-menu" class="navbar-menu">
+         <div class="navbar-start">
+             <a class="navbar-item" href="/">Accueil</a>
+             <a class="navbar-item">Actualités</a>
+             <a class="navbar-item">Articles</a>
+             <a class="navbar-item">Vidéos</a>
+             <a class="navbar-item">Bibliothèque</a>
+             <a class="navbar-item">Radio</a>
+        </div>
+    </div>
 </div>
+<script>
+    /*
+    On mobile device, toggle the navbar-burger
+    Cf: https://bulma.io/documentation/components/navbar/#navbar-menu
+    */
+    document.addEventListener('DOMContentLoaded', () => {
 
-      </div>
-      <div class="post">
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+</script>
+
+            
+            <section class="section" style="padding-top: 0;">
+                <div class="columns">
+                    <div class="column is-8 is-offset-2">
+                        
+                        <div
+                            class="post-image image has-background-centered"
+                            style="background-image: url(http://localhost:4000/img/articles/2017-07-11-header.jpg);">
+                        </div>
+                        
+                        <h2 class="title is-2 is-size-4-mobile has-text-black">Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)</h2>
+                        <div class="level is-mobile">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <span
+                                        class="
+                                          button
+                                          has-background-blue
+                                          has-static-white-borders
+                                          has-text-cursor
+                                          is-uppercase">
+                                        20 avr
+                                    </span>
+                                </div>
+                                <div class="level-item">
+                                    Par Collectif Aufhebung
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content has-text-justified">
+                            <p><strong>La domination mondiale du capitalisme</strong> se différencie radicalement de tous les modes de production qui 
+l’ont précédé par son essence universelle, <strong>condition de l’unification de l’histoire de l’humanité</strong>. 
+Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont 
+précédé dans telle ou telle zone géographique, car contrairement à ses antécédents <strong>il a comme présupposé 
+le marché mondial</strong>.</p>
+
+<p>C’est pourquoi le mode de production capitaliste <strong>est le premier mode de production mondial</strong>. Lui seul 
+détruit et unifie tous les autres modes de production qui coexistaient antérieurement (féodalisme, 
+esclavagisme, mode de production asiatique, etc.) <strong>et en même temps rend possible et nécessaire le 
+communisme universel. Le capitalisme résume ainsi et simplifie les antagonismes de classes qui ont 
+fait toute la préhistoire humaine; la contradiction fondamentale est maintenant celle entre capitalisme 
+et communisme, entre classe capitaliste et prolétariat.</strong></p>
+
+<p><strong>Dans cette contradiction, le prolétariat est le pôle négateur, il est le pôle de la destruction du capitalisme.</strong>
+Et, autant le capitalisme résume l’histoire des classes dominantes, autant le prolétariat résume et <strong>rend 
+possible le combat de toujours des classes exploitées</strong>. C’est pourquoi, comme le dit Marx, si <em>« la classe 
+possédante et la classe prolétarienne représentent le même état d’aliénation de soi de l’homme »</em>, c’est 
+le prolétariat seul qui incarne, qui personnifie, dans la déchéance, la révolte contre cette déchéance, 
+la <em>« révolte à laquelle il est poussé nécessairement par la contradiction entre sa nature humaine et sa 
+vie réelle qui constitue la négation manifeste et décisive de cette nature »</em> (<em>La Sainte Famille</em> - <em>1845</em>).</p>
+
+<p><strong>Le capitalisme qui clôture le cycle de la valeur</strong> (en généralisant au monde entier la production marchande) 
+libère le serf de sa dernière entrave, l’attache à la glèbe, mais, en même temps qu’il le libère de cette 
+attache à la terre, il rompt le dernier lien qui rattachait encore l’homme à la nature et qui permettait 
+en plus à l’homme de subsister puisque dans le rapport social féodal par exemple, une partie de la force 
+de travail du serf revenait à lui-même, l’autre revenant à son seigneur. <strong>Il ne reste plus au serf libéré 
+c’est-à-dire au prolétaire moderne, comme seule propriété, que sa force de travail et ses enfants</strong>.</p>
+
+<blockquote>
+  <p>La lumière, l’air etc. … la propreté animale la plus élémentaire cessent d’être un besoin pour l’homme. 
+La crasse, cette corruption, cette putréfaction de l’homme, ce cloaque au sens littéral de la civilisation, 
+l’incurie totale et contraire à la nature, la nature putride deviennent l’élément où il vit.</p>
+  <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Manuscrits de 1844</span></p>
+</blockquote>
+
+<p><strong>C’est dans et par ce dénuement total que le prolétariat trouve sa force destructive; n’ayant rien à perdre, 
+il a tout à gagner.</strong></p>
+
+<blockquote>
+  <p>[l’homme égoïste] est la base, la condition de l’Etat politique. L’Etat l’a reconnu à ce titre dans les droits 
+de l’homme. Mais la liberté de l’homme égoïste et la reconnaissance de cette liberté est plutôt la 
+reconnaissance du mouvement effréné des éléments spirituels et matériels qui en constituent la vie. 
+L’homme ne fut donc pas émancipé de la religion; il reçut la liberté religieuse. Il ne fut pas émancipé 
+de la propriété; il reçut la liberté de la propriété. Il ne fut pas émancipé de l’égoïsme de l’industrie; 
+il reçut la liberté de l’industrie.</p>
+  <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">La question juive, 1843</span></p>
+</blockquote>
+
+<p><strong>L’émancipation marchande, la libération réalisée par le capitalisme est donc la liberté de se faire pleinement 
+exploiter;  la dépossession complète du prolétaire est sa liberté de devoir, pour ne pas crever, vendre sa 
+force de travail. C’est dans cet acte contraint et forcé de vente/achat de la force de travail humaine que 
+se trouve achevé le processus historique de déshumanisation.</strong></p>
+
+<p><strong>L’aliénation/extraénisation est totale; l’homme n’est plus qu’une simple marchandise, une chose morte. L’aliénation 
+de l’homme est le travail salarié, le travail aliéné, l’aliénation du travail</strong>. C’est cet acte de vente échange marchand 
+qui sépare totalement l’ouvrier, le producteur, des moyens de production. Il est obligé de se vendre pour pouvoir se 
+mettre en valeur auprès de moyens de production étrangers et extérieurs à lui bien que ceux-ci ne sont en fait que 
+du travail humain cristallisé.</p>
+
+<blockquote>
+  <p>L’ouvrier met sa vie dans l’objet. Mais alors celle-ci ne lui appartient plus, elle appartient à l’objet. 
+(…)Il n’est pas ce qu’est le produit de son travail. Donc, plus ce produit est grand, moins il est lui-même. 
+L’extraénisation de l’ouvrier dans son produit signifie non seulement que son travail devient un objet, 
+une existence extérieure, mais que son travail existe en dehors de lui, indépendamment de lui, étranger à lui, 
+et devient une puissance autonome vis-à-vis de lui, que la vie qu’il a prêtée à l’objet s’oppose à lui, 
+hostile et étrangère.</p>
+
+  <div class="quote-meta">Karl Marx – Manuscrits de 1844</div>
+</blockquote>
+
+<p><strong>Le produit du travail est donc un objet étranger à l’ouvrier et qui le domine. Ce n’est pas l’ouvrier qui domine 
+la machine, c’est le capital, c’est le rapport social, l’esclavage salarié, qui domine totalitairement la vie de 
+l’ouvrier.</strong></p>
+
+<p>Ainsi le rapport social capitaliste apparaît lui aussi comme une puissance extérieure, étrangère, naturelle en 
+quelque sorte, qui domine le prolétaire et qui, de plus, se présente comme éternel. <strong>L’aliénation du travail 
+s’exprime en plus en ceci que le travail n’est pas pour l’ouvrier un besoin naturel auquel il se soumet 
+volontairement, au contraire, c’est l’unique moyen qui lui est laissé pour satisfaire ses besoins vitaux. 
+La lutte historique des prolétaires contre l’aliénation capitaliste est la lutte des prolétaires contre 
+le travail.</strong></p>
+
+<blockquote>
+  <p>Le caractère extérieur à l’ouvrier du travail apparaît dans le fait qu’il n’est pas son bien propre, 
+mais celui d’un autre, qu’il ne lui appartient pas, que dans le travail l’ouvrier ne s’appartient pas 
+lui-même, mais appartient à un autre. Il est la perte de lui-même.</p>
+  <p class="quote-meta"><span class="quote-author">Karl Marx</span> – <span class="quote-source">Manuscrits de 1844</span></p>
+</blockquote>
+
+<p><strong>Mais c’est cette « perte de lui-même » qui donne en même temps à l’ouvrier la possibilité matérielle de 
+prendre conscience de cette perte de lutter, de détruire ce système d’esclavage salarié.</strong></p>
+
+<p>En d’autres termes, <strong>la métamorphose de l’ouvrier en simple objet du processus de production capitaliste</strong> 
+s’effectue, dans le mode de production capitaliste par le fait que <strong>le travailleur est contraint d’objectiver 
+sa force de travail par rapport à l’ensemble de sa personnalité et de la vendre comme une marchandise 
+lui appartenant.</strong></p>
+
+<p>En même temps, cependant, <strong>la scission qui naît</strong>, précisément ici, dans l’homme s’objectivant comme marchandise, 
+entre objectivité et subjectivité, <strong>permet que cette situation devienne consciente</strong>. Dans les formes sociales 
+antérieures et plus ‘naturelles’, le travail est déterminé « immédiatement comme fonction d’un membre de 
+l’organisme social » (Marx Contribution à la critique de l’économie politique); <strong>dans l’esclavage et le servage, 
+les formes de domination apparaissent comme « ressorts immédiats du processus de production », ce qui 
+interdit aux travailleurs, enfoncés avec la totalité indivisée de leur personnalité, dans de tels ensembles 
+de parvenir à la conscience de leur situation sociale.</strong></p>
+
+<p>Au contraire, <strong>le travail qui se présente dans la valeur d’échange est présupposé comme le travail de 
+l’individu particulier et isolé</strong>. Il devient social en prenant la forme de son opposé immédiat, la forme 
+de la généralité abstraite. <strong>Avant tout, l’ouvrier ne peut prendre conscience de son être social que s’il 
+prend conscience de lui- même comme marchandise</strong>. Son être immédiat le place, ainsi que nous l’avons montré, 
+<strong>comme objet pur et simple dans le processus de production</strong>. Cette immédiateté étant la conséquence de 
+multiples médiations, on commence à voir clairement tout ce qu’elle présuppose, et ainsi <strong>les formes 
+fétichistes de la structure marchande commencent à se décomposer : dans la marchandise l’ouvrier se 
+reconnaît lui-même et reconnaît ses propres relations au capital. Tant qu’il est pratiquement incapable 
+de s’élever au-dessus de ce rôle d’objet, sa conscience est la conscience de soi de la marchandise, ou, 
+en d’autres termes, la connaissance de soi, le dévoilement de soi de la société capitaliste fondée sur 
+la production et le trafic marchands.</strong></p>
+
+<p>Ceci explique <strong>le processus dialectique tendanciel permanent qui va de la  <em>« conscience de soi de la marchandise »</em> 
+que l’on retrouve chez le prolétaire atomisé, c’est à dire la <em>« non – classe »</em>, à la constitution de la classe en 
+<em>« classe pour-soi »</em>, en classe consciente</strong>.</p>
+
+<p>Nous avons donc vu que ce qui caractérise essentiellement le mode de production capitaliste c’est que:</p>
+
+<blockquote>
+  <p>En premier lieu, il produit des marchandises. Mais ce qui le distingue des autres modes de production, 
+ce n’est pas de produire des marchandises, c’est plutôt ceci : le caractère dominant et décisif de cette 
+production est d’être une production de marchandises. Cela implique en premier lieu que l’ouvrier lui-même 
+apparaît uniquement comme vendeur de marchandises, et partant comme ouvrier salarié libre, donc que le 
+travail apparaît essentiellement en tant que travail salarié (…). Les agents principaux de ce mode de 
+production, le capitaliste et l’ouvrier salarié, sont comme tels uniquement des incarnations, des 
+personnifications du Capital et du Travail salarié.</p>
+  <div class="quote-meta">Karl Marx – Le Capital</div>
+</blockquote>
+
+<p><strong>C’est donc la marchandise qui détermine la vie; pour exister sous le capitalisme, tout doit prendre la 
+caractéristique de marchandise, c’est-à-dire la qualité d’échangeabilité</strong> (avoir une valeur d’échange en 
+plus du support qu’est la valeur d’usage). <strong>La force de travail humaine devient donc quelque chose d’étranger 
+à l’homme, devient une marchandise, devient une simple chose morte, inhumaine; c’est l’objectivation</strong>. Il 
+en résulte que, pour les travailleurs :</p>
+
+<blockquote>
+  <p>Les rapports de leurs travaux privés apparaissent ce qu’ils sont, c’est-à-dire non des rapports sociaux 
+immédiats des personnes dans leurs travaux mêmes, mais bien plutôt des rapports objectifs de personnes et 
+des rapports sociaux entre choses.</p>
+  <div class="quote-meta">Karl Marx – Le Capital</div>
+</blockquote>
+
+<p><strong>Sous le capitalisme, l’homme n’est que ce qu’il apporte, que ce qu’il possède comme valeur à échanger. C’est 
+l’argent qui occupe entièrement la place de la communauté car la seule chose de commun entre les hommes est 
+leur possession plus ou moins grande d’argent. C’est l’argent qui relie les êtres séparés, extraénisés; leur 
+relation est entièrement inhumaine, elle est monétaire. C’est sous la forme d’argent que le capital est apparu 
+historiquement. L’argent est donc la médiation universelle par laquelle tout doit passer</strong> – 
+(cf. <em>Karl Marx</em> – <em>« Grundrisse », chapitre de l’argent</em>). Un exemple de cette communauté de l’argent est le mariage où, 
+au-delà des discours sur l’amour fou et le coup de foudre, la réalité n’est que la mise en valeur sous contrat 
+d’argent, donc de misère.</p>
+
+<blockquote>
+  <p>L’argent étant lui-même communauté, il ne peut en tolérer d’autres en, face de lui.</p>
+  <div class="quote-meta">Karl Marx</div>
+</blockquote>
+
+<p><strong>L’ouvrier se présente au final comme propriétaire de la marchandise force de travail et se vend lui-même 
+comme chose avec elle</strong>. Le processus d’extraénisation est par conséquent double; il se manifeste d’abord 
+dans la séparation des forces humaines et des produits du travail de leurs créateurs et ensuite dans leur 
+autonomisation; <strong>la conséquence en est la domination de l’homme par la forme matérielle, objective, de son 
+propre travail.</strong></p>
+
+<p><strong>Le caractère fétichiste de la marchandise est ainsi dévoilé: tous les rapports sociaux, humains doivent 
+prendre sous le capitalisme, la caractéristique de marchandise et apparaissent ainsi comme un rapport 
+entre choses mortes, non-humaines.</strong></p>
+
+<blockquote>
+  <p>Ainsi le rapport social des producteurs au travail d’ensemble apparaît comme un rapport social extérieur 
+à eux, entre objets. (…) C’est seulement un rapport social déterminé des hommes entr’eux qui revêt ici 
+pour eux la forme fantastique d’un rapport des choses entre elles. (…) C’est ce qu’on peut nommer le 
+fétichisme attaché aux produits du travail, dès qu’ils se présentent comme des marchandises, fétichisme 
+inséparable de ce mode de production.</p>
+  <div class="quote-meta">Karl Marx – Le Capital</div>
+</blockquote>
+
+<p><strong>La caractéristique générale du mode de production capitaliste réside donc dans le fait que les rapports de production 
+entre les hommes ne s’établissent pas seulement pour des choses mais aussi et surtout au moyen des choses.</strong></p>
+
+<p><strong>La marchandise (et son caractère fétichiste) étant la médiation obligée de toute production, tous les rapports 
+entre hommes et en particulier les rapports entre prolétaires et capitalistes, se trouvent ainsi voilés, mystifiés, 
+chosifiés.</strong></p>
+
+<p><strong>La forme générale de ce phénomène est la réification. Et ce rapport entre hommes réifiés est lui même représenté 
+sous un rapport personnifié, personnification des rapports de production capitaliste avec d’un côté le capitaliste 
+et de l’autre le prolétaire; tous deux expressions de la division du travail.</strong></p>
+
+<blockquote>
+  <p>L’économie ne traite pas de choses, mais de rapports entre personnes et, en dernière instance, entre classes; 
+or ces rapports sont toujours liés à des choses et apparaissent comme des choses.</p>
+  <div class="quote-meta">Friedrich Engels – à propos de la critique de l’économie politique de Marx</div>
+</blockquote>
+
+<p><strong>Nous allons décomposer</strong> artificiellement, <strong>en deux temps, le processus global de réification</strong> afin de mieux saisir 
+les différents mais indissociables éléments qui le composent:</p>
+
+<p><strong>A) La réification</strong> est le processus par lequel les rapports de production capitaliste (qui détermine des rapports 
+entre les hommes, entre essentiellement capitalistes et prolétaires) confèrent une forme sociale déterminée ou 
+des caractéristiques sociales déterminées aux choses par l’intermédiaire desquelles les hommes entrent dans des 
+rapports mutuels. <strong>C’est la chosification</strong>.</p>
+
+<p><strong>B)</strong> Ce qui permet au propriétaire des choses ayant une forme sociale déterminée, d’apparaître sous la forme personnifiée 
+de capitalistes et d’entrer dans des rapports de production concrets avec d’autres hommes. <strong>C’est la personnification.</strong></p>
+
+<p>En d’autres termes, sous le mode de production capitaliste, les rapports entre les hommes doivent prendre le caractère 
+général de marchandise valeur d’échange, échangeabilité et <strong>deviennent donc des rapports réifiés, des rapports entre 
+choses vente de la force de travail contre un salaire. Mais, ces mêmes rapports réifiés devenus choses extérieures, 
+dominatrices se trouvent eux-mêmes personnifiés par les capitalistes, représentants « vivants » d’un rapport entre 
+choses mortes.</strong></p>
+
+<blockquote>
+  <p>Le capitaliste est du capital personnifié</p>
+  <div class="quote-meta">Karl Marx – Le Capital</div>
+</blockquote>
+
+<p><strong>Le « comble » du caractère fétichiste de la marchandise</strong> se trouve évidemment dans la valeur qui s’engendre elle-même, 
+<strong>dans l’argent qui enfante l’argent</strong>.</p>
+
+<p><strong>L’argent prend la qualité inhumaine, « en soi » d’engendrer encore plus d’argent comme le pommier, engendre des pommes. 
+L’ensemble du processus est obturé, la réification est parfaite; il ne reste plus rien de l’homme. C’est le règne des 
+choses: argent, machines, travail, loisirs… capital. C’est le règne de la mort.</strong></p>
+
+<p><strong>La réification des rapports de production</strong> retrouve ainsi la place centrale que lui donnait déjà Marx dans sa théorie 
+de la valeur, dans sa <strong>« nécrologie du mode de production capitaliste » - Le Capital.</strong></p>
+
+<blockquote>
+  <p>La nature de la marchandise implique (…) la réification des conditions sociales de production et la personnification 
+des bases matérielles de la production; voilà ce qui caractérise le mode de production capitaliste dans son ensemble.</p>
+  <div class="quote-meta">Karl Marx – Le Capital, Livre III</div>
+</blockquote>
+
+<p><strong>Il nous fallait donc restituer la théorie de la réification au centre même de la totalité que constitue le fétichisme 
+de la marchandise</strong>. Réintroduire cette conception fondamentale, que le moteur même de <strong>la libération humaine sera le 
+fait du prolétariat lui-même en raison des conditions inhumaines du mode de production capitaliste</strong>. C’est justement 
+parce que le prolétaire est extraénisé, complètement dominé et soumis par un amassement monstrueux d’objets sans vie, 
+expression du fait que sa vie est sans objet, qu’<strong>il peut comprendre désormais la nécessité du communisme universel - 
+sans argent - de demain.</strong></p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+    <div class="columns">
+        <div class="column">
+            <div class="social-link-panel has-text-centered">
+                <figure class="image is-32x32 footer-icon is-inline-block">
+                    <a href="http://facebook.com/AufhebungOfficiel/">
+                        <img src="http://localhost:4000/img/assets/facebook-icon.svg" alt="Notre page Facebook">
+                    </a>
+                </figure>
+                <figure class="image is-32x32 footer-icon is-inline-block">
+                    <a href="https://www.youtube.com/channel/UCio9pX2dEW7mFncFsZLG6-g/">
+                        <img src="http://localhost:4000/img/assets/youtube-icon.svg" alt="Notre chaîne Youtube">
+                    </a>
+                </figure>
+            </div>
+
+            <figure class="image footer-logo has-margin-auto">
+                <a href="https://aufhebung.fr">
+                    <img src="http://localhost:4000/img/assets/aufhebung-logo.png">
+                </a>
+            </figure>
+
+            <div class="content has-text-centered">
+                <p class="is-size-5">
+                    Collectif Aufhebung - 2018
+                </p>
+            </div>
+        </div>
+  </div>
+</footer>
+
+        </div>
+    </body>
+</html>
+
+
+
+
+
+<!--
+<div class="post">
   <div class="post-header">
     <h1>Le Fétichisme de la Marchandise et sa Conséquence : la Réification (Chosification et Personification)</h1>
     
@@ -93,6 +414,27 @@
     
     
     <div class="post-output">
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
     
         
         
@@ -279,15 +621,31 @@
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
 
   </div>
 
   
+    <div class="header-image">
+      <img src="img/articles/2017-07-11-header.jpg">
+    </div>
+  
 
   <article class="post-content">
-    <p><img src="/img/articles/2017-07-11-header.jpg" alt="" /></p>
-
-<p><strong>La domination mondiale du capitalisme</strong> se différencie radicalement de tous les modes de production qui 
+    <p><strong>La domination mondiale du capitalisme</strong> se différencie radicalement de tous les modes de production qui 
 l’ont précédé par son essence universelle, <strong>condition de l’unification de l’histoire de l’humanité</strong>. 
 Le capitalisme n’est pas produit de la simple succession linéaire des modes de production qui l’ont 
 précédé dans telle ou telle zone géographique, car contrairement à ses antécédents <strong>il a comme présupposé 
@@ -531,8 +889,4 @@ sans argent - de demain.</strong></p>
   </article>
 
 </div>
-
-      
-    </div>
-  </body>
-</html>
+-->

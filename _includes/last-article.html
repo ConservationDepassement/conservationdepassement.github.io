@@ -1,37 +1,68 @@
-<div class="home-container 80-percent-width">
-    <h3 class="home-section-title">Dernier Article</h3>
-    {% assign articles = site.articles | reverse  %}
-    {% for item in articles limit: 1 %}
-    <img class="last-article-thumbnail" src="{{ item.thumbnail }}" />
-    <div class="last-article-container">
-        <div class="last-article-content">
-            <h4 class="last-article-title">{{ item.title }}</h4>
-            <div class="last-article-excerpt">
-                {{ item.content | truncatewords: 98 }}
-                <span class="last-article-read-more-button">
-                    <a href="{{ item.url }}">Lire la suite</a>
-                </span>
-            </div>
-        </div>
-        <div class="last-article-meta">
-            <div>
-                <span class="last-article-publication-date">20 avr</span> Par {{ item.author }}
-            </div>
-            <div class="last-article-tags-container">
-                <img class="label-icon" src="img/label-icon.png" />
-                <div class="last-article-tag-labels-container">
-                    {% for tag in item.tags %}
-                    <div class="last-article-tag">
-                        <a href="{{ item.url }}">{{ tag }}</a>
+<section class="section has-no-padding-bottom">
+    <div class="container has-text-centered section-title">
+        <h2 class="title is-2 has-text-black">Dernier Article</h2>
+    </div>
+    
+    <div class="columns">
+        <div class="column is-10 is-offset-1">
+            {% assign articles = site.articles | reverse  %}
+            {% for item in articles limit: 1 %}
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="{{ site.url }}/{{ item.image }}" style="max-height: 500px;">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">{{ item.title }}</p>
+                            <div class="level is-mobile">
+                                <div class="level-left">
+                                    <div class="level-item">
+                                        <span
+                                            class="
+                                              button
+                                              has-background-blue
+                                              has-static-white-borders
+                                              has-text-cursor
+                                              is-uppercase">
+                                            20 avr
+                                        </span>
+                                    </div>
+                                    <div class="level-item">
+                                        Par {{ item.author }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    {% endfor %}
+
+                    <div class="content">
+                        {{ item.content |  strip_html | truncatewords: 98 }}
+                        <span class="last-article-read-more-button">
+                            <a href="{{ item.url }}">Lire la suite</a>
+                        </span>
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
-    {% endfor %}
-    <div class="all-articles-button">
-        <a class="blue-button" href="/articles">Tous les Articles</a>
+    
+    <div class="all-articles-button has-text-centered">
+        <a 
+            class="
+                button
+                all
+                has-background-blue
+                has-text-white
+                is-primary
+                is-rounded
+                is-size-6-tablet
+                is-size-7-mobile">
+            Tous les Articles
+        </a>
     </div>
-</div>
 
+</section>

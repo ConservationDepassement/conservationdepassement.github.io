@@ -1,14 +1,41 @@
 <div class="importants-slider">
     {% assign importants = site.importants | reverse  %}
     {% for important in importants limit: 10 %}
-    <div>
-        <div class="important-slide">
-            <div class="important-textbox">
-                <h3>{{ important.title }}</h3>
-                <h4>{{ important.subtitle }}</h4>
-                <a href="{{ important.url }}">En savoir plus</a>
+    <div class="hero">
+        <div class="
+               hero-body
+               has-darkened-background-image
+               has-vcentered-elements
+               important-slide"
+             style="background-image: url({{ site.url }}/{{ important.image }});">
+            <div class="container">
+                <div class="container">
+                    <h1 class="
+                          has-text-white
+                          is-size-2-desktop
+                          is-size-4-tablet
+                          is-size-5-mobile
+                          is-uppercase">
+                        {{ important.title }}
+                    </h1>
+                </div>
+                <div class="container">
+                    <p class="is-size-5-desktop has-text-white">1er Septembre 2018</p>
+                </div>
+                <div class="container important-read-more-button">
+                    <a class="
+                         button
+                         has-background-blue
+                         has-text-black
+                         is-primary
+                         is-rounded
+                         is-size-6-tablet
+                         is-size-7-mobile"
+                       href="{{ important.url }}">
+                        En savoir plus
+                    </a>
+                </div>
             </div>
-            <img src="{{ important.image }}"/>
         </div>
     </div>
     {% endfor %}

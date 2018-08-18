@@ -1,16 +1,12 @@
 ---
+layout: post
 title: De l'Aliénation des Communautés Primitives à l'Extranéisation de la Société Contemporaine
 author: "Collectif Aufhebung"
-year: 2017
-month: 07
-day: 10
-layout: post
-tags:
-    - Communisme Primitif
-    - Aliénation
+year: 2018
+month: 08
+day: 23
+image: img/articles/2018-08-23-header.jpg
 ---
-
-![](/img/articles/2017-07-10-header.jpg)
 
 **Contrairement au puritanisme borné** des scientifiques payés depuis des siècles pour nous décrire 
 les sociétés primitives comme d’atroces monstruosités - comme sociétés bestiales, non encore 

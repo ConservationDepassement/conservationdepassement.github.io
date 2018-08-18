@@ -1,6 +1,6 @@
 ---
-title: Test Important 4
-subtitle: subtitle four
+title: Pourquoi lire Marx aujourd'hui ?
+subtitle: Une conférence/débat organisée à Nantes
 author: "Collectif Aufhebung"
 year: 2017
 month: 07

@@ -8,9 +8,8 @@ layout: post
 tags:
     - Fétichisme de la marchandise
     - Aliénation
+image: img/articles/2017-07-11-header.jpg
 ---
-
-![](/img/articles/2017-07-11-header.jpg)
 
 **La domination mondiale du capitalisme** se différencie radicalement de tous les modes de production qui 
 l’ont précédé par son essence universelle, **condition de l’unification de l’histoire de l’humanité**. 

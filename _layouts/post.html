@@ -1,7 +1,60 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        {% include head-meta.html %}
+        {% include head-link-bulma-css.html %}
+        {%include head-link-base-css.html %}
+        {%include head-link-post-css.html %}
+    </head>
+    <body>
+        <div style="max-width: 1600px; margin: auto">
+            {% include navbar.html %}
+            
+            <section class="section" style="padding-top: 0;">
+                <div class="columns">
+                    <div class="column is-8 is-offset-2">
+                        {% if page.image %}
+                        <div
+                            class="post-image image has-background-centered"
+                            style="background-image: url({{ site.url }}/{{ page.image }});">
+                        </div>
+                        {% endif %}
+                        <h2 class="title is-2 is-size-4-mobile has-text-black">{{ page.title }}</h2>
+                        <div class="level is-mobile">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <span
+                                        class="
+                                          button
+                                          has-background-blue
+                                          has-static-white-borders
+                                          has-text-cursor
+                                          is-uppercase">
+                                        20 avr
+                                    </span>
+                                </div>
+                                <div class="level-item">
+                                    Par {{ page.author }}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content has-text-justified">
+                            {{ page.content }}
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
+
+
+
+
+
+<!--
 <div class="post">
   <div class="post-header">
     <h1>{{ page.title }}</h1>
@@ -110,3 +163,4 @@ layout: page
   </article>
 
 </div>
+-->

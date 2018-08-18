@@ -1,80 +1,80 @@
 ---
-layout: page
 title: "Pour une critique radicale du faux omniprésent"
 ---
 
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      {% include head-meta.html %}
+      {% include head-link-bulma-css.html %}
+      {% include head-link-slick-css.html %}
+      {% include head-link-base-css.html %}
+      {% include head-link-index-css.html %}
+    </head>
 
-{% include importants-slider.html %}
+    <body>
+        <div style="max-width: 1600px; margin: auto">
+            {% include navbar.html %}
 
-
-{% include news-slider.html %}
-
-
-{% include last-article.html %}
-
-
-{% comment %}
-<h3>DERNIERS ARTICLES</h3>
-<div class="articles-slider">
-    {% assign articles = site.articles | reverse  %}
-    {% for article in articles limit: 3 %}
-    <article>
-        <h4>
-            <a href="{{ article.url }}">{{ article.title }}</a>
-        </h4>
-     </article>
-    {% endfor %}
-</div>
+            {% include importants-slider.html %}
 
 
-<h3>DERNIERS TEXTES</h3>
-<div class="bibliotheque-slider">
-    {% assign texts = site.bibliotheque | reverse  %}
-    {% for text in  texts limit: 3 %}
-    <article>
-        <h4>
-            <a href="{{ text.url }}">{{ text.title }}</a>
-        </h4>
-     </article>
-    {% endfor %}
-</div>
+            {% include news-slider.html %}
+
+            {% include last-article.html %}
+            
+            {% comment %}
+            {% include video-panel.html %}
+            {% endcomment %}
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.importants-slider').slick({
+                    dots: true,
+                    arrows: false,
+                    infinite: false,
+                    slidesToShow: 1,
+                });
+
+                $('.news-slider').slick({
+                    arrows: true,
+                    infinite: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    responsive: [
+                        {
+                          breakpoint: 980,
+                          settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                          }
+                        },
+                        {
+                          breakpoint: 550,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        }
+                    ]
+                });
+            });
+        </script>
+
+        <style>
+        .news-slider .slick-prev:before, .news-slider .slick-next:before {
+            color: black;
+        }
+        </style>
+
+        {% include footer.html %}
+    </body>
+</html>
 
 
-<h3>DERNIERES VIDEOS</h3>
-<div class="videos-slider" style="width: 600px;">
-    {% assign videos = site.videos | reverse  %}
-    {% for video in  videos limit: 10 %}
-    <article>
-        <h4><a href="{{ video.url }}">{{ video.title }}</a></h4>
-     </article>
-    {% endfor %}
-</div>
-{% endcomment %}
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.importants-slider').slick({
-            dots: true,
-            arrows: false,
-            infinite: false,
-            slidesToShow: 1,
-        });
-
-        $('.news-slider').slick({
-            arrows: true,
-            infinite: false,
-            slidesToShow: 3,
-            slidesToScroll: 3
-        });
-    });
-</script>
-
-<style>
-.news-slider .slick-prev:before, .news-slider .slick-next:before {
-    color: black;
-}
-</style>

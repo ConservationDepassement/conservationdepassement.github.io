@@ -1,13 +1,30 @@
-<footer>
-  <p>
-    {{ site.author.name }}
+<footer class="footer">
+    <div class="columns">
+        <div class="column">
+            <div class="social-link-panel has-text-centered">
+                <figure class="image is-32x32 footer-icon is-inline-block">
+                    <a href="http://facebook.com/AufhebungOfficiel/">
+                        <img src="{{ site.url }}/img/assets/facebook-icon.svg" alt="Notre page Facebook">
+                    </a>
+                </figure>
+                <figure class="image is-32x32 footer-icon is-inline-block">
+                    <a href="https://www.youtube.com/channel/UCio9pX2dEW7mFncFsZLG6-g/">
+                        <img src="{{ site.url }}/img/assets/youtube-icon.svg" alt="Notre chaîne Youtube">
+                    </a>
+                </figure>
+            </div>
 
-    {% if site.url-pretty %}
-    &nbsp;&bull;&nbsp;
-    <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-    {% endif %}
-  </p>
-  <p>
-    {{ site.footer }}
-  </p>
+            <figure class="image footer-logo has-margin-auto">
+                <a href="https://aufhebung.fr">
+                    <img src="{{ site.url }}/img/assets/aufhebung-logo.png">
+                </a>
+            </figure>
+
+            <div class="content has-text-centered">
+                <p class="is-size-5">
+                    Collectif Aufhebung - 2018
+                </p>
+            </div>
+        </div>
+  </div>
 </footer>

@@ -1,0 +1,97 @@
+/* Importants */
+.important-read-more-button {
+  color: #000;
+  margin-top: 20px;
+}
+
+.important-slide {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+@media screen and (max-width : 1023px) {
+    .important-slide {
+      height: 400px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .important-slide {
+      height: 300px;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .important-slide {
+      height: 200px;
+    }
+}
+
+/* News */
+
+.news-slider {
+  margin: auto;
+  width: 80%;
+}
+
+.news-slider .slick-slide img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.news-slide {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-height: 400px;
+  max-width: 400px;
+  position: relative;
+}
+
+.news-image {
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width : 768px) {
+  .news-image {
+    height: 250px;
+  }
+}
+
+.news-content {
+  bottom: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.news-button {
+  margin-top: 15px;
+}
+
+
+.all-news-button {
+  margin-top: 40px;
+}
+
+/* Last article */
+
+.last-article-read-more-button {
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.all-articles-button {
+  margin-top: 40px;
+}
+
+/* Video panel */
+.all-videos-button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

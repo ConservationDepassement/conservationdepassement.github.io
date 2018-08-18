@@ -1,0 +1,68 @@
+/* Generic classes */
+
+.has-vcentered-elements {
+  display: flex;
+  align-items: center;
+}
+
+.has-darkened-background-image {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.has-background-centered {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.has-background-blue {
+  background-color: #5bfad7;
+}
+
+.has-background-grey {
+  background-color: #535556;
+}
+
+.has-text-blue {
+  color: #5bfad7;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.has-text-cursor {
+  cursor: text;
+}
+
+.has-static-white-borders, .has-static-white-borders:hover {
+  border-color: white;
+}
+
+.has-no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.has-margin-auto {
+  margin: auto;
+}
+
+/* Footer */
+.footer-logo {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.social-link-panel {
+  margin-bottom: 30px;
+}
+
+.footer-icon {
+  margin: 10px;
+}
+
+.footer-icon img {
+  max-width: 40px;
+}
+

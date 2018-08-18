@@ -3,7 +3,7 @@ layout: post
 title: "À propos de la page Facebook..."
 subtitle: "Puisque la vie sociale a fini par totalement fuir dans la représentation, sur Facebook ne peut survenir que représentation de l'esprit de la révolution."
 author: Charles Gandon
-thumbnail: /img/articles/2018-05-22-header.jpg
+image: img/articles/2018-05-22-header.jpg
 tags: [ Communisme, Facebook, Marx, Engels, Debord, Hegel]
 ---
 

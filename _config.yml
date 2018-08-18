@@ -1,8 +1,8 @@
 # --- General options --- #
 
 # Full website URL
-url: "https://aufhebung.fr"
-
+#url: https://aufhebung.fr
+url: http://localhost:4000
 # Website's URL without the hostname
 baseurl: ""
 
@@ -31,7 +31,6 @@ og_image_rpath: /img/aufhebung_logo_large.png
 
 # List of links in the navigation bar
 navbar-links:
-
     Accueil: /
     Actualités: /actualites
     Articles: /articles
@@ -91,7 +90,7 @@ exclude:
 
 plugins_dir:
   - jekyll-paginate
-  - jekyll-seo-tags
+  #- jekyll-seo-tags
   - jekyll-sitemap
 
 

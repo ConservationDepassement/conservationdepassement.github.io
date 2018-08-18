@@ -1,0 +1,19 @@
+/* Post page */
+
+.post-image {
+  height: 400px;
+}
+
+@media screen and (max-width : 768px) {
+  .post-image {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width : 400px) {
+  .post-image {
+    height: 200px;
+  }
+}
+
+

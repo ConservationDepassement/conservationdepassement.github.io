@@ -1,26 +1,63 @@
-<div class="home-container">
-    <h3 class="home-section-title">Dernières Actualités</h3>
+<section class="section has-no-padding-bottom ">
+    <div class="container has-text-centered section-title">
+        <h2 class="title is-2 has-text-black">Dernières Actualités</h2>
+    </div>
 
     <div class="news-slider">
         {% assign news = site.actualites | reverse  %}
         {% for item in news limit: 10 %}
         <div>
-            <div class="news-slide">
-                <div class="news-textbox">
-                    <h3 class="uppercased">{{ item.title }}</h3>
-                    {% include verbose-date.html
-                           day=item.day
-                           month=item.month
-                           year=item.year
-                    %}
-                    <a class="thin-blue-button" href="{{ item.url }}">Lire la suite</a>
+            <div
+                class="news-image image has-darkened-background-image"
+                style="background-image: url({{ site.url }}/{{ item.thumbnail }});">
+                <div class="news-content columns has-vcentered-elements">
+                    <div class="column is-10 is-offset-1 has-text-centered">
+                        <div>
+                            <h3 class="
+                                title
+                                is-3
+                                is-size-4-mobile
+                                uppercased
+                                has-text-white">
+                                {{ item.title }}
+                            </h3>
+                            {% include verbose-date.html
+                                   day=item.day
+                                   month=item.month
+                                   year=item.year
+                            %}
+                            <a class="
+                                 news-button
+                                 button
+                                 has-background-blue
+                                 has-text-black
+                                 is-primary
+                                 is-rounded
+                                 is-size-6-tablet
+                                 is-size-7-mobile"
+                               href="{{ item.url }}">
+                                Lire la suite
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <img class="darkened-image" src="{{ item.thumbnail }}"/>
             </div>
         </div>
         {% endfor %}
     </div>
-    <div class="all-news-button">
-        <a class="grey-button" href="/actualites">Toutes les Actualités</a>
+    <div class="all-news-button has-text-centered">
+        <a 
+            class="
+                button
+                all
+                has-background-dark
+                has-text-white
+                is-primary
+                is-rounded
+                is-size-6-tablet
+                is-size-7-mobile">
+            Toutes les Actualités
+        </a>
     </div>
-</div>
+</section>
+
