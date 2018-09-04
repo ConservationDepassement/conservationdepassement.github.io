@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: >-
   Protestation devant les libertaires du présent et du futur sur les
   capitulations de 1937
