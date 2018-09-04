@@ -1,0 +1,37 @@
+<div class="column is-one-third">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image">
+                <a href="{{ include.article.url }}">
+                    <img src="{{ site.url }}/{{ include.article.image }}">
+                </a>
+            </figure>
+        </div>
+        
+        <div class="card-content">
+            <div class="media">
+                <div class="media-content">
+                    <p class="title is-4">{{ include.article.title }}</p>
+                    <div class="level is-mobile">
+                        <div class="level-left">
+                            <div class="level-item">
+                                <span
+                                    class="
+                                      button
+                                      has-background-blue
+                                      has-static-white-borders
+                                      has-text-cursor
+                                      is-uppercase">
+                                    20 avr
+                                </span>
+                            </div>
+                            <div class="level-item">
+                                Par {{ include.article.author }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

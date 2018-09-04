@@ -2,12 +2,33 @@
 title: "Pour une critique radicale du faux omniprésent"
 ---
 
-<div class="articles-slider">
-    <h3>TOUS LES ARTICLES</h3>
-    {% assign articles = site.articles | reverse %}
-    {% for article in articles %}
-    <article>
-        <h4><a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h4>
-     </article>
-    {% endfor %}
-</div>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      {% include head-meta.html %}
+      {% include head-link-bulma-css.html %}
+      {% include head-link-base-css.html %}
+    </head>
+
+    <body>
+        <div style="max-width: 1600px; margin: auto">
+            {% include navbar.html %}
+            
+            <section class="section">
+                <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                        <div class="columns is-multiline">
+                            {% assign articles = site.articles | reverse  %}
+                            {% for item in articles %}
+                                {% include article-card.html article=item %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>
