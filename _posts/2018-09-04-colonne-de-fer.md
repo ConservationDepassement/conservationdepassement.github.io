@@ -5,8 +5,7 @@ title: >-
   capitulations de 1937
 subtitle: >-
   Cet appel d’un milicien anarchiste inconnu paraît bien être l’écrit le plus
-  véridique et le plus beau que nous ait laissé la révolution prolétarienne
-  d’Espagne.
+  véridique et le plus beau que nous ait laissé la révolution espagnole.
 author: Un Incontrôlé de la Colonne de Fer
 year: 1937
 month: 3
