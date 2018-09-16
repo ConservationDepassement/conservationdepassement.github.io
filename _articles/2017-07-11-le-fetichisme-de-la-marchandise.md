@@ -5,9 +5,6 @@ year: 2017
 month: 07
 day: 11
 layout: post
-tags:
-    - Fétichisme de la marchandise
-    - Aliénation
 image: img/articles/2017-07-11-header.jpg
 ---
 

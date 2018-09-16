@@ -81,6 +81,31 @@
 
 /* Last article */
 
+.last-article-image {
+  max-height: 500px;
+}
+
+
+@media screen and (max-width : 1023px) {
+  .last-article-image {
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .last-article-image {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width : 400px) {
+  .last-article-image {
+    max-height: 200px;
+  }
+}
+
+
+
 .last-article-read-more-button {
     display: inline-block;
     border-bottom: 1px solid black;
