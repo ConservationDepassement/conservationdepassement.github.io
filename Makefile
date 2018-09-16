@@ -63,7 +63,7 @@ help:
 	@echo "    $(MAKE)  IN=test_me.md OUT_TEST_EPUB=outfile  {test|test-epub}"
 	@echo "        For EPUB testing, set intput file to 'test_me.md' (defaults to '$(TEST_IN)')"
 	@echo "         and output file to 'outfile' (defaults to '$(OUT_TEST_EPUB)')"
-	@echo "    $(MAKE)  IN=infile.md              vim-[un]correct"
+	@echo "    $(MAKE)  IN=infile.md         vim-[un]correct"
 	@echo "        Set input file for vim [un]correction script to 'infile.md'"
 	@echo
 	@echo "EXAMPLES"

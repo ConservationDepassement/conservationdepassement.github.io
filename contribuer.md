@@ -18,7 +18,7 @@ Les différentes publications présentées sont le fruit des contributions de ch
 Comment contribuer ?
 --------------------
 
-Pour mettre la main à la pâte, la première possibilité est de nous envoyer un email avec votre contribution en pièce-jointe à l'adresse suivante: **contribution** (arobase) **aufhebung** (point) **fr**.
+Pour mettre la main à la pâte, la première possibilité est de nous envoyer un email avec votre contribution en pièce-jointe à l'adresse suivante: **logos.genos** (arobase) **gmail** (point) **com**.
 
 La seconde possibilité est de publier votre contribution sur notre Google Drive, disponible via le lien suivant : <http://aufhebung.fr/drive>. Vous pourrez également consulter les différentes aides se trouvant de le dossier `INSTRUCTIONS`.
 
