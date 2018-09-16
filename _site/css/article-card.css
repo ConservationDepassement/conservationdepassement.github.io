@@ -1,0 +1,24 @@
+
+.article-card-image {
+  max-height: 250px;
+}
+
+
+@media screen and (max-width : 768px) {
+  .article-card {
+    min-width: 250px;
+  }
+}
+
+
+@media screen and (max-width : 420px) {
+
+  .article-card {
+    max-width: 420px;
+  }
+  
+  .article-card-image {
+    max-height: 250px;
+  }
+}
+

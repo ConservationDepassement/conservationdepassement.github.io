@@ -1,9 +1,9 @@
-<div class="column is-one-third">
+<div class="article-card column is-half-tablet is-one-third-desktop">
     <div class="card">
         <div class="card-image">
             <figure class="image">
                 <a href="{{ include.article.url }}">
-                    <img src="{{ site.url }}/{{ include.article.image }}">
+                    <img class="article-card-image" src="{{ site.url }}/{{ include.article.image }}">
                 </a>
             </figure>
         </div>
@@ -12,7 +12,7 @@
             <div class="media">
                 <div class="media-content">
                     <p class="title is-4">{{ include.article.title }}</p>
-                    <div class="level is-mobile">
+                    <div class="level">
                         <div class="level-left">
                             <div class="level-item">
                                 <span

@@ -8,6 +8,7 @@ title: "Pour une critique radicale du faux omniprésent"
       {% include head-meta.html %}
       {% include head-link-bulma-css.html %}
       {% include head-link-base-css.html %}
+      {% include head-link-article-card-css.html %}
     </head>
 
     <body>
@@ -17,7 +18,7 @@ title: "Pour une critique radicale du faux omniprésent"
             <section class="section">
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
-                        <div class="columns is-multiline">
+                        <div class="columns is-multiline is-mobile is-centered">
                             {% assign articles = site.articles | reverse  %}
                             {% for item in articles %}
                                 {% include article-card.html article=item %}
