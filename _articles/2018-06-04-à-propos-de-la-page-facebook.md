@@ -4,6 +4,7 @@ title: "À propos de la page Facebook..."
 author: Collectif Aufhebung
 subtitle: "Puisque la vie sociale a fini par totalement fuir dans la représentation, sur Facebook ne peut survenir que représentation de l'esprit de la révolution."
 image: img/articles/2018-06-04-header.jpg
+important: true
 ---
 
 *Cette note fut diffusée sur la page Facebook d'Aufhebung : <https://www.facebook.com/AufhebungOfficiel/posts/2484940004864938>*

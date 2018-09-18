@@ -1,6 +1,6 @@
 <div class="importants-slider">
-    {% assign importants = site.importants | reverse  %}
-    {% for important in importants limit: 10 %}
+    {% assign importants = site.articles | where: "important", "true" | reverse  %}
+    {% for important in importants limit: 4 %}
     <div class="hero">
         <div class="
                hero-body

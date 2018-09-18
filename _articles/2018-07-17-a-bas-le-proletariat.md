@@ -8,6 +8,7 @@ subtitle: >-
 author: Les Amis du Potlatch
 year: 1979
 image: img/articles/2018-07-17-header.jpg
+important: true
 ---
 
 ### A BAS LE PROLÉTARIAT.

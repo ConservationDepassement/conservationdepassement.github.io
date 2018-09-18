@@ -8,6 +8,7 @@ month: 03
 day: 23
 image: img/articles/2018-03-24-header.jpg
 thumbnail: img/articles/2018-03-24-thumbnail.jpg
+important: true
 ---
 
 Ce site est un receuil. Il est une invitation à nous retrouver dans le réel pour se parler, pour s'éclairer mutuellement à la lueur de ces textes, pour les comprendre, les vivre et les dépasser ensemble.
