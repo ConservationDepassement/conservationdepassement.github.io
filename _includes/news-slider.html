@@ -21,11 +21,9 @@
                                 has-text-white">
                                 {{ item.title }}
                             </h3>
-                            {% include verbose-date.html
-                                   day=item.day
-                                   month=item.month
-                                   year=item.year
-                            %}
+                            <div class="has-text-blue">
+                                {% include verbose-date.html date=item.date %}
+                            </div>
                             <a class="
                                  news-button
                                  button

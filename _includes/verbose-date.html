@@ -1,40 +1,40 @@
-<div class="verbose-date has-text-blue">
-    <p>
-        <span class="verbose-day">
-        {% if include.day == "01" %}
-            1<sup>er</sup>
-        {% else %}
-            {{ include.day }}
-        {% endif %}
-        </span>
-        <span class="verbose-month">
-        {% case include.month %}
-            {% when "01" %}
-              janvier
-            {% when "02" %}
-              février
-            {% when "03" %}
-              mars
-            {% when "04" %}
-              avril
-            {% when "05" %}
-              mai
-            {% when "06" %}
-              juin
-            {% when "07" %}
-              juillet
-            {% when "08" %}
-              août
-            {% when "09" %}
-              septembre
-            {% when "10" %}
-              octobre
-            {% when "11" %}
-              novembre
-            {% when "12" %}
-              décembre
-        {% endcase %}
-        </span>
-        {{ include.year }}
-    </p>
-</div>
+{% assign day = include.date | date: "%-d" %}
+{% assign month = include.date | date: "%m" %}
+{% assign year = include.date | date: "%Y" %}
+
+<span class="verbose-day">
+{% if day == "1" %}
+    1<sup>er</sup>
+{% else %}
+    {{ day }}
+{% endif %}
+</span>
+<span class="verbose-month">
+{% case month %}
+    {% when "01" %}
+      janvier
+    {% when "02" %}
+      février
+    {% when "03" %}
+      mars
+    {% when "04" %}
+      avril
+    {% when "05" %}
+      mai
+    {% when "06" %}
+      juin
+    {% when "07" %}
+      juillet
+    {% when "08" %}
+      août
+    {% when "09" %}
+      septembre
+    {% when "10" %}
+      octobre
+    {% when "11" %}
+      novembre
+    {% when "12" %}
+      décembre
+{% endcase %}
+</span>
+{{ year }}
