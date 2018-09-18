@@ -1,5 +1,11 @@
 ---
 title: "Pour une critique radicale du faux omniprésent"
+paginate:
+  collection: articles
+  per_page:     12             # maximum number of items per page
+  permalink: /page/:num
+  limit:        false              # Maximum number of pages to paginate (false for unlimited)
+  reversed:     true          # Reverse the order of the documents
 ---
 
 <!DOCTYPE html>
@@ -18,11 +24,29 @@ title: "Pour une critique radicale du faux omniprésent"
             <section class="section">
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
-                        <div class="columns is-multiline is-mobile is-centered">
-                            {% assign articles = site.articles | reverse  %}
+                        <div class="columns is-multiline is-mobile">
+                            {% assign articles = paginator.articles %}
                             {% for item in articles %}
                                 {% include article-card.html article=item %}
                             {% endfor %}
+                        </div>
+                        
+                        <div class="has-text-centered">
+                            {% if paginator.page > 1 %}
+                            <div class="button">
+                                <a href="{{ paginator.previous_page_path }}">
+                                    Articles plus récents
+                                </a>
+                            </div>
+                            {% endif %}
+                                
+                            {% if paginator.page < paginator.total_pages %}
+                            <div class="button">
+                                <a href="{{ paginator.next_page_path }}">
+                                    Articles plus anciens
+                                </a>
+                            </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>

@@ -20,6 +20,8 @@
                             <div class="level">
                                 <div class="level-left">
                                     <div class="level-item">
+                                        {% assign day = item.date | date: "%d" %}
+                                        {% assign month = item.date | date: "%m" %}
                                         <span
                                             class="
                                               button
@@ -27,7 +29,7 @@
                                               has-static-white-borders
                                               has-text-cursor
                                               is-uppercase">
-                                            20 avr
+                                            {% include short-date.html day=day month=month %}
                                         </span>
                                     </div>
                                     <div class="level-item">

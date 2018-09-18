@@ -70,9 +70,6 @@ kramdown:
 # Publish posts of a future date
 future: false
 
-paginate: 10
-paginate_path: "/page:num/"
-
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md

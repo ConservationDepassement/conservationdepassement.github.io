@@ -29,7 +29,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-paginate (1.1.0)
     jekyll-pandoc (2.0.1)
       jekyll (>= 3.0)
       pandoc-ruby (~> 2.0, >= 2.0.0)
@@ -48,6 +47,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
+    octopress-hooks (2.6.2)
+      jekyll (>= 2.0)
+    octopress-paginate (1.2.0)
+      octopress-hooks
     pandoc-ruby (2.0.2)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
@@ -69,10 +72,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll-paginate (~> 1.1.0)
   jekyll-pandoc
   jekyll-seo-tag
   jekyll-sitemap
+  octopress-paginate
 
 BUNDLED WITH
-   1.16.2
+   1.16.4

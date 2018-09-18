@@ -12,22 +12,22 @@
             <div class="media">
                 <div class="media-content">
                     <p class="title is-4">{{ include.article.title }}</p>
-                    <div class="level">
-                        <div class="level-left">
-                            <div class="level-item">
-                                <span
-                                    class="
-                                      button
-                                      has-background-blue
-                                      has-static-white-borders
-                                      has-text-cursor
-                                      is-uppercase">
-                                    20 avr
-                                </span>
-                            </div>
-                            <div class="level-item">
-                                Par {{ include.article.author }}
-                            </div>
+                    <div class="article-card-meta">
+                        <div>
+                            {% assign day = include.article.date | date: "%d" %}
+                            {% assign month = include.article.date | date: "%m" %}
+                            <span
+                                class="
+                                  button
+                                  has-background-blue
+                                  has-static-white-borders
+                                  has-text-cursor
+                                  is-uppercase">
+                                  {% include short-date.html day=day month=month %}
+                            </span>
+                        </div>
+                        <div class="article-card-author">
+                            Par {{ include.article.author }}
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,13 @@
   max-height: 250px;
 }
 
+.article-card-meta {
+  text-align: center;
+}
+
+.article-card-author {
+  margin-top: 10px;
+}
 
 @media screen and (max-width : 768px) {
   .article-card {
