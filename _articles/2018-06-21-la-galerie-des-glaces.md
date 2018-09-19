@@ -11,8 +11,6 @@ image: img/articles/2018-06-21-header.jpg
 thumbnail: img/articles/2018-06-21-thumbnail.jpg
 ---
 
-## LA GALERIE DES GLACES
-
 ### Fondements et développement de la négativité de l'homme total
 
 Tout rapport de l'homme à lui-même apparaît comme un rapport à l'autre, dans la société capitaliste, *l\'immédiateté du rapport à soi* et du rapport à l'autre est détruite par l'inscription, dans la communication, de *la communauté illusoire des hommes comme médiation*, communauté qui peut être nommée : Capital, État, Idéologie, Religion, Philosophie, Art. La communauté illusoire, mais réelle, fonctionne comme agent et comme but de la dichotomie qui fait de tout sujet, de chaque individu, une dualité où s'affrontent l'individu réel condamné à la particularité et sa représentation universelle et mystique dans le ciel matériel de l'Etat ou du Capital. Chaque individu ne peut fonctionner comme universel, social, concret, qu'en s'abandonnant lui-même, en s'aliénant dans la communauté.

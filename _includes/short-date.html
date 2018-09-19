@@ -1,18 +1,17 @@
-
-{% if include.day == "01" %}
+{%- if include.day == "01" -%}
     1<sup>er</sup>
-{% else %}
+{%- else -%}
     {{ include.day }}
-{% endif %}
+{%- endif -%}
 
-{% case include.month %}
+{%- case include.month -%}
     {% when "01" %}
       JAN
     {% when "02" %}
       FÉV
     {% when "03" %}
       MARS
-    {% when "04" %}
+    {%- when "04" %}
       AVRIL
     {% when "05" %}
       MAI
@@ -30,5 +29,5 @@
       NOV
     {% when "12" %}
       DÉC
-{% endcase %}
+{%- endcase -%}
 

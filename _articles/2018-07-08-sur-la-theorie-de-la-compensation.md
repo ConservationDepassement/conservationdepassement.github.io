@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sur la Théorie de la Compensation
+title: Sur la théorie de la compensation
 subtitle: >-
   Pourquoi la robotisation remplace inéluctablement l'homme par la machine sans
   pouvoir recréer autant de nouveaux emplois ou compenser cette baisse.

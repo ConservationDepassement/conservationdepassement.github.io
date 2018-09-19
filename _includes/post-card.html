@@ -2,13 +2,15 @@
     <div class="card">
         <div class="card-image">
             <figure class="image">
-                <a href="{{ include.item.url }}">
-                    {% if include.item.thumbnail %}
-                        {% assign thumbnail_url = include.item.thumbnail %}
-                    {% else if include.item.image %}
-                        {% assign thumbnail_url = include.item.image %}
-                    {% endif %}
-                    <img class="post-card-image" src="{{ site.url }}/{{ thumbnail_url }}">
+                <a href="{{- include.item.url -}}">
+                    {%- if include.item.thumbnail and include.item.thumbnail != "" and include.item.thumbnail != nil -%}
+                        {%- assign thumbnail_url = include.item.thumbnail -%}
+                    {%- elsif include.item.image and include.item.image != "" and include.item.image != nil -%}
+                        {%- assign thumbnail_url = include.item.image -%}
+                    {%- else -%}
+                        {%- assign thumbnail_url = "img/assets/default-thumbnail.jpg" -%}
+                    {%- endif -%}
+                    <img class="post-card-image" src="{{- site.url -}}/{{- thumbnail_url -}}">
                 </a>
             </figure>
         </div>
@@ -16,11 +18,11 @@
         <div class="card-content">
             <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">{{ include.item.title }}</p>
+                    <p class="title is-4">{{- include.item.title -}}</p>
                     <div class="post-card-meta">
                         <div>
-                            {% assign day = include.item.date | date: "%d" %}
-                            {% assign month = include.item.date | date: "%m" %}
+                            {%- assign day = include.item.date | date: "%d" -%}
+                            {%- assign month = include.item.date | date: "%m" -%}
                             <span
                                 class="
                                   button
@@ -28,7 +30,7 @@
                                   has-static-white-borders
                                   has-text-cursor
                                   is-uppercase">
-                                  {% include short-date.html day=day month=month %}
+                                  {%- include short-date.html day=day month=month -%}
                             </span>
                         </div>
                         <div class="post-card-author">

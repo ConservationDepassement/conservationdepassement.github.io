@@ -5,32 +5,32 @@ title: "Pour une critique radicale du faux omniprésent"
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-      {% include head-meta.html %}
-      {% include head-link-bulma-css.html %}
-      {% include head-link-slick-css.html %}
-      {% include head-link-base-css.html %}
-      {% include head-link-index-css.html %}
+      {%- include head-meta.html -%}
+      {%- include head-link-bulma-css.html -%}
+      {%- include head-link-slick.html -%}
+      {%- include head-link-base-css.html -%}
+      {%- include head-link-index-css.html -%}
     </head>
 
     <body>
-        <div style="max-width: 1600px; margin: auto">
-            {% include navbar.html %}
+        <div class="main-panel">
+            {%- include navbar.html -%}
 
-            {% include importants-slider.html %}
+            {%- include importants-slider.html -%}
 
 
-            {% include news-slider.html %}
+            {%- include news-slider.html -%}
 
-            {% include last-article.html %}
+            {%- include last-article.html -%}
             
-            {% comment %}
-            {% include video-panel.html %}
-            {% endcomment %}
+            {%- comment -%}
+            {%- include video-panel.html -%}
+            {%- endcomment -%}
 
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>-->
 
         <script type="text/javascript">
             $(document).ready(function () {
@@ -72,7 +72,7 @@ title: "Pour une critique radicale du faux omniprésent"
         }
         </style>
 
-        {% include footer.html %}
+        {%- include footer.html -%}
     </body>
 </html>
 

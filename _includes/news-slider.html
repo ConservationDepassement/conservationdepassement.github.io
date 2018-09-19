@@ -4,12 +4,17 @@
     </div>
 
     <div class="news-slider">
-        {% assign news = site.actualites | reverse  %}
-        {% for item in news limit: 10 %}
+        {%- assign news = site.actualites | reverse  -%}
+        {%- for item in news limit: 10 -%}
         <div>
+            {%- if item.thumbnail and item.thumbnail != "" and item.thumbnail != nil -%}
+                {%- assign news_thumbnail_url = item.thumbnail -%}
+            {%- else %}
+                {% assign news_thumbnail_url = "img/assets/default-thumbnail.jpg" -%}
+            {%- endif %}
             <div
                 class="news-image image has-darkened-background-image"
-                style="background-image: url({{ site.url }}/{{ item.thumbnail }});">
+                style="background-image: url({{- site.url -}}/{{- news_thumbnail_url -}});">
                 <div class="news-content columns has-vcentered-elements">
                     <div class="column is-10 is-offset-1 has-text-centered">
                         <div>
@@ -19,10 +24,10 @@
                                 is-size-4-mobile
                                 uppercased
                                 has-text-white">
-                                {{ item.title }}
+                                {{- item.title -}}
                             </h3>
                             <div class="has-text-blue">
-                                {% include verbose-date.html date=item.date %}
+                                {%- include verbose-date.html date=item.date -%}
                             </div>
                             <a class="
                                  news-button
@@ -33,7 +38,7 @@
                                  is-rounded
                                  is-size-6-tablet
                                  is-size-7-mobile"
-                               href="{{ item.url }}">
+                               href="{{- item.url -}}">
                                 Lire la suite
                             </a>
                         </div>
@@ -41,7 +46,7 @@
                 </div>
             </div>
         </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
     <div class="all-news-button has-text-centered">
         <a 
@@ -54,7 +59,7 @@
                 is-rounded
                 is-size-6-tablet
                 is-size-7-mobile"
-            href="{{ site.url }}/actualites">
+            href="{{- site.url -}}/actualites">
             Toutes les Actualités
         </a>
     </div>

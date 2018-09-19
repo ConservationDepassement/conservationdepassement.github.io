@@ -48,6 +48,12 @@
   margin: auto;
 }
 
+/* Main panel */
+.main-panel {
+  max-width: 1600px;
+  margin: auto;
+}
+
 /* Footer */
 .footer-logo {
   max-width: 200px;

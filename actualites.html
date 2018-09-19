@@ -9,42 +9,42 @@ paginate:
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-      {% include head-meta.html %}
-      {% include head-link-bulma-css.html %}
-      {% include head-link-base-css.html %}
-      {% include head-link-post-card-css.html %}
+      {%- include head-meta.html -%}
+      {%- include head-link-bulma-css.html -%}
+      {%- include head-link-base-css.html -%}
+      {%- include head-link-post-card-css.html -%}
     </head>
 
     <body>
-        <div style="max-width: 1600px; margin: auto">
-            {% include navbar.html %}
+        <div class="main-panel">
+            {%- include navbar.html -%}
             
             <section class="section">
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
                         <div class="columns is-multiline is-mobile">
-                            {% assign actualites = paginator.actualites %}
-                            {% for item in actualites %}
-                                {% include post-card.html item=item %}
-                            {% endfor %}
+                            {%- assign actualites = paginator.actualites -%}
+                            {%- for item in actualites -%}
+                                {% include post-card.html item=item -%}
+                            {%- endfor -%}
                         </div>
                         
                         <div class="has-text-centered">
-                            {% if paginator.page > 1 %}
+                            {%- if paginator.page > 1 -%}
                             <div class="button">
-                                <a href="{{ paginator.previous_page_path }}">
+                                <a href="{{- paginator.previous_page_path -}}">
                                     Actualités plus récentes
                                 </a>
                             </div>
-                            {% endif %}
+                            {%- endif -%}
                                 
-                            {% if paginator.page < paginator.total_pages %}
+                            {%- if paginator.page < paginator.total_pages -%}
                             <div class="button">
-                                <a href="{{ paginator.next_page_path }}">
+                                <a href="{{- paginator.next_page_path -}}">
                                     Actualités plus anciennes
                                 </a>
                             </div>
-                            {% endif %}
+                            {%- endif -%}
                         </div>
                     </div>
                 </div>
@@ -52,6 +52,6 @@ paginate:
 
         </div>
 
-        {% include footer.html %}
+        {%- include footer.html -%}
     </body>
 </html>

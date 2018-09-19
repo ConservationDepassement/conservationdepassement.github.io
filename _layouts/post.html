@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        {% include head-meta.html %}
-        {% include head-link-bulma-css.html %}
-        {%include head-link-base-css.html %}
-        {%include head-link-post-css.html %}
+        {%- include head-meta.html -%}
+        {%- include head-link-bulma-css.html -%}
+        {%- include head-link-base-css.html -%}
+        {%- include head-link-post-css.html -%}
     </head>
     <body>
         <div style="max-width: 1600px; margin: auto">
-            {% include navbar.html %}
+            {%- include navbar.html -%}
             
             <section class="section" style="padding-top: 0;">
                 <div class="columns">
                     <div class="column is-8 is-offset-2">
-                        {% if page.image %}
+                        {%- if page.image -%}
                         <div
                             class="post-image image has-background-centered"
-                            style="background-image: url({{ site.url }}/{{ page.image }});">
+                            style="background-image: url({{- site.url -}}/{{ page.image }});">
                         </div>
-                        {% endif %}
-                        <h2 class="title is-2 is-size-4-mobile has-text-black">{{ page.title }}</h2>
+                        {%- else -%}
+                        <div
+                            class="post-image image has-background-centered"
+                            style="background-image: url({{ site.url }}/img/assets/default-header.jpg);">
+                        </div>
+                        {%- endif -%}
+                        <h2 class="title is-2 is-size-4-mobile has-text-black">{{- page.title -}}</h2>
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
+                                    {%- assign day = page.date | date: "%d" -%}
+                                    {%- assign month = page.date | date: "%m" -%}
                                     <span
                                         class="
                                           button
@@ -30,7 +37,7 @@
                                           has-static-white-borders
                                           has-text-cursor
                                           is-uppercase">
-                                        20 avr
+                                        {%- include short-date.html day=day month=month -%}
                                     </span>
                                 </div>
                                 <div class="level-item">
@@ -39,13 +46,13 @@
                             </div>
                         </div>
                         <div class="content has-text-justified">
-                            {{ page.content }}
+                            {{- page.content -}}
                         </div>
                     </div>
                 </div>
             </section>
 
-            {% include footer.html %}
+            {%- include footer.html -%}
         </div>
     </body>
 </html>

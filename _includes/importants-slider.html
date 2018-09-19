@@ -1,13 +1,18 @@
 <div class="importants-slider">
-    {% assign importants = site.articles | where: "important", "true" | reverse  %}
-    {% for important in importants limit: 4 %}
+    {%- assign importants = site.actualites | where: "important", "true" | reverse  -%}
+    {%- for important in importants limit: 4 -%}
     <div class="hero">
+        {%- if important.image and important.image != "" and important.image != nil -%}
+            {%- assign important_image = important.image -%}
+        {%- else %}
+            {%- assign important_image = "img/assets/default-header.jpg" -%}
+        {%- endif %}
         <div class="
                hero-body
                has-darkened-background-image
                has-vcentered-elements
                important-slide"
-             style="background-image: url({{ site.url }}/{{ important.image }});">
+             style="background-image: url({{- site.url }}/{{ important_image -}});">
             <div class="container">
                 <div class="container">
                     <h1 class="
@@ -16,12 +21,12 @@
                           is-size-4-tablet
                           is-size-5-mobile
                           is-uppercase">
-                        {{ important.title }}
+                        {{- important.title -}}
                     </h1>
                 </div>
                 <div class="container">
                     <p class="is-size-5-desktop has-text-white">
-                        {% include verbose-date.html date=important.date %}
+                        {%- include verbose-date.html date=important.date -%}
                     </p>
                 </div>
                 <div class="container important-read-more-button">
@@ -33,12 +38,12 @@
                          is-rounded
                          is-size-6-tablet
                          is-size-7-mobile"
-                       href="{{ important.url }}">
+                       href="{{- important.url -}}">
                         En savoir plus
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    {% endfor %}
+    {%- endfor -%}
 </div>

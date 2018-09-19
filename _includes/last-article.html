@@ -5,23 +5,23 @@
     
     <div class="columns">
         <div class="column is-10 is-offset-1">
-            {% assign articles = site.articles | reverse  %}
-            {% for item in articles limit: 1 %}
+            {%- assign articles = site.articles | reverse  -%}
+            {%- for item in articles limit: 1 -%}
             <div class="card">
                 <div class="card-image">
                     <figure class="image">
-                        <img class="last-article-image" src="{{ site.url }}/{{ item.image }}">
+                        <img class="last-article-image" src="{{- site.url -}}/{{- item.image -}}">
                     </figure>
                 </div>
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
-                            <p class="title is-4">{{ item.title }}</p>
+                            <p class="title is-4">{{- item.title -}}</p>
                             <div class="level">
                                 <div class="level-left">
                                     <div class="level-item">
-                                        {% assign day = item.date | date: "%d" %}
-                                        {% assign month = item.date | date: "%m" %}
+                                        {%- assign day = item.date | date: "%d" -%}
+                                        {%- assign month = item.date | date: "%m" -%}
                                         <span
                                             class="
                                               button
@@ -29,7 +29,7 @@
                                               has-static-white-borders
                                               has-text-cursor
                                               is-uppercase">
-                                            {% include short-date.html day=day month=month %}
+                                            {%- include short-date.html day=day month=month -%}
                                         </span>
                                     </div>
                                     <div class="level-item">
@@ -41,14 +41,14 @@
                     </div>
 
                     <div class="content">
-                        {{ item.content |  strip_html | truncatewords: 98 }}
+                        {{- item.content |  strip_html | truncatewords: 98 -}}
                         <span class="last-article-read-more-button">
-                            <a href="{{ item.url }}">Lire la suite</a>
+                            <a href="{{- item.url -}}">Lire la suite</a>
                         </span>
                     </div>
                 </div>
             </div>
-            {% endfor %}
+            {%- endfor -%}
         </div>
     </div>
     
@@ -63,7 +63,7 @@
                 is-rounded
                 is-size-6-tablet
                 is-size-7-mobile"
-            href="{{ site.url }}/articles">
+            href="{{- site.url -}}/articles">
             Tous les Articles
         </a>
     </div>
