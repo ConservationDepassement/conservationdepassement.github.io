@@ -1,14 +1,57 @@
 ---
-title: "Pour une critique radicale du faux omniprésent"
+paginate:
+  collection: actualites
+  per_page: 12
+  permalink: /page/:num
+  limit: false
+  reversed: true
 ---
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      {% include head-meta.html %}
+      {% include head-link-bulma-css.html %}
+      {% include head-link-base-css.html %}
+      {% include head-link-post-card-css.html %}
+    </head>
 
-<div class="actualites-slider">
-    <h3>TOUTES LES ACTUALITÉS</h3>
-    {% assign actualites = site.actualites | reverse  %}
-    {% for actualite in actualites %}
-    <article>
-        <h4><a href="{{ actualite.url }}">{{ actualite.title }}</a></h4>
-     </article>
-    {% endfor %}
-</div>
+    <body>
+        <div style="max-width: 1600px; margin: auto">
+            {% include navbar.html %}
+            
+            <section class="section">
+                <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                        <div class="columns is-multiline is-mobile">
+                            {% assign actualites = paginator.actualites %}
+                            {% for item in actualites %}
+                                {% include post-card.html item=item %}
+                            {% endfor %}
+                        </div>
+                        
+                        <div class="has-text-centered">
+                            {% if paginator.page > 1 %}
+                            <div class="button">
+                                <a href="{{ paginator.previous_page_path }}">
+                                    Actualités plus récentes
+                                </a>
+                            </div>
+                            {% endif %}
+                                
+                            {% if paginator.page < paginator.total_pages %}
+                            <div class="button">
+                                <a href="{{ paginator.next_page_path }}">
+                                    Actualités plus anciennes
+                                </a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

@@ -1,11 +1,10 @@
 ---
-title: "Pour une critique radicale du faux omniprésent"
 paginate:
   collection: articles
-  per_page:     12             # maximum number of items per page
+  per_page: 12
   permalink: /page/:num
-  limit:        false              # Maximum number of pages to paginate (false for unlimited)
-  reversed:     true          # Reverse the order of the documents
+  limit: false
+  reversed: true
 ---
 
 <!DOCTYPE html>
@@ -14,7 +13,7 @@ paginate:
       {% include head-meta.html %}
       {% include head-link-bulma-css.html %}
       {% include head-link-base-css.html %}
-      {% include head-link-article-card-css.html %}
+      {% include head-link-post-card-css.html %}
     </head>
 
     <body>
@@ -27,7 +26,7 @@ paginate:
                         <div class="columns is-multiline is-mobile">
                             {% assign articles = paginator.articles %}
                             {% for item in articles %}
-                                {% include article-card.html article=item %}
+                                {% include post-card.html item=item %}
                             {% endfor %}
                         </div>
                         

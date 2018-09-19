@@ -1,9 +1,14 @@
-<div class="article-card column is-half-tablet is-one-third-desktop">
+<div class="post-card column is-half-tablet is-one-third-desktop">
     <div class="card">
         <div class="card-image">
             <figure class="image">
-                <a href="{{ include.article.url }}">
-                    <img class="article-card-image" src="{{ site.url }}/{{ include.article.image }}">
+                <a href="{{ include.item.url }}">
+                    {% if include.item.thumbnail %}
+                        {% assign thumbnail_url = include.item.thumbnail %}
+                    {% else if include.item.image %}
+                        {% assign thumbnail_url = include.item.image %}
+                    {% endif %}
+                    <img class="post-card-image" src="{{ site.url }}/{{ thumbnail_url }}">
                 </a>
             </figure>
         </div>
@@ -11,11 +16,11 @@
         <div class="card-content">
             <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">{{ include.article.title }}</p>
-                    <div class="article-card-meta">
+                    <p class="title is-4">{{ include.item.title }}</p>
+                    <div class="post-card-meta">
                         <div>
-                            {% assign day = include.article.date | date: "%d" %}
-                            {% assign month = include.article.date | date: "%m" %}
+                            {% assign day = include.item.date | date: "%d" %}
+                            {% assign month = include.item.date | date: "%m" %}
                             <span
                                 class="
                                   button
@@ -26,8 +31,8 @@
                                   {% include short-date.html day=day month=month %}
                             </span>
                         </div>
-                        <div class="article-card-author">
-                            Par {{ include.article.author }}
+                        <div class="post-card-author">
+                            Par {{ include.item.author }}
                         </div>
                     </div>
                 </div>

@@ -1,18 +1,18 @@
 
-.article-card-image {
+.post-card-image {
   max-height: 250px;
 }
 
-.article-card-meta {
+.post-card-meta {
   text-align: center;
 }
 
-.article-card-author {
+.post-card-author {
   margin-top: 10px;
 }
 
 @media screen and (max-width : 768px) {
-  .article-card {
+  .post-card {
     min-width: 250px;
   }
 }
@@ -20,11 +20,11 @@
 
 @media screen and (max-width : 420px) {
 
-  .article-card {
+  .post-card {
     max-width: 420px;
   }
   
-  .article-card-image {
+  .post-card-image {
     max-height: 250px;
   }
 }
