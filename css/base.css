@@ -48,6 +48,18 @@
   margin: auto;
 }
 
+.is-h2-title {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+/* Navigation Bar */
+.navbar-item {
+  font-size: 1.1vw;
+}
+
+
 /* Main panel */
 .main-panel {
   max-width: 1600px;
