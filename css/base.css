@@ -49,25 +49,34 @@
 }
 
 .is-h2-title {
-  font-size: 3vw;
+  font-size: 3vmax;
   font-weight: 600;
   line-height: 1.125;
 }
 
 /* Navigation Bar */
 
-.navbar {
-  height: 10vh;
+@media screen and (min-width : 1088px) {
+    .navbar {
+      height: 8vh;
+    }
 }
 
 .navbar-item {
   font-size: 1.2vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
 }
 
 @media screen and (max-width : 1087px) {
   .navbar-item {
     font-size: 3vmax;
   }
+}
+
+.navbar-logo {
+  height: 6vh;
+  max-height: unset!important;
 }
 
 
