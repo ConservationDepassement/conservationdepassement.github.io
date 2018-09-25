@@ -13,31 +13,23 @@
                has-vcentered-elements
                important-slide"
              style="background-image: url({{- site.url }}/{{ important_image -}});">
-            <div class="container">
-                <div class="container">
-                    <h1 class="
-                          has-text-white
-                          is-size-2-desktop
-                          is-size-4-tablet
-                          is-size-5-mobile
-                          is-uppercase">
-                        {{- important.title -}}
-                    </h1>
+            <div class="important-content has-text-centered">
+                <h1 class="
+                      important-title
+                      has-text-white
+                      is-uppercase">
+                    {{- important.title -}}
+                </h1>
+                <div class="important-publication-date has-text-white">
+                    {%- include verbose-date.html date=important.date -%}
                 </div>
-                <div class="container">
-                    <p class="is-size-5-desktop has-text-white">
-                        {%- include verbose-date.html date=important.date -%}
-                    </p>
-                </div>
-                <div class="container important-read-more-button">
+                <div class="important-read-more-button">
                     <a class="
                          button
                          has-background-blue
                          has-text-black
                          is-primary
-                         is-rounded
-                         is-size-6-tablet
-                         is-size-7-mobile"
+                         is-rounded"
                        href="{{- important.url -}}">
                         En savoir plus
                     </a>

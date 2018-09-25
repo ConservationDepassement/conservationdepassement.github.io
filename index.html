@@ -13,20 +13,20 @@ title: "Pour une critique radicale du faux omniprésent"
     </head>
 
     <body>
-        <div class="main-panel">
+        <div>
             {%- include navbar.html -%}
 
             {%- include importants-slider.html -%}
 
+            <div class="main-panel">
+                {%- include news-slider.html -%}
 
-            {%- include news-slider.html -%}
-
-            {%- include last-article.html -%}
-            
-            {%- comment -%}
-            {%- include video-panel.html -%}
-            {%- endcomment -%}
-
+                {%- include last-article.html -%}
+                
+                {%- comment -%}
+                {%- include video-panel.html -%}
+                {%- endcomment -%}
+            </div>
         </div>
         <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
@@ -38,6 +38,8 @@ title: "Pour une critique radicale du faux omniprésent"
                     dots: true,
                     arrows: false,
                     infinite: false,
+                    autoplay: true,
+                    autoplaySpeed: 3500,
                     slidesToShow: 1,
                 });
 

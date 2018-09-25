@@ -1,32 +1,32 @@
 /* Importants */
+.important-slide {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.important-content {
+  width: 100vw;
+}
+
+.important-title {
+  font-weight: 400;
+  font-size: 3vmax;
+}
+
+.important-publication-date {
+  font-weight: 400;
+  font-size: 1.7vmax;
+}
+
 .important-read-more-button {
   color: #000;
   margin-top: 20px;
 }
 
-.important-slide {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-@media screen and (max-width : 1023px) {
-    .important-slide {
-      height: 400px;
-    }
-}
-
-@media screen and (max-width : 768px) {
-    .important-slide {
-      height: 300px;
-    }
-}
-
-@media screen and (max-width : 400px) {
-    .important-slide {
-      height: 200px;
-    }
+.important-read-more-button a {
+  font-size: 1.2vmax;
 }
 
 /* News */

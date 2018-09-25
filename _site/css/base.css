@@ -55,8 +55,19 @@
 }
 
 /* Navigation Bar */
+
+.navbar {
+  height: 10vh;
+}
+
 .navbar-item {
-  font-size: 1.1vw;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width : 1087px) {
+  .navbar-item {
+    font-size: 3vmax;
+  }
 }
 
 
