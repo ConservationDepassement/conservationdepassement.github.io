@@ -17,13 +17,13 @@ paginate:
     </head>
 
     <body>
-        <div class="main-panel">
+        <div>
             {%- include navbar.html -%}
             
             <section class="section">
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
-                        <div class="columns is-multiline is-mobile">
+                        <div class="columns is-multiline">
                             {%- assign articles = paginator.articles -%}
                             {%- for item in articles -%}
                                 {%- include post-card.html item=item -%}

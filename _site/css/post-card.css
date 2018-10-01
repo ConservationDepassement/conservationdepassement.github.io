@@ -1,5 +1,13 @@
+.is-h3-title {
+  font-size: 2vmax;
+}
+
+.post-card .card {
+  height: 40vmax;
+}
+
 .post-card-image {
-  max-height: 250px;
+  height: 20vmax!important;
 }
 
 .post-card-meta {
@@ -7,9 +15,9 @@
 }
 
 .post-card-author {
-  margin-top: 10px;
+  margin-top: 1vmax;
 }
-
+/*
 @media screen and (max-width : 768px) {
   .post-card {
     min-width: 250px;
@@ -27,4 +35,4 @@
     max-height: 250px;
   }
 }
-
+*/
