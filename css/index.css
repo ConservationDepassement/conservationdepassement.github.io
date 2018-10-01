@@ -30,6 +30,7 @@
 }
 
 /* News */
+
 .news-slider {
   margin: auto;
   width: 80%;
@@ -83,6 +84,23 @@
   font-size: 1vmax;
 }
 
+.slick-prev, .slick-next {
+  height: 3vmax;
+  width: 3vmax;
+}
+
+.slick-prev {
+  margin-left: -3.5vmax;
+}
+
+.slick-next {
+  margin-right: -2.5vmax;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: black;
+  font-size: 3vmax;
+}
 
 .all-news-button {
   margin-top: 10vmin;
