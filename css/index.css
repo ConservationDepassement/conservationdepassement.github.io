@@ -20,6 +20,21 @@
   font-size: 1.7vmax;
 }
 
+.slick-dots {
+  position: relative;
+  margin-top: 0.5vmax;
+  margin-bottom: 3vmax;
+}
+
+.slick-dots li {
+  margin-right: 2vmax;
+}
+
+.slick-dots li button::before {
+  font-size: 1.2vmax;
+}
+
+
 .important-read-more-button {
   color: #000;
   margin-top: 20px;
@@ -28,6 +43,7 @@
 .important-read-more-button a {
   font-size: 1.2vmax;
 }
+
 
 /* News */
 
@@ -135,8 +151,6 @@
   }
 }
 
-
-
 .last-article-read-more-button {
     display: inline-block;
     border-bottom: 1px solid black;
@@ -145,6 +159,7 @@
 .all-articles-button {
   margin-top: 40px;
 }
+
 
 /* Video panel */
 .all-videos-button {
