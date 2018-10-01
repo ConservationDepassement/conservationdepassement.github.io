@@ -20,6 +20,21 @@
   font-size: 1.7vmax;
 }
 
+.slick-dots {
+  position: relative;
+  margin-top: 0.5vmax;
+  margin-bottom: 3vmax;
+}
+
+.slick-dots li {
+  margin-right: 2vmax;
+}
+
+.slick-dots li button::before {
+  font-size: 1.2vmax;
+}
+
+
 .important-read-more-button {
   color: #000;
   margin-top: 20px;
@@ -29,9 +44,12 @@
   font-size: 1.2vmax;
 }
 
+
 /* News */
+
 .news-slider {
   margin: auto;
+  margin-top: 2vmax;
   width: 80%;
 }
 
@@ -83,9 +101,27 @@
   font-size: 1vmax;
 }
 
+.slick-prev, .slick-next {
+  height: 3vmax;
+  width: 3vmax;
+}
+
+.slick-prev {
+  margin-left: -3.5vmax;
+}
+
+.slick-next {
+  margin-right: -2.5vmax;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: black;
+  font-size: 3vmax;
+}
 
 .all-news-button {
-  margin-top: 10vmin;
+  margin-top: 3vmax;
+  margin-bottom: 3vmax;
 }
 
 .all-news-button a {
@@ -93,31 +129,31 @@
 }
 
 /* Last article */
+.last-article {
+  margin-top: 2vmax;
+}
 
 .last-article-image {
-  max-height: 500px;
+  max-height: 30vmax;
 }
 
-
-@media screen and (max-width : 1023px) {
-  .last-article-image {
-    max-height: 400px;
-  }
+.last-article-meta {
+  margin-top: 1vmax;
+  margin-bottom: 1vmax!important;
 }
 
-@media screen and (max-width : 768px) {
-  .last-article-image {
-    max-height: 300px;
-  }
+.last-article-date {
+  font-size: 1.3vmax;
+  margin-right: 1vmax;
 }
 
-@media screen and (max-width : 400px) {
-  .last-article-image {
-    max-height: 200px;
-  }
+.last-article-author {
+  font-size: 1.7vmax;
 }
 
-
+.last-article-content {
+  font-size: 1.3vmax;
+} 
 
 .last-article-read-more-button {
     display: inline-block;
@@ -125,7 +161,12 @@
 }
 
 .all-articles-button {
-  margin-top: 40px;
+  margin-top: 3vmax;
+  margin-bottom: 3vmax;
+}
+
+.all-articles-button a {
+  font-size: 1.5vmax;
 }
 
 /* Video panel */

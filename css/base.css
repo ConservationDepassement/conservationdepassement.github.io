@@ -88,19 +88,24 @@
 
 /* Footer */
 .footer-logo {
-  max-width: 200px;
-  margin-bottom: 30px;
+  width: 20vmax;
+  margin-bottom: 3vmax;
 }
 
 .social-link-panel {
-  margin-bottom: 30px;
+  margin-bottom: 3vmax;
+  margin-top: 1.5vmax;
 }
 
 .footer-icon {
-  margin: 10px;
+  margin-left: 1vmax;
+  margin-right: 1vmax;
 }
 
 .footer-icon img {
-  max-width: 40px;
+  width: 2vmax;
 }
 
+.footer-author {
+  font-size: 1.5vmax;
+}

@@ -344,13 +344,13 @@
     </div>
 </section>
 
-<div class="main-panel"><section class="section has-no-padding-bottom">
+<section class="section has-no-padding-bottom">
     <div class="container has-text-centered section-title">
         <h2 class="is-h2-title has-text-black">Dernier Article</h2>
     </div>
     
-    <div class="columns">
-        <div class="column is-10 is-offset-1"><div class="card">
+    <div class="last-article columns">
+        <div class="column is-8 is-offset-2"><div class="card">
                 <div class="card-image">
                     <figure class="image">
                         <img class="last-article-image" src="http://localhost:4000/img/articles/2018-09-04-header.jpg">
@@ -359,12 +359,13 @@
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
-                            <p class="title is-4">Protestation devant les libertaires du présent et du futur sur les capitulations de 1937</p>
-                            <div class="level">
-                                <div class="level-left">
-                                    <div class="level-item"><span
+                            <p class="title is-h2-title has-text-centered">Protestation devant les libertaires du présent et du futur sur les capitulations de 1937</p>
+                            <div class="columns last-article-meta">
+                                <div class="column is-8 is-offset-2 has-vcentered-elements">
+                                    <div><span
                                             class="
                                               button
+                                              last-article-date
                                               has-background-blue
                                               has-static-white-borders
                                               has-text-cursor
@@ -372,7 +373,7 @@
       SEP
     </span>
                                     </div>
-                                    <div class="level-item">
+                                    <div class="last-article-author">
                                         Par Un Incontrôlé de la Colonne de Fer
                                     </div>
                                 </div>
@@ -380,7 +381,7 @@
                         </div>
                     </div>
 
-                    <div class="content">Cet appel d’un milicien anarchiste inconnu, appartenant à la fameuse « Colonne de Fer », paraît bien être, jusqu’à ce jour, l’écrit le plus véridique et le plus beau que nous ait laissé la révolution prolétarienne d’Espagne. Le contenu de cette révolution, ses intentions et sa pratique, y sont résumés froidement, et passionnément. Les principales causes de son échec y sont dénoncées : celles qui procédèrent de la constante action contre-révolutionnaire des staliniens relayant, dans la République, les forces bourgeoises désarmées, et des constantes concessions des responsables de la CNT-FAI (ici amèrement évoqués par le terme « les...<span class="last-article-read-more-button">
+                    <div class="last-article-content content">Cet appel d’un milicien anarchiste inconnu, appartenant à la fameuse « Colonne de Fer », paraît bien être, jusqu’à ce jour, l’écrit le plus véridique et le plus beau que nous ait laissé la révolution prolétarienne d’Espagne. Le contenu de cette révolution, ses intentions et sa pratique, y sont résumés froidement, et passionnément. Les principales causes de son échec y sont dénoncées : celles qui procédèrent de la constante action contre-révolutionnaire des staliniens relayant, dans la République, les forces bourgeoises désarmées, et des constantes concessions des responsables de la CNT-FAI (ici amèrement évoqués par le terme « les...<span class="last-article-read-more-button">
                             <a href="/articles/2018-09-04-colonne-de-fer/">Lire la suite</a>
                         </span>
                     </div>
@@ -396,9 +397,7 @@
                 has-background-blue
                 has-text-white
                 is-primary
-                is-rounded
-                is-size-6-tablet
-                is-size-7-mobile"
+                is-rounded"
             href="http://localhost:4000/articles">
             Tous les Articles
         </a>
@@ -407,9 +406,6 @@
 </section>
 </div>
         </div>
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>-->
 
         <script type="text/javascript">
             $(document).ready(function () {
@@ -445,22 +441,16 @@
                     ]
                 });
             });
-        </script>
-
-        <style>
-        .news-slider .slick-prev:before, .news-slider .slick-next:before {
-            color: black;
-        }
-        </style><footer class="footer">
+        </script><footer class="footer">
     <div class="columns">
         <div class="column">
             <div class="social-link-panel has-text-centered">
-                <figure class="image is-32x32 footer-icon is-inline-block">
+                <figure class="image footer-icon is-inline-block">
                     <a href="http://facebook.com/AufhebungOfficiel/">
                         <img src="http://localhost:4000/img/assets/facebook-icon.svg" alt="Notre page Facebook">
                     </a>
                 </figure>
-                <figure class="image is-32x32 footer-icon is-inline-block">
+                <figure class="image footer-icon is-inline-block">
                     <a href="https://www.youtube.com/channel/UCio9pX2dEW7mFncFsZLG6-g/">
                         <img src="http://localhost:4000/img/assets/youtube-icon.svg" alt="Notre chaîne Youtube">
                     </a>
@@ -474,7 +464,7 @@
             </figure>
 
             <div class="content has-text-centered">
-                <p class="is-size-5">
+                <p class="footer-author">
                     Collectif Aufhebung - 2018
                 </p>
             </div>

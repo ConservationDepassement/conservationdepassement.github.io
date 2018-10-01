@@ -3,8 +3,8 @@
         <h2 class="is-h2-title has-text-black">Dernier Article</h2>
     </div>
     
-    <div class="columns">
-        <div class="column is-10 is-offset-1">
+    <div class="last-article columns">
+        <div class="column is-8 is-offset-2">
             {%- assign articles = site.articles | reverse  -%}
             {%- for item in articles limit: 1 -%}
             <div class="card">
@@ -16,15 +16,16 @@
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
-                            <p class="title is-4">{{- item.title -}}</p>
-                            <div class="level">
-                                <div class="level-left">
-                                    <div class="level-item">
+                            <p class="title is-h2-title has-text-centered">{{- item.title -}}</p>
+                            <div class="columns last-article-meta">
+                                <div class="column is-8 is-offset-2 has-vcentered-elements">
+                                    <div>
                                         {%- assign day = item.date | date: "%d" -%}
                                         {%- assign month = item.date | date: "%m" -%}
                                         <span
                                             class="
                                               button
+                                              last-article-date
                                               has-background-blue
                                               has-static-white-borders
                                               has-text-cursor
@@ -32,7 +33,7 @@
                                             {%- include short-date.html day=day month=month -%}
                                         </span>
                                     </div>
-                                    <div class="level-item">
+                                    <div class="last-article-author">
                                         Par {{ item.author }}
                                     </div>
                                 </div>
@@ -40,7 +41,7 @@
                         </div>
                     </div>
 
-                    <div class="content">
+                    <div class="last-article-content content">
                         {{- item.content |  strip_html | truncatewords: 98 -}}
                         <span class="last-article-read-more-button">
                             <a href="{{- item.url -}}">Lire la suite</a>
@@ -60,9 +61,7 @@
                 has-background-blue
                 has-text-white
                 is-primary
-                is-rounded
-                is-size-6-tablet
-                is-size-7-mobile"
+                is-rounded"
             href="{{- site.url -}}/articles">
             Tous les Articles
         </a>
